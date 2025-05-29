@@ -1,16 +1,16 @@
 {
-	"Domain111": [
+	"Domain1": [
         ["", "Topic1", "Keyword1", "Extra1"],
         ["", "Topic2", "Keyword2", "Extra2"],
         ["", "Topic3", "Keyword3", "Extra3"],
         ["", "Test_ELF", "Test_ELF2", "Test_ELF3"]
     ],
-	"Domain222": [
+	"Domain2": [
 		["", "Topic4", "Keyword4", "Extra4"],
 		["", "Topic5", "Keyword5", "Extra5"],
 		["", "Topic6", "Keyword6", "Extra6"]
 	],
-    "Domain322": [
+    "Domain3": [
         ["", "Topic7", "Keyword7", "Extra7"],
         ["", "Topic8", "Keyword8", "Extra8"],
         ["", "Topic9", "Keyword9", "Extra9"],
