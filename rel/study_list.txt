@@ -3,4 +3,4 @@
 20250611.ios_22301.bcp.test_coverage.http3
 20250623.function_point.qr_sdn.seven_s.ios_38500
 20250624.sovereign_ai.consensus_algorithm.zero_downtime_deployment
-20250630.rad.bdr
+20250701.reg_tech.Encapsulation.AI_Dysfunction.Intermittent_Computing.SVS_SVC
