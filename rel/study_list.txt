@@ -5,3 +5,7 @@
 20250624.sovereign_ai.consensus_algorithm.zero_downtime_deployment
 20250701.reg_tech.Encapsulation.AI_Dysfunction.Intermittent_Computing.SVS_SVC
 20250702.Iteration_Model.Secure_Coding.Auto_Scaling.paas.SW_Platform
+20250708.Public_SW_Task_Change_Guide.Design_Pattern.Procurement_Management.Climate_Tech.Fog_Computing
+20250710.sim_swapping.bpfdoor.mes
+20250711.PQC.ISO_20000
+20250716.vibe_coding.STPA.BackCasting.SQL_Injection.Modularity
