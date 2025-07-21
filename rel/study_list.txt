@@ -9,4 +9,4 @@
 20250710.sim_swapping.bpfdoor.mes
 20250711.PQC.ISO_20000
 20250716.vibe_coding.STPA.BackCasting.SQL_Injection.Modularity
-2025.07.21.Homomorphic_Encryption.SOS_Lab.SCRUM
+20250721.Homomorphic_Encryption.SOS_Lab.SCRUM
