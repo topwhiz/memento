@@ -9,5 +9,6 @@
 20250710.sim_swapping.bpfdoor.mes
 20250711.PQC.ISO_20000
 20250716.vibe_coding.STPA.BackCasting.SQL_Injection.Modularity
+20250717.SW_Refactoring.DRaaS.Exploit.EDR.Cloud_Native
 20250721.Homomorphic_Encryption.SOS_Lab.SCRUM
 20250722.Public_SW_RFP_Guideline.vpn.RACI_CHART
