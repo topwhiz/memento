@@ -15,4 +15,4 @@
 20250728.EA.EDA.ISP.ISMP.ITSM
 20250729.BCG_Matrix.SLM.SLA.SoW.ITIL4.IT_Outsourcing.BI2_BI3.CRM
 20250730.SEM.Economic_Evaluation_Model.IT_ROI.BSC.IT_BSC
-20250731.OKR.BPR.PI.Open_Innovation.Data_Mining
+20250731.OKR.BPR.PI.Open_Innovation.Data_Mining.Process_Mining.Opinion_Mining.Text_Mining.Web_Mining.Management_Strategy_Building_Tool
