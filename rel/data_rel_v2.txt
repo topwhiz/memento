@@ -1,0 +1,5635 @@
+{
+    "IT_Management_Strategy": [
+        [
+            "1",
+            "A",
+            "IT_Management_Strategy_Roadmap",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "EA",
+            "A RM SP",
+            "성과평가모델 조인업 시스템\nReference Model\nStandard Profile"
+        ],
+        [
+            "1",
+            "B",
+            "EAMS",
+            "Tool\nPortal\nAdministration",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "EDA",
+            "(무)생채엔\nMB\nCQRS",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "ISP",
+            "환현정목통\n경정법 업정벤차이 수 개업정데보 이총효\n사실규정 필시중 사기 대규 클국하인민",
+            "ISP 9.0 개정 - 소규모 정보시스템 구축 사업계획 수립 의무 면제(총구축비 20억 미만)\n클국하인민-클라우드 우선적용, 국민중심, 하나의 정보, AI/데이터기반, 민관협력"
+        ],
+        [
+            "1",
+            "A",
+            "ISP9",
+            "수사충기예\n개현목이\n기사산\n정문이민기규",
+            "소규모 정보시스템 구축 사업계획 수립\n\n[절차 - 수사충기예]\n사업계획서 수립/검토\n사업계획서 사전검토\n사업계획서 충실성\n검토의견서 작성, 기획재정부 제출\n예산편성 참작\n\n[사업계획서 작성/검토 - 개현목이]\n시스템개요\n현황분석\n목표 모델 설계\n이행계획\n\n[사전검토 - 기사산]\n기초자료\n사업 유형\n산출물 품질\n\n[검토/기재부 제출 - 정문이민기규]\n정책연계성\n문제 해결 시급성\n타당성\n민간 클라우드\n기술 적합성\n규모 적정성"
+        ],
+        [
+            "1",
+            "A",
+            "ISMP",
+            "착수요정이",
+            "EA > ISP > ISMP"
+        ],
+        [
+            "1",
+            "A",
+            "ISP_ISMP_Final_Output_Review",
+            "시물시디기운민소\n범가난컨직계\n범투인제(기)직계",
+            "ISP, ISMP 최종 산물출 검토\n\n[수립제외 유형]\n단순 시스템 도입\n단순 물품 구매\n시설 구축\nDB 구축\n단순 기능 개발\n운영/유지\n민간 투자형 SW 사업(시행령33조)\n소규모 정보시스템 사업(20억 미만)\n\n[ISP 수립비 산정]\n업무 범위\n업무 가중치\n업무 난이도\n컨설팅 업무량\n직접 경비\n수립비 계산\n\n[ISMP 수립비 산정]\n범위/요구사항\n투입공수\n직접인건비\n제경비/기술료\n직접 경비\n수립비 계산"
+        ],
+        [
+            "1",
+            "A",
+            "ITSM",
+            "인조기프\n관문절관B",
+            "[전략방법]\n관리관점\n문제해결\n절차\n관리도구\nBilling"
+        ],
+        [
+            "1",
+            "A",
+            "BCG_Matrix",
+            "별개소물",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SoW_SLA_SLM",
+            "책업서\n기소카메오메보평 가발 장기 가장\n카스오플리엔 계계운평",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SLM",
+            "카스오플리엔\n계계운평",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "SLA",
+            "기소카메오메보평\n가발 장기 가장",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "SoW",
+            "책업서",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "ITIL4",
+            "조정파가",
+            "시험 잘 안나옴\n깊게 들어가지 말것"
+        ],
+        [
+            "1",
+            "C",
+            "IT_Outsourcing",
+            "IBBEAKC\n파도위\n전선자코",
+            "한물감\n\n[유형 - IBBEAKC]\nITO\nBPO\nBTO\nCrowd Sourcing\nEO\nAPO\nKPO\n\n[계약유형 - 파도위]\n파견 도급 위임\n\n[위탁범위 - 전선자코]\n전체 선택 자회사 co-sourcing"
+        ],
+        [
+            "1",
+            "C",
+            "eSCM",
+            "Process - 조인사기지\nPractice - 책차침(책바침)\nLevel - 최고측혁우",
+            "시험 안나올듯함\n개념만\ne-Sourcing Capability Model"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_20000",
+            "인실\n준내개심결",
+            "BSI(British Standards Institution) 개발한 초기 BS 15000 표준 기반 ITSM 국제 표준\nPart1-인증규격\nPart2-실행지침\n\n[인증절차]\n인증 준비, 내부 심사, 개선 활동, 인증 심사, 심사결론/개선활동/완료\n\n[심사단계]\n심사 이전 단계 - 사전 심사, 문서 심사, 이행 심사\n심사 이후 단계 - 사후 심사, 갱신 심사"
+        ],
+        [
+            "1",
+            "C",
+            "CRM",
+            "운협분",
+            "유형 암기\nOperational CRM\nCollaborative CRM\nAnalytical CRM"
+        ],
+        [
+            "1",
+            "C",
+            "BI2_BI3",
+            "운분전정\n수가분표의",
+            "[유형]\n운영 BI\n분석 BI\n전략 BI\n정보전달\n\n[핵심기술]\n수집 - CDC, EII\n가공 - ETL\n분석 - OLAP, DW, Data Minig\n표현 - Dashboard, EP, Widget\n의사결정 - EDA, SOA"
+        ],
+        [
+            "1",
+            "C",
+            "OLAP",
+            "셀다디 하슬다",
+            "이름만, 10년전 나옴, 한물감\nOnline Analytical Processing\n\n[기술 - 셀다디 하슬다]\nCell - 하나의 데이터 값이 저장됨\n다차원배열( Multi Dimensional Array ) - 데이터의 차원에 의해 정렬된 데이터 셀의 집합\nDimension - 사용자가 분석하려는 항목에 대한 관점\nDimension Hierarchy - 여러 차원이 중첩되어 계층을 구성하는 계층구조\nSlicing\nDcing(슬라이싱 더 세분화)\n\n[종류]\nROLAP, MOLAP, HOLAP, 다차원모델링 (Star, Snow)"
+        ],
+        [
+            "1",
+            "C",
+            "OLTP",
+            "인업커롤",
+            "이름만, 10년전 나옴, 한물감\nOnline Transaction Processing\nTransaction ACID\n\n[기능]\nInsert, Update, Commit, Rollback\n\n[구현기술]\nTP-monitor, CS, EJB, ODBC"
+        ],
+        [
+            "1",
+            "B",
+            "SEM",
+            "가원성",
+            "VBM - 가치 중심 경영\nBSC - 성과 관리\nABM - 활동 중심 원가 관리"
+        ],
+        [
+            "1",
+            "A",
+            "Economic_Evaluation_Model",
+            "CBA 회비내순투\nROV 이블몬\nMCA 재기비리",
+            "경제성평가기법\nROV(Real Option Valuation)\nMCA(Multi Criteria Analysis/Assessment)\nDSS(Decision Support System)"
+        ],
+        [
+            "1",
+            "A",
+            "IT_ROI",
+            "평시측(추)분 전중후 준수종 B NRP",
+            "투자성과평가모델\n\n평가, 시행추진, 성과추진/측정, 분석"
+        ],
+        [
+            "1",
+            "A",
+            "BSC",
+            "재고내학\nCSF\nKPI",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "IT_BSC",
+            "기사운미",
+            "정보기술균형성과표"
+        ],
+        [
+            "1",
+            "A",
+            "OKR",
+            "집도추정(집도 추징) 컴스원\n목성 보달 상연(목성 도달 영화 상영)",
+            "상향 정성/정량 수평 목표 평가연동금지 분기"
+        ],
+        [
+            "1",
+            "A",
+            "BPR",
+            "프기인",
+            "Zero-Based Thinking\n단기혁신, BA, SME(Subject Matter Expert)"
+        ],
+        [
+            "1",
+            "A",
+            "PI",
+            "정목분재검\n5 DPA - 완전최성기",
+            "[ 5 DPA (Design Parameter Analysis) ]\n5가지 설계 변수 분석\n완결성 (Completeness)\n전략연계성 (Strategic Alignment)\n최적성 (Optimality)\n성숙도 (Maturity)\n기능성 (Functionality)"
+        ],
+        [
+            "1",
+            "A",
+            "Open_Innovation",
+            "외인공벤\n개기분프\nNIH, NIT, NSH",
+            "외부자원(외->내)\n인소싱, 공동 연구, 벤처투자/캐피탈\n\n개방(내->외)\n기술 자산 판매, 내부 프로젝트 공개"
+        ],
+        [
+            "1",
+            "A",
+            "Data_Mining",
+            "선전변모평시\n탐예 연연군(연산군) 의회신분\n향상지",
+            "지지도, 신뢰도, 향상도"
+        ],
+        [
+            "1",
+            "C",
+            "Process_Mining",
+            "도적향",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "Opinion_Mining",
+            "",
+            "공기(共起)\n형태(形態), 형태소, 음(音), 음소 따위가 문법적으로 벗어나지 않고 동일한 문장, 구, 단어 안에서 나타나는 것\n\n공기정보(Co-occurrence Information)\n특정 단어들이 문맥 속에서 얼마나 자주 함께 나타나는지에 대한 정보\n단어들이 얼마나 서로 연관성이 있는지 나타내는 지표\n\n개체명 공기정보\n관계파악, 정보추출 정확도 향상, 의미분석 강화"
+        ],
+        [
+            "1",
+            "A",
+            "Text_Mining",
+            "수전분해(정)\n정전 구형의문 FB IDF LSI\n분요군 유패정 표개화 정독",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Web_Mining",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Management_Strategy_Building_Tool",
+            "",
+            "경영전략수립 도구"
+        ],
+        [
+            "1",
+            "A",
+            "Seven_S",
+            "제조전 공구역스",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Four_C_Three_C",
+            "고환경기",
+            "Company\nCircumstance\nCompetition\nCustomer"
+        ],
+        [
+            "1",
+            "A",
+            "PEST",
+            "경정사기",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "PESTEL",
+            "경정사기 환법",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "STP",
+            "사개구경\n차비집\n상속경사\nR STP MM I C",
+            "4P의 의미\nProduct(제품)\nPrice(가격)\nPromotion(판매촉진)\nPlace(유통채널)"
+        ],
+        [
+            "1",
+            "A",
+            "MECE_LISS",
+            "초핵해",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "CPND",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "STEEP",
+            "사기환경정",
+            "STEEP 분석"
+        ],
+        [
+            "1",
+            "A",
+            "ALE",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "TAM_SAM_SOM",
+            "전관수탐삼솜",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "FastFallower_FirstMover_ParallelMover",
+            "",
+            "FRAND (Fair, Reasonable and Non-Discriminatory)\n표준 특허를 보유한 기업은 특허 사용을 원하는 모든 사람에게 공정하고 합리적이며 차별없이 허락"
+        ],
+        [
+            "1",
+            "A",
+            "Customer_Journey_Map",
+            "인분도출\n사도분 페감 단접 문기\n시각화, 타임라인, touch point, pain point",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Business_Model_Canvas",
+            "전생\n고가채관수\n활자파비",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Value_Driver_Tree",
+            "작가도전\nMC\n수분도확전",
+            "VDT"
+        ],
+        [
+            "1",
+            "A",
+            "Value_Chain",
+            "프서마\n내생외마서\n기인기조",
+            "Primary Activity\n\nSupportive Activity\nFirm Infra/HR Mng/Tech Dev/Procurement\n\nMargin\nValue Chain Model"
+        ],
+        [
+            "1",
+            "C",
+            "Inside_Out_Outside_In",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ERP",
+            "빅기사",
+            "XRP\nOLAP"
+        ],
+        [
+            "1",
+            "A",
+            "Composable_ERP",
+            "유컴통오이데보마\nMSA, SOA",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "SCM",
+            "계실관(PEI)\n공구 재생 판유소\n구판생물품\n입검적보 피포검출\n채인트 알데이엑",
+            "Bullwhip Effect\n->CPFR\n->SCM2.0\n\nJIT, RTE"
+        ],
+        [
+            "1",
+            "C",
+            "PLM",
+            "",
+            "두번 출제\n한물감"
+        ],
+        [
+            "1",
+            "C",
+            "EAI",
+            "",
+            "10년에 한번 나옴\n개념만"
+        ],
+        [
+            "1",
+            "C",
+            "Data_Warehouse",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Gold_Plating",
+            "제분개",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Scope_Creep",
+            "범의관\n프의명변",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Rolling_Wave_Planning",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "RACI_CHART",
+            "",
+            "갈등 해결방법 포함\nResponsible 실무담당자\nAccountable 의사결정자\nConsulted 조언자\nInformed 통보대상자"
+        ],
+        [
+            "1",
+            "B",
+            "Motivation_Theory",
+            "내용-욕성X3E\n과정-공기강목업기",
+            "동기부여이론"
+        ],
+        [
+            "1",
+            "B",
+            "Bullwhip_Effect_CPFR_SCM2",
+            "원인-가수과일\nSCM2.0-탄고기(그)",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SupplyChain_Attack",
+            "",
+            "공급망 공격"
+        ],
+        [
+            "1",
+            "B",
+            "CPFR",
+            "효신공연\nQR\nVMI\nCRP\nECR",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SafetyStock_OptimalStock",
+            "이재고\n주전 정위불",
+            "안전재고\n적정재고"
+        ],
+        [
+            "1",
+            "B",
+            "MES",
+            "",
+            "생산관리시스템\nManufacturing Execution System"
+        ],
+        [
+            "1",
+            "B",
+            "PDCA",
+            "파설정\n실수테\n분비평\n구개",
+            "[SMART]\nSpecific, Measurable, Achievable, Relevant, Time-bound\n\n[DMAIC]\nDefine, Measure, Analyze, Improve, Control"
+        ],
+        [
+            "1",
+            "B",
+            "MTTF_MTBF_MTTR",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SVS_SVC",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ISO_22301",
+            "계실모유(PDCS)\n조리계시운성개",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "BCM_BCP",
+            "재대모유\n계분전설모유\n유적절품",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "DRP",
+            "재복훈 구절 시업연 이시평",
+            "재해판단/선포/전파\n스크립트수행/DR센터이동\nDRS/업무복구절차 가동\n복구검증\n재해복구보고/서비스개시\n종료선언\nIRP(Incident Response Plan)-사고대응계획\nIaC(Infrastructure as Code)-코드형 인프라"
+        ],
+        [
+            "1",
+            "A",
+            "DRS",
+            "미핫웜콜 공독외상(공덕에서 외상) 영재시운(모) TPSCC",
+            "MTPD(Maximum Tolerable Period of Disruption)-최대허용가능시간\n조직이 서비스 중단 없이 유지할 수 있는 최대시간\nMBCO(Minimum Business Continuity Objective)\n목표복구시간(RTO) 내에 복구 가능한 최소한의 사업 연속성 수준\nRTO(Recovery Time Objective)"
+        ],
+        [
+            "1",
+            "B",
+            "DRaaS",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "BIA",
+            "대손복자 현업 설인결손 손연최복 필소",
+            "대상업무선정, 손실정도산정, 복구우선순위도출, 자원분석\n현황분석자료, 업무선정\n설문/인터뷰, 결과분석, 손실도평가\n손실산정순위, 연관도분석, 최종복구우선, 복구시간도출\n필요자원분류, 소요량파악"
+        ],
+        [
+            "1",
+            "B",
+            "RTO_RPO",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "MSP",
+            "모매오컨 풀싱아이",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "SW_Platform",
+            "",
+            "[INDESC]\n디지털 콘텐츠 전자상거래 시스템에서 다양한 메타데이터 상호운용성 높이기 위해 개발된 구조적 데이터 모델\n4가지 원칙-작업(Work), 표현(Representation), 실현(Realization), 거래(Transaction)\n\n[DOI-Digital Object Identifier]\n디지털 객체 식별자\nISO가 표준화한 고유한 객체 식별위한 영구 식별자"
+        ],
+        [
+            "1",
+            "A",
+            "Platform_Economy",
+            "메가네쿄 면중플크",
+            "Kano Model\nMatch Maker)\n네트워크 효과(network effect)\nCross Subsidy\n다면플랫폼, 다중플랫폼"
+        ],
+        [
+            "1",
+            "A",
+            "Data_Economy",
+            "생수 관저 유가 분활 사브벤오민",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "IT_Governance",
+            "전가위자성 리조프",
+            "ISO 38500"
+        ],
+        [
+            "1",
+            "A",
+            "OSS_Governance",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "IT_Compliance",
+            "공보호통책",
+            "자주 나오지는 않지만 개념정도는 숙지"
+        ],
+        [
+            "1",
+            "C",
+            "Regulatory_Sandbox",
+            "",
+            "규제 샌드박스\n이미 많이 나와서 안나올듯함"
+        ],
+        [
+            "1",
+            "A",
+            "ESG",
+            "",
+            "ISO 14000"
+        ],
+        [
+            "1",
+            "A",
+            "CSR",
+            "경법윤자",
+            "기업 사회적 책임\nISO_26000"
+        ],
+        [
+            "1",
+            "B",
+            "SOS_Lab",
+            "조개구실공사",
+            "6단계"
+        ],
+        [
+            "1",
+            "A",
+            "Civic_Hacking",
+            "",
+            "Growth Hacking(8년전 기출, 안나올듯함, 읽어만 볼것)\nLife Hacking(개인적인 측면이라 안나올듯함)\nGTD"
+        ],
+        [
+            "1",
+            "A",
+            "Living_Lab",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Ambient_Commerce",
+            "",
+            "121회 기출문제"
+        ],
+        [
+            "1",
+            "B",
+            "Ambient_Invisible_Intelligence",
+            "",
+            "2025년도 Gartner 10대"
+        ],
+        [
+            "1",
+            "A",
+            "Meta_Commerce",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "BDR",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Digital_Convergence",
+            "고정업기",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "Design_Thinking",
+            "",
+            "4년전 기출"
+        ],
+        [
+            "1",
+            "A",
+            "Reg_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Legal_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Edu_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "Fin_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Gov_Tech",
+            "",
+            "Government Technology"
+        ],
+        [
+            "1",
+            "B",
+            "Prop_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Able_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Climate_Tech",
+            "CCEFG",
+            "Carbon Tech\nClean Tech\nEco Tech\nFood Tech\nGeo Tech"
+        ],
+        [
+            "1",
+            "B",
+            "Deep_Tech",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Sharing_Economy",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Subscription_Economy",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "BackCasting",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Digital_Cartel",
+            "모자병신\n메허프오\nLeniency\nRegTech",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Servitization",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "Big_Blur",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Digital_Divide",
+            "접역활정",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Digital_Inclusion",
+            "",
+            "디지털 포용"
+        ],
+        [
+            "1",
+            "A",
+            "IP",
+            "",
+            "지식재산권\nIntellectual Property Right"
+        ],
+        [
+            "1",
+            "A",
+            "Technology_Valuation",
+            "기권시사 소시비(소시지) 현실 로이 시가",
+            "기술가치평가\n분류-기술성/권리성/시장성/사업성\n평가기법-시장/소득/비용\n소득접근법-현금흐름할인법/실물옵션모델\n시장접근법-로열티절감모델/이익배분모델\n비용접근법-시장대체원가모델/SW가치평가모델"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_42001",
+            "AI Management System",
+            "ISO 42001:2023"
+        ],
+        [
+            "1",
+            "A",
+            "Digital_Literacy",
+            "기코데미소\n윤소해(의) 생활기",
+            "[세부항목]\n기술, 코드, 데이터, 미디어, 소셜미디어\n[디지털리터러시 DQ]\nEthics(윤리), Input(소비), Processing(해석), Output(생산), Utilization(활용), Contribution(기여)\nDigital Quotient(디지털 지수)-디지털 기술, 인지, 사회정서 역량 포괄"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Literacy",
+            "이적평생윤리",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "DGP_Performance_Guideline",
+            "",
+            "전자정부 성과관리 지침"
+        ],
+        [
+            "1",
+            "A",
+            "DPG",
+            "",
+            "디지털 플랫폼 정부\nDPG허브"
+        ],
+        [
+            "1",
+            "A",
+            "Cloud_Quality_Performance",
+            "가응확신지서고",
+            "KACI - 관리 체계 검증\nTTA - 품질 검증\nNIPA - 발급"
+        ],
+        [
+            "1",
+            "A",
+            "IT_Architecture_Guideline",
+            "",
+            "정보기술 아키텍처 지침"
+        ],
+        [
+            "1",
+            "A",
+            "NewGrowth4",
+            "",
+            "신성장4.0"
+        ]
+    ],
+    "Project_Management": [
+        [
+            "1",
+            "A",
+            "Project_Management_Roadmap",
+            "1+3+1+RCR+PS (통범일원품자의위조이)",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Organization_Type",
+            "",
+            "매트릭스 구조"
+        ],
+        [
+            "1",
+            "B",
+            "Portfolio_Management",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Process_Group_Knowledge_Area",
+            "착계실통종\n1+3+1+RCR+PS",
+            "예측적 개발\nISO 21500\n통범일원품자의위조이"
+        ],
+        [
+            "1",
+            "B",
+            "PMBOK7",
+            "성테모\n가조기환고\n스팀이가 생리 테품 보리 적변\n이팀접계 프산측불\n이팀개기작인측불",
+            "PMBOK = De facto (업계 표준)\nISO 21500 = De jure (표준)"
+        ],
+        [
+            "1",
+            "B",
+            "Integration_Management",
+            "헌관작지감통종_시예결갱",
+            "Project SoW\n(프로젝트 작업기술서)\n변경관리(CR)"
+        ],
+        [
+            "1",
+            "B",
+            "Scope_Management",
+            "계요정W확통",
+            "범위관리\n요구공학\nWBS(범위기준선)\nCR\nGold-plating"
+        ],
+        [
+            "1",
+            "B",
+            "Requirement_Gathering",
+            "수분표의데프컨\n인포설벤브\n문서\n마친\n다투\n명관촉",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SRS",
+            "정명완일중검수추\n이상기제 테품",
+            "요구사항명세서\nSoftware Requirement Specification"
+        ],
+        [
+            "1",
+            "B",
+            "WBS",
+            "작계고사책통\n관레워백",
+            "범위기준선\n작업 계획 고유아이디 사전 책임할당 통합계정"
+        ],
+        [
+            "1",
+            "B",
+            "Schedule_Management",
+            "계정순기개통",
+            "프로젝트 일정관리"
+        ],
+        [
+            "1",
+            "B",
+            "Schedule_Shortening",
+            "파자후학\n크자패병",
+            "프로젝트 일정 단축기법"
+        ],
+        [
+            "1",
+            "B",
+            "CPM",
+            "정수네전후여주산정",
+            "임계경로관리\n순방향,역방향\nCP(Critical Path)\nES(Early Start Date)\nEF(Early Finish Date)\nLF(Late Finish)\nLS(Late Start)"
+        ],
+        [
+            "1",
+            "B",
+            "CCM",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Total_Float_Free_Float",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "ToC",
+            "",
+            "제약 (조건) 이론\nTheory of Constraints\n개념만"
+        ],
+        [
+            "1",
+            "C",
+            "CoE",
+            "",
+            "Center of Excellence\nExcellence center\n우수센터"
+        ],
+        [
+            "1",
+            "A",
+            "Pareto_LongTail_Theory",
+            "",
+            "파레토/롱테일 법칙"
+        ],
+        [
+            "1",
+            "B",
+            "EVM",
+            "측분예",
+            "획득가치관리"
+        ],
+        [
+            "1",
+            "B",
+            "EVA",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "QC",
+            "친연계매해P애\n현원자 / 체파(히) / 특산(층) / 관",
+            "품질통제"
+        ],
+        [
+            "1",
+            "B",
+            "Resource_Optimization",
+            "",
+            "자원최적화"
+        ],
+        [
+            "1",
+            "C",
+            "Tailoring",
+            "정선상세문",
+            "안나올듯함\n두번 나옴"
+        ],
+        [
+            "1",
+            "B",
+            "Risk_Management",
+            "영민의모\n부에회전완수\n긍에활공증수",
+            "EMV\n정량적 위험분석기법\nATMA\n긍정적위험\n부정적위험"
+        ],
+        [
+            "1",
+            "B",
+            "Quantitative_Risk_Analysis",
+            "수분대기- 수집/분석/대인관계,팀스킬/기타\n수-[인] 인터뷰\n부-[영민의모] 영향도, 민감도 분석, 의사결정, 모의실험\n대-[촉] 촉진\n\n기-[불전] 불활실성 표현, 전문가 판단",
+            "정량적 위험 분석"
+        ],
+        [
+            "1",
+            "B",
+            "Procurement_Management",
+            "계수통\n고원복",
+            "RFI/RFP/RFQ\nSeller Proposal\n\nFFP/FPIF/FP-EPA\nCPFF/CPIF/CPAF\nT&M"
+        ],
+        [
+            "1",
+            "B",
+            "Stakeholder_Identification",
+            "궁지위의잠임요",
+            "이해관계자 관리\n현저성 모델"
+        ],
+        [
+            "1",
+            "B",
+            "Stakeholder_Identification_Type",
+            "",
+            "이해관계자 식별 유형"
+        ],
+        [
+            "1",
+            "B",
+            "Configuration_Management",
+            "기항물정\n식통감기\n기분설시제운",
+            "CCB, CAB, CMDB\nSVN/Git\n무결성, 추적성 확보, SW품질\nSCM(SW Configuration Mng)"
+        ],
+        [
+            "1",
+            "B",
+            "Configuration_Management_Baseline",
+            "",
+            "SDLC별 형상관리 항목 기준"
+        ],
+        [
+            "1",
+            "B",
+            "CCB",
+            "",
+            "- CCB (Change Control Board, 변경통제위원회)\n소프트웨어 개발, 시스템 구축시의 변경관리\n프로젝트 관리(PM), PMBOK\n\n- CAB (Change Advisory Board)\n서비스 중인 시스템/인프라에 대한 변경관리\nIT 서비스 관리(ITSM), ITIL"
+        ],
+        [
+            "1",
+            "B",
+            "Agile_Process",
+            "개변동고 공계문계\n고요배의 동면지소 좋단자효",
+            "선언문 4개\n원칙 12개"
+        ],
+        [
+            "1",
+            "B",
+            "Agile_Architecture",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "agile_Methodology",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SCRUM",
+            "",
+            "daily meeting\nsprint backlog\nproduct backlog, master\n그루밍(PO리딩)\n번다운차트(가로:스프린트,세로:남은업무)\ntime boxing\n피어리뷰\n회고(Restrospective)"
+        ],
+        [
+            "1",
+            "B",
+            "XP",
+            "용단커피존\n유구배반인작",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Kanban",
+            "",
+            "적시개발\n공정시각화\n생산성향상\nTask간 균형"
+        ],
+        [
+            "1",
+            "B",
+            "Lean",
+            "낭증결위빠구시\n미가재이전지결",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "Lean_Startup",
+            "",
+            "범정부 IT 전략/ 정책"
+        ],
+        [
+            "1",
+            "B",
+            "Pair_Programming",
+            "집버동높\n생압팀\n프네커리디런트",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "CI_CD",
+            "버통빌테인커\n앱보스",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MVP",
+            "",
+            "SPIKE(스파이크)"
+        ],
+        [
+            "1",
+            "B",
+            "Burn_Down_Chart",
+            "",
+            "Burn-Up Chart"
+        ],
+        [
+            "1",
+            "B",
+            "Supervision_PMO_Comparison",
+            "목관대투근책기\n역조산사기",
+            "감리/PMO 비교표"
+        ],
+        [
+            "1",
+            "B",
+            "PMO",
+            "도발착기집사검산제",
+            "(E)PMO"
+        ],
+        [
+            "1",
+            "B",
+            "Public_PMO",
+            "기집사\n통성\n통이범자일위\n품성조의변보\n통변성",
+            "전자정부법 제64조2(권고)\n제64조의 3(손해배상대상)\n전자정부법 제57조1항"
+        ]
+    ],
+    "Software_Engineering": [
+        [
+            "1",
+            "B",
+            "SW_Engineering_Roadmap",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Technical_Debt",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Low_Code_No_Code",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Vibe_Coding",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SDLC",
+            "고단순탑V후정",
+            "ISO_12207\n고전적, 단계적, 순차적, Top-Down, V모델, 후반부 문제 가능성, 정식변경절차(Frozen Delivery)"
+        ],
+        [
+            "1",
+            "B",
+            "Waterfall_Model",
+            "계요설개단통시인설\n고단순탑V후",
+            "개발방법론\nSecure SDLC\n131회 관리 1교시\n고전적, 단계적, 순차적, Top-Down, V모델, 후반부 문제 가능성"
+        ],
+        [
+            "1",
+            "B",
+            "Prototyping_Model",
+            "",
+            "요구공학\n요구사항 수집기법"
+        ],
+        [
+            "1",
+            "B",
+            "Spiral_Model",
+            "계위개고",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Iteration_Model",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Incremental_Model",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Evolutional_Model",
+            "화나",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "RAD",
+            "지라씨(JRAC)",
+            "Agile\nJRP(Joint Requirement Planning) : 공동 요구사항 정의\nJAD(Joint Application Design) : 참여 공동 설계"
+        ],
+        [
+            "1",
+            "B",
+            "Encapsulation",
+            "",
+            "131회 관리 1교시"
+        ],
+        [
+            "1",
+            "B",
+            "Abstraction",
+            "기데제",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Polymorphism",
+            "로라\n오라팡\n(오버라이딩 파라미터)",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Information_Hiding",
+            "",
+            "정보은닉\n모듈화\n131회 관리 1교시"
+        ],
+        [
+            "1",
+            "B",
+            "Inheritance",
+            "단다반",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "OOP",
+            "SOLID\n클객메인\n캡추다정상",
+            "디자인패턴\n132회 컴시응 3교시\n단일 책임(Single Responsibility Principle)\n개방 폐쇄(Open Closed Principle)\n리스코프 치환(Liscov Substitution Principle)\n인터페이스 분리(Interface Segregation Principle/Fasade Pattern)\n의존 관계 역전(Dependency Inversion Principle)"
+        ],
+        [
+            "1",
+            "B",
+            "COTS",
+            "",
+            "상업용 독립 컴포넌트\nCommercial Off-The-Shelf\nSaaS"
+        ],
+        [
+            "1",
+            "B",
+            "Requirement_Engineering",
+            "추분명검\n협기변확\n완정명일이검수추\n의표수집기",
+            "페르소나\n요구사항관리\n프로젝트범위관리\n요구사항 추적표\n요구사항 정의서\nISO 29148\nIEEE 830"
+        ],
+        [
+            "1",
+            "B",
+            "Requirement_Traceability",
+            "",
+            "요구사항 추적성\n예상"
+        ],
+        [
+            "1",
+            "B",
+            "RTM",
+            "",
+            "요구사항 추적표\n135회기출\nRequirement Traceability Matrix"
+        ],
+        [
+            "1",
+            "B",
+            "AOP",
+            "타조포위애어",
+            "Aspect Oriented Programming"
+        ],
+        [
+            "1",
+            "B",
+            "CBD",
+            "추설구인 정설조테",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "BDD",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Cost_Management",
+            "",
+            "원가관리"
+        ],
+        [
+            "1",
+            "B",
+            "COQ",
+            "적부 예평 내외",
+            "품질비용 (Cost of Quality)\n\n[하인리히 법칙]\n1:29:300 / 중대재해 1건당, 경미한 재해 29건, 잠재적 사고 300건 발생"
+        ],
+        [
+            "1",
+            "B",
+            "Communication_Management",
+            "공비구문",
+            "유형4가지"
+        ],
+        [
+            "1",
+            "B",
+            "PI_Matrix",
+            "",
+            "위험 확률/영향력 매트릭스\nProbalility and Impact Matrix\n정성적 위험분석"
+        ],
+        [
+            "1",
+            "B",
+            "Influence_Diagram",
+            "영민의 모",
+            "영향(관계)도\n정량적 위험분석"
+        ],
+        [
+            "1",
+            "B",
+            "Threat_Response_Strategy",
+            "위협전략 - EATMA(먹지마)\n기회전략 - 활에공강수",
+            "위험 대응 전략"
+        ],
+        [
+            "1",
+            "B",
+            "Reserve_Fund",
+            "관우",
+            "예비비 / Contingency Reserve / Management Reserve\n사후보전(Breakdown Maintenance)-장비 실제 고장 후 수리, 부품 교체\n예방보전(Preventive Maintenance)-고장과 문관하게 일정 주기로 유지보수\n예지보전(Predictive Maintenance)-센서/데이터 기반 분석 통해 적절한 시점에 유지보수"
+        ],
+        [
+            "1",
+            "B",
+            "Product_Line",
+            "",
+            "PL\nSPL\nSSPL (System Software)"
+        ],
+        [
+            "1",
+            "B",
+            "Public_SW_RFP_Guideline",
+            "기무근경\n사현명 기작체수 계\n제작체수 입작체 공\n개현추요 작안기",
+            "공공 소프트웨어 사업 제안 요청서 작성 가이드라인"
+        ],
+        [
+            "1",
+            "B",
+            "Commercial_SW_Direct_Purchase",
+            "민 통 현비일 비효",
+            "상용 소프트웨어 직접구매 제도\n131회 컴시응 4교시"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Law",
+            "총안개운기\n안위설검\n운운안변",
+            "소프트웨어안전 확보를 위한 지침\n소프트웨어 진흥법 제30조"
+        ],
+        [
+            "1",
+            "B",
+            "ESB",
+            "인소런패",
+            "Enterprise Service Bus\nSW > SOA"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Architecture",
+            "요참모프배\n단추정모분\n저M계데클",
+            "요(기) 참모(총장) 프로 배 / 단추 정모(에서) (오신)분 / 저M(Im) 계(랑) 데(제랑) 클(럽)"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Architecture_Evaluation",
+            "사탐씨이 아드리아리다",
+            "시나리오기반 - SAAM, ATAM, CBAM, EATAM\n설계혼합기반 - ADR, ARID\n"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_42010",
+            "식표AD 대이관 모아기 관뷰모근규대",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ATAM",
+            "협기상후\n\n시비아\n오정보상\n적습준비(이)\n대변적시\n\n소조테보\nA비아\n식품분\n브분\n결",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ATAM_CBAM",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Blackboard_Pattern",
+            "솔지컨",
+            "SW > SW Architecture"
+        ],
+        [
+            "1",
+            "B",
+            "Clean_Architecture",
+            "엔유인외\nRCR\n컴포넌트 응집도 3가지 원칙\nREP, CCP, CRP, Robert Martin",
+            "SW > SW Architecture"
+        ],
+        [
+            "1",
+            "B",
+            "MSA",
+            "",
+            "DDD(Domain Driven Design)\nSAGA패턴(트랜젝션 관리)\nPolyglot(크로스 플랫폼 데이터 교환)\nService Mesh(트래픽 분산관리)\n- Conway’s Law(조직의 구조가 시스템 아키텍처 설계에 영향)"
+        ],
+        [
+            "1",
+            "B",
+            "Service_Mesh",
+            "컨데\nDRS\n싸디서로레",
+            "SW > MSA/SW Architecture\nMicroservice\nSidecar proxy\nCircuit breaker\nService discovery\nAPI Gateway"
+        ],
+        [
+            "1",
+            "B",
+            "SAGA_Pattern",
+            "정합성 맞춤\n2PC\n일관성",
+            "SW > MSA/SW Architecture"
+        ],
+        [
+            "1",
+            "B",
+            "DDD",
+            "엔벨어도레서팩",
+            "Domain Driven Design\nSW > DevOps\nUbiquitous Language\nBounded Context\nAnticorruption Layer\n도메인 전문가\n협업 Entities\nValue objects\nAggregates\nRepositories\nServices"
+        ],
+        [
+            "1",
+            "B",
+            "IoC",
+            "",
+            "121회 기출문제\nInversion of Control"
+        ],
+        [
+            "1",
+            "C",
+            "Diagram",
+            "배컴클객패프복 [순]활유상태[통타개]",
+            "9 Diagram / 정적(클객컴배) / 동적(유순활태콜)\n클객패컴복배프 유활태상순통타개"
+        ],
+        [
+            "1",
+            "B",
+            "UML_Diagram",
+            "",
+            "SW > UML\nOMG 4계층, OCL\nUML(Unified Modeling Language) 2.0\nComposite Structure\nInteraction Overview\nTiming"
+        ],
+        [
+            "1",
+            "B",
+            "Class_Diagram",
+            "",
+            "SW > UML\n클래스\n속성(Attribute)\n연산(Operation)\n연관/집합연관/복합연관\n의존/상속/구현"
+        ],
+        [
+            "1",
+            "B",
+            "Usecase_Diagram",
+            "유행시 연포확일그\n액유릴 유구",
+            "SW > UML\nActor\ninclude\nextend\nGeneralization\nAssociation\nGrouping\n직관적 사용자 대화수단"
+        ],
+        [
+            "1",
+            "B",
+            "Interaction_Diagram",
+            "",
+            "SW > UML\n객체간 상호작용\n4개의 집합\nSequence\nCommunication\nInteraction Overview\nTiming)"
+        ],
+        [
+            "1",
+            "B",
+            "Communication_Diagram",
+            "",
+            "SW > UML\n객체간의 관계 강조\n자유로운 배열"
+        ],
+        [
+            "1",
+            "B",
+            "Interaction_Overview_Diagram",
+            "",
+            "SW > UML\nUML 2.0\nSequence와 Activity 결합"
+        ],
+        [
+            "1",
+            "B",
+            "Timing_Diagram",
+            "",
+            "SW > UML\n시간제약\n시간에 따른 신호 표현"
+        ],
+        [
+            "1",
+            "B",
+            "Feature_Diagram",
+            "필선대또",
+            "2019년 감리사 31번\nSW > UML\nSPL(Software Product Line)"
+        ],
+        [
+            "1",
+            "C",
+            "Sequence_Diagram",
+            "MCOA",
+            "SW > UML\nActor, Object, Message, Control Rectangles"
+        ],
+        [
+            "1",
+            "C",
+            "Composite_Structure_Diagram",
+            "",
+            "SW > UML"
+        ],
+        [
+            "1",
+            "B",
+            "Design_Pattern",
+            "",
+            "확장성, 재사용성, 유지보수성\nGof(Gang of Four)의 3가지 분류(생성, 구조, 행위) 및 23개의 패턴\n화이트박스/블랙박스 재사용\n위임(Delegation)"
+        ],
+        [
+            "1",
+            "B",
+            "Design_Pattern_Creational",
+            "생성패턴\n아비프로시파\nABProSiPa",
+            "Abstract\nBuilder\nPrototype\nSingleton\nFactory"
+        ],
+        [
+            "1",
+            "B",
+            "Design_Pattern_Structual",
+            "구조패턴\nABCD파플로\nABCDFaFlro",
+            "Adapter\nBridge\nComposite\nDecorator\nFacade\nFlyweight\nProxy"
+        ],
+        [
+            "1",
+            "B",
+            "Design_Pattern_Behavioral",
+            "행위패턴\nCMI(CCMMII)\n쏘티브(SSOTV)",
+            "Chain of Responsibility / Command\nMediator / Memento\nInterpreter / Iterator\nState / Strategy / Observer\nTemplate Method / Visitor)"
+        ],
+        [
+            "1",
+            "B",
+            "Design_Pattern_Troubleshooting",
+            "화블위 아데 프컴 아상전템",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MVC_Pattern",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MVI_Pattern",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Circuit_Breaker_Pattern",
+            "Open / Closed / Half Open",
+            "SV > MSA\n연쇄적인 장애(Cascading Failture) 방지"
+        ],
+        [
+            "1",
+            "B",
+            "Modularity",
+            "응집도(Cohesion) - 높을수록 좋음\n우논시절통순기\n\n결합도(Coupling) - 낮을수록 좋음\n내공외제스자\n\nModularization(모듈화) Modularity(모듈성)",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SBOM",
+            "",
+            "Software Bill of Materials"
+        ],
+        [
+            "1",
+            "B",
+            "TDD",
+            "요테구리\n빨테초디X",
+            "TEST Driven Development\n요구사항(Needs)\n테스트 case\n구현(Code)\nRefactoring"
+        ],
+        [
+            "1",
+            "B",
+            "DevOps",
+            "소협통\n정역지사자\n플코빌테 디오모",
+            "(정의) 소통/협업/통합\n(특징) 정기 릴리즈/역할/공동지표/사후검증/테스트자동화\n(개념) plan-code(develop)-build-test (integration) deploy operate-monitor"
+        ],
+        [
+            "1",
+            "B",
+            "DevSecOps",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "DataOps",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "GitOps",
+            "이장문변모(모리변장문)",
+            "모니터링, 리소스, 변경관리, 장애대응/복구, 문화"
+        ],
+        [
+            "1",
+            "B",
+            "SRE",
+            "이장문변모(모리변장문)\n조실측자구(사실점자모)\n단스지",
+            "SV > 클라우드전환\nSite Reliability Engineering\n모니터링/리소스/변경/장애복구/문화"
+        ],
+        [
+            "1",
+            "B",
+            "AIOps",
+            "수분자가",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Zero_Downtime_Deployment",
+            "롤블카",
+            "무중단 배포 기법"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_29119",
+            "데프도테키\n조관동\n명구경",
+            "SW공학 > 테스트\nISO/IEC 33063\nISO/IEC 20246"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_29119_1",
+            "데프도테키\n조관동\n명구경",
+            "ISO 29119 모범답안 참고용\nSW공학 > 테스트\nISO/IEC 33063\nISO/IEC 20246"
+        ],
+        [
+            "1",
+            "B",
+            "Test_Type",
+            "화제루 블 동경 의상 유원페원오",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Black_Box_Test",
+            "불 동경 의상 유분페원오\n불교, 동경에 의상대사 가셨다",
+            "ISO_29119\n매뉴얼,상세문서 기준\n조합테스팅(Pairwise)\n유즈케이스 테스팅"
+        ],
+        [
+            "1",
+            "B",
+            "White_Box_Test",
+            "화제루 구결조쌍변다",
+            "SW > Test\n구조기반테스트\n제어구조시험\n루프시험\nCoverage\nMC/DC"
+        ],
+        [
+            "1",
+            "B",
+            "Test_Coverage",
+            "구조결쌍변다",
+            "구조기반 테스트\nSW 공학 > 테스트 "
+        ],
+        [
+            "1",
+            "B",
+            "Specification_Based_Test",
+            "",
+            "명세 기반 테스트\n블랙박스 테스트 동일"
+        ],
+        [
+            "1",
+            "B",
+            "Structure_Based_Test",
+            "화제루 구결조쌍변다",
+            "구조 기반 테스트\n화이트박스 테스트 동일"
+        ],
+        [
+            "1",
+            "B",
+            "Regression_Test",
+            "ReSelPri\nRS",
+            "Retest All/Selective/Priority\nRiffle Effect/Side Effect"
+        ],
+        [
+            "1",
+            "B",
+            "Model_Based_Test",
+            "",
+            "정형화된 표기법\n테스트 케이스 자동 생성"
+        ],
+        [
+            "1",
+            "B",
+            "Experience_Based_Test",
+            "경탐오체분",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Keyword_Based_Test",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Risk_Based_Test",
+            "식분대계모\n펀인스서",
+            "식(위험식별)\n분(위험분석)\n대(위험대응계획)\n계(Test 계획)\n모(분석/모니터링)\n펀인스서-FTA/ITA/STA/STTA/PI메트릭"
+        ],
+        [
+            "1",
+            "B",
+            "Mutation_Test",
+            "대변삭",
+            "화이트박스 중 하나\n뮤턴트(Mutant)\n뮤턴트 연산자\n뮤테이션 스코어\n비버깅(Bebugging Test)"
+        ],
+        [
+            "1",
+            "B",
+            "Performance_Test",
+            "처응자효\n단복임\n루스티확가\n탐NaCoInA",
+            "[지표]\n처리량(Throughput), 응답시간(Response Time) , 자원사용량 (Utilization), 효율성(Efficiency)\n\n[종류]\n단위, 복합, 임계\nLoop Back, Spike, Tier, 확장성, 가용성 테스트"
+        ],
+        [
+            "1",
+            "B",
+            "Lehman_Law_SW_Evolution",
+            "SPE\n계복대조 친지감피",
+            "리먼의 SW 진화 원리"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Maintenance",
+            "수완이의 예적\n\n요분승실\n사분위담\n\n시대원\n계예응지\n데프문시\n수완예적",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SW_Refactoring",
+            "절차-데코리테종\n대상-중긴큰긴추임주스\n기법-이분(에) 일통\n조건-단명일자",
+            "SW > 유지관리"
+        ],
+        [
+            "1",
+            "B",
+            "Project_Quality_Management",
+            "",
+            "SW > SW 품질 표준 및 종합"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Quality_Management",
+            "",
+            "SW > SW 품질 표준 및 종합"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_25010",
+            "기실호 상신보 유연안(안정성)\n기신사실유이호보\n성정타 성결복가\n이학운사사접\n시자기 분수시모재\n환설치 기무부책인\n효생안만상",
+            "소프트웨어 품질특성과 척도에 관한 표준 지침\nISO 9126 개정\n주특성/부특성 암기"
+        ],
+        [
+            "1",
+            "B",
+            "CMMI2",
+            "두메인임\n불수관확예최\n불수관정\n귱유재자",
+            "SW > SW 품질 표준 및 종합"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Stability_Analysis",
+            "",
+            "SW 안정성/분석 개념"
+        ],
+        [
+            "1",
+            "B",
+            "FTA",
+            "사기전입출부\n엔오프X\n연역, 정량, 하향식",
+            "SW > 소프트웨어 안전성 분석기법결함 트리 분석\nFault Tree Analysis"
+        ],
+        [
+            "1",
+            "B",
+            "FMEA",
+            "RPN=심각도x발생도x검출도\n설공시\n상향, 귀납",
+            "SW > 소프트웨어 안전성 분석기법\nFailure Mode and Effects Analysis"
+        ],
+        [
+            "1",
+            "B",
+            "HAZOP",
+            "없증감반부부기",
+            "SW > 소프트웨어 안전성 분석기법\nHazard and Operability Study\n경험기반\n이탈 = 공정변수 * 가이드워드\n공정(특정변수/일반변수)\n가이드워드(7가지) : 없음/증가/감소/반대/부가/부분/기타"
+        ],
+        [
+            "1",
+            "B",
+            "ETA",
+            "범위초 트결경",
+            "SW > 소프트웨어 안전성 분석기법\nEvent Tree Analysis"
+        ],
+        [
+            "1",
+            "B",
+            "STPA",
+            "사컨언원",
+            "SW > 소프트웨어 안전성 분석기법\nSystem-Theoretic Process Analysis\nSTAMP(System Theoretic Accident Model and Process)\n요소간 상호작용/O&SHA\nSTPA-사전식별/예방\nCAST-사후원인분석/학습"
+        ],
+        [
+            "1",
+            "B",
+            "Supervision_Procedure",
+            "예현조\n준실감\n감착감보종보\n준시작보",
+            "SW > 정보시스템감리 > 감리절차"
+        ],
+        [
+            "1",
+            "B",
+            "Closed_License",
+            "",
+            "폐쇄형 라이센스"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Cost_Estimation",
+            "프자생 복크신 인하소 개고방",
+            "SW 규모 산정(원가산정) > SW 비용 산정 일반"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Cost_Estimation_Guide",
+            "사개보후지소",
+            "SW 규모 산정(원가산정) > SW사업 대가산정 가이드"
+        ],
+        [
+            "1",
+            "B",
+            "Function_Point",
+            "유범(이의)데(이)트 미조기\n사기전후직개",
+            "ISO 14143\nSW 규모 산정(원가산정) > 간이법 계산"
+        ],
+        [
+            "1",
+            "B",
+            "Simple_Calculation",
+            "내외입출조\nO공수로\nQ단",
+            "평균복잡도"
+        ],
+        [
+            "1",
+            "B",
+            "Simple_Calculation_1",
+            "",
+            "산정 기법 비교"
+        ],
+        [
+            "1",
+            "B",
+            "Separate_Order_Placement",
+            "",
+            "SW > 발주 프로세스 > SW분리발주\n상용SW 직접구매 제도\n5억 이상/SW/HW 분리/GS인증"
+        ],
+        [
+            "1",
+            "B",
+            "Split_Order_Placement",
+            "",
+            "분할발주\nSW > 발주 프로세스 > SW 분할발주\n공정분할/기능분할/부품분할/기본설계/상세설계 이후로 구분"
+        ],
+        [
+            "1",
+            "B",
+            "BMT",
+            "참발수심",
+            "SW > 테스트 > BMT\n상용 SW 품질평가 성능시험"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Law",
+            "",
+            "SW진흥법"
+        ],
+        [
+            "1",
+            "B",
+            "Public_SW_Task_Change_Guide",
+            "요구심통관조",
+            "공공SW사업 과업변경 가이드라인\n2021 출제 예상 토픽"
+        ],
+        [
+            "1",
+            "B",
+            "SW_Business_Impact_Assessment_Policy",
+            "",
+            "SW사업 영향평가 제도\n유형-기관공동사용형/대국민서비스형\n평가등급-사업재검토/실행유의"
+        ],
+        [
+            "1",
+            "A",
+            "Private_Investment_SW_Business_Promotion_Guide",
+            "",
+            "민간투자형 SW사업 추진 가이드 (2025.03.13)"
+        ]
+    ],
+    "Digital_Service": [
+        [
+            "1",
+            "B",
+            "Gartner10",
+            "",
+            "1. Agentic AI\n2. Post-quantum Cryptography\n3. Spatial Computing\n4. AI Governance Platforms\n5. Ambient Invisible Intelligence\n6. Polyfunctional Robots\n7. Disinformation Security\n8. Energy-Efficient Computing\n9. Neurological Enhancement\n10. Hybrid Computing"
+        ],
+        [
+            "1",
+            "B",
+            "Cloud_Computing",
+            "온멀유서\n서대관(멀)\nC분병\n오모빌네\n보P브모",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Fog_Computing",
+            "FOG 노드",
+            "엣지 컴퓨팅\n디지털서비스 > 컴퓨팅(Computing)"
+        ],
+        [
+            "1",
+            "B",
+            "XaaS",
+            "",
+            "122회 기출"
+        ],
+        [
+            "1",
+            "B",
+            "PaaS",
+            "컴스콘 컨시시\n",
+            "SV > Cloud 컴퓨팅 > XaaS(Everything)\nPlatform as a Service\n클라우드/과금/개발플랫폼/개발관점\nPaaS-TA"
+        ],
+        [
+            "1",
+            "B",
+            "BaaS",
+            "",
+            "Backend as a Service\nSV > Cloud Computing\n모바일앱, 위치기반 서비스, Push"
+        ],
+        [
+            "1",
+            "B",
+            "BaaS_1",
+            "",
+            "Blockchain as a Service\nSV > Cloud Computing\nOn-demand, PoW/PoS, smart contract, 상대확인/상호신뢰, 자기강제적 언어, 분산합의, 장부 동기화, 탈중계성"
+        ],
+        [
+            "1",
+            "B",
+            "SECaaS",
+            "식데침암네업 취웹이보지보",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "GPUaaS",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Public_Cloud",
+            "사활경편확안\n보종성비규감\nSPI",
+            "e-discovery - 전자증거개시제도"
+        ],
+        [
+            "1",
+            "B",
+            "Multi_Cloud",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Cloud_Native",
+            "마컨C데서\n조아인배\n애오런프인",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "OpenStack",
+            "호신메뉴히트\n노바스글시키",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "CSP",
+            "소비자\n감사사\n서비스\n자원추상화/통제\n물리자원\n오케스트레이션\n보안\n프라이버시\nCSB(중개/결합/차익거래)",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Auto_Scaling",
+            "업자아인",
+            "Scale Up/Out\nScale In/Down\n121, 122회 기출문제"
+        ],
+        [
+            "1",
+            "B",
+            "Virtualization",
+            "오스애서데네",
+            "TLO절감 (Total Lost Ownership, 총소유비용)\n\nVIL 백업 (Virtual Infrastructure Level)\n하이퍼바이저 레벨에서 가상 머신(VM)을 백업하는 것을 의미\n\nVTL 백업 (Virtual Tape Library)\n디스크 스토리지를 테이프 라이브러리처럼 인식하게 하여 데이터를 저장하는 기술"
+        ],
+        [
+            "1",
+            "B",
+            "Virtualization_Technology",
+            "오스애서데네",
+            "TLO절감 (Total Lost Ownership, 총소유비용)\n\nVIL 백업 (Virtual Infrastructure Level)\n하이퍼바이저 레벨에서 가상 머신(VM)을 백업하는 것을 의미\n\nVTL 백업 (Virtual Tape Library)\n디스크 스토리지를 테이프 라이브러리처럼 인식하게 하여 데이터를 저장하는 기술"
+        ],
+        [
+            "1",
+            "B",
+            "Hypervisor",
+            "BH 반전 모모",
+            "가상머신 모니터(VMM)\nType1 : Native/Bare-metal\nType2 : Hosted 기반형"
+        ],
+        [
+            "1",
+            "B",
+            "Docker",
+            "씨네리컨\n컨이\n클호(데컨이)레",
+            "디지털서비스 > 가상화 > 도커(Docker)\n하이퍼바이저, 컨테이너, LXC, 이미지"
+        ],
+        [
+            "1",
+            "B",
+            "Container",
+            "",
+            "Cgroup, namespace,리눅스 커널, Libvirt"
+        ],
+        [
+            "1",
+            "B",
+            "Kubernates",
+            "마컨아이스(콘아이스)\n워팟프릿컨(파프리카)",
+            "오픈소스 컨테이너 오케스트레이션 플랫폼\n마스터노드, 컨트롤매니저, API서버, ETCD(et cetera distributed), Scheduler\n워커노드, Pod(파드), Kube-proxy, Kubelet, 컨테이너 런타임(Docker)\n고가용성"
+        ],
+        [
+            "1",
+            "B",
+            "Web3",
+            "소융지개상실(소유했던 지개 상실)\n시상개에클",
+            "의미기반 검색엔진\nSemantic Web, 검색서비스 구조, 지능형 Agent, 상황인식 컴퓨팅, 소통, 융합, 개인화\nweb 2.0- 참여, 공유, 개방"
+        ],
+        [
+            "1",
+            "B",
+            "Web4",
+            "Symbiotic web, 가상/현실 연결, 속도와 안정성, RFID",
+            "인간과 기계의 공생\nSymbiotic\na web of intelligence connection"
+        ],
+        [
+            "1",
+            "B",
+            "Open_API",
+            "개커\n매\n게서캐인\n아데보통",
+            "122회 기출\nREST/RESTfulAPI/SOAP\nXML/JSON/GraphQL\nOAuth2.0/SSL/TLS\ngPRC/AsyncAPI"
+        ],
+        [
+            "1",
+            "B",
+            "xAPI",
+            "교분시",
+            "LMS-API GW-LRS\nSCORM"
+        ],
+        [
+            "1",
+            "B",
+            "REST_API",
+            "CRUD\nURI",
+            "POST/GET/PUT/DELETE\nStateless"
+        ],
+        [
+            "1",
+            "B",
+            "SOAP",
+            "엔헤컨바(에어컨바)\n요브제(오브제)\nUDDI, WSDL",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Intermittent_Computing",
+            "하저 비휘메프",
+            "에너지 하베스팅, 에너지 저장장치, 비휘발성 메모리(NVRAM, Non-Volatile RAM), 다중 버전 모델, NoC, NVP, Chain, Alpaca\nICEr(Intermittent Computing Environment Based on a Runtime Module)-에너지 하베스팅 IoT기기에서 애플리케이션 동적으로 관리/제어하는 런타임 모듈 기반 환경"
+        ],
+        [
+            "1",
+            "B",
+            "XR",
+            "",
+            "eXtended Reality"
+        ],
+        [
+            "1",
+            "B",
+            "VR_Type",
+            "",
+            "혼합현실(MR)\n현실-가상 연속체(Reality-Virtuality Continuum)\n현실과 완전한 가상 사이에는 다양한 단계 존재\n폴 밀그램(Paul Milgram) 및 후미오 키시노(Fumio Kishino)의 1994년 논문 '혼합 현실 시각적 표시의 분류'"
+        ],
+        [
+            "1",
+            "B",
+            "Metaverse",
+            "미라증가",
+            "미러월드, 라이프로깅, 증강현실, 가상세계"
+        ],
+        [
+            "1",
+            "B",
+            "Realistic_Content",
+            "지상몰\n체위대비\n트랜디인",
+            "실감콘텐츠\n3I\nImmersive(몰입감)\nInteractive(상호작용)\nIntelligent(지능화)\n디스플레이, 트래킹, 렌더링, 인터랙션\n지상에 있는 몰에서 체위 대비하면 트랜드한 인간"
+        ],
+        [
+            "1",
+            "B",
+            "C_ITS",
+            "",
+            "양방향\n협력지능형교통체계\nV2C,V2I,V2V,V2P,IVN\nOBE(차량)\nRSE(노면), 5G-V2X"
+        ],
+        [
+            "1",
+            "B",
+            "LDM",
+            "",
+            "Local Dynamic Map"
+        ],
+        [
+            "1",
+            "B",
+            "Positioning_Technology",
+            "AOA (Angle of Arrival)\nTOA (Time of Arrivals)\nTDOA (Time Difference of Arrival): 도착시간차이",
+            "디지털서비스 > LBS > 측위기술\n[실내측위기술]\n셀ID측정, UWB, 적외선, 초음파, 와이파이\n[무선랜 실내측위]\n셀ID측정, 핑거프린트 기반, 전파예측기반(RSSI,삼각측량), 하이브리드"
+        ],
+        [
+            "1",
+            "B",
+            "Smart_Factory",
+            "점모제최자",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "CPS",
+            "SAC 모자실 S 유\n환전개통검개",
+            "Cyber Physical System\n산업정책 > CPS\n연산(Computation)\n조작(Control)\n통신(Communication)"
+        ],
+        [
+            "1",
+            "C",
+            "CPPS",
+            "",
+            "Cyber Physical Product System"
+        ],
+        [
+            "1",
+            "B",
+            "SCADA",
+            "H감데통 피알보 DE",
+            "원격감시제어설비\n지능형 SCADA\nSupervisory Control and Data Acquisition"
+        ],
+        [
+            "1",
+            "B",
+            "Intelligent_SCADA",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Digital_Twin",
+            "모관모연자\n미모델페오",
+            "5단계 모델\n[제1983호] 주간기술동향"
+        ],
+        [
+            "1",
+            "B",
+            "CNAPP",
+            "이엔 워프 시포\n이젠 워프하고 싶어\n인프라 엔타이틀, 워크로드 프로텍션, 시큐어 포스쳐",
+            "CIEM (Cloud Infrastructure Entitlement Management)\n최소 권한(Least Privilege), 권한 식별 관리, IAM해결\n\nCSPM (Cloud Security Posture Management)\n클라우드 인프라의 '설정' 관련 정적 보안 상태 관리\n규제 준수 GDPR, HIPAA, PCI DSS, ISO 27001\n업계 표준 CIS Benchmarks\n\nCWPP (Cloud Workload Protection Platform)\n클라우드 내 '워크로드'의 실행 과정에서 발생하는 동적인 위협으로부터 보호\n워크로드 가시성, 컨테이너/런티임/서버리스 보안"
+        ],
+        [
+            "1",
+            "B",
+            "Physical_AI",
+            "",
+            "IMU(관성측정장치, Inerial Measurement Unit)"
+        ],
+        [
+            "1",
+            "B",
+            "Sovereign_AI",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "Digital_Transformation",
+            "조프비전문커시\n뷔조거비혁",
+            "최근 한번 남옴\n개념만"
+        ],
+        [
+            "1",
+            "B",
+            "Consensus_Algorithm",
+            "포탈투공무신",
+            "합의 알고리즘, 122회 기출, P2P 참여자, 노드\nPoW, PoS, PBFT, Paxos, Raft, Sieve\n비잔틴 장군 문제, Nothing-at-stake문제, Finality 불확실성\n\n확률적 완결성 (Probabilistic Finality)\n비트코인과 같은 작업 증명(PoW) 기반 블록체인은 '확률적 완결성 가짐\n특정 블록이 확정되었다고 간주되더라도, 이론적으로는 언젠가 더 긴 체인(롱기스트 체인 규칙)에 의해 해당 블록이 포함된 체인이 뒤집힐(reorg) 가능성이 아주 미미하게나마 존재\n\n절대적 완결성(Absolute Finality)"
+        ],
+        [
+            "1",
+            "B",
+            "Consensus_Algorithm1",
+            "포탈투공무신",
+            "합의 알고리즘, 122회 기출, P2P 참여자, 노드\nPoW, PoS, PBFT, Paxos, Raft, Sieve\n비잔틴 장군 문제, Nothing-at-stake문제, Finality 불확실성\n\n확률적 완결성 (Probabilistic Finality)\n비트코인과 같은 작업 증명(PoW) 기반 블록체인은 '확률적 완결성 가짐\n특정 블록이 확정되었다고 간주되더라도, 이론적으로는 언젠가 더 긴 체인(롱기스트 체인 규칙)에 의해 해당 블록이 포함된 체인이 뒤집힐(reorg) 가능성이 아주 미미하게나마 존재\n\n절대적 완결성(Absolute Finality)"
+        ],
+        [
+            "1",
+            "B",
+            "CBDC",
+            "복호이익확보\n단분허비\n직간단분",
+            "디지털 화폐, 블록체인(Blockchain), CBDC Wallet(전자지갑)\n결제완전성 보장 - 허가형 (단일/분산 원장)\n결제완결성 미보장 - 비허가형\n\n[기술평가요건 - 복호이익확보]\n복원력, 호환성, 이자지급 가능성, 익명성, 확장성, 보안성\n\n[구현방식 - 단분허비]\n\n[운영방식 - 직간단분]\n직접운영(중앙관리기관)\n간접운영(위탁)\n단일원장(계좌발급관리, CBDC간 이체)\n분산원장-허가형(전자지갑 발급관리, 전자지갑간 이체)"
+        ],
+        [
+            "1",
+            "B",
+            "CBDC_1",
+            "복호이익확보\n단분허비\n직간단분",
+            "디지털 화폐, 블록체인(Blockchain), CBDC Wallet(전자지갑)\n결제완전성 보장 - 허가형 (단일/분산 원장)\n결제완결성 미보장 - 비허가형\n\n[기술평가요건 - 복호이익확보]\n복원력, 호환성, 이자지급 가능성, 익명성, 확장성, 보안성\n\n[구현방식 - 단분허비]\n\n[운영방식 - 직간단분]\n직접운영(중앙관리기관)\n간접운영(위탁)\n단일원장(계좌발급관리, CBDC간 이체)\n분산원장-허가형(전자지갑 발급관리, 전자지갑간 이체)"
+        ],
+        [
+            "1",
+            "B",
+            "IEC_61508",
+            "일시소정안가기",
+            "SV > 자동차 > IEC 61508\n위험 발생빈도수 평가\n기능안전 표준, 안전생명주기, 안전무결성(SIL)\n일반적요구사항 / E/E 안전관련 시스템 요구사항 / 소프트웨어요구사항 / 정의와 약어 / 안전도 수준 결정방법 사례 / 가이드라인 / 기술과 측정의 개관"
+        ],
+        [
+            "1",
+            "B",
+            "IEC_61508_1",
+            "일시소정안가기",
+            "SV > 자동차 > IEC 61508\n위험 발생빈도수 평가\n기능안전 표준, 안전생명주기, 안전무결성(SIL)\n일반적요구사항 / E/E 안전관련 시스템 요구사항 / 소프트웨어요구사항 / 정의와 약어 / 안전도 수준 결정방법 사례 / 가이드라인 / 기술과 측정의 개관"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_26262",
+            "용기개\n시하소생\n지아가\n반모",
+            "SV > 자동차 > 자동차 SW 안전 등급\n기능안전, AUTOSA, ASIL, ISO 61508, V model, TRL, 소프트웨어의 기능안전 국제규격"
+        ],
+        [
+            "1",
+            "B",
+            "ASIL",
+            "",
+            "SV > 자동차 > ASIL(Automotive Software Integrity Levels)\nIEC61508, 차량안전성, 잠재적 심각도, 노출 가능성, 통제 가능성"
+        ],
+        [
+            "1",
+            "B",
+            "Drone",
+            "",
+            "디지털서비스(SV)>IT물류/드론\nFANET(Flying Ad-hoc NETwork)\nUAV(무인항공기), 도청공격, 드론 제어기술/충돌회피기술/탑재센서기술"
+        ],
+        [
+            "1",
+            "B",
+            "UAM",
+            "",
+            "Urban Air Mobility/neVTOL, PAV, Vertiport, MRO, K-UAM"
+        ],
+        [
+            "1",
+            "A",
+            "Digital_Dysfunction",
+            "",
+            "디지털 역기능"
+        ],
+        [
+            "1",
+            "A",
+            "AI_Dysfunction",
+            "",
+            "AI 역기능"
+        ],
+        [
+            "1",
+            "B",
+            "Industry5",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "De_Facto_De_Jure_Standard",
+            "",
+            "비공식(사실상) 표준\n공식적 표준\n독점, 규격"
+        ]
+    ],
+    "Digital_Network": [
+        [
+            "1",
+            "B",
+            "Network_Roadmap",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "OSI7",
+            "아파서티네다P\n물데네트표세응",
+            "ISO/IEC 7498:1994"
+        ],
+        [
+            "1",
+            "C",
+            "Application_Layer",
+            "",
+            "7계층\n서비스 프로토콜, Message, 사용자 연결, L7 스위치\nHTTP, SSH, SIP, FTP, TELNET, MODBUS\nKeep Alive, VoIP, Signaling, PLC(Programmable Logic Controller), HL7"
+        ],
+        [
+            "1",
+            "C",
+            "Presentation_Layer",
+            "",
+            "6계층\n암호화, 압축, 코드 변환"
+        ],
+        [
+            "1",
+            "C",
+            "Session_Layer",
+            "",
+            "5계층\n동기화, 대화, 동기점, 메시지, NetBIOS, RPC, WinSock"
+        ],
+        [
+            "1",
+            "B",
+            "Transport_Layer",
+            "신혼오흐 검정 체확시 훼손중순확",
+            "<정의> 데이터 송수신, QoS, 4계층\n<특징> 전송단위 : Segment, 장비 : L4 스위치\n<주요프로토콜> TCP, UDP\n<역할>\n흐름제어 : Sliding Window\n혼잡제어 : TCP 혼잡제어\n오류제어 : Sequence Number"
+        ],
+        [
+            "1",
+            "B",
+            "Network_Layer",
+            "",
+            "3계층\nARP, IP, ICMP, IPsec, IGMP\n장비: 라우터, L3 Switch\n표준: ISO/IEC 8208\n[ARP용도]\nIP주소 충돌 감지\nIP주소 충돌 감지\n호스트/라우터 ARP Table(ARP Cache)\n갱신\nVRRP/HSRPrr"
+        ],
+        [
+            "1",
+            "B",
+            "DataLink_Layer",
+            "",
+            "2계층\n물리적 통신로, FRAME\n오류제어(FEC, BEC, CRC)\n흐름제어(ARQ)\n접근제어(CSMA/CD, CSMA/CA)\n주소지정(LLC, MAC)"
+        ],
+        [
+            "1",
+            "C",
+            "Physical_Layer",
+            "",
+            "1계층\n비트 단위 전송, 물리 전송 매체"
+        ],
+        [
+            "1",
+            "C",
+            "Http_Keep_Alive",
+            "",
+            "Application Layer HTTP 프로토콜 기능"
+        ],
+        [
+            "1",
+            "C",
+            "SIP",
+            "",
+            "Application Layer 프로토콜"
+        ],
+        [
+            "1",
+            "C",
+            "MOBBUS",
+            "",
+            "Application Layer 프로토콜"
+        ],
+        [
+            "1",
+            "B",
+            "Service_Primitive",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Proxy_Server",
+            "전역웹익높투커(씨)서도",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Reverse_Proxy",
+            "",
+            "역방향 맵핑, 부하분산, 보안강화\n110회 정보관리 1교시"
+        ],
+        [
+            "1",
+            "B",
+            "Network_Protocol",
+            "주전처신전동포\n구문(Syntax) / 의미(Semantic) / 시간(Timing)",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "HTTP3",
+            "QZ MT 오서",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "OpenFlow",
+            "",
+            "2008년 스탠포드 마티 케이맨 교수\n2011년 주요 IT기업 ONF설립, 표준화, 상용화"
+        ],
+        [
+            "1",
+            "B",
+            "O_Ran",
+            "",
+            "URLLC(Ultra-Reliable and Low Latency Communications,초고신뢰 저지연 통신), 네트워크 슬라이싱, SMO(Service Mng Orchestration)"
+        ],
+        [
+            "1",
+            "C",
+            "C_Ran",
+            "구인\nRD CBO",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "AI_Ran",
+            "힐옵컨",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "NOMA",
+            "비직교성, 다중접속, 주파수/시간/코드 공유\n주파수 향상 기술, 5G 셀 용량 증대\n순차적 간섭 제거(Successive Interference Cancellation: SIC)",
+            "Non Orthogonal Multiple Access\n비직교 다중접속\n129.정보관리.1"
+        ],
+        [
+            "1",
+            "B",
+            "Network_Slicing",
+            "NFVI, NFVs, MANO, E2E Networking",
+            "NW > 5G(IMT-2020)\n118.관리.1교시\n\nVNF(NFVs) (Virtualized Network Functions)\nNFVI (NFV Infrastructure)\nNFV-MANO (NFV Management and Orchestration)"
+        ],
+        [
+            "1",
+            "B",
+            "Private_Five_G",
+            "독공2847\nStandalone Private, Public, Private Shared RAN, Public Private Shared RAN and Control plane, 독립형, 공유형, 5G 공중망, 특화망",
+            "5G특화망(지역5G)\n디지털네트워크 > 5G(IMT-2020)\n독집형/공유형/28GHz대역/4.7Ghz\n125회 정보관리 1교시"
+        ],
+        [
+            "1",
+            "B",
+            "Private_Five_G_1",
+            "독공2847\nStandalone Private, Public, Private Shared RAN, Public Private Shared RAN and Control plane, 독립형, 공유형, 5G 공중망, 특화망",
+            "5G특화망(지역5G)\n디지털네트워크 > 5G(IMT-2020)\n독집형/공유형/28GHz대역/4.7Ghz\n125회 정보관리 1교시"
+        ],
+        [
+            "1",
+            "B",
+            "QoS",
+            "",
+            "Queue 관리\n트래픽관리"
+        ],
+        [
+            "1",
+            "B",
+            "NFV",
+            "NFVI (Network Functions Virtualization Infrastructure)\nVNFs(Virtualized Network Functions)\nMANO(management and Orchestration)",
+            "방화벽\n로드밸런서\nDPI(Deep Packet Inspection)\nEPC(Evolved Packet Core)"
+        ],
+        [
+            "1",
+            "C",
+            "CNF",
+            "",
+            "Cloud Native Network Function\n컨테이너를 이용하여 네트워크 기능 생성\n네트워크 하드웨어를 emulate한 vm을 이용하여 cloud 컴퓨팅 환경을 완벽하게 가상화"
+        ],
+        [
+            "1",
+            "B",
+            "SDX",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SDN",
+            "Whitebox Switch",
+            "Cloud Computing"
+        ],
+        [
+            "1",
+            "A",
+            "QR_SDN",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "ZSM",
+            "",
+            "135회 컴시응 1교시 13번\nZero-touch network and Service Managermenet"
+        ],
+        [
+            "1",
+            "B",
+            "SDP",
+            "",
+            "출제예상"
+        ],
+        [
+            "1",
+            "B",
+            "SDDC",
+            "",
+            "Software Defined Data Center\nNW > 네트워크 응용기술(SDx)"
+        ],
+        [
+            "1",
+            "B",
+            "SD_WAN",
+            "컨에\n멀옵링네다패\n중동최다분통\nSDN, SD-Core, SD-Edge, SD-WAN Controller, SD-WAN Edge\nVPN, 전용선, Network Slicing(Segmentation)\n최적화, 가상화, Dynamic Path Switching",
+            "NW > SDx\n컨에\n(컨트롤, 에지)\n\n멀옵링네다패\n(멀티플 연결 타입, Optimization, Link Aggregation, NW Segmentation, Dynamic Path Switching, Packet Duplication)\n\n중동최다분통\n(중복패킷, 동적 경로 스위칭, 최적화, 다중경로, NW 분리, Link 통합)"
+        ],
+        [
+            "1",
+            "B",
+            "IaC",
+            "",
+            "Intrastructure as Code\n기출\n인프라 구성의 프로그래밍, CI/CD, 멱등성"
+        ],
+        [
+            "1",
+            "B",
+            "Six_G",
+            "정지현대성공",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Modulation",
+            "",
+            "변조\nAM/FM/PM/QAM\nPSK, ASK, FSK, QAM"
+        ],
+        [
+            "1",
+            "B",
+            "Modulation_1",
+            "",
+            "변조\nAM/FM/PM/QAM\nPSK, ASK, FSK, QAM"
+        ],
+        [
+            "1",
+            "B",
+            "Shannon_Theorem",
+            "",
+            "샤논의 제1,2,3정리"
+        ],
+        [
+            "1",
+            "B",
+            "Information_Theory",
+            "",
+            "정보이론\n125회.정보관리.4\n불확실성, 엔트로피, 채널, 부호화, 최대 정보량"
+        ],
+        [
+            "1",
+            "B",
+            "Hamming_Code",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "CRC",
+            "",
+            "NW > 오류제어(2계층) > 순환중복검사\nCyclic Redundancy Check\n데이터워드, divisor, XOR 기반연산"
+        ],
+        [
+            "1",
+            "B",
+            "ARQ",
+            "",
+            "NW > 오류제어(2계층) > 자동재전송요구\nAutomatic Repeat reQuest\nStop and Wait, Go-Back-N, Selective Repeat"
+        ],
+        [
+            "1",
+            "C",
+            "Error_Control",
+            "",
+            "오류제어"
+        ],
+        [
+            "1",
+            "B",
+            "TCP_Congestion_Control",
+            "RED, WRED, TailDrop",
+            "NW> 네트워크 관리(QoS)> 혼잡제어\nSlow Start\nFast Retransmit\nCongestion Avoidence\nFast Recovery\nSsthresh(Slow Start Threshold)\nReno TCP"
+        ],
+        [
+            "1",
+            "B",
+            "Traffic_Policing",
+            "미드마",
+            "Drop, Meter(bps), Mark, Leaky Bucket, Token Bucket"
+        ],
+        [
+            "1",
+            "B",
+            "Traffic_Shaping",
+            "CCE",
+            "DiffServ, 트래픽 쉐이핑(Shaping) , Policing ,Leaky Bucket, Tocken Bucke"
+        ],
+        [
+            "1",
+            "B",
+            "Sliding_Window",
+            "",
+            "네트워크 > 4계층 전송계층 > TCP오류제어 > 흐름제어\n20년동안 2번 출제\n동적 제어, 2 계층 혹은 4계층"
+        ],
+        [
+            "1",
+            "B",
+            "TCP",
+            "",
+            "네트워크 > TCP/IP 5계층 > TCP\n3-Way Handshake(TCP Connect)\n4-Way Handshake(TCP Close)\nISN, TCP Half Open"
+        ],
+        [
+            "1",
+            "B",
+            "TCP_IP",
+            "신혼오흐\n경주\n발목시아HR CW CU",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "UDP",
+            "",
+            "122회 기출\nConnectionless, 무관계 서비스, 빠른 전송 속도, 흐름/에러 제어 및 재전송 미수행, 멀티미디어 전송\n[구성]\nSource Port(16bits)\nDestination Port(16bits)\nTotal Length(16bits)\nChecksum(16 bits)"
+        ],
+        [
+            "1",
+            "B",
+            "SCTP",
+            "",
+            "초기화-전송-종료\nStream Control Transmission Protocol\n전송계층, TCP+UDP, 멀티호밍, 멀티스트리밍, 4-way handshaking(연결), 3-way handshaking(종료), SACK, HEATBEAT"
+        ],
+        [
+            "1",
+            "B",
+            "L2_Switch",
+            "",
+            "NW > Ethernet Switch\nMAC 주소\nLearning, Flooding, Forwarding, Filtering, Aging\nData Link Layer, Ethernet, VLAN, Link aggregation, Spanning tree protocol, Port mirroring"
+        ],
+        [
+            "1",
+            "B",
+            "L3_Switch",
+            "",
+            "NW > Ethernet Switch\nL2 + 라우팅 기능 추가\nIP/IPX기반, 외부네트워크"
+        ],
+        [
+            "1",
+            "B",
+            "L4_Switch",
+            "",
+            "NW > Ethernet Switch\n가장 많이 나옴\n라우터, 캐싱서비스, 서비스연결, QoS, RIP, VIP, 부하분산(Load Balancing)\n[로드밸런싱 알고리즘]\nRound Robin, Least Connection, Response time, Hash\n[서버감시방식]\nICMP이용, TCP Connection 이용, Http Request 이용"
+        ],
+        [
+            "1",
+            "B",
+            "L7_Switch",
+            "",
+            "NW > Ethernet Switch\nL4스위치 + 보안\nPacket Filtering, Content Switching, Load Balancing\n차별화된 서비스 제공, 지능적 트래픽 관리"
+        ],
+        [
+            "1",
+            "B",
+            "Network_Neutrality",
+            "비상접\n큰애기\n경차투\nIX IXP\n(비상접/관네특)",
+            "NW > 네트워크 정책 > 망중립성\nNetwork Slicing\nManaged Service\nNo Discrimination(차별금지)\n미국 ‘망 중립성’ 폐지/장·단점 정리"
+        ],
+        [
+            "1",
+            "B",
+            "VXLAN",
+            "VTEP\nNVE\nVNI",
+            "Virtual eXtensible LAN\n130.정보관리.1"
+        ],
+        [
+            "1",
+            "B",
+            "MPLS",
+            "LER/LSR/Label/FEC/LSP/LIB/LDP",
+            "Multi Protocol Label Switching\n(3단락)IP-MPLS/MPLS-TP"
+        ],
+        [
+            "1",
+            "B",
+            "CDN",
+            "SSNGSSLS",
+            "Middle Mile, CDN SP, CP, ISP, User, POP, IX"
+        ],
+        [
+            "1",
+            "B",
+            "Routing_Protocol",
+            "고내테\n거리수베\n링오이다",
+            "프로토콜\n테이블 관리\nDistance_Vector_Algorithm\nStatic, dynamic, RIP, IGRP, OSPF, EIGRP"
+        ],
+        [
+            "1",
+            "C",
+            "RIP",
+            "",
+            "Routing Information Protocol"
+        ],
+        [
+            "1",
+            "B",
+            "Subnetting",
+            "",
+            "NW >TCP/IP 5계층\nVLSM(Variable Length Subnet Mask)\nCIDR(Classless Inter-domain routing)\nClass초과\n256개 초과\n254개 사용"
+        ],
+        [
+            "1",
+            "B",
+            "Subnetting_1",
+            "",
+            "NW >TCP/IP 5계층\nVLSM(Variable Length Subnet Mask)\nCIDR(Classless Inter-domain routing)\nClass초과\n256개 초과\n254개 사용"
+        ],
+        [
+            "1",
+            "B",
+            "Supernetting",
+            "",
+            "NW >TCP/IP 5계층\nCIDR\nClass미만\nSubnetting의 반대 개념"
+        ],
+        [
+            "1",
+            "B",
+            "WiFi7",
+            "주변속대 하표멀\n에하 빔쾀미\n속대주표",
+            "IEEE 801.11be"
+        ],
+        [
+            "1",
+            "B",
+            "WiFi8",
+            "",
+            "IEEE 802.11bn"
+        ],
+        [
+            "1",
+            "B",
+            "WLan",
+            "",
+            "SSID\nWEP(IEEE 802.11i)/WPA3(AES알고리즘)\nAP 간 로밍(Roaming)"
+        ],
+        [
+            "1",
+            "B",
+            "WLan_Security",
+            "",
+            "SSID\nWEP(IEEE 802.11i)/WPA3(AES알고리즘)\nAP 간 로밍(Roaming)"
+        ],
+        [
+            "1",
+            "B",
+            "WLan_Security_1",
+            "",
+            "SSID\nWEP(IEEE 802.11i)/WPA3(AES알고리즘)\nAP 간 로밍(Roaming)"
+        ],
+        [
+            "1",
+            "B",
+            "Finger_Printing",
+            "유비보견\n공익비추\n평민음제모",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "WLan_Finger_Printing",
+            "",
+            "무선랜 실내 측위기술\n삼각측량기법"
+        ],
+        [
+            "1",
+            "B",
+            "IPv6",
+            "기성회보\n대지패지\n베디구\n(헤더구조)버터플/파네호",
+            "Dual Stack\nTunneling\n주소변화"
+        ],
+        [
+            "1",
+            "B",
+            "WPAN",
+            "근거리, 개인영역, Ad-hoc, 저전력, 저비용, 블루투스(Bluetooth), UWB, Zigbee, IEEE802.15",
+            "SV > 지능형 로봇\nWireless Personal Area Network"
+        ],
+        [
+            "1",
+            "B",
+            "Bluetooth6",
+            "",
+            "IEEE 802.15.1"
+        ],
+        [
+            "1",
+            "B",
+            "UWB",
+            "",
+            "NW > WPAN > Ultra Wide Band\n초광대역\nIEEE 802.15.3a / 3.1~10.6GHz"
+        ],
+        [
+            "1",
+            "B",
+            "Zigbee",
+            "",
+            "NW > WPAN > Zigbee(Low Data Rate)\nIEEE 802.15.4\n65,000 Slave, 250K, 2.4GHz, 868MHz"
+        ],
+        [
+            "1",
+            "B",
+            "Smart_Home",
+            "",
+            "Smart Tag, PLC, Smart Meter"
+        ],
+        [
+            "1",
+            "C",
+            "IoT_Protocol",
+            "",
+            "XMPP, CoAP, MQTT"
+        ],
+        [
+            "1",
+            "B",
+            "Matter",
+            "",
+            "스마트홈\n131회 컴시응 4교시\n멀티 어드민, 로컬 제어, 엔드포인트, 클러스터, 어트리뷰트, 쓰레드"
+        ],
+        [
+            "1",
+            "B",
+            "CoAP",
+            "",
+            "NW > IoT(프로토콜), 111.관리.2.6\nConstrained Application Protocol\nIETF(표준화단체)\nSensor, Client, Server, Proxy, DTLS]nIEEE 802.15.4, 6LoWPAN WG, IETF Std, CoRE WG\nUDP, CoAP Transactions, CoAP REST, Application"
+        ],
+        [
+            "1",
+            "B",
+            "MOM",
+            "MQ\nPub/Sub",
+            "비동기통신/신뢰성/확장성/EDA\nJMS/Active MQ/Rabbit MQ/IBM MQ\nMQTT/Kafka\nOASIS(표준화단체)"
+        ],
+        [
+            "1",
+            "B",
+            "MQTT",
+            "발구토브\nISO 20922\n최저 사이즈 2Bytes\nPublish/Subscribe\nTLS, MQTT over TCP",
+            "Message Queue Telemetry Transport\nIoT/M2M/저대역폭/일대다\nTCP/IP(연결지향)-연결/끊기/발행\nPublisher/Subscriber/Broker/Topic"
+        ],
+        [
+            "1",
+            "B",
+            "XMPP",
+            "",
+            "네트워크 > IoT(프로토콜)\n110.정보관리.1\neXtensible Messaging and Presence Protocol\nIETF(표준화단체)\nTCP, Publish/Subscribe, Client/Server, TLS+SASL"
+        ],
+        [
+            "1",
+            "B",
+            "C_V2X",
+            "",
+            "네트워크 > V2V\nCellular Vehicle-to-Everything"
+        ],
+        [
+            "1",
+            "B",
+            "LEO",
+            "",
+            "Low Earth Orbit Satellite\n저궤도 위성\n위성간 링크, 사용자 링크, 피더링크, 스페이스X, 원웹, DVB"
+        ],
+        [
+            "1",
+            "B",
+            "Link_State_Algorithm",
+            "링크는 오이",
+            "NW > 라우팅 프로토콜\nOSPF, 다익스트라 알고리즘"
+        ],
+        [
+            "1",
+            "C",
+            "FEC_BEC",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Wireless_Power_Transfer",
+            "",
+            "무선충전기술\n자기유도방식\n자기공명방식\n전자기파방식"
+        ],
+        [
+            "1",
+            "B",
+            "Mobile_Edge_Computing",
+            "",
+            "NW > 5G(IMT-2020)\nMobile Edge Computing\n118.관리.1"
+        ]
+    ],
+    "Security": [
+        [
+            "1",
+            "B",
+            "Security_Roadmap",
+            "",
+            "관물기네악인가법\n접운내공-접교감차\n장인재부-이백재변\n위권인도-데이시차\n아포재미-PL안E\n바보(봇)소불-안아업시\n중회추모-대적결탐\n악비뭐해(하)-은표공변\n지개민코-특P서R"
+        ],
+        [
+            "1",
+            "B",
+            "Encryption",
+            "인기무부가\n대블치확압혼확\n정스블키대비",
+            "인증, 기밀성, 무결성, 부인방지, 가용성\n대치, 블록화, 치환, 확장, 압축, 혼돈, 확산\n스트림 암호화, 블록 암호화, 대칭키, 비대칭키"
+        ],
+        [
+            "1",
+            "B",
+            "Encryption_Algorithm",
+            "대불치\n아호화\n방키\n정기\nSF이소타전",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Symmetric_Asymmetric_Encryption",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Hash_Function",
+            "압효단충",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Hash_Salt_Key_Stretching",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MDC_MAC",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "PKI",
+            "인기무부\n인디등사",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Digital_Signature",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Dual_Signature",
+            "",
+            "SE > 암호화 > 이중서명\n해시, 공개키/비밀키, 전자봉투, 구매 정보/결제 정보"
+        ],
+        [
+            "1",
+            "B",
+            "Digital_Envelope",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Stream_Cipher",
+            "",
+            "SE > 암호화 > 스트림 암호화\n쉬프트 레지스트리,고속 비트단위 수행\n특징–고속,낮은 전송오류,일회용 패드(One-time Pad)기반\n종류–RC4, SEA(Software-optimized Encryption Algorithm)"
+        ],
+        [
+            "1",
+            "B",
+            "Block_Cipher",
+            "이씨피씨오씨",
+            "ECB(Electronic Code Book)\nCBC(Cipher Block Channing)\nPCBC(Propagating CBC)\nCFB(Cipher Feedback)\nOFB(Output Feedback)\nCTR(Counter)"
+        ],
+        [
+            "1",
+            "B",
+            "Block_Cipher_Operation_Mode",
+            "이씨피씨오씨",
+            "블록 암호화 운영모드\nECB(Electronic Code Book)\nCBC(Cipher Block Channing)\nPCBC(Propagating CBC)\nCFB(Cipher Feedback)\nOFB(Output Feedback)\nCTR(Counter)"
+        ],
+        [
+            "1",
+            "B",
+            "Diffie_Hellman_Key_Exchange",
+            "",
+            "SE > 암호화 > Diffie-Hellman Key Exchange(키 교환)\n소수, 원시근(Primitive Root), 비 공개키, 공개키, 비밀키, 중간자 공격(MITM) 취약"
+        ],
+        [
+            "1",
+            "B",
+            "SEED",
+            "",
+            "국내암호기술\n128비트 대칭키 블록 암호\nFeistel"
+        ],
+        [
+            "1",
+            "B",
+            "AES",
+            "서시미아",
+            "XOR, S-Box, P-Box, SPN\nAdvanced Encryption Standard"
+        ],
+        [
+            "1",
+            "B",
+            "RaaS",
+            "",
+            "Ransomeware as a Service"
+        ],
+        [
+            "1",
+            "B",
+            "Malware_Detection",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SandBox",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Quantum_Compute",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Quantum_Encryption",
+            "편위채퍼B\n양광단난프",
+            "HNDL(Harvest Now, Decrypt Later)\n\n스마트폰내 안전 저장매체\nHW방식:USIM/TZ\nOS제공:Keystore/Keychain\nSW방식:WBC(White-box Cryptography)"
+        ],
+        [
+            "1",
+            "B",
+            "Quantum_Encryption_Vulnerability",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "BB84",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "PQC",
+            "다코격아해",
+            "125회.정보관리.1\nPost-Quantum Cryptography\n양자내성암호화/n다변수기반, 코드기반, 격자기반, 아이소제니기반, 해시기반 전자서명"
+        ],
+        [
+            "1",
+            "B",
+            "HMAC",
+            "",
+            "SE > 암호화\n117_관리_1\nHash-based Message Authentication Code"
+        ],
+        [
+            "1",
+            "B",
+            "ElGamal",
+            "",
+            "엘가멜\n111.정보관리.1.9\n이산대수 문제, 키생성, 암호화, 복호화"
+        ],
+        [
+            "1",
+            "B",
+            "Format_Preserving_Encryption",
+            "",
+            "형태보존암호화\nFPE"
+        ],
+        [
+            "1",
+            "B",
+            "Order_Preserving_Encryption",
+            "",
+            "순서보존암호화\nOPE"
+        ],
+        [
+            "1",
+            "B",
+            "Homomorphic_Encryption",
+            "부스",
+            "125회.정보관리.1\n동형 암호\n격자기반암호, 서킷 프라이버시, 다중 도약 동형성 부분 동형 암호, 스쿼싱(Squashing), 부트스트래핑(Bootstrapping)"
+        ],
+        [
+            "1",
+            "B",
+            "ARP_Spoofing",
+            "",
+            "116컴시응 2교시\n데이터링크계층, ARP/RARP(MAC <-> IP), 모든주소확인(arp –a), 정적주소할당(arp –s), 서버존, 클라이언트존, ARP Reply"
+        ],
+        [
+            "1",
+            "C",
+            "ARP_Poisoning",
+            "",
+            "자신의 MAC(Media Access Control) 주소, ARP Spoofing"
+        ],
+        [
+            "1",
+            "B",
+            "ARP_Redirect",
+            "",
+            "Address Resolution Protocol\nMAC(Media Access Control) 주소 중복, ARP Spoofing"
+        ],
+        [
+            "1",
+            "B",
+            "TCP_SYN_Flooding",
+            "",
+            "3 Way Handshake, Half Open, Backlog 큐, syncookie"
+        ],
+        [
+            "1",
+            "C",
+            "DoS",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "DDos",
+            "",
+            "Distributed Denial of Service Attack\nTCP/UDP Flooding, 3-Way Hand Shake, DRDoS, TCP Traffic Flooding, HTTP Header/Option Spoofing Flooding, HashDos"
+        ],
+        [
+            "1",
+            "C",
+            "DRDoS",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "TCP_Traffic_Flooding",
+            "",
+            "DRDoS"
+        ],
+        [
+            "1",
+            "C",
+            "HTTP_Header_Option_Spoofing_Flooding",
+            "",
+            "DRDoS"
+        ],
+        [
+            "1",
+            "C",
+            "HASHDoS",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "APT",
+            "침탐수유(제)\n관사제수 다은연 은권 유중",
+            "침투, 검색/탐색, 수집, 유출(제어)"
+        ],
+        [
+            "1",
+            "B",
+            "Drive_by_Download",
+            "",
+            "DBD\n워터링홀, 스피어피싱, Web Exploit Kit"
+        ],
+        [
+            "1",
+            "B",
+            "Exploit",
+            "",
+            "버그, 취약점, 제로데이공격, 스펨메일, 시그니처, Exploit Kit(매타잇스플로잇), Anti Exploit"
+        ],
+        [
+            "1",
+            "C",
+            "Anti_Exploit",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Ransomware",
+            "사금암\n증신데\n정구백관",
+            "인질, 멀버타이징, 스케어웨어, CryptoLocker\n기출-113-관리-3"
+        ],
+        [
+            "1",
+            "B",
+            "RansomWeb",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Cryptojacking",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Spear_Phishing",
+            "",
+            "특정대상, 타겟, 이메일, DVD, 온라인 개인정보 노출 최소화, 최신 보안패치"
+        ],
+        [
+            "1",
+            "B",
+            "Watering_Hole_Attack",
+            "",
+            "기출.컴시응.116.1교시\n표적 공격, 정보수집, 공격 시스템 구축, 지역 내부 침해, 제로데이 공격, 안티 익스플로잇(Exploit)"
+        ],
+        [
+            "1",
+            "B",
+            "Slowloris",
+            "",
+            "Slow HTTP Header Dos\n비정상 HTTP Header"
+        ],
+        [
+            "1",
+            "B",
+            "Covert_Channel",
+            "",
+            "은닉채널\nDNS Covert Channel\n존재 은닉, DNS\n컴, 119, 2교시"
+        ],
+        [
+            "1",
+            "B",
+            "DNS_Covert_Channel",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Credential_Stuffing",
+            "",
+            "131.정보관리.1"
+        ],
+        [
+            "1",
+            "B",
+            "Stuxnet",
+            "",
+            "110.관리.1\nSCADA, 운영체제감염(Windows), Step7 SW감염, PLC감염, 제로데이어택, 망분리, 폐쇄망 운영 대규모 산업시설"
+        ],
+        [
+            "1",
+            "B",
+            "Qshing",
+            "",
+            "QRCode 이용\n107.정보관리.1"
+        ],
+        [
+            "1",
+            "B",
+            "Fileless_Malware",
+            "스링파메다위\n리메스W",
+            "파일리스 악성코드"
+        ],
+        [
+            "1",
+            "B",
+            "InfoStealer",
+            "",
+            "129정보관리 기출\nChromium, SQLite DB, AES Key\nGecko, logins.json, NSS Library nss3.dll, PK11SDR_Decrypt"
+        ],
+        [
+            "1",
+            "B",
+            "Static_Analysis",
+            "소코리\n코풀고\n스쿠프",
+            "소스 코드 검증, 코드 리뷰, 리버스 엔지니어링 (역공학-정적분석)"
+        ],
+        [
+            "1",
+            "B",
+            "Dynamic_Analysis",
+            "디스모리\n버메와(밤에와)",
+            "컴시응.113.3\n디버깅, 스트레스 테스트, 모의 해킹, 리버스 엔지니어링 (역공학-동적분석)"
+        ],
+        [
+            "1",
+            "B",
+            "Signature_Detection",
+            "",
+            "111.관리.3교시\n스트링 시그니처, 명령어 빈도수, CFG 시그니처, 바이트 시퀀스"
+        ],
+        [
+            "1",
+            "B",
+            "Heuristic_Detection",
+            "",
+            "악성코드 프로파일, 네거티브 휴리스틱, 유전 알고리즘"
+        ],
+        [
+            "1",
+            "B",
+            "Behavior_Based_Detection",
+            "",
+            "무결성 검사, 행위 차단 방법"
+        ],
+        [
+            "1",
+            "B",
+            "Sandbox",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SQL_Injection",
+            "",
+            "파라메터 변조, SQL Query 조작/변경"
+        ],
+        [
+            "1",
+            "C",
+            "Mass_SQL_Injection",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "XSS",
+            "",
+            "Cross Site Script\n스크립트 변조, Session hijack, Stored XSS, Reflected XSS, DOM XSS"
+        ],
+        [
+            "1",
+            "A",
+            "SIM_Swapping",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "BPFDoor",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "OWASP_TOP10",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ISMS",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "G_ISMS",
+            "",
+            "110.관리.4\nISMS\n최초심사, 재심사, 사후관리, 갱신심사, 정보보호관리과정, 문서화, 정보보호대책\n\nG-ISMS\n인증관련 기관과 기준, 인증절차"
+        ],
+        [
+            "1",
+            "B",
+            "ISMS_P",
+            "119.관리.3.3\n관보개\n기위운점\n정인외물인접\n암정운보사재\n수보재파권",
+            "정보통신망법 제47조 2항\n관리체계 수립 및 운영 – 4.16.42\n보호대책 요구사항 - 12.64.192\n개인정보 처리단계별 요구사항 – 5.22.91\n분야/세부항목/주요확인사항"
+        ],
+        [
+            "1",
+            "B",
+            "ISMS_P_1",
+            "119.관리.3.3\n관보개\n기위운점\n정인외물인접\n암정운보사재\n수보재파권",
+            "정보통신망법 제47조 2항\n관리체계 수립 및 운영 – 4.16.42\n보호대책 요구사항 - 12.64.192\n개인정보 처리단계별 요구사항 – 5.22.91\n분야/세부항목/주요확인사항"
+        ],
+        [
+            "1",
+            "B",
+            "GDPR",
+            "",
+            "General Data Protection Regulation\n개인정보, 정보주체, DPO"
+        ],
+        [
+            "1",
+            "C",
+            "PPDM",
+            "",
+            "Privacy Preserving Data Mining"
+        ],
+        [
+            "1",
+            "B",
+            "Secure_Coding",
+            "입보시에코캡아",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SSL",
+            "핸체알레\n익서상\n스피변\nPDFH2",
+            "Handshake\nChange Cipher Spec\nAlert\nRecord Protocol\nRSA방식\nX.509v3\nport 443\nVPN활용\nTLS1.0으로 통합\nTLS 1.3"
+        ],
+        [
+            "1",
+            "B",
+            "VPN",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MoVPN",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Digital_Forensic",
+            "정재신연무\n준획보분보\n디메무 파삭비이 슬암덤 디네E\n소모암회",
+            "Forensic: 범죄수사 방식을 침해조사 절차로 도입\n원칙: 정당성, 재현성, 신속성, 연계보관성, 무결성\n절차: 준비, 획득, 보관, 분석, 보고\n유형: 데이터, 네트워크, 데이터베이스, 모바일, Cryptograph, 회계 포렌식 등"
+        ],
+        [
+            "1",
+            "B",
+            "SmartPhone_Forensic",
+            "",
+            "101_관리.2\nIMEI / IMSI / 충전 / 네트워크차단"
+        ],
+        [
+            "1",
+            "B",
+            "Cloud_Forensic",
+            "",
+            "111.관리.3"
+        ],
+        [
+            "1",
+            "B",
+            "Anti_Forensic",
+            "와이프가 다가오면 스테가노그래피를 암호화해야지",
+            "스테가노그래피, 암호화, Wiping, Degaussing(디가우징)c"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Carving",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "AAA",
+            "- 동작과정요\n(청)-전(달)-통(지)-설(정)\n-구조\nNAS[AAA client]-AAA server\n-프로토콜:RADIUS, DIAMETER\n-기술:인증,관리,암호화통신",
+            "SE > 접근제어(AC)\nAuthentication\nAuthorization\nAccounting"
+        ],
+        [
+            "1",
+            "B",
+            "DIAMETER",
+            "",
+            "RFC 3588\nHSS 연동\n(Home Subscriber Server)\n양방향, TCP/SCTP\nPayLoad 전체 암호화, DIAMETER BROKER\n응용 계층(메시지 생성/전송, 응용서비스 제공)\n전송 계층(신뢰성 있는 메시지 전송)"
+        ],
+        [
+            "1",
+            "B",
+            "MAC",
+            "",
+            "강제적 접근제어\n군사용\nMandatory Access Control"
+        ],
+        [
+            "1",
+            "B",
+            "DAC",
+            "",
+            "신원기반\n사용자 기반\nDiscretionary Access Control"
+        ],
+        [
+            "1",
+            "B",
+            "RBAC",
+            "",
+            "역할기반 접근제어\nRole Based Access Control"
+        ],
+        [
+            "1",
+            "B",
+            "ABAC",
+            "",
+            "135회 관리 2교시\nAttribute-Based Access Control"
+        ],
+        [
+            "1",
+            "B",
+            "Access_Control_Policy",
+            "정메모\n최직알",
+            "접근제어/통제(Access Control) 정책\nMAC, DAC, RBAC"
+        ],
+        [
+            "1",
+            "B",
+            "Access_Control_Policy_1",
+            "정메모\n최직알",
+            "접근제어/통제(Access Control) 정책\nMAC, DAC, RBAC"
+        ],
+        [
+            "1",
+            "B",
+            "Access_Control_Model",
+            "",
+            "Bell-Lapadula\nBiba\nClark & Wilson\nAccess Matrix"
+        ],
+        [
+            "1",
+            "B",
+            "XML_Security",
+            "",
+            "웹서비스 보안"
+        ],
+        [
+            "1",
+            "B",
+            "NAC",
+            "",
+            "Network Access Control"
+        ],
+        [
+            "1",
+            "B",
+            "Honey_Pot",
+            "",
+            "사이버 디셉션"
+        ],
+        [
+            "1",
+            "B",
+            "Cyber_Deception",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "NAT",
+            "",
+            "공인주소, 사설주소, 주소변환 VLSM(Variable Length Subnet Mask)"
+        ],
+        [
+            "1",
+            "B",
+            "IP_Masquerading",
+            "",
+            "105.관리.3.6\nPort, Forwarding(특정포트 지정), Load Balancing"
+        ],
+        [
+            "1",
+            "B",
+            "ESM",
+            "에메콘\n장정분탐대",
+            "기술적보안\n통합 보안 관리 시스템\nEnterprise Security Management"
+        ],
+        [
+            "1",
+            "B",
+            "DLP",
+            "",
+            "Data Lose Protection\n데이터 분류 및 흐름 감시, 데이터센터, 네트워크, 엔드포인트"
+        ],
+        [
+            "1",
+            "B",
+            "SOAR",
+            "소시티\n연가\n자플스\n사리",
+            "Security Orchestration, Automation and Response"
+        ],
+        [
+            "1",
+            "B",
+            "DNSSEC",
+            "",
+            "DNS 캐시 포이즈닝 공격 대응을 위해 공개키 암호화 방식 전자 서명"
+        ],
+        [
+            "1",
+            "B",
+            "EDR",
+            "",
+            "EndPoint Detection Response\n종단에서 일어나는 침해행위, 이상탐지 등에 대한 검출"
+        ],
+        [
+            "1",
+            "B",
+            "Cyber_Resilience",
+            "",
+            "사이버 레질리언스\n사이버 복원력"
+        ],
+        [
+            "1",
+            "B",
+            "CARTA",
+            "",
+            "CARTA 접근법\n2018년 가트너 10대 기술"
+        ],
+        [
+            "1",
+            "B",
+            "SASE",
+            "",
+            "Secure Access Service Edge"
+        ],
+        [
+            "1",
+            "B",
+            "CASB",
+            "기능 - 접데로이 위암 D\n유형,종류 - APPA/아파",
+            "Cloud Access Security Broker"
+        ],
+        [
+            "1",
+            "B",
+            "Zero_Trust_Secure_Model",
+            "",
+            "제로 트러스트 보안모델\n122 컴시응 1"
+        ],
+        [
+            "1",
+            "B",
+            "Zero_Trust_Guideline2",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SRM",
+            "",
+            "책임공유모델"
+        ],
+        [
+            "1",
+            "B",
+            "RASP",
+            "",
+            "Runtime Application Self-Protection\n런타임 애플리케이션 자가 보호\n앱 실행 중 위협 감지 차단 기술"
+        ],
+        [
+            "1",
+            "B",
+            "MLS",
+            "기밀(Classified·C)\n민감(Sensitive·S)\n공개(Open·O) 등급",
+            "다층보안체계\nMulti Level Security"
+        ],
+        [
+            "1",
+            "B",
+            "Mobile_Biometrics",
+            "",
+            "모바일 바이오인식\n104.관리.4"
+        ],
+        [
+            "1",
+            "C",
+            "Biometrics",
+            "FAR, FRR, CER, EER",
+            "생체인식"
+        ],
+        [
+            "1",
+            "B",
+            "FIDO2",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "IPSec",
+            "프데키보\n폐통적",
+            "Internet Protocol Security\nIPv6(의무적), IPv4(선택적)\nSPD(보안연계DB), SAD(보안정책DB)\nAH(인증 프로토콜) : RFC 2406\nESP(암호화 프로토콜) : RFC 2402\nPSec정책(SPD,SAD)\nkey관리(IKE)\n프로토콜(AH, ESP)"
+        ],
+        [
+            "1",
+            "B",
+            "Logical_Network_Separation",
+            "",
+            "논리적 망분리\n113.관리.4"
+        ],
+        [
+            "1",
+            "B",
+            "Device_DNA",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Zero_Knowledge_Proof",
+            "",
+            "영지식 증명\n알리바바 동굴 문제(20번 반복시 100만분의 1이하, 2^20 = 1,048,576)\n증명자(Prover), 검증자(Verifier), 완전성(Completeness), 건전성(Soundness), 영지식성(Zero-Knowledgness)"
+        ],
+        [
+            "1",
+            "B",
+            "Content_Security",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "DRM",
+            "",
+            "CP, CD, CC, CH (컨텐츠 제공자/분배자/소비자 클리어링하우스)"
+        ],
+        [
+            "1",
+            "B",
+            "Digital_Fingerprint",
+            "",
+            "전자지문\n위변조, 해시 함수"
+        ],
+        [
+            "1",
+            "B",
+            "CDR",
+            "",
+            "Content Disarm & Reconstruction\n콘텐츠 무해화 기술"
+        ],
+        [
+            "1",
+            "B",
+            "PET",
+            "",
+            "개인정보 보호기술\nPrivacy Enhancing Technology"
+        ],
+        [
+            "1",
+            "B",
+            "PbD",
+            "",
+            "Privacy by Design"
+        ],
+        [
+            "1",
+            "B",
+            "CCTV_Privacy",
+            "",
+            "프라이버시 마스킹, CCTV 안내판"
+        ],
+        [
+            "1",
+            "B",
+            "Pseudonymization",
+            "시부차, 매휴~",
+            "가명처리"
+        ],
+        [
+            "1",
+            "B",
+            "Cyber_Kill_Chain",
+            "",
+            "111회.정보관리.1교시\n7단계 항목 및 공격방법 + 대응방안"
+        ],
+        [
+            "1",
+            "B",
+            "Threat_Hunting",
+            "",
+            "위협헌팅"
+        ],
+        [
+            "1",
+            "B",
+            "Cyber_Warfare",
+            "",
+            "사이버전\n관리.111.2.3"
+        ],
+        [
+            "1",
+            "B",
+            "Cyber_Security_Organization",
+            "",
+            "보안 컴플라이언스, CISO, 전담 조직\n컴시응.120.4"
+        ],
+        [
+            "1",
+            "B",
+            "Pseudonym_Information_Guidelines",
+            "신수반사\n모결가",
+            "가명 정보 가이드라인"
+        ],
+        [
+            "1",
+            "B",
+            "Pseudonym_Information_Combination_Export",
+            "사가적사\n사결추활",
+            "가명 정보 결합/반출"
+        ],
+        [
+            "1",
+            "B",
+            "CBPR",
+            "",
+            "Cross Border Privacy Rules\n132.정보관리.3\nAPEC(Asia-Pacific Economic Cooperation)\nAPEC, 전자상거래 활성화, 개인정보 상호이전, APEC 프라이버시 9원칙"
+        ],
+        [
+            "1",
+            "B",
+            "TPM",
+            "",
+            "Trusted Platform Module"
+        ],
+        [
+            "1",
+            "B",
+            "Obfuscation",
+            "구데집제예",
+            "난독화, 108.관리-4\n소프트웨어 역공학, 코드 난독화, 구획 난독화, 데이터 난독화, 집합 난독화, 제어 난독화, 예방 난독화"
+        ],
+        [
+            "1",
+            "B",
+            "Categorization",
+            "가총삭범마",
+            "범주화\n107회.관리.4.2"
+        ],
+        [
+            "1",
+            "B",
+            "Smart_Factory",
+            "",
+            "스마트팩토리"
+        ],
+        [
+            "1",
+            "B",
+            "Smart_Car_Security",
+            "회생자애",
+            "스마트카 보안\nCSMS(Cyber Security Mng System)-모빌리티 시스템의 설계, 생산, 단종 전과정 발생 가능한 사이버 위협 체계적 관리, 대응 위한 인증/관리 체계\nISO 11898(메시지 전송구간 비암호화)\nTPM(Trusted Platform Module)\n적대적공격, 기반 인프라, 교통센타"
+        ],
+        [
+            "1",
+            "B",
+            "Privacy_Principles",
+            "수정목이안공개책",
+            "프라이버시 8원칙"
+        ],
+        [
+            "1",
+            "B",
+            "NonFaceToFace_Identity_Verification",
+            "",
+            "비대면 인증"
+        ],
+        [
+            "1",
+            "B",
+            "KYC",
+            "",
+            "고객확인 절차\nKnow Your Customer\n고객주의의무(CDD: Customer Due Diligence), 자금세탁, 셀프 인증"
+        ],
+        [
+            "1",
+            "B",
+            "IoC_IoA",
+            "",
+            "Indicators of Compromise - 침해사고지표\nIndicators of Attack - 침해공격지표"
+        ],
+        [
+            "1",
+            "B",
+            "CSAP",
+            "준평인\n시인예보\n서취모부평\n상심발취\n관물기",
+            "클라우드 보안인증제도\nVPC(Virtual Private Cloud)\nCIA ASW C2S프로젝트\nFedRAMP"
+        ],
+        [
+            "1",
+            "B",
+            "CWPP",
+            "Iaas Stack(설가무 애익워침멀)",
+            "Cloud Workload Protection Platform"
+        ],
+        [
+            "1",
+            "B",
+            "Realistic_Content_Security",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MEC_Vulnerability",
+            "인부통\n엣지, 암호화, 플랫폼, IOT 7대보안",
+            "모바일 엣지 컴퓨팅 취약점\n[취약점]\n- 보안인증우회공격 : 재전송공격, 중간자공격\n- 부채널공격 : 준비조사공격, 초기화 재적재 공격\n- 네트워크 노리는 공격 : 서비스 거부공격\n[대응방안]\n- SW보안 : 시큐어코딩적용, 보안취약점제거\n- 엣지물리보안 : 물리적 인터페이스 차단\n- 엣지 엔드 인증 : 인증 및 접근통제, 엣지연동간 상호인증"
+        ],
+        [
+            "1",
+            "B",
+            "MEC_Vulnerability_1",
+            "인부통\n엣지, 암호화, 플랫폼, IOT 7대보안",
+            "모바일 엣지 컴퓨팅 취약점\n[취약점]\n- 보안인증우회공격 : 재전송공격, 중간자공격\n- 부채널공격 : 준비조사공격, 초기화 재적재 공격\n- 네트워크 노리는 공격 : 서비스 거부공격\n[대응방안]\n- SW보안 : 시큐어코딩적용, 보안취약점제거\n- 엣지물리보안 : 물리적 인터페이스 차단\n- 엣지 엔드 인증 : 인증 및 접근통제, 엣지연동간 상호인증"
+        ],
+        [
+            "1",
+            "B",
+            "Metaverse_Security_Threat",
+            "신개불저(신원 변조･도용, 개인정보 불법 거래, 불법행위와 사법권 침해, AI 창작물 저작권 침해)\n영가D(영지식증명, 가명처리, DRM)",
+            "126.정보관리.4"
+        ],
+        [
+            "1",
+            "B",
+            "GAI_Security_Threats_Countermeasures",
+            "",
+            "생성형 AI 보안 위협 및 대응방안"
+        ],
+        [
+            "1",
+            "B",
+            "Cloud_Computing_Vulnerability",
+            "",
+            "기밀성, 무결성, 가용성, 접근제어, 원격제어, 네트워크/웹 보안, VM Introspection, Agentless Virtual Security Appliance"
+        ],
+        [
+            "1",
+            "C",
+            "Hypervisor_Security_Technology",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "UAM_Vulnerabilities_Countermeasures",
+            "",
+            "보안사고(의도한 사고), 안전사고(의도 않은 사고)\n전동화, 자율주행, 소음절감, eVTOL, 버티포트, PSU, 충전, MRO, UTM, MaaS, C-ITS, 6G, SBAS, GNSS, 드론"
+        ],
+        [
+            "1",
+            "C",
+            "Bug_Bountry",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27000",
+            "ISMS\nISMS-P",
+            " K-ISMS(한국형 ISMS))"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27001",
+            "",
+            "정보보호 관리체계\nISMS\nISMS-P"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27002",
+            "",
+            "정보보호 보안지침"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_27014",
+            "",
+            "정보보호 거버넌스\n구성요소: 프로세스, 조직구조, 리더십, Evaluate, Direct, Monitor\n정보보호 거버넌스 목표: 책임성, 비즈니스 연계성, 준거성\n정보보호 거버넌스 도메인: 전략적 연계, 가치전달, 위험관리, 자원관리, 성과측정"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27017",
+            "정조인자\n접안물운\n통개공사연법",
+            "122회.관리3\n클라우드 서비스 보안 국제 표준\n클라우드 서비스 제공자 대상\n14개 도메인, 37개 통제항목\n3년 재인증(1년 갱신)\n122회 기출"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27018",
+            "",
+            "클라우드 서비스 개인정보\n11개 도메인, 27개 통제 항목\n3년 재인증(1년 갱신)"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27100",
+            "0123 032-개구보관문",
+            "사이버 환경에서 네트워크를 통해 연결된 조직/사용자 자산을 보호하기 위해 ISO/IEC 27000 기반으로 제정중인 국제 표준\n27100 : 보안에 관한 전반적인 개념\n  27101 : 개발하고 구축하기 위한 가이드 라인\n27102 : 사이버 보험을 도입하기 위한 가이드 라인\n27103 : 관리하기 위한 방법\n27032 : 문제를 해결하기 위한 지침"
+        ],
+        [
+            "1",
+            "A",
+            "Privacy_Information_Process_Guide",
+            "",
+            "개인정보 처리 통합 안내"
+        ],
+        [
+            "1",
+            "A",
+            "Privacy_Information_Process_Guide_1",
+            "",
+            "개인정보 처리 통합 안내"
+        ],
+        [
+            "1",
+            "A",
+            "Privacy_Information_Process_Guide_2",
+            "",
+            "개인정보 처리 통합 안내"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_29100",
+            "동합수데사정개참책정보",
+            "ISO/IEC 29100\n프라이버시 11원칙"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27701",
+            "",
+            "ISO/IEC 27701\n개인정보 보호시스템"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_20889",
+            "가총삭범마\n휴암교\n총부라재\n삭부레식\n감랜범제\n임공",
+            "ISO/IEC 20889\n개인정보 가명 익명화"
+        ]
+    ],
+    "DataBase": [
+        [
+            "1",
+            "B",
+            "Transaction",
+            "활부 실완철\n갱현모현\nACID\n스트로리",
+            "상태전이\nAAF\nPCT\nACID"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Independence",
+            "외개내",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity",
+            "개참속사키도\n회로체크아\n락2락타다아",
+            "확보기법-데이터 무결성 제약조건\n유지기법-데이터 회복기법, 데이터 동시성 제어"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_Constraints",
+            "개참속사키도",
+            "데이터 무결성 제약조건"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_Maintenance",
+            "",
+            "데이터 무결성 유지 기법\n회복기법 (회로체크아) : Log 기반 회복 (즉시, 지연), Check Point, Shadow Page, ARIES\n동시성제어기법 (락2낙타다아) : Locking, 2Phse Locking, Validation,Timestamp Ordering, MVCC"
+        ],
+        [
+            "1",
+            "B",
+            "Database_Recovery_Technique",
+            "",
+            "데이터베이스 회복기법"
+        ],
+        [
+            "1",
+            "B",
+            "Log_Based_Recovery",
+            "지즉",
+            "로그기반 회복 기법104.컴시응.4\nw지연-Redo, 즉시-Redo, Undo"
+        ],
+        [
+            "1",
+            "B",
+            "Checkpoint_Recovery",
+            "체리언",
+            "105.관리.1"
+        ],
+        [
+            "1",
+            "B",
+            "Shadow_Paging_Recovery",
+            "",
+            "- 그림자페이지테이블을 유지\n- 에러 발생 시, 그림자페이지테이블로 현재 테이블 대체\n- 갱신:저장/생성/기록/반영\n- 회복:제거/갱신/복구"
+        ],
+        [
+            "1",
+            "B",
+            "ARIES",
+            "",
+            "Algorithms for Recovery and Isolation Exploiting Semantics\n로그 기반 데이터 회복 기법\n회복 3단계(분석, REDO, UNDO)\n필요정보(로그, 트랜잭션 테이블, 오손 페이지 테이블)"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_Locking",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_2PL_2PLP",
+            "확수",
+            "Strict 2PL\nRigorous 2PL"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_Validation",
+            "판확기",
+            "낙관적 검증 기법\nRead Phase, Validation Phase, Execution(Write) Phase\n판독, 확인, 기록(디스크에 반영)하는 3단계. 직렬화 확인 후 반영"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_Timestamp_Ordering",
+            "",
+            "생성방법(논리적계수, 시스템시계)\n종류(read_TS, write_TS)"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Integrity_MVCC",
+            "",
+            "다중 버전 동시성 제어, 111관리.90.3\n유형 : MultiversionTimestamp Ordering, Multiversion Two-Phase Locking\n정책 : Multi-version Read Consistency, Isolation Level"
+        ],
+        [
+            "1",
+            "B",
+            "Non_Concurrent_Control",
+            "갱현모연\nLDIC",
+            "동시성 제어 안했을때 문제점\n111.정보관리.1.1\n다중사용자환경, 트랜잭션 직렬화, 갱신손실, 현황파악오류, 모순성, 연쇄복귀"
+        ],
+        [
+            "1",
+            "B",
+            "Isolation_Level",
+            "고일저병\n부비가\n(DNP)\n언커러시",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Distributed_DB",
+            "글로커\n저질 보복 동\n위중병분장지",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "NoSQL",
+            "파리모기산적하\n키카도그순\n그네 도코몽 키다리 카산할배 순애매",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "NewSQL",
+            "SCSD\n인마\n샤스\n인스",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Anomaly",
+            "삽갱삭",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Armstrongs_Axioms",
+            "폐완정\n기재부이\n부분합의",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Functional_Dependency",
+            "완부이결다조",
+            "함수적 종속성"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization",
+            "중부이결다조",
+            "118.관리.1\n속성, 반복 속성 제거, 정규화, 원자값(Atomic Value)"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization_1th",
+            "",
+            "118.관리.1\n속성, 반복 속성 제거, 정규화, 원자값(Atomic Value)"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization_2nd",
+            "",
+            "부분함수 종속 제거"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization_3rd",
+            "",
+            "이행함수 종속성 제거, 의존자 간 종속성 제거"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization_BCNF",
+            "",
+            "Boyce-Codd Normalization Form, 3.5NF, 105.정보관리.3.1\n결정자 함수 종속성 제거, 이상현상방지"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization_4th",
+            "프로기사(프로젝트,기술,사원)",
+            "다치종속(MVD), 이상현상, 이중화살표"
+        ],
+        [
+            "1",
+            "B",
+            "Normalization_5th",
+            "",
+            "조인종속성(JD, Join Dependency)"
+        ],
+        [
+            "1",
+            "B",
+            "Denormalization",
+            "대다반\n대유적\n범대통테, 뷰클인응 테컬관\n병분추 중파이 중",
+            "테이블 병합, 테이블 분할, 테이블 추가, 컬럼, 관계"
+        ],
+        [
+            "1",
+            "B",
+            "DB_Tuning",
+            "힛대응\n설DS 프테식인타반 설메체자리롤 옵조인힌다병\n율처응로 시간 확적이단",
+            "105.정보관리.1.12"
+        ],
+        [
+            "1",
+            "B",
+            "EDA_CDA",
+            "",
+            "탐색적 데이터 분석(EDA)-Exploratory Data Analysis, 확증적 데이터 분석(CDA)-Confirmatory Data Analysis"
+        ],
+        [
+            "1",
+            "B",
+            "Exploratory_Data_Analysis",
+            "",
+            "탐색적 데이터 분석(EDA)\nExploratory Data Analysis"
+        ],
+        [
+            "1",
+            "B",
+            "Confirmatory_Data_Analysis",
+            "",
+            "확증적 데이터 분석(CDA)\nConfirmatory Data Analysis"
+        ],
+        [
+            "1",
+            "C",
+            "Data_Analysis_Insight_Deduction",
+            "",
+            "데이터 분석 인사이트/주제 도출 방안"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Analysis_Governance",
+            "",
+            "데이터 분석 거버넌스"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Analysis_Readiness_Maturity",
+            "",
+            "데이터 분석 준비도/성숙도"
+        ],
+        [
+            "1",
+            "B",
+            "Ensemble_Learning",
+            "배부포",
+            "120.관리.3.3"
+        ],
+        [
+            "1",
+            "B",
+            "BigData_Analysis",
+            "배부",
+            "배깅(bagging; bootstrap aggregating, 개별 모델)\n부스팅(Boosting)"
+        ],
+        [
+            "1",
+            "B",
+            "Bagging",
+            "로샘(반)모파",
+            "Bootstrap+Aggregating"
+        ],
+        [
+            "1",
+            "B",
+            "Boosting",
+            "로오모가파",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Random_Forest",
+            "",
+            "관리110회1교시, 데이터분석 > 데이터 예측 및 분류\n임의 최적 노드, 배깅, 결정 트리, 정규화 랜덤 포레스트, 앙상블, 선형결합"
+        ],
+        [
+            "1",
+            "B",
+            "Bigdata_Analysis_Evaluation_Method",
+            "트크부",
+            "분석 모델 평가 방법"
+        ],
+        [
+            "1",
+            "B",
+            "Hadoop3",
+            "자이얀쉘 맵스디\n이안맵\n자쉘스디",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Data_Quality_Management",
+            "",
+            "데이터 품질관리 대상, DA, Modeler, DBA, User, 품질관리 기법, 120회 응용 2.2"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Cleansing",
+            "정원우유제\n변코형수 파보",
+            "DB > 데이터 분석 > 데이터 프로파일링\n데이터 변환, 데이터 파싱, 데이터 보강"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Profiling",
+            "수선수리종 데구관\n컬구단복값",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "Open_Data",
+            "",
+            "공공데이터\n방형 연결 데이터\nLinked Open Data"
+        ],
+        [
+            "1",
+            "B",
+            "Linked_Open_Data",
+            "",
+            "개방형 연결 데이터 (LOD, Linked Open Data), 122.관리.1, 119.관리.4\n생성/관리/발행/협업, URI, HTTP, RDF, Link, SPARQL, Ontology"
+        ],
+        [
+            "1",
+            "B",
+            "Linked_Open_Data_1",
+            "",
+            "개방형 연결 데이터 (LOD, Linked Open Data), 122.관리.1, 119.관리.4\n생성/관리/발행/협업, URI, HTTP, RDF, Link, SPARQL, Ontology"
+        ],
+        [
+            "1",
+            "B",
+            "MyData",
+            "개전서인보\n개산전지Q",
+            "120.관리.2\n신용정보법, 데이터전송요구권, 정보 권리 부여, 자기결정권, 보호조치, 정보주체 중심, 데이터 활용체계, 데이터 생태계"
+        ],
+        [
+            "1",
+            "B",
+            "Data_Governance",
+            "",
+            "표준 : TTAK.KO-10.0555\nDQM3 : 데이터 품질 관리"
+        ],
+        [
+            "1",
+            "B",
+            "Query_Off_Loading",
+            "",
+            "Query-Off Loading\nUpdate/Read 트랜잭션 분리, Master DB, Staging DB, Slave DB"
+        ]
+    ],
+    "CA": [
+        [
+            "",
+            "C",
+            "temp",
+            "",
+            ""
+        ]
+    ],
+    "OS": [
+        [
+            "1",
+            "A",
+            "CXL",
+            "",
+            "136회 1.8번"
+        ],
+        [
+            "1",
+            "A",
+            "Segmentation_Fault",
+            "",
+            "136회 1.7번"
+        ],
+        [
+            "1",
+            "B",
+            "Mutual_Exclusion",
+            "",
+            "상호배제\n램포트, 피터슨, 데커알고리즘, 세마포어, swap, test and set, 인터럽트 금지"
+        ]
+    ],
+    "Algorithm": [
+        [
+            "",
+            "A",
+            "AVL_Tree",
+            "",
+            "심화반 자료구조 강의자료 확인"
+        ]
+    ],
+    "AI": [
+        [
+            "1",
+            "B",
+            "AI_Roadmap",
+            "",
+            "AI 감사 역량\nAI 거버넌스, 리스크\nAI 운영\nAI 감사도구, 기법\n정보이용 투명성, 정보 통제권, 피해보상권, 자기결정권"
+        ],
+        [
+            "1",
+            "B",
+            "supervised_learning",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "unsupervised_learning",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "reinforcement_learning",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "AGI",
+            "노이컴엑버슈",
+            "ANI - Narrow\nAGI - General\nASI - Super"
+        ],
+        [
+            "1",
+            "C",
+            "Multi_Layer_Neural_Network",
+            "",
+            "Multi_Layer_Perceptron"
+        ],
+        [
+            "1",
+            "B",
+            "Multi_Modal",
+            "입인퓨크 얼레조",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Gradient_Descent",
+            "확배미 오 모네 로 SMNARA",
+            "경사하강법\nMLP, 최적해 찾기\nGlobal Maximum / Local Maximum\nGlobal Cost Minimum"
+        ],
+        [
+            "1",
+            "B",
+            "Gradient_Vanishing",
+            "",
+            "컴시응122.1"
+        ],
+        [
+            "1",
+            "B",
+            "Gradient_Exploding",
+            "",
+            "기울기 폭주\n기울기 소실 : 기울기 비정상 수렴, ReLU, Leaky ReLU\n기울기 폭주 : 기울기 비정상 발산, Gradient Clippin"
+        ],
+        [
+            "1",
+            "A",
+            "Data_Labeling",
+            "",
+            "비지도학습 – Clustering > 데이터 레이블링 (Data Labeling)"
+        ],
+        [
+            "1",
+            "B",
+            "Clustering_Analysis",
+            "",
+            "AL > 비지도학습 > Clustering 분석\n기출-99-응용-1-8\n비지도학습, 군집화, 중심과의 거리, K-means, DBSCAN, EM"
+        ],
+        [
+            "1",
+            "C",
+            "Backpropagation",
+            "",
+            "순전파(feedpropagation), 전파(backpropagation),오차계산,가중치업데이트,오차역전파법"
+        ],
+        [
+            "1",
+            "B",
+            "Fine_Tuning",
+            "선준토 조트개\n정밀 SRG\n파라미터효율 LQP",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Federated_Learning",
+            "분갱취갱\n알SA\n프다동차",
+            "연합학습, 128.관리.3교시\n전역 모델(Global Model), 지역 모델(Local Model), FedSGD(Federated Stochastic Gradient Descent), FedAVG(Federated Averaging)\n전역모델 분배(Broadcast), 지역모델 갱신(Local Update), 지역모델 취합(Aggregate), 전역모델 갱신(Global Update)\n차등정보암호(노이즈추가), 동형함호, 다자산계산"
+        ],
+        [
+            "1",
+            "C",
+            "Active_Learning",
+            "",
+            "능동 학습, 123.컴시응.1\nLabeled data, unlabed data, 데이터 선별, 데이터 교정, 라벨링"
+        ],
+        [
+            "1",
+            "B",
+            "Transfer_Learning",
+            "적태도\n레귀변자\n피파멀프\n도",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Activation_Fucntion",
+            "항경계시탄레리소맥\n단 시렐소 양 탄리맥\n단극(계시), 양극(항리)",
+            "심층신경망 출력여부결정, 비선형변환\n매개연산감소,XOR\n단극성, 양극성, Sigmoid Function, Step Function, ReLU Function, Tanh Function, Leaky ReLU Function, Identity Function"
+        ],
+        [
+            "1",
+            "B",
+            "Softmax",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "One_Hot_Encoding",
+            "",
+            "가중치, 입력층, 출력층, 활성함수"
+        ],
+        [
+            "1",
+            "B",
+            "Hyper_Parameter",
+            "학은할배 가편\n매그랜배",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "NPU",
+            "",
+            "Neural Processing Unit\n지능형 반도체\n신경망 처리장치"
+        ],
+        [
+            "1",
+            "B",
+            "OverFitting",
+            "고분산 저편향\n노독복\n조정교차드",
+            "127 관리 1\n과소적합, 정적적합, 차원의저주, 모델의 복잡, Bias-Variance Tradeoff, Dropout, Regularization, Feature Extraction, Feature Selection"
+        ],
+        [
+            "1",
+            "B",
+            "UnderFitting",
+            "저분산 고편향\nLG\n파확활",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "GenalizedFitting",
+            "언편 오분",
+            "적정적합모델\nJust Right"
+        ],
+        [
+            "1",
+            "B",
+            "DropOut",
+            "단점 오학\n피백하시공",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Dimensionality_Reduction",
+            "PCA, ICA, LDA",
+            "데이터 차원축소\nAI > 비지도 학습 > 잠재변수 모델 > 차원 축소"
+        ],
+        [
+            "1",
+            "B",
+            "PCA",
+            "",
+            "주성분분석\nPrincipal Component Analysis\nAL > 비지도 학습 > 잠재변수 모델\n안면인식, 공분산 분해, 고유 값 분해 (Eigen Value Decomposition / EVD)"
+        ],
+        [
+            "1",
+            "B",
+            "Loss_Cost_Objective_Function",
+            "MSE\nMAE\nRMSE\nBCE\nCCE\nSCCE",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "CNN",
+            "[절차] 원컨풀컨풀전\n[구성요소] 커피활패스 컨풀푸 드",
+            "Convolutional Neural Network\npooling - 이미지 특징을 반영하며, 차원을 축소\n[절차]\n원본이미지 -> 컨볼루션 -> 풀링 – 컨볼루션 -> 풀링 – 전체 연결된 신경망\n[구성요소]\n커널, Feature Map, 활성화함수, 패딩, Stride, Convolution layer, Pooling Layer, Fully Connected Layer, Drop out"
+        ],
+        [
+            "1",
+            "B",
+            "RNN",
+            "",
+            "Recurrent Neural Network\n순환신경망\nLSTM과 연관 지어서, 음성인식"
+        ],
+        [
+            "1",
+            "B",
+            "RCNN",
+            "",
+            "Region CNN\nObect Detection"
+        ],
+        [
+            "1",
+            "B",
+            "Fast_RCNN",
+            "",
+            "RoI(Region of Interest) Pooling"
+        ],
+        [
+            "1",
+            "B",
+            "LSTM",
+            "IFO",
+            "Long Short Term Menory\nVanishing Gradient Problem, cell state, Input Gate, Output Gate, Forget Gate"
+        ],
+        [
+            "1",
+            "B",
+            "GRU",
+            "",
+            "Gated Recurrent Unit\nReset, Update, Candidate, Hidden Layer Calculation, Vanishing Gradient Problem 해결"
+        ],
+        [
+            "1",
+            "B",
+            "SVM",
+            "",
+            "Support Vector Machine, 기.119.응.1.1\n분류, 패턴인식, 지도학습, 종속변수, 독립변수, Support Vector, Margin, 초평면, 커널함수, 과적합"
+        ],
+        [
+            "1",
+            "B",
+            "KNN",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "DBSCAN",
+            "앱클 코보컨노",
+            "밀도 기반 클러스터링\n비지도학습 – Clustering > DBSCAN\nEpsilon, Core point, minPts"
+        ],
+        [
+            "1",
+            "C",
+            "K_Means_Clustering",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "SOM",
+            "",
+            "자기조직화지도\nSelf-Organizing (Feature) Map\n비지도학습 – Clustering\n연속 입력층. 출력층, BMU(Best Matching Unit)"
+        ],
+        [
+            "1",
+            "C",
+            "Adversarial_Attack",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "GAN",
+            "",
+            "Generative Adversarial Network"
+        ],
+        [
+            "1",
+            "B",
+            "DCGAN",
+            "",
+            "Deep Convolutional Generative Adversarial Network"
+        ],
+        [
+            "1",
+            "B",
+            "Defense_GAN",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Q_Learning",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "MCTS",
+            "",
+            "Monte Carlo Tree Search\n인공지능 > 강화학습 > MCTS\n게임 시뮬레이션, 선택-확장-시뮬레이션-역전파\n기출-113-관리-1-3"
+        ],
+        [
+            "1",
+            "B",
+            "Optimization_Algorithm",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Foundation_Model",
+            "",
+            "인공지능 파운데이션 모델"
+        ],
+        [
+            "1",
+            "B",
+            "Foundation_Model_1",
+            "",
+            "인공지능 파운데이션 모델"
+        ],
+        [
+            "1",
+            "B",
+            "Knowledge_Distillation",
+            "",
+            "지식 증류, 123.컴시응.1\nAL > 지도학습 > 지식 증류\nTeacher Network(복잡한 모델)\nStudent NetWork(경량화 모델)"
+        ],
+        [
+            "1",
+            "B",
+            "Transformer",
+            "",
+            "AI > 자연어 처리 > 트랜스포머\n어텐션, 인코더, 디코더"
+        ],
+        [
+            "1",
+            "B",
+            "Transformer_1",
+            "",
+            "AI > 자연어 처리 > 트랜스포머\n어텐션, 인코더, 디코더"
+        ],
+        [
+            "1",
+            "B",
+            "LLM",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "sLLM",
+            "",
+            "소형언어모델"
+        ],
+        [
+            "1",
+            "B",
+            "NER",
+            "",
+            "Named Entity Recognition\n123. 관리. 4교시\n워드임베딩, CBOW, skip-gram, GloVe, fasttext, BERT, GPT-3, 트랜스포머, RNN, LSTM, GRU"
+        ],
+        [
+            "1",
+            "B",
+            "Word_Embedding",
+            "",
+            "word2vec, CBOW(Continuous Bag of Words), Skip-Gram, gloVe, FASTTEXT, LSA(Latent Semantic Analysis), 트랜스포머"
+        ],
+        [
+            "1",
+            "B",
+            "BERT",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "GPT",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "NLP",
+            "개자유감기(독)",
+            "Natural Language Processing\nNLG, NLU, 개체명인식(NER), NLP Embedding, 자연어추론, 유사도 예측, 감정분석, 기계독해, 대화관리, 형태소/구문 분석/의미 분석/담론 분석"
+        ],
+        [
+            "1",
+            "B",
+            "Hallucination",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Autoencoder",
+            "",
+            "오토인코더\n131 컴시응 1"
+        ],
+        [
+            "1",
+            "B",
+            "TF_IDF",
+            "",
+            "Term Frequency-Inverse Document Frequency"
+        ],
+        [
+            "1",
+            "B",
+            "AutoML",
+            "하파 그랜배경 특도피탐 모진강\n피하신 데모예",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "V_Model",
+            "",
+            "SW > Test > V-Model\n단위, 통합, 시험, 인수, Validation, Verification, Water Fall Model 테스트"
+        ],
+        [
+            "1",
+            "B",
+            "On_Device_AI",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "C",
+            "DSML",
+            "",
+            "데이터과학 및 기계학습(DSML)의 수명주기\nData Science & Machine Learning"
+        ],
+        [
+            "1",
+            "A",
+            "MLOps",
+            "",
+            "기계학습 운영화, AI > 기타 - 응용기술\nITSM\n프로젝트 계획 수립 및 착수, 데이터 준비 및 학습환경 구축, 모델 학습/튜닝, 모델 배포 및 생산 모니터링, Experiment, Develop, Operate"
+        ],
+        [
+            "1",
+            "B",
+            "ModelOps",
+            "",
+            "127 관리 1, 128 관리 1"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Model_Evaluation_Method",
+            "",
+            "인공지능 모델 평가방법"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Model_Evaluation_Metrics",
+            "",
+            "인공지능 모델 평가지표"
+        ],
+        [
+            "1",
+            "C",
+            "AI_Bias_Trustworthiness",
+            "",
+            "인공지능 편향성, 신뢰성 확보 방안"
+        ],
+        [
+            "1",
+            "C",
+            "Machine_Learning_Performance_Metrics",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "Confusion_Matrix",
+            "",
+            "모델 평가 > 혼동 행렬"
+        ],
+        [
+            "1",
+            "C",
+            "F1_Score",
+            "",
+            "116회.관리.1교시\nPrecison, Recall, True Positive, False Positive, True Negative, False Negative, 2 * (Precison + Recall) / (Precision * Recall)"
+        ],
+        [
+            "1",
+            "B",
+            "PR_ROC_AUC_CURVE",
+            "",
+            "PR(Precision Recall)\nROC(Receiver Operating Characteristics)\nAUC(Area Under Curve)"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Learning_Data_Quality_Management",
+            "계구운 임 획정라학\n준완유 적정유\n원데기조절품인\n정데지관검활기",
+            "126.관리.3교시\n인공지능 학습용 데이터 품질관리 가이드라인 3.1\nISO 25012(데이터 품질지표)절차 : 임무정의, 데이터 획득, 데이터정제, 데이터 라벨링, 데이터 학습\n데이터 : 원시데이터, 원천데이터, 라벨링데이터, 학습데이터셋\n품질관리 지표 : 절차(준비성, 완전성, 유용성), 데이터(적합성, 정확성, 유효성)"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Learning_Data_Quality_Management_1",
+            "계구운 임 획정라학\n준완유 적정유\n원데기조절품인\n정데지관검활기",
+            "126.관리.3교시\n인공지능 학습용 데이터 품질관리 가이드라인 3.1\nISO 25012(데이터 품질지표)절차 : 임무정의, 데이터 획득, 데이터정제, 데이터 라벨링, 데이터 학습\n데이터 : 원시데이터, 원천데이터, 라벨링데이터, 학습데이터셋\n품질관리 지표 : 절차(준비성, 완전성, 유용성), 데이터(적합성, 정확성, 유효성)"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Learning_Data_Lifecycle",
+            "",
+            "인공지능 학습용 데이터 생애주기"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Ethic",
+            "인사기\n인프다\n침공연데\n책안투",
+            "트롤리 딜레마, 데이터 편향, 알고리즘 책임성\n컴시응.122.2"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Ethic_1",
+            "인사기\n인프다\n침공연데\n책안투",
+            "트롤리 딜레마, 데이터 편향, 알고리즘 책임성\n컴시응.122.2"
+        ],
+        [
+            "1",
+            "B",
+            "Benchmark_Dataset",
+            "RCCFF",
+            "Raw Sensor Data, Cleannig of Low Data, Clean Sensor Data, Fault annotated Sensor Data"
+        ],
+        [
+            "1",
+            "B",
+            "NMT",
+            "",
+            "Neural Machine Translation"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Hostile_Attack",
+            "",
+            "적대적 공격, 123.관리.2\nPoisoning attack, Evasion attack, Inversion attack, Model extraction attack, Defense-GAN, 적대적 훈련(Adversarial training), 결과값 분석 차단, 쿼리 횟수 제한"
+        ],
+        [
+            "1",
+            "B",
+            "Collaborative_Filtering",
+            "",
+            "협업 필터링"
+        ],
+        [
+            "1",
+            "B",
+            "Super_Large_AI_Model",
+            "",
+            "공공 부문 초거대 AI 도입/활용 가이드라인"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Privacy_Checklist",
+            "",
+            "인공지능 개인정보보호 자율점검표"
+        ],
+        [
+            "1",
+            "B",
+            "AI_Privacy_Checklist_1",
+            "",
+            "인공지능 개인정보보호 자율점검표"
+        ],
+        [
+            "1",
+            "B",
+            "YOLO",
+            "주요기술 - 탐분 GBBD CSC",
+            "You Only Look Once\n실시간 객체 탐지기술"
+        ],
+        [
+            "1",
+            "B",
+            "Adaptive_AI",
+            "",
+            "적응형AI"
+        ],
+        [
+            "1",
+            "B",
+            "Vertical_AI",
+            "",
+            "산업별 특화 AI"
+        ],
+        [
+            "1",
+            "B",
+            "On_Service_AI",
+            "",
+            "서비스마다 AI 적용"
+        ],
+        [
+            "1",
+            "A",
+            "Deep_Reinforcement_Learning",
+            "",
+            "심층강화학습"
+        ],
+        [
+            "1",
+            "B",
+            "AIaaS",
+            "",
+            "편의 경제 확장\nNLP CV 추천 챗봇 음성인식"
+        ],
+        [
+            "1",
+            "B",
+            "Composable_AI_Workflow_Automation",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "A",
+            "GAI_User_Protection_Guideline",
+            "",
+            "생성형 인공지능 서비스 이용자 보호 가이드라인 (2025.02.28)"
+        ],
+        [
+            "1",
+            "A",
+            "GAI_Based_Work_Copyright",
+            "",
+            "생성형 인공지능 활용 저작물"
+        ]
+    ],
+    "ISO": [
+        [
+            "1",
+            "B",
+            "ISO_7498",
+            "",
+            "OSI 7 Layyer\nISO/IEC 7498:1994"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_12207",
+            "",
+            "SDLC"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_14000",
+            "",
+            "환경경영시스템(EMS) 국제 표준\nESG"
+        ],
+        [
+            "",
+            "A",
+            "ISO_14001",
+            "",
+            "구체적 환경 경영 시스템 구축 및 운영에 대한 요구 사항을 담은 표준"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_14143",
+            "",
+            "Function Point"
+        ],
+        [
+            "",
+            "C",
+            "ISO_15836",
+            "",
+            "메타데이터 표준, Dublin Core"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_20000",
+            "",
+            ""
+        ],
+        [
+            "",
+            "B",
+            "ISO_20889",
+            "가총삭범마\n휴암교\n총부라재\n삭부레식\n감랜범제\n임공",
+            "ISO/IEC 20889\n개인정보 가명 익명화"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_20922",
+            "",
+            "MQTT"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_21500",
+            "",
+            "PMBOK = De facto (업계 표준)\nISO 21500 = De jure (표준)"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_22301",
+            "계실모유(PDCA)\n조리계시운성개",
+            "BCM\nMTPD(Maximum Tolerable Period of Disruption)-최대허용가능시간\n조직이 서비스 중단 없이 유지할 수 있는 최대시간\n\nMBCO(Minimum Business Continuity Objective)\n목표복구시간(RTO) 내에 복구 가능한 최소한의 사업 연속성 수준"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_23894",
+            "",
+            "AI 위험관리 방법"
+        ],
+        [
+            "1",
+            "C",
+            "ISO_25000",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ISO_25010",
+            "기실호 상신보 유연안(안정성)\n기신사실유이호보\n성정타 성결복가\n이학운사사접\n시자기 분수시모재\n환설치 기무부책인\n효생안만상",
+            "소프트웨어 품질특성과 척도에 관한 표준 지침\nISO 9126 개정\n주특성/부특성 암기"
+        ],
+        [
+            "",
+            "B",
+            "ISO_25012",
+            "",
+            "인공지능 데이터 품질지표"
+        ],
+        [
+            "",
+            "A",
+            "ISO_26000",
+            "",
+            "사회적 책임 국제 표준\nCSR, ESG"
+        ],
+        [
+            "",
+            "B",
+            "ISO_26262",
+            "용기개\n시하소생\n지아가\n반모",
+            "SW 안전 등급"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27000",
+            "ISMS\nISMS-P",
+            " K-ISMS(한국형 ISMS))"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27001",
+            "",
+            "정보보호 관리체계\nISMS\nISMS-P"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27002",
+            "",
+            "정보보호 보안지침"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_27014",
+            "",
+            "정보보호 거버넌스\n구성요소: 프로세스, 조직구조, 리더십, Evaluate, Direct, Monitor\n정보보호 거버넌스 목표: 책임성, 비즈니스 연계성, 준거성\n정보보호 거버넌스 도메인: 전략적 연계, 가치전달, 위험관리, 자원관리, 성과측정"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27017",
+            "정조인자\n접안물운\n통개공사연법",
+            "클라우드 서비스 보안 국제 표준\n클라우드 서비스 제공자 대상\n14개 도메인, 37개 통제항목\n3년 재인증(1년 갱신)\n122회 기출"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27018",
+            "",
+            "클라우드 서비스 개인정보\n11개 도메인, 27개 통제 항목\n3년 재인증(1년 갱신)"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_27100",
+            "0123 032-개구보관문",
+            "'사이버 환경에서 네트워크를 통해 연결된 조직/사용자 자산을 보호하기 위해 ISO/IEC 27000 기반으로 제정중인 국제 표준\n27100 : 보안에 관한 전반적인 개념\n  27101 : 개발하고 구축하기 위한 가이드 라인\n27102 : 사이버 보험을 도입하기 위한 가이드 라인\n27103 : 관리하기 위한 방법\n27032 : 문제를 해결하기 위한 지침"
+        ],
+        [
+            "",
+            "B",
+            "ISO_27701",
+            "",
+            "ISO/IEC 27701\n개인정보 보호시스템"
+        ],
+        [
+            "",
+            "C",
+            "ISO_28000",
+            "",
+            "물류보안인증 평가기준"
+        ],
+        [
+            "",
+            "B",
+            "ISO_29100",
+            "동합수데사정개참책정보",
+            "개인정보보호\n프라이버시 11원칙"
+        ],
+        [
+            "",
+            "B",
+            "ISO_29119",
+            "개프도테키\n조관동\n명구경",
+            "ISO/IEC 33063\nISO/IEC 20246"
+        ],
+        [
+            "",
+            "B",
+            "ISO_29148",
+            "",
+            "ISO 29148:2018\n요구공학\n요구사항명세 작성 원칙"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_31000",
+            "",
+            "비즈니스 위험관리"
+        ],
+        [
+            "",
+            "A",
+            "ISO_33063",
+            "",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "ISO_38500",
+            "EDM",
+            "IT Governance"
+        ],
+        [
+            "1",
+            "A",
+            "ISO_42001",
+            "",
+            "ISO 42001:2023\nAI Management System\n인공지능 경영시스템 표준"
+        ],
+        [
+            "1",
+            "B",
+            "ISO_42010",
+            "식표AD 대이관 모아기 관뷰모근규대",
+            ""
+        ]
+    ],
+    "Knowhow": [
+        [
+            "1",
+            "B",
+            "Diff_Item",
+            "개목특기장단사",
+            "개념\n목적\n특징\n기술\n장점\n단점\n사례"
+        ],
+        [
+            "1",
+            "B",
+            "Security_Item",
+            "관물기",
+            ""
+        ],
+        [
+            "1",
+            "B",
+            "CAPEX_OPEX",
+            "",
+            ""
+        ]
+    ]
+}
