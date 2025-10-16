@@ -127,7 +127,7 @@
 ],
 "Project_Management": [
     ["1", "A", "Project_Management_Roadmap",            "1+3+1+RCR+PS (통범일원품자의위조이)\n766-4363-734", ""],
-    ["1", "B", "Organization_Type",                     "", "매트릭스 구조"],
+    ["1", "B", "Organization_Type",                     "기약균강프\n권인예시", "매트릭스 구조\n\n[조직유형 (매트릭스 구조) - 기약균강프 권인예시]\n\n- 유형 - 기약균강프\n기능 조직\n약한 매트릭스 조직\n균형 매트릭스 조직\n강한 매트릭스 조직\n프로젝트 조직\n\n- 특성 - 권인예시\n프로젝트 관리자 권한\n인력 가용 능력\n프로젝트 예산 관리\n프로젝트 관리자 시간 투자\n프로젝트 팀원 시간 투자"],
     ["1", "B", "Portfolio_Management",                  "", ""],
     ["1", "B", "Process_Group_Knowledge_Area",          "착계실통종\n1+3+1+RCR+PS / 766-4363-734\n\n포트폴리오 관리 프레임워크\nBCG Growth-Share Matrix / GE Business Screen Matrix", "예측적 개발\nISO 21500\n통범일원품자의위조이"],
     ["1", "B", "PMBOK7",                                "성테모\n가조기환고\n스팀이가 생리 테품 보리 적변\n이팀접계 프산측불\n이팀개기작인측불", "PMBOK = De facto (업계 표준)\nISO 21500 = De jure (표준)"],
@@ -498,9 +498,9 @@
 ],
 "Security": [
     ["1", "B", "Security_Roadmap",                      "관물기네악인가법\n접운내공-접교감차\n장인재부-이백재변\n위권인도-데이시차\n아포재미-PL안E\n바보(봇)소불-안아업시\n중회추모-대적결탐\n악비뭐해(하)-은표공변\n지개민코-특P서R", ""],
-    ["1", "B", "Information_Security_Governance",       "CIA (기무가)\n전위투요긍업\n평지모의보", "[보안 3대 요소 - CIA + 부인방지(책임추적)]\n\n- 기밀성 (Confidentiality)\n침해 - Shoulder Sniffing / Traffic 분석 / 사회공학기법\n유지 - 접근통제 / 암호화\n\n- 무결성 (Integrity)\n침해 - 시간차 공격 / Replay 공격\n유지 - 접근통제 / 의미적 무결성 제약 / 복구 시시템 / 동시성 제어\n\n- 가용성 (Availability)\n침해 - Dos, DDoS / 서비스 장애\n유지 - Dos, DDoS 대응 / 고가용 시스템\n\n[정보보호 거버넌스 6대 원리 - 전위투요긍업]\n전체 조직 정보보호 수립\n위험기반 접근방식\n투가졀정 방향 설정\n요구사항 적합성 확인\n긍정적 환경 조성\n업무 성과 관점 성과 검토\n\n[구성요소 - 평지모의보]\nEvaluate - 평가\nDirect - 지시\nMonitor - 모니텅\nCommunicate - 의사소통\nAssure - 보안감사"],
-    ["1", "B", "Encryption",                            "인기무부가\n대블치확압혼확\n정스블키대비", "[암호화 목적 - 인기무부가]\n인증 (Authentication) - 신원확인 / 인증서\n기밀성 (Confidentiality) - 데이터 보호 / 암호화\n무결성 (Integrity) - 무변조 보증 / 해쉬함수\n부인봉쇄 (Non-Repudiation) - 부인불가 / 전자서명\n가용성 (Availability) - 정합성 / 암호, 인증\n\n[암호화 원리 - 대블치확압혼확]\n대체 (Substitution) - 글자 대체\n블록화 (Blocking) - 열,행 변경 / 블록 구성\n치환 (Transposition) - 문자열 위치 변경\n확산 (Diffusion) - 평문bit가 암호bit로 분산\n압축 (Compaction) - 압축문, 삭제문 분리\n혼돈 (Confusion) - 변화 예측 불가\n확장 (Expansion) - 무의미 문자 삽입\n\n[암호문 유형]\n정보단위 - 스트림 / 블록\n키 형태 - 비밀키(대칭키) / 공개키(비대칭키)\n기반기술 - SPN / Feistel / 인수분해 / 이산대수 / 해시함수"],
-    ["1", "B", "Encryption_Algorithm",                  "대불치\n아호화\n방키\n정기\nSF이소타전", ""],
+    ["1", "B", "Information_Security_Governance",       "CIA (기무가)\n전위투요긍업\n평지모의보", "[보안 3대 요소 - CIA + 부인방지(책임추적)]\n\n- 기밀성 (Confidentiality)\n침해 - Shoulder Sniffing / Traffic 분석 / 사회공학\n유지 - 접근통제 / 암호화\n\n- 무결성 (Integrity)\n침해 - 시간차 공격 / Replay 공격\n유지 - 접근통제 / 무결성 제약 / 복구 시스템 / 동시성 제어\n\n- 가용성 (Availability)\n침해 - Dos, DDoS / 서비스 장애\n유지 - Dos, DDoS 대응 / 고가용 시스템\n\n[정보보호 거버넌스 6대 원리 - 전위투요긍업]\n전체 조직 정보보호 수립\n위험기반 접근방식\n투가졀정 방향 설정\n요구사항 적합성 확인\n긍정적 환경 조성\n업무 성과 관점 성과 검토\n\n[구성요소 - 평지모의보]\nEvaluate - 평가\nDirect - 지시\nMonitor - 모니텅\nCommunicate - 의사소통\nAssure - 보안감사"],
+    ["1", "B", "Encryption",                            "인기무부가\n대블치확압혼확 (서블트디컴컨익)\n정스블키대비", "[암호화 목적 - 인기무부가]\n인증 (Authentication) - 신원확인 / 인증서\n기밀성 (Confidentiality) - 데이터 보호 / 암호화\n무결성 (Integrity) - 무변조 보증 / 해쉬함수\n부인봉쇄 (Non-Repudiation) - 부인불가 / 전자서명\n가용성 (Availability) - 정합성 / 암호, 인증\n\n[암호화 원리 - 대블치확압혼확 (서블트디컴컨익)]\n대체 (Substitution) - 글자 대체\n블록화 (Blocking) - 열,행 변경 / 블록 구성\n치환 (Transposition) - 문자열 위치 변경\n확산 (Diffusion) - 평문bit가 암호bit로 분산\n압축 (Compaction) - 압축문, 삭제문 분리\n혼돈 (Confusion) - 변화 예측 불가\n확장 (Expansion) - 무의미 문자 삽입\n\n[암호문 유형]\n정보단위 - 스트림 / 블록\n키 형태 - 비밀키(대칭키) / 공개키(비대칭키)\n기반기술 - SPN / Feistel / 인수분해 / 이산대수 / 해시함수"],
+    ["1", "B", "Encryption_Algorithm",                  "대블치아호화\n방키정기\nSF이소타경해", ""],
     ["1", "B", "Symmetric_Asymmetric_Encryption",       "", ""],
     ["1", "B", "Hash_Function",                         "압효단충", ""],
     ["1", "B", "Hash_Salt_Key_Stretching",              "", ""],
