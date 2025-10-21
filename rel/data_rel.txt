@@ -746,7 +746,7 @@
     ["1", "B", "Unsupervised_Learning",                 "군변연생\n케하디 차(주독티유다자) 아프 히간디브", "[유형 분류]\n\n- 군집 (Clustering) - 케하디\nK-Means / Hierarchical Clustering / DBSCAN\n\n- 변환 (Transform) - 차(주독티유다자)\n차원 축소 - PCA / ICA / t-SNE / UMAP / MDS / SOM\n\n- 연관 (Association Rule) - 아프\nApriori / FP-Grouwth\n\n- 생성 (Generative) - 히간디브\nHMM / GAN / DCGAN / VAE"],
     ["1", "B", "Reinforcement_Learning",                "", ""],
     ["1", "B", "Hyper_Parameter",                       "학은활배 가편\n매그랜배", "[하이퍼 파라미터 종류 - 학은활배]\n학습률 / 은닉층 개수 / 활성화 함수 / 배치크기\n\n[파라미터 종류 - 가편]\n가중치 / 편향\n\n[튜닝 절차 - 매그랜배]\nManual Search - 휴리스틱 기반 / 탐색 단순성\nGrid Search - 균등 탐색 / 모든 조합 탐색\nRandom Search - 랜덤 샘플링 / 탐색범위 부여\nBayesian Optimization - Bayesian 이론 / Acquisition Function"],
-    ["1", "B", "Multi_Modal",                           "입인퓨크\n얼레조", "[구성요소 - 입인퓨크]\nInput - 이종 데이터 융합\nEncoding - CNN / NLP / STT\nFusion - Early / Late / Joint\n크로스 모달 학습 알고리즘 - NLP / STT / 회귀, 군집 등\n\n[데이터 처리 유형 - 얼레조]\nEarly - 이종 데이터 변환, 융합 후 모델 학습\nLate - 학습 결과 융합 / 앙상블 유사\nJoint - 결과(Loss)를 인풋 반영"],
+    ["1", "B", "Multi_Modal",                           "입인퓨크\n얼레조", "[구성요소 - 입인퓨크]\nInput - 이종 데이터 융합\nEncoding - CNN / NLP / STT\nFusion - Early / Late / Joint\n크로스 모달 학습 알고리즘 - NLP/STT/회귀, 군집 등\n\n[데이터 처리 유형 - 얼레조]\nEarly - 이종 데이터 변환, 융합 후 모델 학습\nLate - 학습 결과 융합 / 앙상블 유사\nJoint - 결과(Loss)를 인풋 반영"],
     ["1", "B", "Gradient_Descent",                      "확배미 오 모네 로 SMNARA", "경사하강법\nMLP, 최적해 찾기\nGlobal Maximum / Local Maximum\nGlobal Cost Minimum"],
     ["1", "B", "Gradient_Vanishing",                    "", "컴시응122.1"],
     ["1", "B", "Gradient_Exploding",                    "", "기울기 폭주\n기울기 소실 : 기울기 비정상 수렴, ReLU, Leaky ReLU\n기울기 폭주 : 기울기 비정상 발산, Gradient Clippin"],
