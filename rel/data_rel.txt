@@ -757,7 +757,7 @@
     ["1", "B", "Federated_Learning",                    "분갱취갱\nSA\n다동차", "연합학습, 128.관리.3교시\n\n전역 모델(Global Model), 지역 모델(Local Model), FedSGD(Federated Stochastic Gradient Descent), FedAVG(Federated Averaging)\n전역모델 분배(Broadcast), 지역모델 갱신(Local Update), 지역모델 취합(Aggregate), 전역모델 갱신(Global Update)\n차등정보암호(노이즈추가), 동형함호, 다자산계산"],
     ["1", "C", "Active_Learning",                       "학선교평", "능동 학습 / 123.컴시응.1\n\n[절차 - 학선교평]\n모델 학습 - Labeled Data\n데이터 선정 - Uncertainty Sampling / QBC / 밀도 편중 방법\n데이터 교정 - Oracle\n모델 평가 - Precision / Accuracy"],
     ["1", "B", "Transfer_Learning",                     "적태도 레귀변자 피파멀프 도", "[적용 요소 - 적태도 레귀변자 피파멀프 도]\n\n- 적용 범위\nTask Transfer - Feature Extraction / Fine-turning / Multi-task Learning / Freezing\nDomain Transfer - Domain Adaption\n\n- 레이블링 유형\n귀납 (Inductive)\n변형(Transductive)\n자율 (Autonomous)"],
-    ["1", "B", "Activation_Fucntion",                   "항경계시탄레리소맥\n단 시렐소 양 탄리맥\n단극(계시), 양극(항리)", "심층신경망 출력여부결정, 비선형변환\n매개연산감소,XOR\n단극성, 양극성, Sigmoid Function, Step Function, ReLU Function, Tanh Function, Leaky ReLU Function, Identity Function"],
+    ["1", "B", "Activation_Fucntion",                   "항경계시탄레리소맥\n단 시렐소 양 탄리맥\n단극(계시), 양극(항리)", ""],
     ["1", "B", "Softmax",                               "", ""],
     ["1", "B", "One_Hot_Encoding",                      "", "가중치, 입력층, 출력층, 활성함수"],
     ["1", "B", "NPU",                                   "", "Neural Processing Unit\n지능형 반도체\n신경망 처리장치"],
@@ -905,9 +905,11 @@
     ["1", "C", "COM",                                   "", "Componenet Object Model"],
     ["", "C", "STAMP",                                  "", "System Theoretic Accident Model and Process\n시스템 이론에 기반한 대표적인 사고 모델"],
     ["1", "B", "ICBMA",                                 "", "스마트시티 키워드\n\nIoT\nCloud\nBig Data\nMobile\nAI"],
-    ["1", "B", "QCDF",                                  "", "[운영관리 4대 경쟁차원 (Tade-off) - QCDF]\nQuality - 품질\nCost - 원가\nDelivery - 운송\nFlexibility - 유연성\n\n[운영관리 고려 사항 - 4M+1E]\n- Man - 인력/조직\n- Machine - 시설/장비\n- Material - 재료/원자재/부품\n- Method - 기술적 측면\n- Environment - 환경적 요소"]
+    ["1", "B", "QCDF",                                  "", "[운영관리 4대 경쟁차원 (Tade-off) - QCDF]\nQuality - 품질\nCost - 원가\nDelivery - 운송\nFlexibility - 유연성\n\n[운영관리 고려 사항 - 4M+1E]\n- Man - 인력/조직\n- Machine - 시설/장비\n- Material - 재료/원자재/부품\n- Method - 기술적 측면\n- Environment - 환경적 요소"],
+    ["1", "C", "Logistic_Function",                     "", ""],
+    ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "20251022.0400", ""]
+    ["1", "A", "Version",                               "2025.10.23.0600", ""]
 ]
 }
