@@ -769,7 +769,7 @@
     ["1", "B", "Dimensionality_Reduction",              "PCA, ICA, LDA", "데이터 차원축소\nAI > 비지도 학습 > 잠재변수 모델 > 차원 축소"],
     ["1", "B", "PCA",                                   "", "주성분분석\nPrincipal Component Analysis\nAL > 비지도 학습 > 잠재변수 모델\n안면인식, 공분산 분해, 고유 값 분해 (Eigen Value Decomposition / EVD)"],
     ["1", "B", "Loss_Cost_Objective_Function",          "MSE\nMAE\nRMSE\nBCE\nCCE\nSCCE", ""],
-    ["1", "B", "CNN",                                   "[절차] 원컨풀컨풀전\n[구성요소] 커피활패스 컨풀푸 드", "Convolutional Neural Network\npooling - 이미지 특징을 반영하며, 차원을 축소\n[절차]\n원본이미지 -> 컨볼루션 -> 풀링 – 컨볼루션 -> 풀링 – 전체 연결된 신경망\n[구성요소]\n커널, Feature Map, 활성화함수, 패딩, Stride, Convolution layer, Pooling Layer, Fully Connected Layer, Drop out"],
+    ["1", "B", "CNN",                                   "원컨풀컨풀전\n컨풀푸 드 커피활패스\n렐빅드", "Convolutional Neural Network\npooling - 이미지 특징을 반영하며, 차원을 축소\n\n[절차 - 원컨풀컨풀전]\n원본이미지\n-> 컨볼루션\n-> 풀링 – 컨볼루션\n-> 풀링 – 전체 연결된 신경망\n\n[구성요소 - 컨풀푸(드) 커피활패스 ]\n\n- Layer구성\nConvolution layer - 합성곱 / Feature Map 구성\nPooling Layer - SubSamping / Max/Average Pooling\nFully Connected Layer - Feed Forward Layer\nDrop out\n\n- 상세요소\n커널 / Feature Map / 활성화함수 / 패딩 / Stride\n\n[성능 개선 - 렐빅드]\nReLU - Rectified Linear Unit / 기울기 소실 해결\nBigData - 학습데이터 확보 / 오버피팅 해결\nDrop Out - 일부 레이어의 데이터 제거 / 오버피팅 해결"],
     ["1", "B", "RNN",                                   "", "Recurrent Neural Network\n순환신경망\nLSTM과 연관 지어서, 음성인식"],
     ["1", "B", "RCNN",                                  "", "Region CNN\nObect Detection"],
     ["1", "B", "Fast_RCNN",                             "", "RoI(Region of Interest) Pooling"],
@@ -912,6 +912,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.10.24.0600", ""]
+    ["1", "A", "Version",                               "2025.10.24.0630", ""]
 ]
 }
