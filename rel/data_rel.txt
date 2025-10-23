@@ -739,6 +739,7 @@
 "AI": [
     ["1", "B", "AI_Roadmap",                            "", "AI 감사 역량\nAI 거버넌스, 리스크\nAI 운영\nAI 감사도구, 기법\n정보이용 투명성, 정보 통제권, 피해보상권, 자기결정권"],
     ["1", "B", "AGI",                                   "노이컴엑버슈", "ANI - Narrow\nAGI - General\nASI - Super"],
+    ["1", "B", "ANN",                                   "", ""],
     ["1", "C", "Single_Layer_Perceptron",               "", ""],
     ["1", "C", "Multi_Layer_Neural_Network",            "", "Multi_Layer_Perceptron"],
     ["1", "C", "Deep_Learning",                         "", ""],
