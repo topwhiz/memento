@@ -671,7 +671,7 @@
 ],
 "DataBase": [
     ["1", "B", "Transaction",                           "활부 실완철\n갱현모현\nACID\n스트로리", "상태전이\n\n[생태전이도 - 활부 실완철]\n\n- 시작\n활동 (Active) - 초기 상태 / 실행 상태\n\n- 성공\n부분적 완료 (Partial Commit) - 마지막 명령 실행 후 상태\n완료 (Commit) - 성공적 완료 후 상태\n\n- 종료\n실패 (Fail) - 정상 실행 불가 상태\n철회 (Abort) - Tx 시작 전 환원\n\n[직렬성 결여(동시성 제어) 문제점 - 갱현모연]\n갱신손실 (Lost Update) - 덮어쓰기로 인한 손실\n현황오류 (Dirty Read) - 중간 수행결과 참조 오류\n모순성 (Inconsistency) - 동시 접근 후 데이터 상이\n연쇄복귀 (Cascading Rollback) - 실패로 다른 Tx복구\n\n[Tx 특징 - ACID]\nAtomicity (원자성) - All or Nothing\nConsistency (일관성) - 모순없는 상태\nIsolation (고립성) - Locking\nDurability (영속성) - Storeing\n\n[Tx 위한 DB 구성요소 및 기법 - 스트로리]\nScheduler - 병행제어 / Locking / Timestamp\nTransaction Manager - Commit / Rollback\nLog Manager - 백업 / 복제\nRecovery Manager - 즉시갱신 / 지연갱신"],
-    ["1", "B", "Data_Independence",                     "외개내", ""],
+    ["1", "B", "Data_Independence",                     "외개내", "[독립성 단계(스키마) - 외개내]\n외부 스키마 - 서브스키마\n개념 스키마 - 하나 스키마만 존재\n내부 스키마 - 저장장치 입장,인덱스 유무\n                     관리정보 (개체 관계 / 객체 정보 / 물리적 순서)"],
     ["1", "B", "Isolation_Level",                       "고일저병\n부비가\n(DNP)\n언커러시", ""],
     ["", "B", "Phantom_Conflict",                       "", ""],
     ["", "B", "Key_Type",                               "", ""],
