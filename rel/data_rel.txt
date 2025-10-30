@@ -767,7 +767,7 @@
     ["1", "B", "Prims_Algorithm",                       "", ""],
     ["1", "B", "Kruskals_Algorithm",                    "", ""],
     ["1", "A", "Dijkstra_Algorithm",                    "", ""],
-    ["1", "A", "Shortest_Path_Algorithm",               "", ""],
+    ["1", "A", "Shortest_Path_Algorithm",               "다에벨플", "[유형 - 다에벨플]\nDijkstra - 최소비용 경로 설정\nA* - 휴리스틱 순서 탐색\nBellman-Ford - 음의 가중치 허용 경로\nFloyd-Warshall - 동적 계획 기반 고차원 기법"],
     ["1", "A", "Huffman_Coding",                        "", ""],
     ["1", "A", "Run_Length_Coding",                     "", ""],
     ["", "A", "AVL_Tree",                               "", "심화반 자료구조 강의자료 확인"]
