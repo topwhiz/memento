@@ -674,7 +674,7 @@
     ["1", "B", "Data_Independence",                     "외개내", "[독립성 단계(스키마) - 외개내]\n외부 스키마 - 서브스키마\n개념 스키마 - 하나 스키마만 존재\n내부 스키마 - 저장장치 입장 / 인덱스 유무 / 관리정보\n                     (개체관계/객체정보/물리적 순서)"],
     ["1", "B", "Isolation_Level",                       "고일저병\n부갱비가 언커리시", "[트랜잭션 고립화 수준 상승 시 - 고일저병]\n고 - 일관성 (Consistency)\n저 - 병렬성 (Concurrency)\n\n[격리 수준 - 부갱비가 언커리시]\n\n- 일관성 오류 - 부갱비가\n부정 판독 - Dirty Read\n갱신 손실 - Update Lost\n비반복 판독 - Non-Repeatable Read\n가사 판독 - Phantom Read\n\n- 격리 수준\nL0 - Read Uncommitted\nL1 - Read Committed\nL2 - Repeatable Read\nL3 - Serializable Read"],
     ["1", "B", "Phantom_Conflict",                      "락인\n부갱비가 언커러시", "SQL-92\n\n[해결 방법 - 락인]\n\n- Locking 단위 확대\n기존 - 투플 / 확대 - 릴레이션\nTx1 은 S-lock(공용 lock),\nTx2 는 X-lock(전용 lock) 시에 충돌 발생\n단위 증가 병행성 감소\n\n- Index Locking\nR에 투플 삽입 시 연관된 모든 인덱스 갱신\nLocking 규약을 인덱스에 사용\nR에 Index 생성되어 있는 이점 이용\nIndex Bucket 에 대한 충돌로 해결\n\n[격리 수준 - 부갱비가 언커리시]\n\n- 일관성 오류 - 부갱비가\n부정 판독 - Dirty Read\n갱신 손실 - Update Lost\n비반복 판독 - Non-Repeatable Read\n가사 판독 - Phantom Read\n\n- 격리 수준\nL0 - Read Uncommitted\nL1 - Read Committed\nL2 - Repeatable Read\nL3 - Serializable Read"],
-    ["", "B", "Key_Type",                               "", ""],
+    ["", "B", "Key_Type",                               "유최대\n슈후기대외\n결유슈최후엔\n본내명", "[특성 - 유최대]\n유일성 / 최소성 / 대표성\n\n[유형 - 슈후기대외]\n슈퍼키(Super Key) - 유일성 만족 / 최소성 비 만족\n후보키(Candidate Key) - 유일설 만족 / 최소성 만족 / Not Null\n기본키(Primary Key) - 후보키 중 하나 대표 선정 / Not Null\n대체키(Alternate Key) - 후보키 중 기본키 이외 나머지 / Not Null\n외래키(Foreign Key) - 다른 R에서 기본키로 이용\n\n[키 도출 절차 - 결유슈최후엔]\n결정자 도출\n유일성 검증 - 함수적 종속성 확인\n슈퍼키 선정\n최소성 검증 - 확인 후 키 선정\n후보키 선정\n엔티티 대표성 - 엔티티 대표성 기준 기본키 확정\n\n[데이터 모델링 무결성 위한 키 제약 - 본내명]\n\n- 본질적 제약 - 구조적 특성 인한 제약\n기본키 필수 / 1차 정규화\nPrimary Key / Unique Key\n\n- 내재적 제약 - DB 스키마 지정 제약\n의미 표현 명확 / 오류 방지\n참조 무결성 제약 - Foreign Key\n범위(Domain) 제약 - Check / Default / NOT NULL / Rule\n\n- 명시적 제약 - PGM 명시\n사용자 수작업 생성\nProgrammatically"],
     ["1", "A", "Distributed_DB",                        "글로커 저질보복동\n위중병분장지\n설탑보하 분호버하", "[구성요소 - 글로커 저질보복동]\n\n- 분산 DBMS - 글로커\nGlobal Codinator - 분산 Tx / 글로벌 커밋 조정\nLocal Node - 개별 서버 / DB인스턴스\nCommit Point Site - Tx 영구저장 / 노드 전파\n\n- 지역 DBMS - 저질보복동\n저장 처리기 - 파일, 인덱스 관리 / 공간 최적화\n질의 처리기 - 질의 분석, 실행 / 접근 경로 최적화\n보안 처리기 - 접근제어 / 권한 / 인증\n복구 처리기 - 롤백 / 롤포워드 / 백업, 복구\n동시 처리기 - Tx 락킹 관리 / 교착방지 / 격리수준\n\n[분산 DB 투명성 보장 기법 - 위중병분장지]\n위치 - 분산 해시 테이블(DHT) / 리플리케이션\n중복 - 일관성 유지 프로토콜 / DBMS 동기화 매커니즘\n병행 - Time Stamp / 분산 2PL 락킹\n분할 - DB Sharding / 논리뷰 제공\n장애 - RAID 시스템 / 클러스터링 기술\n지역사상 - 공간 DBMS / 데이터 라우팅 기술\n\n[분산DB 설계 전략 - 설탑보하 분호버하]\n\n- 데이터 설계\nTop Down - 전체 설계 후 분산DB 설계\nBottom Up - 지역 DB 설계 후 전사 통합\nHybrid - 두 방식 혼합\n\n- 데이터 분할\nHorizotal - 레코드별 분할\nVertical - 필드별 분할\nHybrid - 수직, 수평 혼합"],
     ["", "A", "Transparency",                           "", "분산DB > 투명성"],
     ["", "B", "2PC",                                    "", "분산DB > 2PC"],
@@ -948,6 +948,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.10.28.1830", ""]
+    ["1", "A", "Version",                               "2025.10.31.0040", ""]
 ]
 }
