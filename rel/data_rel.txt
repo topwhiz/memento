@@ -179,7 +179,7 @@
     ["1", "B", "Supervision_PMO_Comparison",            "목관대투근책기\n역조산사기", "감리/PMO 비교표"]
 ],
 "Software_Engineering": [
-    ["1", "B", "SW_Engineering_Roadmap",                "", ""],
+    ["1", "A", "SW_Engineering_Roadmap",                "", ""],
     ["1", "B", "Software_Engineering",                  "방패도프\n복비순무변제\n재정신강성사유\n디객확 요협케\n추정단모분", "[소프트웨어 공학 주제/목표 - 방패도프]\n방법 - Method\n패러다임 - Paradigm\n도구 - Tool\n프로세스 - Process\n\n[소프트웨어 주요 특성 - 복비순무변제]\n복잡성 - Complexity\n비가시성 - Invisibility\n순응성 - Comformity\n무형성 - Intangible\n변경성 - Changeability\n복제가능 - Duplicability\n\n[좋은 소프트웨어 조건 - 재정신강성사유]\n재사용성 - Reusability\n정확성 - Corrrectness\n신뢰성 - Reliability\n강인성 - Robustness\n성능 - Performance\n사용 용이성 - Usability\n유지보수성 - Maintainability\n\n[좋은 소프트웨어 기술/관리 방안 - 디객확 요협케]\n기술적 - 디자인 패턴 / 객체 지향 / 확장성\n관리적 - 요구사항 관리 / 협업 관리 / CASE 활용\n\n[소프트웨어 설계 원리 - 추정단모분]\n일반화 - 추상화 / 정보은닉\n구체화 - 단계적 분해 / 모듈화 / 분할, 정복"],
     ["1", "B", "Technical_Debt",                        "코아테문", "[유형 - 코아테문]\n코드 부채\n아키텍처 부채\n테스트 부채\n문서화 부채"],
     ["1", "C", "SW_Development_Methodology",            "절방산관기도", "[구성요소 - 절방산관기도]\n절차 - 단계별 활동, 순서 / Phase-Activity-Task\n방법 - Task 수행 방법\n산출물 - 목록, 양식\n관리 - 계획, 일정, 품질 관리 / 계획서, 기준 문서\n기법 - 이용 가능 기술, 기법 / ERD, DFD\n도구 - 활용 가능 도구 / CASE, UML"],
@@ -403,7 +403,7 @@
     ["1", "C", "De_Facto_De_Jure_Standard",             "", "비공식(사실상) 표준\n공식적 표준\n독점, 규격"]
 ],
 "Digital_Network": [
-    ["1", "B", "Network_Roadmap",                       "", ""],
+    ["1", "A", "Network_Roadmap",                       "", ""],
     ["1", "B", "OSI7",                                  "아파서티네다P\n데세패프비", "ISO/IEC 7498:1994\n[구성 - 아파서티네다P 데세패프비]\nApplication - Data\nPresentation - Data\nSession - Data\nTransport - Segment\nNetwork - Packet\nDataLink - Frame\nPhysical - Bits\n\nPDU (Protocol Data Unit)\n네트워크 계층 간에 교환되는 데이터 단위\n\nSDU (Service Data Unit)\n상위 계층에서 하위 계층으로 전달되는 데이터의 단위\n\nPCI (Protocol Control Information)\n특정 계층의 프로토콜이 데이터 전송을 위해 추가하는 제어 정보(오버헤드)"],
     ["1", "C", "Application_Layer",                     "", "7계층\n서비스 프로토콜, Message, 사용자 연결, L7 스위치\nHTTP, SSH, SIP, FTP, TELNET, MODBUS\nKeep Alive, VoIP, Signaling, PLC(Programmable Logic Controller), HL7"],
     ["1", "C", "Presentation_Layer",                    "", "6계층\n암호화, 압축, 코드 변환"],
@@ -497,7 +497,7 @@
     ["1", "B", "Wireless_Power_Transfer",               "", "무선충전기술\n자기유도방식\n자기공명방식\n전자기파방식"]
 ],
 "Security": [
-    ["1", "B", "Security_Roadmap",                      "관물기네악인가법\n접운내공-접교감차\n장인재부-이백재변\n위권인도-데이시차\n아포재미-PL안E\n바보(봇)소불-안아업시\n중회추모-대적결탐\n악비뭐해(하)-은표공변\n지개민코-특P서R", ""],
+    ["1", "A", "Security_Roadmap",                      "관물기네악인가법\n접운내공-접교감차\n장인재부-이백재변\n위권인도-데이시차\n아포재미-PL안E\n바보(봇)소불-안아업시\n중회추모-대적결탐\n악비뭐해(하)-은표공변\n지개민코-특P서R", ""],
     ["1", "B", "Information_Security_Governance",       "CIA (기무가)\n전위투요긍업\n평지모의보", "[보안 3대 요소 - CIA + 부인방지(책임추적)]\n\n- 기밀성 (Confidentiality)\n침해 - Shoulder Sniffing / Traffic 분석 / 사회공학\n유지 - 접근통제 / 암호화\n\n- 무결성 (Integrity)\n침해 - 시간차 공격 / Replay 공격\n유지 - 접근통제 / 무결성 제약 / 복구 시스템 / 동시성 제어\n\n- 가용성 (Availability)\n침해 - Dos, DDoS / 서비스 장애\n유지 - Dos, DDoS 대응 / 고가용 시스템\n\n[정보보호 거버넌스 6대 원리 - 전위투요긍업]\n전체 조직 정보보호 수립\n위험기반 접근방식\n투자결정 방향 설정\n요구사항 적합성 확인\n긍정적 환경 조성\n업무 성과 관점 성과 검토\n\n[구성요소 - 평지모의보]\nEvaluate - 평가\nDirect - 지시\nMonitor - 모니터링\nCommunicate - 의사소통\nAssure - 보안감사"],
     ["1", "B", "Encryption",                            "인기무부가\n대블치확압혼확 (서블트디컴컨익)\n정스블키대비", "[암호화 목적 - 인기무부가]\n인증 (Authentication) - 신원확인 / 인증서\n기밀성 (Confidentiality) - 데이터 보호 / 암호화\n무결성 (Integrity) - 무변조 보증 / 해쉬함수\n부인봉쇄 (Non-Repudiation) - 부인불가 / 전자서명\n가용성 (Availability) - 정합성 / 암호, 인증\n\n[암호화 원리 - 대블치확압혼확 (서블트디컴컨익)]\n대체 (Substitution) - 글자 대체\n블록화 (Blocking) - 열,행 변경 / 블록 구성\n치환 (Transposition) - 문자열 위치 변경\n확산 (Diffusion) - 평문bit가 암호bit로 분산\n압축 (Compaction) - 압축문, 삭제문 분리\n혼돈 (Confusion) - 변화 예측 불가\n확장 (Expansion) - 무의미 문자 삽입\n\n[암호문 유형]\n정보단위 - 스트림 / 블록\n키 형태 - 비밀키(대칭키) / 공개키(비대칭키)\n기반기술 - SPN / Feistel / 인수분해 / 이산대수 / 해시함수"],
     ["1", "B", "Encryption_Algorithm",                  "대블치아호화\n방키정기\nSF이소타(경해)", ""],
@@ -753,6 +753,9 @@
     ["1", "A", "Segmentation_Fault",                    "", "136회 1.7번"],
     ["1", "B", "Mutual_Exclusion",                      "", "상호배제\n램포트, 피터슨, 데커알고리즘, 세마포어, swap, test and set, 인터럽트 금지"]
 ],
+ "Data_Structure": [
+    ["1", "A", "Data_Structure_Roadmap",                "", ""]
+],
 "Algorithm": [
     ["1", "A", "O_Notation",                            "오메세\n상로선분(합)제세지", "[알고리즘 표기법 - 오메세]\nՕ(Big-Oh) Notation - 최악기준/수행시간 상한 표시\nΩ(Big-Omega) Notation - 최상기준/수행시간 하한\nΘ(Bit-Theta) Notation - Օ+Ω / 상하한 동시 표시\n\n[Օ(Big-Oh) Notation 유형 - 상로선분(합)제세지]\nՕ(1) - 상수형 / 입력 크기 무관 바로 해/해시함수\nՕ(log N) - 로그형 / 입력 분할 하나 처리 / 이진탐색\nՕ(N) - 선입 / 입력 자료 순차적 모두 처리 / 단순탐색\nՕ(N log N) - 분할,합병형 / 분할 후 합병 / 퀵 정렬\nՕ(N2) - 제곱형 / loop 구조 2중 / 버블 정렬\nՕ(N3) - 세제곱형 / loop 구조 3중 / 최단경로탐색\nՕ(2 n) - 지수형 / 해결방법 모두 검사 / Dynamic Programming"],
     ["1", "A", "Greedy_Algorithm",                      "정선적검도", "[수행 절차 - 정선적검도]\n\n- 문제정의\n\n- 해 선택 (Select Procedure)\n부분해 집합 추가될 항목 선택\n부분적 최적화 만족 여부\n\n- 적합성 검증 (Feasibility Check)\n선택 부분해 집합의 제약조건 위반 검사\n현재 집합의 해 가능성 검사\n\n- 해 검증 (Solution Check)\n최종해 여부 확인\n해 아닐시 1단계로 반복\n\n- 해 도출\n최종해"],
@@ -922,10 +925,11 @@
 "Roadmap": [
     ["1", "A", "IT_Management_Strategy_Roadmap",        "", ""],
     ["1", "A", "Project_Management_Roadmap",            "1+3+1+RCR+PS (통범일원품자의위조이)\n766-4363-734", ""],
-    ["1", "B", "SW_Engineering_Roadmap",                "", ""],
-    ["1", "B", "Network_Roadmap",                       "", ""],
-    ["1", "B", "Security_Roadmap",                      "관물기네악인가법\n접운내공-접교감차\n장인재부-이백재변\n위권인도-데이시차\n아포재미-PL안E\n바보(봇)소불-안아업시\n중회추모-대적결탐\n악비뭐해(하)-은표공변\n지개민코-특P서R", ""],
-    ["1", "B", "AI_Roadmap",                            "", "AI 감사 역량\nAI 거버넌스, 리스크\nAI 운영\nAI 감사도구, 기법\n정보이용 투명성, 정보 통제권, 피해보상권, 자기결정권"]
+    ["1", "A", "SW_Engineering_Roadmap",                "", ""],
+    ["1", "A", "Network_Roadmap",                       "", ""],
+    ["1", "A", "Security_Roadmap",                      "관물기네악인가법\n접운내공-접교감차\n장인재부-이백재변\n위권인도-데이시차\n아포재미-PL안E\n바보(봇)소불-안아업시\n중회추모-대적결탐\n악비뭐해(하)-은표공변\n지개민코-특P서R", ""],
+    ["1", "A", "Data_Structure_Roadmap",                "", ""],
+    ["1", "A", "AI_Roadmap",                            "", "AI 감사 역량\nAI 거버넌스, 리스크\nAI 운영\nAI 감사도구, 기법\n정보이용 투명성, 정보 통제권, 피해보상권, 자기결정권"]
 ],
 "IT_Term" : [
     ["1", "C", "Encoding",                              "", ""],
@@ -951,6 +955,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.10.31.0110", ""]
+    ["1", "A", "Version",                               "2025.11.01.1730", ""]
 ]
 }
