@@ -946,6 +946,8 @@
     ["1", "B", "ICBMA",                                 "", "스마트시티 키워드\n\nIoT\nCloud\nBig Data\nMobile\nAI"],
     ["1", "B", "QCDF",                                  "", "[운영관리 4대 경쟁차원 (Tade-off) - QCDF]\nQuality - 품질\nCost - 원가\nDelivery - 운송\nFlexibility - 유연성\n\n[운영관리 고려 사항 - 4M+1E]\n- Man - 인력/조직\n- Machine - 시설/장비\n- Material - 재료/원자재/부품\n- Method - 기술적 측면\n- Environment - 환경적 요소"],
     ["1", "C", "Logistic_Function",                     "", ""],
+    ["1", "C", "Euclidean_Distance",                    "", "유클리디안 거리"],
+    ["1", "C", "Gaussian_Similarity",                   "", "가우시안 분포 / 정규분포"],
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
