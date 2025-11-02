@@ -685,7 +685,7 @@
     ["1", "B", "NewSQL",                                "SCSD\n인마\n샤스\n인스", ""],
     ["1", "B", "Spartial_DB",                           "", "DB유형 > 공간 DB"],
     ["", "A", "Graph_DB",                               "", "DB유형 > 그래프 DB"],
-    ["", "A", "Vector_DB",                              "", "DB유형 > 벡터 DB"],
+    ["1", "A", "Vector_DB",                             "", "DB유형 > 벡터 DB"],
     ["", "A", "Data_Modeling",                          "", "DB설계 > 데이터 모델링"],
     ["1", "A", "Anomaly",                               "삽갱삭", ""],
     ["", "B", "ERD_EERD",                               "", ""],
