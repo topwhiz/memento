@@ -683,7 +683,7 @@
     ["", "C", "2PC",                                    "", "분산DB > 2PC"],
     ["1", "A", "NoSQL",                                 "파리모기선적하\n키순컬도그\n그네알 도코몽 키다리 카산할배 순애매", "CAP 이론\n\n[NoSQL 모델링 절차 - 파리모기선적하]\n설계 - 파리 / 모델링 - 모기선 / 최적화 - 적하\n\n- 도메인 모델 파악\n저장 필요 도메인 파악\n개체간 관계 분석 / ERD로 도식화\n\n- 쿼리 결과 디자인\n도메인 모델 기반\n애플리케이션 쿼리 결과값 출력 기반\n\n- 패턴 이용 데이터 모델링\nRDBMS 기능 미제공에 따른 배제\nPut/Get만 가능한 형태 데이터 모델\nNoSQL 테이블로 재정의\n\n- 기능 최적화\nSecondary Index 이용 기능 최적화\nRDBMS의 Index와 유사 개념\n\n- 후보 NoSQL 선정 / 테스트\n구조, 특성 분석\n부하테스트, 안정성, 확장성 테스트\n적절한 솔루션 선택\n\n- 데이터 모델 최적화 / HW 디자인\n선정된 NoSQL 기반 적합한 데이터 모델 최적화\n어플리케이션 인터페이스 설계\n구동시킬 하드웨어 디자인 실시\n\n[유형 - 키순컬도그]\n\n- Key-Value 기반\nKey-Value / Ordered Key-Value / Column Family\n\n- Object 기반\nDocument / Graph\n\n[DB 종류 - 그네알 도코몽 키다리 카산할배 순애매]\nGraph - Neo4J / Allegro Graph\nDocument - Couch DB / Mongo DB\nKey-Value - Dynamo DB / Redis\nColumn Family - Cassandra / Hbase\nOrdered Key-Value - Arango DB / Memcache DB"],
     ["1", "B", "NewSQL",                                "SCSD\n인마\n샤스\n인스", ""],
-    ["", "B", "Spartial_DB",                            "", "DB유형 > 공간 DB"],
+    ["1", "B", "Spartial_DB",                           "", "DB유형 > 공간 DB"],
     ["", "A", "Graph_DB",                               "", "DB유형 > 그래프 DB"],
     ["", "A", "Vector_DB",                              "", "DB유형 > 벡터 DB"],
     ["", "A", "Data_Modeling",                          "", "DB설계 > 데이터 모델링"],
