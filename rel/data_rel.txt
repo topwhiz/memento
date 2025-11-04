@@ -718,7 +718,7 @@
     ["", "B", "SQL",                                    "", ""],
     ["", "B", "Join",                                   "", ""],
     ["", "A", "Join_Type",                              "", ""],
-    ["1", "B", "DB_Tuning",                             "힛대응\n설DS 프테식인타반 설메체자리롤 옵조인힌다병\n율처응로 시간 확적이단", "105.정보관리.1.12"],
+    ["1", "B", "DB_Tuning",                             "힛대응\n설DS\n프테식인타반\n설메체자리롤\n옵조인힌다중병\n율처응로 확적이단", "105.정보관리.1.12"],
     ["", "A", "Optimizer",                              "", "DB성능(튜닝) > 옵티마이저"],
     ["1", "B", "Query_Off_Loading",                     "", "Query-Off Loading\nUpdate/Read 트랜잭션 분리, Master DB, Staging DB, Slave DB"],
     ["1", "B", "EDA_CDA",                               "", "탐색적 데이터 분석(EDA)-Exploratory Data Analysis, 확증적 데이터 분석(CDA)-Confirmatory Data Analysis"],
