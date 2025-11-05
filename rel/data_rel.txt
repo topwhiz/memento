@@ -703,7 +703,7 @@
     ["1", "A", "Normalization_5th",                     "", "조인종속성(JD, Join Dependency)"],
     ["1", "A", "Denormalization",                       "조검적\n범대통테\n뷰클인응\n테속관\n병분추 중파이피 중", "[반정규화 필요 사유]\n접근빈도 측면 - 고빈도 테이블 / 다수 프로세스\n범위 측면 - 일정 범위 조회 / 통계성 작업\n성능 측면 - 다수 조인\n\n[반정규화 절차 - 대검적]\n\n- 반정규화 대상조사\n범위 처리 빈도수 조사\n대량 범위 처리 조사\n통계성 프로세스 조사\n테이블 조인 개수\n\n- 다른 방법 유도 검토\n뷰 테이블\n클러스터링 적용\n인덱스 조정\n응용 어플리케이션\n\n- 반정규화 적용\n테이블 반정규화\n속성 반정규화\n관계 반정규화\n\n[반정규화 주요 기법 - 병분추 중파이피 중]\n\n- 테이블 - 병분추\n테이블 병합 - Super / Sub Type\n테이블 분할 - 수직 분할 / 수평 분할\n테이블 추가 - 중복 / 통계 / 이력 / 부분 테이블\n\n- 컬럼 - 중파이피\n중복 컬럼 추가\n파생 컬럼 추가\n이력 테이블 컬럼 추가\nPK에 의한 컬럼 추가\n\n- 관계 - 중\n중복관계 추가"],
     ["1", "B", "Data_Integrity",                        "개참속사키도\n회로체그아\n동락2낙타다아", "[확보 방법 - 무결성 제약조건 - 개참속사키도]\n개체 / 참조 / 속성 / 사용자 정의 / 키 / 도메인\n\n[유지 방법 - 회로체그아 동락2낙타다]\n\n- 회복기법 (회로체그아)\n로그기반 회복기법 - 즉시 갱신, 지연 갱신, ARIES\nCheck Point 기법 - 로그파일, 검사점 이용\n그림자 페이지 기법 - 현재/그림자 페이지 사용\nARIES - 역사 반복 붕괴 시 이전 연산 모두 재실행\n\n- 동시성 제어 (동락2낙타다)\nLocking 기법 - 상호배체 기능\n2PL 기법 - 확장/수축 단계\n낙관적 기법 - 종류 후 일괄 검사\nTimestamp Ordering 기법 - 시간순\nMVCC - 여러 버전 비교/선택"],
-    ["1", "B", "Data_Integrity_Constraints",            "개참속사키도", "데이터 무결성 제약조건"],
+    ["1", "B", "Data_Integrity_Constraints",            "개참속사키도\n규검제위\n절선", "데이터 무결성 제약조건\n\n[데이터 무결성 제약조건 유형 - 개참속사키도]\n개체 무결성 - PK NOT NULL\n참조 무결성 - FK\n속성 무결성 - CHAR, VARCHAR2, DATE\n사용자정의 무결성 - TRIGGER, CHECK, DEFAULT value\n키 무결성 - PK + Unique Index\n도메인 무결성 - CHECK, DEFAULT value\n\n[무결성 규정 4가지 요소 - 규검제위]\n규정이름 - 규정 참조시 식별자\n검사시기 - 트랜잭션 접근유형, 데이터 검사 시기\n제약조건 - 데이터 만족 제약 조건\n위반조치 - 제약조건 위반시 대응 조치\n\n[제약조건 방법 - 절선]\n\n- 절차적 방법 제약조건 - DML 이용 명세\nTrigger - 저장 프로시저의 특별한 형태 / 참조 무결성\nStored Procedure - SQL, SPL 조합해 만든 프로시저\nApplication - 비즈니스 로직 코드에 업무 규칙 강제 수행\n\n- 선언적 방법 - DDL 이용 명시\nPK - Not Null\nUnique - 다중 보조키 개념 / Null 허용\nFK - 참조 테이블 PK / Not Null\nData Type - 데이터 형 제한\nCheck - 컬럼 지정 제약 위배 검사\nDefault - 미입력시 자동 삽입값 / INSERT, UPDATE에 사용"],
     ["1", "C", "Relation_Integrity_Constraints",        "상과집튜즉지", ""],
     ["1", "B", "Data_Integrity_Maintenance",            "", "데이터 무결성 유지 기법\n\n[유지 방법 - 회로체그아 동락2낙타다]\n\n- 회복기법 (회로체그아)\n로그기반 회복기법 - 즉시 갱신, 지연 갱신, ARIES\nCheck Point 기법 - 로그파일, 검사점 이용\n그림자 페이지 기법 - 현재/그림자 페이지 사용\nARIES - 역사 반복 붕괴 시 이전 연산 모두 재실행\n\n- 동시성 제어 (동락2낙타다)\nLocking 기법 - 상호배체 기능\n2PL 기법 - 확장/수축 단계\n낙관적 기법 - 종류 후 일괄 검사\nTimestamp Ordering 기법 - 시간순\nMVCC - 여러 버전 비교/선택"],
     ["1", "B", "Database_Recovery_Technique",           "", "데이터베이스 회복기법"],
@@ -715,8 +715,8 @@
     ["1", "B", "Data_Integrity_2PL_2PLP",               "확수", "Strict 2PL\nRigorous 2PL"],
     ["1", "B", "Data_Integrity_Validation",             "판확기", "낙관적 검증 기법\nRead Phase, Validation Phase, Execution(Write) Phase\n판독, 확인, 기록(디스크에 반영)하는 3단계. 직렬화 확인 후 반영"],
     ["1", "B", "Data_Integrity_Timestamp_Ordering",     "", "생성방법(논리적계수, 시스템시계)\n종류(read_TS, write_TS)"],
-    ["1", "B", "Data_Integrity_MVCC",                   "", "다중 버전 동시성 제어, 111관리.90.3\n유형 : MultiversionTimestamp Ordering, Multiversion Two-Phase Locking\n정책 : Multi-version Read Consistency, Isolation Level"],
-    ["1", "B", "Non_Concurrent_Control",                "갱현모연회\nLDIC", "동시성 제어 안했을때 문제점\n111.정보관리.1.1\n다중사용자환경, 트랜잭션 직렬화, 갱신손실, 현황파악오류, 모순성, 연쇄복귀"],
+    ["1", "B", "Data_Integrity_MVCC",                   "타락\n다격", "다중 버전 동시성 제어, 111관리.90.3\n\n[유형 - 타락]\nMultiversion Timestamp Ordering - 트랜잭션에 타임스탬프 부여\nMultiversion Two-Phase Locking - 2PL(쓰기) + MVCC(읽기)\n\n[정책 - 다격]\nMulti-version Read Consistency - Snapshot 제공\nIsolation Level - Read Committed / Repeatable Read"],
+    ["1", "B", "Non_Concurrent_Control",                "갱현모연회\n다락2낙타다", "동시성 제어 안했을때 문제점 / 111.정보관리.1.1\n\n[직렬성 결여(동시성 제어) 문제점 - 갱현모연회]\n갱신손실 (Lost Update) - 덮어쓰기로 인한 손실\n현황오류 (Dirty Read) - 중간 수행결과 참조 오류\n모순성 (Inconsistency) - 동시 접근 후 데이터 상이\n연쇄복귀 (Cascading Rollback) - 다른Tx도 복구\n회복불능\n\n[유지 방법 - 회로체그아 동락2낙타다]\n\n- 회복기법 (회로체그아)\n로그기반 회복기법 - 즉시 갱신, 지연 갱신, ARIES\nCheck Point 기법 - 로그파일, 검사점 이용\n그림자 페이지 기법 - 현재/그림자 페이지 사용\nARIES - 역사 반복 붕괴 시 이전 연산 모두 재실행\n\n- 동시성 제어 (동락2낙타다)\nLocking 기법 - 상호배체 기능\n2PL 기법 - 확장/수축 단계\n낙관적 기법 - 종류 후 일괄 검사\nTimestamp Ordering 기법 - 시간순\nMVCC - 여러 버전 비교/선택"],
     ["1", "B", "SQL",                                   "구실인 문의공최실 캐데 인", "[SQL 처리 과정 - 구실인 문의공최실 캐데 인]\n\n- 구문분석 (Parsing)\nSyntax Check\nSemantic Check\nShared Pool Check\nOptimization\nExecution Plan\n\n- 실행 (Execution)\n캐쉬 데이터 검색\n데이터 파일 검색\n\n- 인출 (Fetch)\n데이터 인출"],
     ["1", "B", "Join",                                  "자연스런 날 안밖으로 크로스", "[유형 - 자연스런 날 안밖으로 크로스]\nNatural Join\nSelf Join\nInner Join - Equi / Non-Equi\nOuter Join\nCross Join"],
     ["1", "A", "Join_Type",                             "네소해", "[수행 알고리즘에 의한 조인 방식 - 네소해]\n\n- Nested Loop Join\n선행-후행 테이블 연결 / 순차적 / 랜덤 엑세스\n실행속도 = 선행T 사이즈 * 후행T 접근횟수\n\n- Sort Merge Join\n두 테이블 검색 -> 정렬 -> 병합\n랜덤 엑세스 미사용\nSort Area Size 따라 효율 차이\n\n- Hash Join\n선행 테이블 (둘중 작은) 기반 Hash Table 구성\n후행 테이블 Hash Table과 조인"],
@@ -739,7 +739,7 @@
     ["1", "B", "Hadoop3",                               "자이얀쉘 맵스디\n이안맵\n자쉘스디", ""],
     ["1", "B", "Data_Quality_Management",               "", "데이터 품질관리 대상, DA, Modeler, DBA, User, 품질관리 기법, 120회 응용 2.2"],
     ["1", "B", "Data_Cleansing",                        "정원우유제\n변코형수 파보", "DB > 데이터 분석 > 데이터 프로파일링\n데이터 변환, 데이터 파싱, 데이터 보강"],
-    ["1", "B", "Data_Profiling",                        "수선수리종 데구관\n컬구단복값", ""],
+    ["1", "B", "Data_Profiling",                        "메대수리종 구데관\n컬구단복값", "[절차 - 메대수리종 데구관]\n수집 - 메타데이터 수집\n발견/도출 - 대상 선정 / 수행 (데이터,구조,관계 발견)\n검증 - 결과 리뷰 / 결과 종합\n\n[기법 - 컬구단복값]\n컬럼 속성 분석 - 룰세트\n구조 분석 - 컬럼 관계 분석\n단순 데이터 룰 분석 - 비즈니스 객체 컬럼 분석\n복잡 데이터 룰 분석 - 여러 비즈니스 객체 연관\n값 룰 분석 - 집계값 부정확 데이터 찾기"],
     ["1", "B", "Open_Data",                             "", "공공데이터 / 개방형 연결 데이터"],
     ["1", "A", "Open_Data_Quality_Mng",                 "계구운활", "공공데이터 품질인증, 품질관리\n\n[공공데이터 품질관리 활동 - 계구운활]\n데이터 계획 단계 품질관리\n데이터 구축 단계 품질관리\n데이터 활용 단계 품질관리\n데이터 운영 단계 품질관리"],
     ["1", "B", "Linked_Open_Data",                      "", "개방형 연결 데이터 (LOD, Linked Open Data), 122.관리.1, 119.관리.4\n생성/관리/발행/협업, URI, HTTP, RDF, Link, SPARQL, Ontology"],
@@ -962,6 +962,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.05.0430", ""]
+    ["1", "A", "Version",                               "2025.11.06.0430", ""]
 ]
 }
