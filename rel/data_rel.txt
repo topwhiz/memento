@@ -745,7 +745,7 @@
     ["1", "B", "Linked_Open_Data",                      "", "개방형 연결 데이터 (LOD, Linked Open Data), 122.관리.1, 119.관리.4\n생성/관리/발행/협업, URI, HTTP, RDF, Link, SPARQL, Ontology"],
     ["1", "B", "Linked_Open_Data_1",                    "", "개방형 연결 데이터 (LOD, Linked Open Data), 122.관리.1, 119.관리.4\n생성/관리/발행/협업, URI, HTTP, RDF, Link, SPARQL, Ontology"],
     ["1", "B", "MyData",                                "개전서인보\n개산전지Q", "120.관리.2\n신용정보법, 데이터전송요구권, 정보 권리 부여, 자기결정권, 보호조치, 정보주체 중심, 데이터 활용체계, 데이터 생태계"],
-    ["1", "A", "Data_Governance",                       "", "표준 : TTAK.KO-10.0555\nDQM3 : 데이터 품질 관리"],
+    ["1", "A", "Data_Governance",                       "", "표준 : TTAK.KO-10.0555 / DQM3-데이터 품질 관리\n\n[아키텍처 - 컴엑인]\nCompliance - 제도 / 정책\nActivity - 흐름, 구조, 프로세스 / 표준, 품질\nInfrastructure - 인프라, DB / 조직체계\n\n[구성요소 - 메주보품]\n메타 데이터 - 비즈메타 / 테크메타\n주기관리 - 연계 관리 / 흐름 관리\n보호 - 암호화 / 가명처리 / 보호모델\n품질 - DQM3 / 비정형 데이터 품질"],
     ["1", "A", "Data_Exchange",                         "", "데이터 거래소"],
     ["1", "A", "Data_Standard_Agreement",               "", "데이터 표준계약서"],
     ["1", "B", "Data_Architecture",                     "", "DA"]
