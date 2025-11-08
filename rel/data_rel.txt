@@ -782,8 +782,8 @@
     ["1", "A", "Pipeline_Hazard",                       "", "111회 컴시응 출제 / 출제 가능성"],
     ["1", "A", "HA",                                    "", "High Availability / 출제 가능성 / FTS 비교"],
     ["1", "A", "FTS",                                   "", "결함허용 컴퓨터 (FTS)"],
-    ["1", "A", "RAID",                                  "", ""],
-    ["1", "A", "HBM",                                   "", "High Bandwidth Memory"]
+    ["1", "A", "RAID",                                  "", "R - 0, 1, 5, 6\nR - 0+1, 1+0(빈출), 5+0, 6+0"],
+    ["1", "A", "HBM",                                   "", "High Bandwidth Memory\nCXL, PCIe, PCI EXPRESS 간헐적 출제"]
 ],
  "OS": [
     ["1", "A", "CXL",                                   "", "136회 1.8번"],
@@ -1004,6 +1004,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.09.0430", ""]
+    ["1", "A", "Version",                               "2025.11.09.0440", ""]
 ]
 }
