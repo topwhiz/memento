@@ -910,6 +910,7 @@
     ["1", "A", "GAI_User_Protection_Guideline",         "", "생성형 인공지능 서비스 이용자 보호 가이드라인 (2025.02.28)"],
     ["1", "A", "GAI_Based_Work_Copyright",              "", "생성형 인공지능 활용 저작물"],
     ["", "B", "AISC",                                   "", ""],
+    ["1", "A", "Public_AI_Ethical_Principle",           "", "공공부문 인공지능 윤리원칙(안) 개요"],
     ["1", "B", "Promptless",                            "", ""],
     ["1", "B", "NPU",                                   "", "Neural Processing Unit\n지능형 반도체\n신경망 처리장치"]
 ],
@@ -989,6 +990,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.08.1830", ""]
+    ["1", "A", "Version",                               "2025.11.08.1840", ""]
 ]
 }
