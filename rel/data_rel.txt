@@ -753,7 +753,23 @@
     ["1", "B", "Data_Architecture",                     "", "DA"]
 ],
 "CA": [
-    ["", "C", "temp",                                   "", ""]
+    ["1", "C", "Computer_Architecture",                 "", ""],
+    ["1", "A", "Instruction_Cycle",                     "", ""],
+    ["1", "C", "CPU",                                   "", "Control Processing Unit"],
+    ["1", "C", "ALU",                                   "", "Arithmetic Logic Unit / 정보관리는 개념정도만"],
+    ["1", "B", "GPU",                                   "", "Graphics Processing Unit / TPC, SM, SP"],
+    ["1", "C", "GPGPU",                                 "", "General Purpose Graphics Processing Units"],
+    ["1", "C", "CUDA",                                  "", "Compute Unified Device Architectur"],
+    ["1", "B", "Memory_Management",                     "", ""],
+    ["1", "B", "DMA",                                   "", ""],
+    ["1", "B", "DMA_1",                                 "", ""],
+    ["1", "C", "SG_DMA",                                "", "Scatter-Gather DMA"],
+    ["1", "C", "Remote_DMA",                            "", ""],
+    ["1", "A", "System_Bus",                            "", "137 컴시응 출제"],
+    ["1", "A", "System_Bus_1",                          "", "137 컴시응 출제"],
+    ["1", "B", "SSD",                                   "", "Solid State Drive / 9기 다시 포함"],
+    ["", "", "",            "", ""],
+    ["", "", "",            "", ""]
 ],
  "OS": [
     ["1", "A", "CXL",                                   "", "136회 1.8번"],
@@ -973,6 +989,6 @@
     ["1", "C", "temp",                                  "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.08.1700", ""]
+    ["1", "A", "Version",                               "2025.11.08.1830", ""]
 ]
 }
