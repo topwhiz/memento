@@ -830,7 +830,7 @@
     ["1", "B", "Reinforcement_Learning",                "몬엠가큐디에 리피티\n셀코그수생정\n태도 피파멀프 도\n유", "[강화학습 - 몬엠가큐디에 리피티]\n\n- 기본 알고리즘 - 몬엠가큐디에\nMonte Carlo Methods\nMDP (Markov Decision Process)\nValue Function (가치 함수)\nQ-Learning\nDQN (Deep Q-Network)\nSARSA (State-Action-Reward-State-Action)\n\n- 정책 기반 - 리피티\nREINFORCE\nPPO (Proximal Policy Optimization)\nTRPO (Trust Region Policy Optimization)\n\n[반지도학습 - 셀코그수생정]\nSelf-Training\nCo-Training\nGraph-based Methods\nPseudo-Labeling\nGenerative Models\nConsistency Regularization\n\n[전이학습 - 태도 피파멀프 도]\nTask Transfer -  Feature Extraction / Fine-turing / Multi-task Learing / Freezing\nDomain Transfer - Domain Adaptation\n\n[진화학습 - 유]\nGenetic Algorithm"],
     ["1", "C", "Single_Layer_Perceptron",               "인아히 가순활임", "[구성요소 - 인아히 가순활임]\n- Input Layer\n- Output Layer\n- Hidden Layer - 가순활임\nWeight - 활성화 함수 입력 사용 연결계수\nNet Input Function - 순입력함수 / Σ(입력값*가중치)\nActivation Function - 활성화 여부 결정\nCritical Point - 임계점 / 활성화 위한 최소값"],
     ["1", "C", "Multi_Layer_Neural_Network",            "인아히유가활", "Multi_Layer_Perceptron\n\n[구성요소 - 인아히유가활]\nInput, Output, Hidden Layer / Unit / Weight / Activation"],
-    ["1", "C", "Deep_Learning",                         "", ""],
+    ["1", "C", "Deep_Learning",                         "딥합순엘알디", "[알고리즘 종류 - 딥합순엘알디]\n심층 신경망 (DNN) - Deep Neural Network\n합성곱 신경망 (CNN) - 이미지 인식 분야\n순환 신경망 (RNN) - 시퀀스 데이터 처리 특화\nLSTM - RNN의 장기의존성 문제 해결 / 특별 게이트 구조\n제한볼츠만 머신 (RBM) - 비지도 / Pre-Training\n심층 신뢰 신경망 (DBN) - 개별(비지도,RBM적층) / 전체(NW지도학습,미세조정)"],
     ["1", "C", "Feed_Forward",                          "", ""],
     ["1", "B", "AGI",                                   "노이컴엑버슈", "ANI - Narrow\nAGI - General\nASI - Super"],
     ["1", "B", "ANN",                                   "", ""],
