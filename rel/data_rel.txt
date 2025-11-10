@@ -24,7 +24,7 @@
     ["1", "C", "OLTP",                                  "인업커롤", "이름만, 10년전 나옴, 한물감\nOnline Transaction Processing\nTransaction ACID\n\n[기능]\nInsert, Update, Commit, Rollback\n\n[구현기술]\nTP-monitor, CS, EJB, ODBC"],
     ["1", "B", "SEM",                                   "가원성", "VBM - 가치 중심 경영\nBSC - 성과 관리\nABM - 활동 중심 원가 관리"],
     ["1", "A", "Economic_Evaluation_Model",             "CBA 회비내순투\nROV 이블몬\nMCA 재기비리", "경제성평가기법\nROV(Real Option Valuation)\nMCA(Multi Criteria Analysis/Assessment)\nDSS(Decision Support System)"],
-    ["1", "A", "IT_ROI",                                "평시측(추)분 전중후 준수종 B NRP", "투자성과평가모델\n\n평가, 시행추진, 성과추진/측정, 분석"],
+    ["1", "A", "IT_ROI",                                "평시측분\n전중후\n준수종\nB\nNRP", "투자성과평가모델\n\n[구성요소 - 평시측분]\n평가 - 사전 / 중간 / 사후\n시행추진 - 사업 준비 / 수행 / 종료\n성과측정 - BSC\n분석 - NPV / ROI / PP"],
     ["1", "A", "BSC",                                   "재고내학\nCSF\nKPI", ""],
     ["1", "A", "IT_BSC",                                "기사운미", "정보기술균형성과표"],
     ["1", "A", "OKR",                                   "집도추정(집도 추징) 컴스원\n목성 보달 상연(목성 도달 영화 상영)", "상향 정성/정량 수평 목표 평가연동금지 분기"],
