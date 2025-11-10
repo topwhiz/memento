@@ -27,7 +27,7 @@
     ["1", "A", "IT_ROI",                                "평시측분\n전중후\n준수종\nB\nNRP", "투자성과평가모델\n\n[구성요소 - 평시측분]\n평가 - 사전 / 중간 / 사후\n시행추진 - 사업 준비 / 수행 / 종료\n성과측정 - BSC\n분석 - NPV / ROI / PP"],
     ["1", "A", "BSC",                                   "재고내학\nCSF\nKPI", ""],
     ["1", "A", "IT_BSC",                                "기사운미", "정보기술균형성과표"],
-    ["1", "A", "OKR",                                   "집도추정(집도 추징) 컴스원\n목성 보달 상연(목성 도달 영화 상영)", "상향 정성/정량 수평 목표 평가연동금지 분기"],
+    ["1", "A", "OKR",                                   "집도추정 컴스원\n목성 보달 상연", "상향 정성/정량 수평 목표 평가연동금지 분기"],
     ["1", "A", "BPR",                                   "프기인", "Zero-Based Thinking\n단기혁신, BA, SME(Subject Matter Expert)"],
     ["1", "A", "PI",                                    "정목분재검\n5 DPA - 완전최성기", "[ 5 DPA (Design Parameter Analysis) ]\n5가지 설계 변수 분석\n완결성 (Completeness)\n전략연계성 (Strategic Alignment)\n최적성 (Optimality)\n성숙도 (Maturity)\n기능성 (Functionality)"],
     ["1", "A", "Open_Innovation",                       "외인공벤\n개기분프\nNIH, NIT, NSH", "외부자원(외->내)\n인소싱 / 공동 연구 / 벤처투자, 캐피탈\n\n개방(내->외)\n기술 자산 판매 / 분사화 / 내부 프로젝트 공개\n\n[저해 요인]\nNIH - Not Invented Here\nNIT - Not Invented There\nNSH - Not Sold Here"],
