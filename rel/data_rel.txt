@@ -904,7 +904,7 @@
     ["1", "B", "Confusion_Matrix",                      "", "모델 평가 > 혼동 행렬"],
     ["1", "C", "F1_Score",                              "", "116회.관리.1교시\nPrecison, Recall, True Positive, False Positive, True Negative, False Negative, 2 * (Precison + Recall) / (Precision * Recall)"],
     ["1", "B", "PR_ROC_AUC_CURVE",                      "", "PR(Precision Recall)\nROC(Receiver Operating Characteristics)\nAUC(Area Under Curve)"],
-    ["1", "B", "AI_Learning_Data_Quality_Management",   "계구운 임 획정라학\n준완유 적정유\n원데기조절품인\n정데지관검활기", "126.관리.3교시\n인공지능 학습용 데이터 품질관리 가이드라인 3.1\nISO 25012(데이터 품질지표)절차 : 임무정의, 데이터 획득, 데이터정제, 데이터 라벨링, 데이터 학습\n데이터 : 원시데이터, 원천데이터, 라벨링데이터, 학습데이터셋\n품질관리 지표 : 절차(준비성, 완전성, 유용성), 데이터(적합성, 정확성, 유효성)"],
+    ["1", "B", "AI_Learning_Data_Quality_Management",   "계구운 임 획정라학\n준완유 적정유\n원데기조절품인\n정데지관검활기", ""],
     ["1", "B", "AI_Learning_Data_Quality_Management_1", "계구운 임 획정라학\n준완유 적정유\n원데기조절품인\n정데지관검활기", "126.관리.3교시\n인공지능 학습용 데이터 품질관리 가이드라인 3.1\nISO 25012(데이터 품질지표)절차 : 임무정의, 데이터 획득, 데이터정제, 데이터 라벨링, 데이터 학습\n데이터 : 원시데이터, 원천데이터, 라벨링데이터, 학습데이터셋\n품질관리 지표 : 절차(준비성, 완전성, 유용성), 데이터(적합성, 정확성, 유효성)"],
     ["1", "B", "AI_Learning_Data_Lifecycle",            "", "인공지능 학습용 데이터 생애주기"],
     ["1", "B", "AI_Ethic",                              "인사기\n인프다\n침공연데\n책안투", "트롤리 딜레마, 데이터 편향, 알고리즘 책임성\n컴시응.122.2"],
