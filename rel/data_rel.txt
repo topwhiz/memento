@@ -56,7 +56,7 @@
     ["1", "B", "ERP",                                   "빅기사", "XRP\nOLAP"],
     ["1", "A", "Composable_ERP",                        "유컴통오이데보마\nMSA, SOA", ""],
     ["1", "A", "SCM",                                   "계실관(PEI)\n공구 재생 판유소\n구판생물품\n입검적보 피포검출\n채인트 알데이엑", "Bullwhip Effect -> CPFR / SCM2.0\nJIT, RTE\n\n[구성요소 - 계실관 PEI / 공구 재생 판유소]\n\nSCP (계획 - 공구) - 공급자 / 구매 프로세스\n자원 운영 계획, 통제\n\nSCE (실행 - 재생) - 재고관리 / 생산\n물류, 수송\n\nSCI (통합 - 판유소) - 판매, 유통 / 소비자\n모니터링, 성과측정, 프로세스개선\n\n[절차 - 입검적보 피포검출]\n입고 - 검수 - 적치 - 보관\n피킹 - 포장 - 검수 - 출고\n\n[기능 - 구판생물품]\n구매 / 판매 / 생산 / 물류 / 품질\n\n[주요 기술 - 채인트 알데이액]\n\n공급자/고객 - 채인트\nEC / EDI / EFT\n\n기업내부 시스템 - 알데이액\nRFID / DW, DM / ERP / ABC"],
-    ["1", "B", "SupplyChain_Attack",                    "하부필 업인접 사스위\n전시전음열", "공급망 공격\n\n[공격유형]\n\nHW\n하드웨어 트로이 공격(HT) / 부채널공격(SCA) / FPGA공격\n\nSW\n업데이트 서버 / 인프라 구성요소(CI/CD) / 접근제어 우회(인증/인가)\n\n인적\n사회공학 (스피어피싱, 위터링홀)\n\n[FPGA(field programmable gate array)]\n설계 가능 논리 소자와 프로그래밍이 가능한 내부 회로가 포함된 반도체 소자\n\n[부채널 공격(Side-Channel Attack) 유형] - 전시전음열\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"],
+    ["1", "B", "SupplyChain_Attack",                    "하부필 업인접 사스위\n전시전음열", "공급망 공격\n\n[공격유형]\n\nHW\n하드웨어 트로이 공격(HT) / 부채널공격(SCA) / FPGA공격\n\nSW\n업데이트 서버 / 인프라 구성요소(CI/CD) / 접근제어 우회(인증/인가)\n\n인적\n사회공학 (스피어피싱, 위터링홀)\n\n[FPGA(field programmable gate array)]\n설계 가능 논리 소자와 프로그래밍이 가능한 내부 회로가 포함된 반도체 소자\n\n[Side-Channel Attack 유형] - 전시전음열\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"],
     ["1", "C", "PLM",                                   "시제프\n시가통협 부자제설문 프엔", "두번 출제 / 한물감\n\n[구성요소 - 시제프]\n시스템 통합,협업 / 제품 관리 / 프로세스 관리\n\n[시스템 통합/협업 - 시가통협]\nVisualization / 가치생산 / 시스템통합 / 제품개발 협업\n\n[제품관리 - 부자제설문]\n부품정보 관리 / 자제명세서(BOM) / 제품사양 관리\n설계정보 관리 / 도면, 문서 관리\n\n[프로세스 관리 - 프엔]\n프로젝트 관리 / 엔지리어링 프로세스"],
     ["1", "C", "EAI",                                   "이아브비\n포허메피", "10년에 한번 나옴 / 개념만\n\n[구성요소 - 이아브비]\nEAI Platform\nApplication Adapter\nBroker\nBusiness Workflow\n\n[통합방식/구축유형 - 포허메피]\nPoint-to-Point\nHub & Spoke\nMessaging Bus\nPeer-to-Peer"],
     ["1", "C", "Data_Warehouse",                        "애플비프 포허매하피", ""],
@@ -1001,9 +1001,9 @@
     ["1", "C", "Euclidean_Distance",                    "", "유클리디안 거리"],
     ["1", "C", "Gaussian_Similarity",                   "", "가우시안 분포 / 정규분포"],
     ["1", "C", "MIMO",                                  "", "Multiple-Input Multiple-Output"],
-    ["1", "C", "Side_Channel_Attack",                                  "전시전음열", "[부채널 공격(Side-Channel Attack) 유형] - 전시전음열\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"]
+    ["1", "C", "SCA",                                  "전시전음열", "부채널 공격 / Side-Channel Attack\n\n[유형 - 전시전음열]\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.12.1140", ""]
+    ["1", "A", "Version",                               "2025.11.12.1150", ""]
 ]
 }
