@@ -62,7 +62,8 @@
     ["1", "C", "Data_Warehouse",                        "애플비프 포허매하피", ""],
     ["1", "B", "Gold_Plating",                          "제분개", ""],
     ["1", "B", "Scope_Creep",                           "범의관\n범의변프", ""],
-    ["1", "B", "Rolling_Wave_Planning",                 "", ""],
+    ["1", "B", "Rolling_Wave_Planning",                 "관레워백\n마작관산수", "[작성원칙 - 관레워백]\n관리 가능 크기\n적정 분할 레벨
+\nWork Package 크기 조절\nWBS 100% 규칙\n\n[프로세스 - 마작관산수]\n1단계 - 마스터플랜 계획 수립\n2단계 - 작업 분류 수준 계획 수립\n3단계 - 관리, 측정 가능 WBS\n4단계 - Work Package 관리 산출물\n5단계 - Work Package 실제 수행 계획"],
     ["1", "B", "RACI_CHART",                            "리어커인\n협회수강", "[역할 - 리어커인]\nResponsible - 실무담당자\nAccountable - 의사결정자\nConsulted - 조언자\nInformed - 통보대상자\n\n[갈등 해결 기법 - 협회수강화]\n협력 - Win-Win\n회피 - Lose-Lose\n수용 - Lose-Win\n강제 - Win-Lose\n화해"],
     ["1", "B", "Motivation_Theory",                     "욕성X2E\n공기강목업기", "동기부여이론\n\n[내용 이론 - 욕성X2E]\n\n- 욕구단계이론 - 생안애존자\n생리 / 안전 / 애정(소속) / 존중 / 자아실현\n\n- 성취동기이론 - 성취권\n성취 욕구 / 친화 욕구 / 권력 욕구\n\n- X-Y이론 - X부Y긍\nX이론 - 부정적 인간관\nY이론 - 긍정적 인간관\n\n- 2요인이론 - 위불동만\n위생요인 - 불만족 요인\n동기요인 - 만족 요인\n\n- ERG이론 - 존관성\n존재 (Existence) / 관계 (Relatedness) / 성장 (Growth)\n\n[과정 이론 - 공기강목업기]\n공정성 이론 - 공정 동기 유지 / 불공정 동기 발생\n기대이론 - 기대, 매력 따라 동기 결정\n강화이론(학습이론) - 긍정 보상 반복 / 부정 처벌 회피\n목표설정이론 - 구체적/도전적 목표 설정 / 성취감\n업적-만족이론 - 개인 노력 -> 성과 -> 만족\n기대모형이론 - 동기부여 결정 = 기대 * 수단성 * 가치"],
     ["1", "B", "Bullwhip_Effect_CPFR_SCM2",             "가수과일\n허피익\n탄고그", "[원인 - 가수과일]\n가격변동 / 수요예측 / 과잉주문 / 일괄주문\n\n[최소화 방안]\n\nSCM2.0 - 탄고그\n탄력적 SCM\n고객지향 SCM\n그린 SCM\n\nCPFR - 허피익(구축유형)\n거래파트너 Hub형\nP2P형\n거래 Exchange형"],
@@ -1004,6 +1005,6 @@
     ["1", "C", "SCA",                                  "전시전음열", "부채널 공격 / Side-Channel Attack\n\n[유형 - 전시전음열]\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.12.1150", ""]
+    ["1", "A", "Version",                               "2025.11.12.1240", ""]
 ]
 }
