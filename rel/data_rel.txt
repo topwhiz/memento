@@ -876,7 +876,6 @@
     ["1", "B", "Defense_GAN",                           "", ""],
     ["1", "B", "Q_Learning",                            "", ""],
     ["1", "B", "MCTS",                                  "", "Monte Carlo Tree Search\n인공지능 > 강화학습 > MCTS\n게임 시뮬레이션, 선택-확장-시뮬레이션-역전파\n기출-113-관리-1-3"],
-    ["1", "B", "Bigdata_Analysis_Evaluation_Method",    "정트 재교부", "분석 모델 평가 방법\n\n[빅데이터 분석 모델 평가 방법 종류 - 정트 재교부]\n정확도 기법 - Train Validation\n재샘플링 기법 - Cross Validation / Bootstrap\n\n[Train Validation]\nTraining Set - 모델 학습\nValidation Set - 모델 검증/선택\nTest Set - 모델 확인/평가\n\n[Cross Validation - 교차검증]\n\n- Exhaustive CV\nLeave-p-Out CV (LpOCV) - nCp 개의 가능 경우 수 반복 / n개 중 p개 선택\nLeave-One-Out CV (LOOCV) - 전체 샘플 수 n만큼 반복 / LpOCV p=1 / k-fold CV k=n\n\n- Non-Exhaustive CV\nk-fold (KFCV) - k개 균일 서브셋 랜덤 분할\nRepeated Learning Testing (RLT) - 랜덤 / 비복원 추출 / LpOCV 근사\n\n[Bootstrap]\n중복 허용 / B개 샘플링 / 샘플 통계\n데이터 불충분 / 모집단 분포 정보 불충분"],
     ["1", "B", "Optimization_Algorithm",                "", ""],
     ["1", "B", "Foundation_Model",                      "", "인공지능 파운데이션 모델"],
     ["1", "B", "Foundation_Model_1",                    "", "인공지능 파운데이션 모델"],
@@ -899,6 +898,8 @@
     ["1", "C", "DSML",                                  "", "데이터과학 및 기계학습(DSML)의 수명주기\nData Science & Machine Learning"],
     ["1", "A", "MLOps",                                 "", "기계학습 운영화, AI > 기타 - 응용기술\nITSM\n프로젝트 계획 수립 및 착수, 데이터 준비 및 학습환경 구축, 모델 학습/튜닝, 모델 배포 및 생산 모니터링, Experiment, Develop, Operate"],
     ["1", "B", "ModelOps",                              "", "127 관리 1, 128 관리 1"],
+    ["1", "B", "Bigdata_Analysis_Evaluation_Method",    "정트 재교부", "분석 모델 평가 방법\n\n[빅데이터 분석 모델 평가 방법 종류 - 정트 재교부]\n정확도 기법 - Train Validation\n재샘플링 기법 - Cross Validation / Bootstrap\n\n[Train Validation]\nTraining Set - 모델 학습\nValidation Set - 모델 검증/선택\nTest Set - 모델 확인/평가\n\n[Cross Validation - 교차검증]\n\n- Exhaustive CV\nLeave-p-Out CV (LpOCV)\n:nCp 개의 가능 경우 수 반복 / n개 중 p개 선택\nLeave-One-Out CV (LOOCV)\n전체 샘플 수(n) 반복 / LpOCV p=1 / k-fold CV k=n\n\n- Non-Exhaustive CV\nk-fold (KFCV) - k개 균일 서브셋 랜덤 분할\nRepeated Learning Testing (RLT)\n:랜덤 / 비복원 추출 / LpOCV 근사\n\n[Bootstrap]\n중복 허용 / B개 샘플링 / 샘플 통계\n데이터 불충분 / 모집단 분포 정보 불충분"],
+    ["1", "C", "Cross_Validation",                      "", "인공지능 모델 평가방법"],
     ["1", "B", "AI_Model_Evaluation_Method",            "", "인공지능 모델 평가방법"],
     ["1", "B", "AI_Model_Evaluation_Metrics",           "", "인공지능 모델 평가지표"],
     ["1", "C", "AI_Bias_Trustworthiness",               "", "인공지능 편향성, 신뢰성 확보 방안"],
@@ -1010,6 +1011,6 @@
     ["1", "C", "SCA",                                   "전시전음열", "부채널 공격 / Side-Channel Attack\n\n[유형 - 전시전음열]\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.15.1100", ""]
+    ["1", "A", "Version",                               "2025.11.16.0620", ""]
 ]
 }
