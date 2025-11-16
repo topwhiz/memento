@@ -405,7 +405,7 @@
 ],
 "Digital_Network": [
     ["1", "A", "Network_Roadmap",                       "", ""],
-    ["1", "B", "OSI7",                                  "아파서티네다P\n데세패프비", "ISO/IEC 7498:1994\n[구성 - 아파서티네다P 데세패프비]\nApplication - Data\nPresentation - Data\nSession - Data\nTransport - Segment\nNetwork - Packet\nDataLink - Frame\nPhysical - Bits\n\nPDU (Protocol Data Unit)\n네트워크 계층 간에 교환되는 데이터 단위\n\nSDU (Service Data Unit)\n상위 계층에서 하위 계층으로 전달되는 데이터의 단위\n\nPCI (Protocol Control Information)\n특정 계층의 프로토콜이 데이터 전송을 위해 추가하는 제어 정보(오버헤드)"],
+    ["1", "B", "OSI7",                                  "아파서티네다P\n데세패프비\n7498", "ISO/IEC 7498:1994\n\n[구성 - 아파서티네다P 데세패프비]\nApplication - Data\nPresentation - Data\nSession - Data\nTransport - Segment\nNetwork - Packet\nDataLink - Frame\nPhysical - Bits\n\n용어]\n\n- PDU (Protocol Data Unit)\n네트워크 계층 간에 교환되는 데이터 단위\n\n- SDU (Service Data Unit)\n상위 계층에서 하위 계층으로 전달되는 데이터의 단위\n\n- PCI (Protocol Control Information)\n특정 계층의 프로토콜이 데이터 전송을 위해 추가하는 제어 정보(오버헤드)"],
     ["1", "C", "Application_Layer",                     "", "7계층\n서비스 프로토콜, Message, 사용자 연결, L7 스위치\nHTTP, SSH, SIP, FTP, TELNET, MODBUS\nKeep Alive, VoIP, Signaling, PLC(Programmable Logic Controller), HL7"],
     ["1", "C", "Presentation_Layer",                    "", "6계층\n암호화, 압축, 코드 변환"],
     ["1", "C", "Session_Layer",                         "", "5계층\n동기화, 대화, 동기점, 메시지, NetBIOS, RPC, WinSock"],
