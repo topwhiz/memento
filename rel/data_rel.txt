@@ -1012,6 +1012,6 @@
     ["1", "C", "SCA",                                   "전시전음열", "부채널 공격 / Side-Channel Attack\n\n[유형 - 전시전음열]\n전력 분석 공격 (Power Analysis Attack)\n시간 분석 공격 (Timing Attack)\n전자기파 분석 공격 (Electromagnetic Attack)\n음향 분석 공격 (Acoustic Attack)\n열 분석 공격 (Thermal Attack)"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.16.0850", ""]
+    ["1", "A", "Version",                               "2025.11.17.0700", ""]
 ]
 }
