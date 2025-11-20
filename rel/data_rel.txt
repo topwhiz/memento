@@ -451,6 +451,9 @@
     ["1", "A", "Ultra_Ethenet",                         "패오보 리울 패전초대로 최무암", "[주요 특징 - 패오보 리울 패전초대로 최무암]\n\n- 하이브리드 패브릭 - 리울\nEthernet + RDMA + UET\nRDMA - Zero Copy Networking\nUET - Semantic / PDS / TSS\n\n- HW Offload 최적화 - 패전초대로\n패킷 처리, 큐 관리, 스케줄링 / NIC, 가속기\n전송 경로 지능화 - 동적 최적 경로 탐색\n초저지연 큐잉 스케줄링\n대규모 GPU Pod 최적화 - AI Pod\nLossless Ethernet - PFC 흐름제어 / ECN 혼잡 방지\n\n- 보안 기능 강화 - 최무암\n최적화 패킷 인증\n전송 무결성\n암호화 옵션"],
     ["1", "B", "QoS",                                   "기성회보\n퍼프클페웨 리토하 랜웨트 인디멀씨압\n대지터패\n베디구", "[기술 분류 - 기성회보]\n\nQueue(대기열) 관리 - 퍼프클페웨\nFIFO - First In First Out\nPQ - Priority Queuing\nCBQ - Class-Based Queuing\nFQ - Fair Queuing\nWFQ - Weight Fair Queuing\n\n트래픽 성형 (Traffic Shaping) - 리토하\nLeaky Bucket\nToken Bucket\nHybrid\n\n혼잡 회피 / 사전 패킷 폐기 - 랜웨트\n(Proactive Packet Discard/Traffic Policing)\nRED - Random Early Detection\nWRED - Weighted Random Early Detection\nTail Drop\n\nQoS 보장 기술 - 인디멀씨압\nIntServ - 통합서비스 / RSVP / Flow / 소규모\nDiffServ - 차등서비스 / TOS,DSCP / Class / 대규모\nMPLS - Multi Protocol Labeling Switch\nCDN/ADN\n압축기술\n\n[QoS 지표 - 대지터패]\n\n대역폭 (Bandwidth)\nQueuing / Bandwith / Shaping / Policing\n\n지연 (Delay)\nQueuing\n\n지터 (Jitter)\n전달 과정에서 왜곡되는 정도\nFEC / BEC / Queuing\n\n패킷 손실 (Packet Loss)\n흐름 제어 알고리즘 기반 패킷 Drop(Policing)\nQueuing / RED / WRED\n\n[측정레벨 - 베디구]\nBest-effort / Differentiated / Guaranted\nQoE (Quality of Experience)"],
     ["1", "B", "QoS_1",                                 "기성회보\n퍼프클페웨 리토하 랜웨트 인디멀씨압\n대지터패\n베디구", "[기술 분류 - 기성회보]\n\nQueue(대기열) 관리 - 퍼프클페웨\nFIFO - First In First Out\nPQ - Priority Queuing\nCBQ - Class-Based Queuing\nFQ - Fair Queuing\nWFQ - Weight Fair Queuing\n\n트래픽 성형 (Traffic Shaping) - 리토하\nLeaky Bucket\nToken Bucket\nHybrid\n\n혼잡 회피 / 사전 패킷 폐기 - 랜웨트\n(Proactive Packet Discard/Traffic Policing)\nRED - Random Early Detection\nWRED - Weighted Random Early Detection\nTail Drop\n\nQoS 보장 기술 - 인디멀씨압\nIntServ - 통합서비스 / RSVP / Flow / 소규모\nDiffServ - 차등서비스 / TOS,DSCP / Class / 대규모\nMPLS - Multi Protocol Labeling Switch\nCDN/ADN\n압축기술\n\n[QoS 지표 - 대지터패]\n\n대역폭 (Bandwidth)\nQueuing / Bandwith / Shaping / Policing\n\n지연 (Delay)\nQueuing\n\n지터 (Jitter)\n전달 과정에서 왜곡되는 정도\nFEC / BEC / Queuing\n\n패킷 손실 (Packet Loss)\n흐름 제어 알고리즘 기반 패킷 Drop(Policing)\nQueuing / RED / WRED\n\n[측정레벨 - 베디구]\nBest-effort / Differentiated / Guaranted\nQoE (Quality of Experience)"],
+    ["1", "B", "IntServ",                               "", ""],
+    ["1", "B", "DiffServ",                              "", ""],
+    ["1", "B", "MIMO",                                  "", ""],
     ["1", "B", "NFV",                                   "NVME\n하오하머", "방화벽 / 로드밸런서\nDPI(Deep Packet Inspection)\nEPC(Evolved Packet Core)\n\n[구성 - NVME]\n\nNFVI\nNetwork Functions Virtualization Infrastructure\n\nVNFs\nVirtualized Network Functions\n\nMANO\nManagement and Orchestration\n\nE2E Networking\n\n[VNF 구성 - 하오하머]\nVM - VNF / Guest OS\nVirtualization Layer(Hypervisor)\nHost OS\n하드웨어 - Commodity HW"],
     ["1", "C", "CNF",                                   "하오엔컨", "Cloud Native Network Function\n컨테이너를 이용하여 네트워크 기능 생성\n네트워크 하드웨어를 emulate한 vm을 이용하여 cloud 컴퓨팅 환경을 완벽하게 가상화\n\n[구성 - 하오엔컨]\n\nContainer\nCNF(Microservice)\n\nContainerization Layer\nContainer Engine\nClude Native(Orchestration, Devops, CI/CD)\n\nHost OS\n\n하드웨어\nCommodity HW"],
     ["1", "B", "SDX",                                   "인보응\n네스인데 SP 애비힐완", "인프라 - 네스인데\nSDN / SDS / SDI / SDDC\n\n보안 - SP\nSDSec / SDP\n\n응용 서비스 - 애비힐완\nSDA / SDVN / SDH / SD-WAN"],
@@ -471,6 +474,7 @@
     ["1", "B", "ARQ",                                   "", "NW > 오류제어(2계층) > 자동재전송요구\nAutomatic Repeat reQuest\nStop and Wait, Go-Back-N, Selective Repeat"],
     ["1", "C", "Error_Control",                         "", "오류제어\n\n[FEC]\nHamming Code\nRS Code\nConvolutional Code\n\n[BEC]\n- Error Detect\nCRC / Parity Check / Check Sum\n\n- Retransmission\nStop & Wait ARQ\nSliding Window ARQ (go-back-n/selective-reject)\n\n[H-ARQ]"],
     ["1", "B", "TCP_Congestion_Control",                "RED, WRED, TailDrop", "NW> 네트워크 관리(QoS)> 혼잡제어\nSlow Start\nFast Retransmit\nCongestion Avoidence\nFast Recovery\nSsthresh(Slow Start Threshold)\nReno TCP"],
+    ["1", "A", "Proactive_Packet_Discard",              "", ""],
     ["1", "B", "Traffic_Policing",                      "미드마", "Drop, Meter(bps), Mark, Leaky Bucket, Token Bucket"],
     ["1", "B", "Traffic_Shaping",                       "CCE", "DiffServ, 트래픽 쉐이핑(Shaping) , Policing ,Leaky Bucket, Tocken Bucke"],
     ["1", "B", "Sliding_Window",                        "", "4계층 전송계층 > TCP오류제어 > 흐름제어\n20년동안 2번 출제\n동적 제어, 2 계층 혹은 4계층\n\n[구성]윈도우 유형\n윈도우 열림동작\n윈도우 닫힘동작\n윈도우 크기\n\n[Window 종류]\ntcp window - 한번에 송신 가능 크기 / 수신 윈도우 크기\nSliding Window - 슬라이딩 윈도우\nAdvertised Window - 광고된 윈도우\nCongestion Window - cwnd / 혼잡 윈도우\n\nReceiver Window - 수신자 윈도우 / 수신자 버퍼 크기"],
@@ -493,12 +497,15 @@
     ["1", "B", "WLan_Security",                         "", "SSID\nWEP(IEEE 802.11i)/WPA3(AES알고리즘)\nAP 간 로밍(Roaming)"],
     ["1", "B", "WLan_Security_1",                       "", "SSID\nWEP(IEEE 802.11i)/WPA3(AES알고리즘)\nAP 간 로밍(Roaming)"],
     ["1", "B", "WLan_Finger_Printing",                  "유반최견투복\n액타 패알소 차미모", "무선랜 실내 측위기술 / 삼각측량기법\n\n[요구성질 - 유반최견투복]\n\n유일성 - NIC 구별 가능\n반복성- 동일 디바이스 동일 결과\n최소성 - 최소 차원 특징 집합\n견고성 - 위조, 우회 방지\n투명성 - HW, SW 수정 불필요\n복원성 - 노이즈, 다중경로효과, MIMO에 견고\n\n[기술 종류 - 액타 패알소 차미모]\n\nActive Fingerprinting - AP/DNS 통신 지연 시간\nTiming based scheme - RTT 기준값 초과여부\n\nPassive Fingerprinting - RF주파수 특성 비교\n패시브 RF  - Wave Form / Modulation / RSS Domain\n패시브 SW - Arrival Time / Frame Seq / Anomaly\n차세대 RF - MIMO 워터마킹"],
+    ["1", "B", "WPA3"                                   "", ""],
+    ["1", "B", "WiFi_Sensing"                           "", "IEEE 802.11bf"],
     ["1", "B", "IPv6",                                  "기확데 버터플파네호", "Dual Stack / Tunneling / 주소변화\n\n[구성요소 - 기확데 버터플파네호]\n기본 헤더 (40) / 확장 헤더 (2^16) / 데이터\n\n(기본헤더)\nVersion - 4\nTraffic Class - 4\nFlow Label - 20\nPacket Length - 16\nNext Header - 8\nHop Limit - 8\nSource Address (32)\nDestination Address (32)"],
     ["1", "B", "WPAN",                                  "근거리, 개인영역, Ad-hoc, 저전력, 저비용, 블루투스(Bluetooth), UWB, Zigbee, IEEE802.15", "SV > 지능형 로봇\nWireless Personal Area Network"],
     ["1", "B", "Bluetooth6",                            "", "IEEE 802.15.1"],
     ["1", "B", "UWB",                                   "", "NW > WPAN > Ultra Wide Band\n초광대역\nIEEE 802.15.3a / 3.1~10.6GHz"],
     ["1", "B", "Zigbee",                                "", "NW > WPAN > Zigbee(Low Data Rate)\nIEEE 802.15.4\n65,000 Slave, 250K, 2.4GHz, 868MHz"],
     ["1", "B", "Smart_Home",                            "CPND", "Smart Tag, PLC, Smart Meter\n\n[구성 요소 - CPND]\nContent\nPlatform\nNetwork\nDevice"],
+    ["1", "A", "Intelligent_Home",                      "", "[지능형홈 단계]\n\n1단계\n국제표준 매터\nAI활용 지능형 홈 서비스 개발, 실증\n\n2단계\n국제 표준 매터\n생성형 AI\n온디바이스 AI\n\n3단계\n지속 가능 서비스\n모델 발굴, 개방성 확보\nICT선도기술 기반, 신규 과제"],
     ["1", "C", "IoT_Protocol",                          "", "XMPP, CoAP, MQTT"],
     ["1", "B", "Matter",                                "", "스마트홈\n131회 컴시응 4교시\n멀티 어드민, 로컬 제어, 엔드포인트, 클러스터, 어트리뷰트, 쓰레드"],
     ["1", "B", "CoAP",                                  "", "NW > IoT(프로토콜), 111.관리.2.6\nConstrained Application Protocol\nIETF(표준화단체)\nSensor, Client, Server, Proxy, DTLS]nIEEE 802.15.4, 6LoWPAN WG, IETF Std, CoRE WG\nUDP, CoAP Transactions, CoAP REST, Application"],
@@ -617,7 +624,7 @@
     ["1", "B", "SOAR",                                  "소시티\n연가\n자플스\n사리", "Security Orchestration, Automation and Response"],
     ["1", "B", "DNSSEC",                                "", "DNS 캐시 포이즈닝 공격 대응을 위해 공개키 암호화 방식 전자 서명"],
     ["1", "B", "EDR",                                   "", "EndPoint Detection Response\n종단에서 일어나는 침해행위, 이상탐지 등에 대한 검출"],
-    ["1", "B", "Cyber_Resilience",                      "", "사이버 레질리언스\n사이버 복원력"],
+    ["1", "B", "Cyber_Resilience",                      "", "사이버 복원력 / 경영 전략적 가치로 부상"],
     ["1", "B", "CARTA",                                 "", "CARTA 접근법\n2018년 가트너 10대 기술"],
     ["1", "B", "SASE",                                  "", "Secure Access Service Edge"],
     ["1", "B", "CASB",                                  "기능 - 접데로이 위암 D\n유형,종류 - APPA/아파", "Cloud Access Security Broker"],
@@ -1030,6 +1037,6 @@
     ["1", "C", "HSRP",                                  "", "Hot Standby Router Protocol\n\nCisco사 개발 독점 프로토콜 / GW 이중화 프로토콜\n인터페이스 미설정 주소를 가상 IP 주소 사용\nActive, Standby 라우터 선정\nPreemption(선점) 가능\nActive-Standby"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.11.20.0600", ""]
+    ["1", "A", "Version",                               "2025.11.21.0200", ""]
 ]
 }
