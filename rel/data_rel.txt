@@ -498,7 +498,7 @@
     ["1", "B", "WLan_Security_1",                       "", "SSID\nWEP(IEEE 802.11i)/WPA3(AES알고리즘)\nAP 간 로밍(Roaming)"],
     ["1", "B", "WLan_Finger_Printing",                  "유반최견투복\n액타 패알소 차미모", "무선랜 실내 측위기술 / 삼각측량기법\n\n[요구성질 - 유반최견투복]\n\n유일성 - NIC 구별 가능\n반복성- 동일 디바이스 동일 결과\n최소성 - 최소 차원 특징 집합\n견고성 - 위조, 우회 방지\n투명성 - HW, SW 수정 불필요\n복원성 - 노이즈, 다중경로효과, MIMO에 견고\n\n[기술 종류 - 액타 패알소 차미모]\n\nActive Fingerprinting - AP/DNS 통신 지연 시간\nTiming based scheme - RTT 기준값 초과여부\n\nPassive Fingerprinting - RF주파수 특성 비교\n패시브 RF  - Wave Form / Modulation / RSS Domain\n패시브 SW - Arrival Time / Frame Seq / Anomaly\n차세대 RF - MIMO 워터마킹"],
     ["1", "B", "WPA3",                                  "", ""],
-    ["1", "B", "WiFi_Sensing"                           "", "IEEE 802.11bf"],
+    ["1", "B", "WiFi_Sensing",                          "", "IEEE 802.11bf"],
     ["1", "B", "IPv6",                                  "기확데 버터플파네호", "Dual Stack / Tunneling / 주소변화\n\n[구성요소 - 기확데 버터플파네호]\n기본 헤더 (40) / 확장 헤더 (2^16) / 데이터\n\n(기본헤더)\nVersion - 4\nTraffic Class - 4\nFlow Label - 20\nPacket Length - 16\nNext Header - 8\nHop Limit - 8\nSource Address (32)\nDestination Address (32)"],
     ["1", "B", "WPAN",                                  "근거리, 개인영역, Ad-hoc, 저전력, 저비용, 블루투스(Bluetooth), UWB, Zigbee, IEEE802.15", "SV > 지능형 로봇\nWireless Personal Area Network"],
     ["1", "B", "Bluetooth6",                            "", "IEEE 802.15.1"],
