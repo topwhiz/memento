@@ -350,7 +350,7 @@
 "Digital_Service": [
     ["1", "B", "Gartner10",                             "", "1. Agentic AI\n2. Post-quantum Cryptography\n3. Spatial Computing\n4. AI Governance Platforms\n5. Ambient Invisible Intelligence\n6. Polyfunctional Robots\n7. Disinformation Security\n8. Energy-Efficient Computing\n9. Neurological Enhancement\n10. Hybrid Computing"],
     ["1", "A", "Cloud_Computing",                       "온멀유서\n유서시프모미서\n서대관(멀)C분병\n오모빌네 보P브모", "[구성요소 - 유서시프모미서]\nUser Interaction Interface\nService Catalog\nSystem Management\nProvisioning Tool\nMonitoring\nMetering\nServer\n\n[기술요소]\n가상화 기술\n대규모 분산 처리\nOpen I/F\n서비스 프로비저닝\n자원 유틸리티\nSLA\n보안 및 프라이버시\n\n[6대 핵심 기술 - 서대관(멀) C분병]\n서버 가상화\n대용량 클라우드\n가상 서버 관리 (멀티테넌시)\nCDN\n분산 스토리지\n병렬 처리\n\n[9대기술 - 오모빌네 보P브모]\n애플리케이션 - 오픈API\n관리 - 모니터링 / 빌링\n인프라 - VLAN / 보안 SLA / P2V, V2V\n클라우드 - VPC / 모바일 클라우드"],
-    ["1", "B", "Fog_Computing",                         "지인신품이", "[컴퓨팅 기술 연관성]\nDevice - Edge - Fog - Cloud\n거리기준 / 응답속도 / 보안성 기준\n\n"],
+    ["1", "B", "Fog_Computing",                         "지위신품이", "[컴퓨팅 기술 연관성]\nDevice - Edge - Fog - Cloud\n거리기준 / 응답속도 / 보안성 기준\n\n"],
     ["1", "A", "Mobile_Edge_Computing",                 "클기디", "Mobile Edge Computing / 118.관리.1\n\n[구성 - 클기디]\n\nCloud Layer\nCloud / PGW 동반 ISP망\n\nMEC Layer (기지국)\nMEC Platform API - Caching / 영상인식/ 빅데이터분석 / AI\nMEC 관리\n\nDevice Layer\nUE\nAPI 호출\n\n[컴퓨팅 기술 연관성]\nDevice - Edge - Fog - Cloud\n거리기준 / 응답속도 / 보안성 기준"],
     ["1", "A", "Serverless_Computing",                  "클백오펑프", "[구성요소 - 클백오펑프]\nClient Application - SPA / Web App\nBack End - Event Router / BaaS\nAuthentication - OAuth\nFunction Service - FaaS / Container\nFront End - API Gateway / Restful API"],
     ["1", "C", "Metamorphic_Computing",                 "", ""],
