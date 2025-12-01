@@ -424,7 +424,7 @@
     ["1", "B", "Cloud_Security_Coverage_Analysis",      "", "CSPM / CWPP / CASB"],
     ["1", "B", "Physical_AI",                           "", "IMU(관성측정장치, Inerial Measurement Unit)"],
     ["1", "B", "Sovereign_AI",                          "", ""],
-    ["1", "C", "Digital_Transformation",                "조프비전문커시\n뷔조거비혁", "최근 한번 남옴\n개념만"],
+    ["1", "C", "Digital_Transformation",                "조프비전문커시\n비조거모혁(VOGBI) 최전 디추 오비 신비", "최근 한번 남옴 / 개념만\n\n[변화요소 - 조프비전문커시]\n조직구조 / 프로세스 / 비전 /\n전략 / 문화 / 커뮤니케이션 / 시스템\n\n[전환 전략 - 비조거모혁(VOGBI) 최전 디추 오비 신비]\n\n- 비전 수립 (Vision)\n비즈니스 환경 분석\n핵심 역략 파악\n\n- 조직 정비, 인재 확보 (Organization)\n최고디지털책임자 (CDO) 임명\n전문 인재 확보\n\n- 거버넌스 체계구축 (Governance)\n디지털 거버넌스 수립\n추진 위원회 설치\n\n- 비즈니스 모델 개발 (Biz Model)\n오픈 이노베이션 촉진\n비즈니스 플랫폼 구축\n\n- 혁신, R&D 추진 (Inovation)\n신기술 도입\n비즈니스 생태계 구축 확산\n\n[단계별 진화]\n\n- 디지털 인프라 구축 단계\n디지털 제품 출시\n인프라 기반 구축\n\n- 디지털 비즈니스 추진 단계\ne-커머스, 디지털 비즈니스 강화\n\n- 디지털 트랜스포메이션 전환 단계\n비즈니스 모델, 경영전략 전환"],
     ["1", "A", "AI_Transformation",                     "", "AX"],
     ["1", "C", "DLT",                                   "", "분산원장기술"],
     ["1", "C", "Blockchain",                            "", ""],
@@ -444,7 +444,8 @@
     ["1", "B", "Drone",                                 "비업서데지", "디지털서비스(SV)>IT물류/드론\nFANET(Flying Ad-hoc NETwork)\nUAV(무인항공기), 도청공격, 드론 제어기술/충돌회피기술/탑재센서기술\n\n[구성요소 - 비업서데지]\n- 비행체 (Air Vehicle)\n  항공전자장비 - 비행제어컴퓨터 / 항법장비\n  탑재통신장비 - UHF송수신기 / Ku대역 송수신기\n- 업무장비 (Payload) - 미니 SAR / EO/IR\n- 지원체계 (Support)\n- 데이터링크 (Data Link)\n- 지상통제장비 (Groud Control Station)\n\n[Mini SAR - 소형 합성 개구 레이더]\nMiniature Synthetic Aperture Radar\n경량(5kg 이하) / 저전력 / 비행체 장착위해 개발\n고해상도 장거리 관측 / 지리정보 측량\n\n[EO/IR - Electro-Optical/Infra-Red]\nEO - 전자광학(Electro-Optical) / IR - 적외선(Infra-Red)\n일반 광학 카메라와 적외선 카메라가 함께 장착된 센서\n주간 - 일반 광학 카메라 / 가시광선 스펙트럼 정보 수집\n야간/저조도 환경 - 적외선 카메라 / 적외선 스펙트럼 정보 수집\n\n국경 감시 / 대기업 보안 / 소방, 재난 수색, 구조"],
     ["1", "B", "Anti_Drone",                            "비업서데지", "디지털서비스(SV)>IT물류/드론\nFANET(Flying Ad-hoc NETwork)\nUAV(무인항공기), 도청공격, 드론 제어기술/충돌회피기술/탑재센서기술\n\n[구성요소 - 비업서데지]\n- 비행체 (Air Vehicle)\n  항공전자장비 - 비행제어컴퓨터 / 항법장비\n  탑재통신장비 - UHF송수신기 / Ku대역 송수신기\n- 업무장비 (Payload) - 미니 SAR / EO/IR\n- 지원체계 (Support)\n- 데이터링크 (Data Link)\n- 지상통제장비 (Groud Control Station)\n\n[Mini SAR - 소형 합성 개구 레이더]\nMiniature Synthetic Aperture Radar\n경량(5kg 이하) / 저전력 / 비행체 장착위해 개발\n고해상도 장거리 관측 / 지리정보 측량\n\n[EO/IR - Electro-Optical/Infra-Red]\nEO - 전자광학(Electro-Optical) / IR - 적외선(Infra-Red)\n일반 광학 카메라와 적외선 카메라가 함께 장착된 센서\n주간 - 일반 광학 카메라 / 가시광선 스펙트럼 정보 수집\n야간/저조도 환경 - 적외선 카메라 / 적외선 스펙트럼 정보 수집\n\n국경 감시 / 대기업 보안 / 소방, 재난 수색, 구조"],
     ["1", "B", "UAM",                                   "", "Urban Air Mobility\neVTOL, PAV, Vertiport, MRO, K-UAM"],
-    ["1", "A", "Digital_Dysfunction",                   "", "디지털 역기능"],
+    ["1", "A", "Digital_Dysfunction",                   "", "디지털 역기능\n\n[사례]\n\n- 사회\n디지털 기술 과의존, 중독 - 인간관계 형성 저해\n1인 미디어 미정제 콘텐츠 - 허위정보, 유해 콘텐츠\n메타버스 - 디지털 세상 중독, 과몰입 심화\n디지털 공간 개인 명예훼손 - 인격권 침해\n\n- 기술\n딥페이크 기술 악용 증대\n디지털/AI 기술 - 오류, AI 알고리즘 편향\n가상 몰입형 미디어 기술 - 과의존, 중독 심화\n감성 AI 기술 - 악의적 감정 합성, 조작, 편집\n\n- 경제\n가상화폐 - 신종 코인, 신종 불공정 거래\n디지털 위변조, 해킹 - 지적 재산, 금융 범죄\n아바타 - 가상 인간 활용 디지털 금융 범죄\n\n- 생태계\n디지털 역량 강화 교육 미흡\n정서적, 심리적 혼동 심화\n\n- 정책\n피해 발생 예방, 해결 위한 기술, 정책 미흡\n책임 소재, 디지털 윤리 논란\n이해관계자 법적 책임 부여 제도 미흡\nAI 창작물 지적재산 법적 보호 제도 미흡"],
+    ["1", "A", "Digital_Dysfunction_1",                 "", "디지털 역기능\n\n[사례]\n\n- 사회\n디지털 기술 과의존, 중독 - 인간관계 형성 저해\n1인 미디어 미정제 콘텐츠 - 허위정보, 유해 콘텐츠\n메타버스 - 디지털 세상 중독, 과몰입 심화\n디지털 공간 개인 명예훼손 - 인격권 침해\n\n- 기술\n딥페이크 기술 악용 증대\n디지털/AI 기술 - 오류, AI 알고리즘 편향\n가상 몰입형 미디어 기술 - 과의존, 중독 심화\n감성 AI 기술 - 악의적 감정 합성, 조작, 편집\n\n- 경제\n가상화폐 - 신종 코인, 신종 불공정 거래\n디지털 위변조, 해킹 - 지적 재산, 금융 범죄\n아바타 - 가상 인간 활용 디지털 금융 범죄\n\n- 생태계\n디지털 역량 강화 교육 미흡\n정서적, 심리적 혼동 심화\n\n- 정책\n피해 발생 예방, 해결 위한 기술, 정책 미흡\n책임 소재, 디지털 윤리 논란\n이해관계자 법적 책임 부여 제도 미흡\nAI 창작물 지적재산 법적 보호 제도 미흡"],
     ["1", "A", "AI_Dysfunction",                        "", "AI 역기능"],
     ["1", "B", "Industry5",                             "", ""],
     ["1", "C", "De_Facto_De_Jure_Standard",             "", "비공식(사실상) 표준\n공식적 표준\n독점, 규격"],
@@ -458,7 +459,8 @@
     ["1", "B", "Digital_Bill_Rights",                   "", "디지털권리장전Digital Bill of Rights"],
     ["1", "A", "Cloud_Project_Supervision_Guide",       "", "클라우드 정보화사업 감리 점검가이드"],
     ["1", "B", "Server_Cooling_Technology",             "", "서버 냉각 기술"],
-    ["1", "B", "FiveG_MEC",                             "", "5G MEC(Multi-access Edge Computing)"]
+    ["1", "B", "FiveG_MEC",                             "", "5G MEC(Multi-access Edge Computing)"],
+    ["", "B", "AI_Washing",                             "", ""]
 ],
 "Digital_Network": [
     ["1", "A", "Network_Roadmap",                       "", ""],
@@ -1114,6 +1116,6 @@
     ["1", "C", "XDR",                                   "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.01.0430", ""]
+    ["1", "A", "Version",                               "2025.12.02.0430", ""]
 ]
 }
