@@ -386,9 +386,9 @@
     ["1", "A", "Kubernates",                            "마컨아이스\n워팟프릿컨", "오픈소스 컨테이너 오케스트레이션 플랫폼\n고가용성\n\n[구성요소 - 마컨아이스 워팟프릿컨]\n\n- 마스터노드\n컨트롤매니저\nAPI서버\nETCD(et cetera distributed)\nScheduler\n\n- 워커노드\nPod(파드)\nKube-proxy\nKubelet\n컨테이너 런타임(Docker)"],
     ["1", "B", "Web3",                                  "소융지개상실블\n시개상 블클에 메엔디다", "의미기반 검색엔진\n\nweb 3.0- 개인, 소통, 융합\nweb 2.0- 참여 / 공유 / 개방\n\n[특징 - 소융지개상실블] - 소유한 지개 상실 블\n소통 / 융합 / 지능화 / 개인화\n상황 인식 / 실시간웹 / 블록체인\n\n[기술 - 시개상 블클에 메엔디다]\n기존 기술 - 시멘틱웹 / 개인화 기술 / 상황인식 기술\n신규 기술 - 블록체인 / 클라우드 컴퓨팅 / Agent\n참고 기술 - 메타버스 / NFT / De-Fi / DAO"],
     ["1", "C", "Web4",                                  "Symbiotic web, 가상/현실 연결, 속도와 안정성, RFID", "Web4.0 보다는 Web3.0 확장 사용 추세\n인간과 기계의 공생\nSymbiotic\na web of intelligence connection"],
-    ["1", "A", "Dark_Web",                              "", ""],
-    ["1", "A", "Agent",                                 "통지처\n웹협이인터지 지반숙", "AI Agent와 구별할것\n\n[구성요소 - 통지처]\n통신 모듈 - ACL / ICL\n지식 모듈 - Knowledge map / Ontology / Rule DB\n처리 모듈 - 문제 해결 / 작업 제어\n\n[유형 - 웹협이인터지 지반숙]\n\n웹기반 에이전트 - 협이인터지\n협력 에이전트 - MAF / ACL\n이동 에이전트 - Clone / 이동 명령어\n인터페이스 에이전트 - 멀티모달 / 자연어처리\n인터넷 에이전트 - 검색엔진 / 웹자원 / 모니터링\n지능형 에이전트 - 학습 / 추론 / 계획 / 상황인식\n\n지능형 에이전트 - 반숙\n반응형 에이전트 - 조건-행동 규칙\n숙고형 에이전트 - 논리적 추론 / 기호 모델"],
-    ["1", "A", "Agentic_AI",                            "", "기출"],
+    ["1", "A", "Dark_Web",                              "서딥다\n프라다서셀디", "[계층구조 - 서딥다]\nSurface Web - 일반 목적\nDeep Web - 연구 / 의료 / 영업정보\nDark Web - 불법정보 / 암거래\n\n[기술요소 - 프라다서셀디]\nOnion Proxy (OP) - Tor Client / User\nOnion Router (OR) - Entry, Middle, Exit Node\nDestination - Dark Web\nCircuit - TCP Stream 한번의 온전한 경로\nCell - Tor 통과 고정 크기 패킷 (512 Byte)\n디렉토리 서버 - 노드, 경로 정보"],
+    ["1", "A", "Agent",                                 "통지처\n웹터이협인지 지반숙", "AI Agent와 구별할것\n\n[구성요소 - 통지처]\n통신 모듈 - ACL / ICL\n지식 모듈 - Knowledge map / Ontology / Rule DB\n처리 모듈 - 문제 해결 / 작업 제어\n\n[유형 - 웹터이협인지 지반숙]\n\n웹기반 에이전트 - 터이협인지\n인터넷 에이전트 - 검색엔진 / 웹자원 / 모니터링\n이동 에이전트 - Clone / 이동 명령어\n협력 에이전트 - MAF / ACL\n인터페이스 에이전트 - 멀티모달 / 자연어처리\n지능형 에이전트 - 학습 / 추론 / 계획 / 상황인식\n지능형 에이전트 - 반숙\n반응형 에이전트 - 조건-행동 규칙\n숙고형 에이전트 - 논리적 추론 / 기호 모델"],
+    ["1", "A", "Agentic_AI",                            "인추행학성\n규목학계 단모 유목 학 계", "기출\n\n[작동방식 - 인추행학성]\n인식 - 데이터 수집 / 특징 추출\n추론 -  의사결정 / LLM, RAG\n행동 - 목표설정 / API 통합\n학습 - 피드백 루프 / 데이터 Flywheel\n성숙도/관리 - SaaS, IoT 통합 / 자율 의사결정 / 보안, 거버넌스\n\n[유형 - 규목학계 단모 유목 학 계]\n\n- 규칙 기반\n단순반사 Agent - 사전 정의 규칙 기반 / 지각, 행동\n모델기반 Agent - 내부모델 유지,상태고려/지각,추론\n\n- 목표 기반\n유틸리티 기반 Agent - 유틸리티 함수 최적화 / 판단\n목표 기반 Agent - 목표 설정,계획 / 자각, 추론, 행동\n\n- 학습 기반\n학습 Agent - 경험 기반 / 피드백, 판단\n\n- 계층 기반\n계층 Agent - 계층 분할, 처리 / 지각, 추론, 행동"],
     ["1", "B", "Open_API",                              "개커 매 게서캐인\n아데보통", "122회 기출\n\n[구성요소 - 개커 매 게서캐인]\n\n- 사용자\nAPI Developer Portal\nThird-Party Developer Community\n\n- 관리자\nAPI Manager Portal\n\n- 시스템\nAPI Gateway\nAPI Support & Analysis\nCache\nAuthentication\n\n[핵심기술 - 아데보통]\n프로토콜/아키텍처 - REST / Restful API / SOAP\n데이터 - XML / JSON / GraphQL\n보안 - OAuth2.0 / SSL / TLS\n통신 - gRPC / AsyncAPI"],
     ["1", "B", "xAPI",                                  "교분시", "LMS-API GW-LRS\nSCORM"],
     ["1", "B", "REST_API",                              "CRUD\nURI", "POST / GET / PUT / DELETE\nStateless\nAPI > Rest API (Rest기반) > Restful API (Rest원칙 철저히 따름)"],
@@ -448,7 +448,7 @@
     ["1", "A", "AI_Dysfunction",                        "", "AI 역기능"],
     ["1", "B", "Industry5",                             "", ""],
     ["1", "C", "De_Facto_De_Jure_Standard",             "", "비공식(사실상) 표준\n공식적 표준\n독점, 규격"],
-    ["1", "A", "Ontology",                              "", ""],
+    ["1", "A", "Ontology",                              "관개속\n형반구비\n상하 일언메영과 방응", "[구성요소 - 관개속]\n관계 - Relation / 의미 관계, 개념 관계\n개념 - Concept / Class, Instance\n속성 - Property / 개념, 클래스, 인스턴스 가진 특성값\n\n[형식 기반 분류 - 형반구비]\n형식적 - 논리 기반 형식 언어 / 시맨틱NW, RDF, owL\n반형식적 - 컴퓨터 이해 가능 언어 / XML / Schema / XML\n구조화된 비형식적 - 시소러스(유의어 사전), 계층분류\n비형식적 - 최소한의 형식 / 일반사전 / 용어 사전\n\n[적용 범위 기반 분류 - 상하 일언메영과 방응]\n상위 온톨로지 - 일반상식 / 언어 / 메타데이터 / 영역 / 과업\n하위 온톨로지 - 방법 / 응용"],
     ["1", "C", "Semantic_Web",                          "", "안나올듯함 / 기본 구조는 숙지"],
     ["1", "B", "RDF",                                   "", ""],
     ["1", "C", "Digital_Maturity",                      "", ""],
@@ -460,7 +460,9 @@
     ["1", "B", "Server_Cooling_Technology",             "", "서버 냉각 기술"],
     ["1", "B", "FiveG_MEC",                             "", "5G MEC(Multi-access Edge Computing)"],
     ["1", "B", "AI_Washing",                            "", ""],
-    ["1", "C", "AI_Monetization",                       "", "AI 수익화"]
+    ["1", "C", "AI_Monetization",                       "", "AI 수익화"],
+    ["1", "C", "SDV",                                   "", ""],
+    ["1", "B", "OTA",                                   "", ""]
 ],
 "Digital_Network": [
     ["1", "A", "Network_Roadmap",                       "", ""],
@@ -1116,6 +1118,6 @@
     ["1", "C", "XDR",                                   "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.02.0430", ""]
+    ["1", "A", "Version",                               "2025.12.04.2350", ""]
 ]
 }
