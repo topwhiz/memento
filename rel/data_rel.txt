@@ -407,7 +407,7 @@
     ["1", "A", "Smart_Factory",                         "ICBMA\n점모제최자", "[기술요소 - ICBMA]\nIoT -  시맨틱 메모리 / 3D프린팅 / 에너지 관리\nCPS - 스마트로봇 / 설비제어\nBigData - UsN / 통합관제\nMobile - 클라우드 기반 애플리케이션\nAI -  공정 최적화 / 모델링\n\n[한국형 스마트 팩토리 5단계 수준 - 점모제최자]\n점검 > 모니터링 > 제어 > 최적화 > 자율운영\n\n[적용 수준 5단계]\n고도화 - 중간2 - 중간1 - 기초 - ICT 미적용"],
     ["1", "B", "Smart_Grid",                            "발송상소", "[지능형전력망 기반 인프라 - 발송상소]\n\n- 발전\n국내외 발전 / 국가간 계통연계\n재생 에너지 발전\n전력망 통신\n\n- 송배전\nPMU (Phasor Measurement Unit)\n전력계통 원격제어, 광역감시\n송전 자동화 / 배전 자동화 / 지능형 변전소\n\n- 상업/산업\nEMS (Energy Mng System) - 분산 에너지 관리\nEV충전소 설치 주차장 / 스마트 빌딩 / 분산 전원\n\n- 소비자\nESS (Energy Storage System) - 에너지 저장장치\nAMI (Advanced Metering Infrastructure)\n스마트 제어 어플리케이션 / 스마트 홈 디스플레이"],
     ["1", "B", "ESS",                                   "", "Energy Storage System"],
-    ["1", "B", "CPS",                                   "SAC 모자실소 유\n환전개통검개", "Cyber Physical System / 산업정책 > CPS\n\n[핵심 특성 - CPS]\nCyber - Computation / 연산\nPhysical - Control / 조작\nSystem - Communication / 통신\n\n[구성요소 - SAC 모자실소 유]\n\n- HW\nSensor / Actuator / Controller\n\n- SW\n모델링 - 이산 / 연속 / 도메인 모델\n자율컴퓨팅 - Self-Adaptation 시스템\nRT M/W - RT LB / 분배, 전송 / CORBA, JMS\nSW검증 기술 - 모델링 기반 소스코드 검증\n\n- NW\n유무선 통신 - IPv6 / WPAN\n\n[구축 절차 - 환전개통검개]\n환경 분석 - 내외부 환경 분석 / 자동화 업무 분석\n전략 수립 - 디지털 전환 / CPS 전략\nCPS 개발 - (연변가인구테) 연결,변환/가상,인지/구성/테스트\nCPS 통합 - 수평적 CPS로 통합\nCPS 검증 - 물리, 사이버 시스템 / CPS 보안, 안전성\nCPS 개선 - CPS 교육 / 피드백 / 개선"],
+    ["1", "B", "CPS",                                   "SAC 모자실소 유\n환전개통검개\n연변가인구테", "Cyber Physical System / 산업정책 > CPS\n\n[핵심 특성 - CPS]\nCyber - Computation / 연산\nPhysical - Control / 조작\nSystem - Communication / 통신\n\n[구성요소 - SAC 모자실소 유]\n\n- HW\nSensor / Actuator / Controller\n\n- SW\n모델링 - 이산 / 연속 / 도메인 모델\n자율컴퓨팅 - Self-Adaptation 시스템\nRT M/W - RT LB / 분배, 전송 / CORBA, JMS\nSW검증 기술 - 모델링 기반 소스코드 검증\n\n- NW\n유무선 통신 - IPv6 / WPAN\n\n[구축 절차 - 환전개통검개]\n환경 분석 - 내외부 환경 분석 / 자동화 업무 분석\n전략 수립 - 디지털 전환 / CPS 전략\nCPS 개발 - (연변가인구테) 연결,변환/가상,인지/구성/테스트\nCPS 통합 - 수평적 CPS로 통합\nCPS 검증 - 물리, 사이버 시스템 / CPS 보안, 안전성\nCPS 개선 - CPS 교육 / 피드백 / 개선"],
     ["1", "C", "CPPS",                                  "사모시 피필컨프플이 전데컨", "Cyber Physical Product System\n\n[구성요소 - 사모시 피필컨프플이 전데컨]\n\n- Cyber Factory\nModel / Simulation\n\n- Physical Factory\nField Lv / Control Lv / Process Lv / Plant Mgt Lv / ERP\n\n- 전송/조작\nData / Control"],
     ["1", "B", "SCADA",                                 "휴감데 통 피알 시 운", "원격감시제어설비\n지능형 SCADA\nSupervisory Control and Data Acquisition\n\n[구성요소 - 휴감데 통 피알 시 운]\nHMI - Human Machine Interface\n감시시스템\n데이터베이스\n통신시설\nPLC - Programmable Logic Controller\nRTU - Remote Terminal Unit\nsecurity\n운전철학"],
     ["1", "C", "FEMS",                                  "", ""],
@@ -1128,6 +1128,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.06.0530", ""]
+    ["1", "A", "Version",                               "2025.12.06.0540", ""]
 ]
 }
