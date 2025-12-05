@@ -462,7 +462,9 @@
     ["1", "B", "AI_Washing",                            "", ""],
     ["1", "C", "AI_Monetization",                       "", "AI 수익화"],
     ["1", "C", "SDV",                                   "", ""],
-    ["1", "B", "OTA",                                   "", ""]
+    ["1", "B", "OTA",                                   "", ""],
+    ["1", "B", "Ambient_Agent",                         "", ""],
+    ["1", "B", "Neural_Receiver",                       "", ""]
 ],
 "Digital_Network": [
     ["1", "A", "Network_Roadmap",                       "", ""],
@@ -1118,12 +1120,14 @@
     ["1", "C", "XDR",                                   "", ""],
     ["1", "C", "DSL",                                   "", "DTD (Document Type Definition)\n\n[개념]\n문서형 정의 의미\nXML 문서의 구조, 내용에 대한 규칙 정의\n문서의 정보 모델과 구조, 특성을 구체적으로 서술\nSGML(Standard Generalized Markup Language) 발전\n\n[주요기능]\n유효성 검사 - 정의 규칙 준수 여부\n문서 구조 정의 - 논리적 구조 정의\n콘텐츠 제약 - 데이터 타입, 제약 설정 가능\n\n[구성요소]\nELEMENT - 요소 이름, 내용\nATTLIST - Attribute, 타입, 기본값 등 정의\nENTITY - 재사용 가능 텍스트 블록, 특수 문자 정의\nNOTATION - 비XML 데이터 처리 형식 선언"],
     ["1", "C", "DTD",                                   "", "DSL (Domain-Specific Language)\n\n[개념]\n특정 도메인 특화 언어\n특정 문제 영역(도메인)에 특화하여 설계된 컴퓨터 언어\n특정 도메인의 문제를 효율적 해결 목적\n\n[특징]\n코드 간결성/가독성 - 직관적, 이해 쉽게 작성\n도메인 전문가와 개발자 간의 원활한 소통\n생산성 향상 - 개발 시간 단축 / 오류 감소\n기타 - 설계 복잡 / 하위 호환성 유지 어려움\n\n[구성요소]\n도메인과 목적에 따라 매우 다양\n문법, 의미론"],
-["1", "C", "Bloatware", "", "블로트웨어\n\n기기에 강제로 깔려 있는 불필요한 애플리케이션\n램 상주 프로그램\nBloat - 부풀다/부풀게 하다
-\nSoftware - 소프트웨어"],
-["1", "C", "Three_DoF", "", "3DoF (3 Degrees of Freedom)\n방향 변화만을 감지\n가속도계 / 자이로스코프 센서\n\n[추적 사항]\nPitch (좌우 회전)\nYaw (상하 회전)\nRoll (정면 기준 회전)"],
-["1", "C", "Six_DoF", "", "6DoF (6 Degrees of Freedom)\n사용자 환경에 대한 이해 필요\n높은 몰입감 제공\nInside-Out Tracking - 카메라, 깊이 센서 이용\nOutside-In Tracking - 외부 장치 사용\n\n[추적 사항]\n\n- 방향 변화 (3 DoF)\nPitch (좌우 회전)\nYaw (상하 회전)\nRoll (정면 기준 회전)\n\n- 위치 이동\nX, Y, Z축 (좌우, 상하, 전후 이동)"]
+    ["1", "C", "Bloatware",                             "", "블로트웨어\n\n기기에 강제로 깔려 있는 불필요한 애플리케이션\n램 상주 프로그램\nBloat - 부풀다/부풀게 하다\nSoftware - 소프트웨어"],
+    ["1", "C", "Three_DoF",                             "", "3DoF (3 Degrees of Freedom)\n방향 변화만을 감지\n가속도계 / 자이로스코프 센서\n\n[추적 사항]\nPitch (좌우 회전)\nYaw (상하 회전)\nRoll (정면 기준 회전)"],
+    ["1", "C", "Six_DoF",                               "", "6DoF (6 Degrees of Freedom)\n사용자 환경에 대한 이해 필요\n높은 몰입감 제공\nInside-Out Tracking - 카메라, 깊이 센서 이용\nOutside-In Tracking - 외부 장치 사용\n\n[추적 사항]\n\n- 방향 변화 (3 DoF)\nPitch (좌우 회전)\nYaw (상하 회전)\nRoll (정면 기준 회전)\n\n- 위치 이동\nX, Y, Z축 (좌우, 상하, 전후 이동)"],
+    ["1", "C", "LangChain_LangGraph_LangFlow_LangSmith","", ""],
+    ["1", "C", "Context_aware_AI",                      "", "상황 인지 AI\n\n[개념]\n주어진 환경, 상황 이해하여 스스로 작동 AI\nAI 추론 품질 향상\n\n[특징]\n데이터 통합 / 실시간 처리\n개인화 / 적응형 학습 / 추론 품질 향상\n\n[구성요소]\nAI 모델 - 컨텍스트 정의, 처리\n센서, 입력 장치 - 상황 데이터 수집\n분석 모듈 - 수집 데이터 통합, 분석\n의사결정 엔진 - 분석된 컨텍스트 기반 추론 / 행동 결정\n\n[활용]\n스마트 홈 - 자동 환경 조절 / 습관, 외부 날씨 인지\n추천 시스템 - 맞춤형 정보 제공 / 위치, 시간 파악"],
+    ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.05.1840", ""]
+    ["1", "A", "Version",                               "2025.12.06.0530", ""]
 ]
 }
