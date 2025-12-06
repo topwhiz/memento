@@ -249,6 +249,7 @@
     ["1", "B", "SW_Architecture_1",                     "요참모프배\n단추정모분\n저M계데클", "요(기) 참모(총장) 프로 배\n단추 정모(에서) (오신)분\n저M(Im) 계(랑) 데(제랑) 클(럽)\n\n[설계 절차 - 요참모프배]\n아키텍처 요구사항\n참조 아키텍처 준비\n아키텍처 모델링\n아키텍처 프로토타이핑\n아키텍처 배포\n\n[설계 원리 - 단추정모분]\n단계적 분해 - 기능 세분화 / 점진적 구체화 / 하향식\n추상화 - 과정/데이터/제어\n정보은닉 - 독립화\n모듈화 - 작업 단위화 / 응집도 / 결합도\n분할/정복 - 세분화 작은 시스템부터 개발 / 상향식\n\n[모델 유형 - 저M계데클]\n저장소 구조 스타일\nMVC 구조 스타일\n계층 구조 스타일\n데이터 플로우 스타일\n클라이언트-서버 스타일"],
     ["1", "B", "SW_Architecture_Evaluation",            "시시수경\n사탐씨이 아드리아리다", "[평가 방법론 유형 - 시시수경]\n시나리오 기반 (Scenario Based) - 정의된 Profile 기반 / ATAM, SAAM, CBAM\n시뮬레이션 기반 (Simulation Based) - BMT\n수학적 기반 (Mathematical) - 기준 모델 수치화\n경험 기반 (Experience) - 경험을 평가수단 활용\n\n[평가모델 상세 - 사탐씨이 아드리아리다]\n시시나리오기반 - SAAM, ATAM, CBAM, EATAM\n설계혼합기반 - ADR, ARID\n"],
     ["1", "B", "ISO_42010",                             "식표AD 대이관 모아기 관뷰모근규대", "[구성요소 - 식표AD 대이관 모아기 관뷰모근규대]\n\n식별 - 대이관\n대상 시스템 - System of Interest\n이행관계자 - Stakeholder\n관심사 - Concern\n\n표현 - 모아기\n모델형 - model Kind\n아키텍처 - Architecture\n아키텍처 기술 - Architecture Description\n\nAD - 관뷰모근규대\n관점 (Where-view) - Architecture Viewpoint\n뷰 (What) - Architecture View\n결정근거 - Architecture Rationale\n대응 규칙 - Correspondence Role\n대응 관계 - Correspondence"],
+    ["1", "B", "SAD",                                   "", "Software Architecture Document / ISO 42010"],
     ["1", "B", "ATAM",                                  "협기상후\n\n시비아\n오정보상\n적습준비(이)\n대변적시\n\n소조테보\nA비아\n식품분\n브분\n결", ""],
     ["1", "B", "ATAM_CBAM",                             "", ""],
     ["1", "B", "Blackboard_Pattern",                    "솔지컨", "SW > SW Architecture"],
@@ -339,7 +340,9 @@
     ["1", "B", "Split_Contract",                        "공기부", "분할발주\n\n[구성요소 - 공기부]\n공정분할 - 공정 단위 분할\n기능분할 - 서브시스템 단위 분할\n부품분할 - 패키지, 부품  단위 분할 / 기존 분리발주"],
     ["1", "B", "BMT",                                   "참발수심", "SW > 테스트 > BMT / 상용 SW 품질평가 성능시험\n\n[BMT 절차 - 참발수심]\n\n- BMT 참여업체\n4-1. 공고 확인\n5-1. 의견 제시\n8-1. 업체별 BMT 신청 / 계약\n13-2. 업체별 BMT 결과서\n\n- 발주처\n1. BMT 대상 선정\n4. 사업수행계획 공고\n5. 제안 설명회 / 의견 수렴회 개최\n13-1. 종합 BMT 결과서\n\n- BMT 수행기관\n2. BMT 수행계획 수립 (평가항목 / 절차)\n6. BMT 세부 수행계획 수립 (세부 평가항목 / BMT 시나리오)\n8. BMT 접수\n9. BMT 환경 구축\n10. BMT 수행\n11. BMT 결과서 작성\n13. BMT 결과 통보\n\n- BMT 심의위원회\n3. BMT 수행계획 심의\n7. BMT 세부 수행계획 심의\n12. BMT 결과 심의"],
     ["1", "C", "SW_Law",                                "", "SW진흥법"],
-    ["1", "B", "Public_SW_Task_Change_Guide",           "요구심통관조", "공공SW사업 과업변경 가이드라인\n2021 출제 예상 토픽"],
+    ["1", "A", "Public_SW_Task_Confirmation_Guide",     "", "공공SW사업 과업확정 가이드라인"],
+    ["1", "A", "Public_SW_Task_Change_Guide",           "요구심통관조", "공공SW사업 과업변경 가이드라인\n2021 출제 예상 토픽"],
+    ["1", "A", "Public_SW_Task_Review_Committee",       "", ""],
     ["1", "B", "SW_Business_Impact_Assessment_Policy",  "", "SW사업 영향평가 제도\n유형-기관공동사용형/대국민서비스형\n평가등급-사업재검토/실행유의"],
     ["1", "A", "Private_Investment_SW_Business_Guide",  "", "민간투자형 SW사업 추진 가이드 (2025.03.13)"],
     ["1", "A", "Private_Investment_SW_Business_Guide_1","", "민간투자형 SW사업 추진 가이드 (2025.03.13)"],
@@ -423,8 +426,8 @@
     ["1", "B", "Cloud_Security_Coverage_Analysis",      "", "CSPM / CWPP / CASB"],
     ["1", "B", "Physical_AI",                           "", "IMU(관성측정장치, Inerial Measurement Unit)"],
     ["1", "B", "Sovereign_AI",                          "", ""],
-    ["1", "C", "Digital_Transformation",                "조프비전문커시\n비조거모혁(VOGBI) 최전 디추 오비 신비", "최근 한번 남옴 / 개념만\n\n[변화요소 - 조프비전문커시]\n조직구조 / 프로세스 / 비전 /\n전략 / 문화 / 커뮤니케이션 / 시스템\n\n[전환 전략 - 비조거모혁(VOGBI) 최전 디추 오비 신비]\n\n- 비전 수립 (Vision)\n비즈니스 환경 분석\n핵심 역략 파악\n\n- 조직 정비, 인재 확보 (Organization)\n최고디지털책임자 (CDO) 임명\n전문 인재 확보\n\n- 거버넌스 체계구축 (Governance)\n디지털 거버넌스 수립\n추진 위원회 설치\n\n- 비즈니스 모델 개발 (Biz Model)\n오픈 이노베이션 촉진\n비즈니스 플랫폼 구축\n\n- 혁신, R&D 추진 (Inovation)\n신기술 도입\n비즈니스 생태계 구축 확산\n\n[단계별 진화]\n\n- 디지털 인프라 구축 단계\n디지털 제품 출시\n인프라 기반 구축\n\n- 디지털 비즈니스 추진 단계\ne-커머스, 디지털 비즈니스 강화\n\n- 디지털 트랜스포메이션 전환 단계\n비즈니스 모델, 경영전략 전환"],
-    ["1", "A", "AI_Transformation",                     "", "AX"],
+    ["1", "C", "Digital_Transformation",                "비프전문시조커\n비조거모혁(VOGBI) 비해 최전 디추 오비 신비", "최근 한번 남옴 / 개념만\n\n[변화요소 - 비프전문시조커]\n비전 / 프로세스 / 전략\n문화 / 시스템 / 조직 / 커뮤니케이션\n\n[전환 전략 - 비조거모혁(VOGBI) 비핵 최전 디추 오비 신비]\n\n- 비전 수립 (Vision) - 비핵\n비즈니스 환경 분석\n핵심 역략 파악\n\n- 조직 정비, 인재 확보 (Organization) - 최전\n최고디지털책임자 (CDO) 임명\n전문 인재 확보\n\n- 거버넌스 체계구축 (Governance) - 디추\n디지털 거버넌스 수립\n추진 위원회 설치\n\n- 비즈니스 모델 개발 (Biz Model) - 오비\n오픈 이노베이션 촉진\n비즈니스 플랫폼 구축\n\n- 혁신, R&D 추진 (Inovation) - 신비\n신기술 도입\n비즈니스 생태계 구축 확산\n\n[단계별 진화]\n\n- 디지털 인프라 구축 단계\n디지털 제품 출시\n인프라 기반 구축\n\n- 디지털 비즈니스 추진 단계\ne-커머스, 디지털 비즈니스 강화\n\n- 디지털 트랜스포메이션 전환 단계\n비즈니스 모델, 경영전략 전환"],
+    ["1", "A", "AI_Transformation",                     "조문서인거", "AX\n\n[구성요소 - 조문서인거]"],
     ["1", "C", "DLT",                                   "", "분산원장기술"],
     ["1", "C", "Blockchain",                            "", ""],
     ["1", "C", "DID",                                   "", ""],
@@ -1065,7 +1068,7 @@
     ["", "A", "ISO_33063",                              "", ""],
     ["1", "B", "ISO_38500",                             "EDM", "IT Governance"],
     ["1", "A", "ISO_42001",                             "", "ISO 42001:2023\nAI Management System\n인공지능 경영시스템 표준\n\n[구성]\n인풋 - 조직 (Organization Context)\n절차 - 계획,지원 / 운영 / 개선 / 성능평가\n\n시스템 - 규제기관 / 사용자 / PMS모니터링"],
-    ["1", "B", "ISO_42010",                             "식표AD 대이관 모아기 관뷰모근규대", ""],
+    ["1", "B", "ISO_42010",                             "식표AD 대이관 모아기 관뷰모근규대", "[구성요소 - 식표AD 대이관 모아기 관뷰모근규대]\n\n식별 - 대이관\n대상 시스템 - System of Interest\n이행관계자 - Stakeholder\n관심사 - Concern\n\n표현 - 모아기\n모델형 - model Kind\n아키텍처 - Architecture\n아키텍처 기술 - Architecture Description\n\nAD - 관뷰모근규대\n관점 (Where-view) - Architecture Viewpoint\n뷰 (What) - Architecture View\n결정근거 - Architecture Rationale\n대응 규칙 - Correspondence Role\n대응 관계 - Correspondence"],
     ["1", "A", "ISO_42119",                             "", "AI 테스팅 국제 표준\n\n42119-7 - 레드팀 테스팅 표준\n42119-10 - 온톨로지 표준\n42119-11 - AI 벤치마크"]
 ],
 "Knowhow": [
@@ -1128,6 +1131,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.06.0540", ""]
+    ["1", "A", "Version",                               "2025.12.06.1740", ""]
 ]
 }
