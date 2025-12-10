@@ -185,8 +185,8 @@
     ["1", "B", "Quantitative_Risk_Analysis",            "수분표대기 인 영민의모 위계 촉 불전", "정량적 위험 분석\n\n[정량적 위험 분석 기법 - 수분표대기]\n데이터 수집\n데이터 분석\n데이터 표현\n대인관계/팀스킬\n기타/기법\n\n[수 - 인] 인터뷰\n[분 - 영민의모] 영향도,민감도분석,의사결정,모의실험\n[표 - 위계] 위험 확률 영향력 매트릭스 / 계층적 차트\n[대 - 촉] 촉진\n[기 - 불전] 불활실성 표현, 전문가 판단\n\nEMV (Expected Monetary Value) - 기대 화폐 가치\n특정 위험 이벤트 발생시 예상되는 재정적 결과값 정량적 분석 도구\n시나리오 발생 확률과 재정적 영향(긍정적/부정적)을 고려하여 총 기대 가치를 산출"],
     ["1", "B", "Procurement_Management",                "계수통\n고원복", "[조달 절차 - 계수통]\n계획 - 제작/구매 결정 / 조달관리계획 / 계약유형\n수행 - 제안설명회 / 제안평가 / 공급사 선정\n통제 - 검사,감사 / 성과보고,평가 / 계약종료,사후관리\n\n[발주 제안 절차]\nProduct 정의\nRFI (Request for Information) - 정보 제안 요청서\nRFP (Request for Proposal) - 제안 요청서\nRFQ (Request for Quotation) - 견적 요청서\nSeller Proposal - 제안서 작성\n입찰 공고 / 제안 발표\n제안서 평가\n업체 선정 / 협약서\n\n[계약 유형 - 고원복]\n\n- 고정가 계약(Fixed Price)\nFFP(Firm Fixed Price)\nFPIF(Firm Price Incentive Fee)\nFP-EPA(Firm Price Economic Cost Adjustment)\n\n- 원가정산 계약 (Cost Reimbursable)\n= Cost Reimbursement Contract (실비정산계약)\n= Cost-Plus Contract (가산원가계약, 수수료 가산 계약)\nCPFF(Cost Plus Fixed Fee)\nCPIF(Cost Plus Incentive Fee)\nCPAF(Cost Plus Award Fee)\nCPPC(Cost Plus Percentage of Cost contracts)\n\n- 복합형\nT&M (Time & Material)"],
     ["1", "B", "Stakeholder_Management",                "", ""],
-    ["1", "B", "Stakeholder_Identification",            "궁지위의잠임요", "이해관계자 관리 / 현저성 모델(Salience Model)\n\n[이해관계자 속성]\n권력(Power) - 프로젝트 결과 영향 가능 능력\n합법성(Legitimacy) - 프로젝트 긍정적 영향 가능성\n긴급성(Urgency) - 신속 대응 필요성\n\n[이해관계자 범주 - 궁지위의잠임요이]\n7. 궁극적/결정적 (Definitive)\n4. 지배적 (Dominant)\n5. 위험한 (Dangerous)\n6. 의존적 (Dependent)\n1. 잠자는 (Dormant)\n2. 임의적 (Discretionary)\n3. 요구적 (Demanding)\n8. 이해관계자 아님 (Non-stakeholder)"],
-    ["1", "B", "Stakeholder_Identification_Type",       "궁지위의잠임요", "이해관계자 관리 / 현저성 모델(Salience Model)\n\n[이해관계자 속성]\n권력(Power) - 프로젝트 결과 영향 가능 능력\n합법성(Legitimacy) - 프로젝트 긍정적 영향 가능성\n긴급성(Urgency) - 신속 대응 필요성\n\n[이해관계자 범주 - 궁지위의잠임요이]\n7. 궁극적/결정적 (Definitive)\n4. 지배적 (Dominant)\n5. 위험한 (Dangerous)\n6. 의존적 (Dependent)\n1. 잠자는 (Dormant)\n2. 임의적 (Discretionary)\n3. 요구적 (Demanding)\n8. 이해관계자 아님 (Non-stakeholder)"],
+    ["1", "B", "Stakeholder_Identification",            "궁지위의잠임요", "이해관계자 관리 / 현저성 모델(Salience Model)\n\n[이해관계자 속성]\n권력(Power) - 프로젝트 결과 영향력\n합법성(Legitimacy) - 프로젝트 긍정적 영향력\n긴급성(Urgency) - 신속 대응 필요성\n\n[이해관계자 범주 - 궁지위의잠임요이]\n7. 궁극적/결정적 (Definitive)\n4. 지배적 (Dominant)\n5. 위험한 (Dangerous)\n6. 의존적 (Dependent)\n1. 잠자는 (Dormant)\n2. 임의적 (Discretionary)\n3. 요구적 (Demanding)\n8. 이해관계자 아님 (Non-stakeholder)"],
+    ["1", "B", "Stakeholder_Identification_Type",       "궁지위의잠임요", "이해관계자 관리 / 현저성 모델(Salience Model)\n\n[이해관계자 속성]\n권력(Power) - 프로젝트 결과 영향력\n합법성(Legitimacy) - 프로젝트 긍정적 영향력\n긴급성(Urgency) - 신속 대응 필요성\n\n[이해관계자 범주 - 궁지위의잠임요이]\n7. 궁극적/결정적 (Definitive)\n4. 지배적 (Dominant)\n5. 위험한 (Dangerous)\n6. 의존적 (Dependent)\n1. 잠자는 (Dormant)\n2. 임의적 (Discretionary)\n3. 요구적 (Demanding)\n8. 이해관계자 아님 (Non-stakeholder)"],
     ["1", "B", "Mendelow_Model",                        "", ""],
     ["1", "B", "Configuration_Management",              "기항물정\n식통감기\n기분설시제운", "CCB, CAB, CMDB\nSVN/Git\n무결성, 추적성 확보, SW품질\nSCM(SW Configuration Mng)"],
     ["1", "B", "Configuration_Management_Baseline",     "", "SDLC별 형상관리 항목 기준"],
@@ -1139,6 +1139,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.10.2220", ""]
+    ["1", "A", "Version",                               "2025.12.10.2300", ""]
 ]
 }
