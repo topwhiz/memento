@@ -674,7 +674,7 @@
     ["1", "B", "G_ISMS",                                "", "110.관리.4\nISMS\n최초심사, 재심사, 사후관리, 갱신심사, 정보보호관리과정, 문서화, 정보보호대책\n\nG-ISMS\n인증관련 기관과 기준, 인증절차"],
     ["1", "B", "ISMS_P",                                "119.관리.3.3\n관보개\n기위운점\n정인외물인접\n암정운보사재\n수보재파권", "정보통신망법 제47조 2항\n관리체계 수립 및 운영 – 4.16.42\n보호대책 요구사항 - 12.64.192\n개인정보 처리단계별 요구사항 – 5.22.91\n분야/세부항목/주요확인사항"],
     ["1", "B", "ISMS_P_1",                              "119.관리.3.3\n관보개\n기위운점\n정인외물인접\n암정운보사재\n수보재파권", "정보통신망법 제47조 2항\n관리체계 수립 및 운영 – 4.16.42\n보호대책 요구사항 - 12.64.192\n개인정보 처리단계별 요구사항 – 5.22.91\n분야/세부항목/주요확인사항"],
-    ["1", "B", "GDPR",                                  "", "General Data Protection Regulation\n개인정보, 정보주체, DPO"],
+    ["1", "C", "GDPR",                                  "", "General Data Protection Regulation\n개인정보, 정보주체, DPO"],
     ["1", "C", "PPDM",                                  "", "Privacy Preserving Data Mining"],
     ["1", "B", "Secure_Coding",                         "입보시에코캡아", ""],
     ["1", "B", "SSL",                                   "핸체알레\n익서상\n스피변\nPDFH2", "Handshake\nChange Cipher Spec\nAlert\nRecord Protocol\nRSA방식\nX.509v3\nport 443\nVPN활용\nTLS1.0으로 통합\nTLS 1.3"],
