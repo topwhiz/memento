@@ -633,7 +633,7 @@
     ["1", "B", "Homomorphic_Encryption",                "부스", "125회.정보관리.1\n동형 암호\n격자기반암호, 서킷 프라이버시, 다중 도약 동형성 부분 동형 암호, 스쿼싱(Squashing), 부트스트래핑(Bootstrapping)"],
     ["1", "B", "ARP_Spoofing",                          "", "116컴시응 2교시\n데이터링크계층, ARP/RARP(MAC <-> IP), 모든주소확인(arp –a), 정적주소할당(arp –s), 서버존, 클라이언트존, ARP Reply"],
     ["1", "C", "ARP_Poisoning",                         "", "자신의 MAC(Media Access Control) 주소, ARP Spoofing"],
-    ["1", "B", "ARP_Redirect",                          "", "Address Resolution Protocol\nMAC(Media Access Control) 주소 중복, ARP Spoofing"],
+    ["1", "B", "ARP_Redirect",                          "", "Address Resolution Protocol\nMAC(Media Access Control) 주소 중복\nARP Spoofing"],
     ["1", "B", "TCP_SYN_Flooding",                      "", "3 Way Handshake, Half Open, Backlog 큐, syncookie"],
     ["1", "C", "DoS",                                   "", ""],
     ["1", "B", "DDos",                                  "", "Distributed Denial of Service Attack\nTCP/UDP Flooding, 3-Way Hand Shake, DRDoS, TCP Traffic Flooding, HTTP Header/Option Spoofing Flooding, HashDos"],
@@ -1139,6 +1139,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.17.2220", ""]
+    ["1", "A", "Version",                               "2025.12.17.2230", ""]
 ]
 }
