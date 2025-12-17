@@ -743,7 +743,7 @@
     ["1", "B", "Categorization",                        "가총삭범마", "범주화\n107회.관리.4.2"],
     ["1", "B", "Smart_Factory",                         "", "스마트팩토리"],
     ["1", "B", "Smart_Car_Security",                    "회생자애", "스마트카 보안\nCSMS(Cyber Security Mng System)-모빌리티 시스템의 설계, 생산, 단종 전과정 발생 가능한 사이버 위협 체계적 관리, 대응 위한 인증/관리 체계\nISO 11898(메시지 전송구간 비암호화)\nTPM(Trusted Platform Module)\n적대적공격, 기반 인프라, 교통센타"],
-    ["1", "B", "Privacy_Principles",                    "수정목이안공개책", "프라이버시 8원칙"],
+    ["1", "B", "Privacy_Principles",                    "수정목이안공개책", "프라이버시 8원칙\n\n수집 제한의 원칙 - 목적에 필요한 최소한 범위 안에서 적법하고 정당하게 수집\n정보정확성의 원칙 - 처리 목적 범위 안에서 정확성, 안정성, 최신성 보장\n목적 명확성의 원칙 - 처리 목적의 명확화\n이용제한의 원칙 :필요 목적 범위 안에서 적합하게 처리, 목적 외 활용 금지\n안전 보호의 원칙 - 정보주체의 권리침해 위험성 등을 고려, 안전성 확보\n공개의 원칙 - 개인정보 처리 사항 공개\n개인 참가의 원칙 - 열람청구권 등 정보주체의 권리 보장\n책임의 원칙 - 개인정보처리자의 책임준수 실천 신뢰성 확보 노력"],
     ["1", "B", "NonFaceToFace_Identity_Verification",   "", "비대면 인증"],
     ["1", "B", "KYC",                                   "", "고객확인 절차\nKnow Your Customer\n고객주의의무(CDD: Customer Due Diligence), 자금세탁, 셀프 인증"],
     ["1", "B", "IoC_IoA",                               "", "Indicators of Compromise - 침해사고지표\nIndicators of Attack - 침해공격지표"],
