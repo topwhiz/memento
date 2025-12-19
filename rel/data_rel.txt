@@ -632,7 +632,7 @@
     ["1", "B", "PQC",                                   "다코격아해", "125회.정보관리.1\nPost-Quantum Cryptography\n양자내성암호화\n다변수기반, 코드기반, 격자기반, 아이소제니기반, 해시기반 전자서명"],
     ["1", "B", "HMAC",                                  "", "SE > 암호화\n117_관리_1\nHash-based Message Authentication Code"],
     ["1", "B", "ElGamal",                               "", "엘가멜 / 111.정보관리.1.9 / 이산대수 문제, 키생성, 암호화, 복호화"],
-    ["1", "B", "Format_Preservation_Encryption",        "", "형태보존암호화 / FPE"],
+    ["1", "B", "Format_Preservation_Encryption",        "프싸제", "형태보존암호화 / FPE\n\n[유형 - 프싸제]\n\n- Prefix Cipher\n블록 암호화 / 정수 사용 / 매핑 테이블 / 간단, 작은 경우 용이\n의사난수 가중치 계산 후 정렬\n\n- Cycle-Walking Cipher\n블록 암호화 / 반복 수행\n수행 종료 시간 예측 불가\n\n- Generalized Feistel Cipher\nFeistel NW 이용 / 반복 수행 / 성능 저하 적음 / 실무 활용\n블록 암호화 출력 라운드 보조키로 이용"],
     ["1", "B", "Order_Preservation_Encryption",         "", "순서보존암호화 / OPE"],
     ["1", "B", "Homomorphic_Encryption",                "서부스격\n완준부", "125회.정보관리.1 / 동형 암호 / 다중 도약 동형성\n서킷 프라이버시, Bootstrapping, Squashing, 격자기반암호\n\n[설계 원리 - 서부스격]\n서킷 프라이버시 - 연산 정보 미노출\n부트스크래핑 - 암호화 비밀키/신규암호문/노이즈 감소\n스쿼싱 - 평문 미변형 / 복호화 알고리즘, 공개키 변형\n격자기반암호\n\n[유형 - 완준부]\n\n- FHE (Fully Homomorphic Encryption)\n완전 동형 암호\n준동형 암호 + 부트스트랩 / 큰 용량, 속도 저하\n대수연산 (덧셈, 곱셈, XOR) 무한 반복 가능\n\n- SHE (Somewhat Homomorphic Encryption)\n준동형 암호\n덧셈, 곱셈 지원 / 횟수 제한 / 속도  빠름\n\n- PHE (Partial Homomorphic Encryption)\n부분 동형 암호\n한가지 연산만 가능"],
     ["1", "B", "ARP_Spoofing",                          "", "116컴시응 2교시\n데이터링크계층, ARP/RARP(MAC <-> IP), 모든주소확인(arp –a), 정적주소할당(arp –s), 서버존, 클라이언트존, ARP Reply"],
