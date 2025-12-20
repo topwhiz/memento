@@ -633,16 +633,16 @@
     ["1", "B", "Order_Preservation_Encryption",         "", "순서보존암호화 / OPE"],
     ["1", "B", "Homomorphic_Encryption",                "서부스격\n완준부", "125회.정보관리.1 / 동형 암호 / 다중 도약 동형성\n서킷 프라이버시, Bootstrapping, Squashing, 격자기반암호\n\n[설계 원리 - 서부스격]\n서킷 프라이버시 - 연산 정보 미노출\n부트스크래핑 - 암호화 비밀키/신규암호문/노이즈 감소\n스쿼싱 - 평문 미변형 / 복호화 알고리즘, 공개키 변형\n격자기반암호\n\n[유형 - 완준부]\n\n- FHE (Fully Homomorphic Encryption)\n완전 동형 암호\n준동형 암호 + 부트스트랩 / 큰 용량, 속도 저하\n대수연산 (덧셈, 곱셈, XOR) 무한 반복 가능\n\n- SHE (Somewhat Homomorphic Encryption)\n준동형 암호\n덧셈, 곱셈 지원 / 횟수 제한 / 속도  빠름\n\n- PHE (Partial Homomorphic Encryption)\n부분 동형 암호\n한가지 연산만 가능"],
     ["1", "B", "ARP_Spoofing",                          "", "116컴시응 2교시\n데이터링크계층 / ARP/RARP(MAC <-> IP)\n모든주소확인(arp –a) / 정적주소할당(arp –s)\n서버존 / 클라이언트존\n\n[절차]\n\n- GW IP Spoofing\nARP Request Broadcasting\nIP, MAC 주소 맵핑 확인\n\n- ARP Reply Broadcasting\n위조 MAC 주소 전송\n\n- ARP Cache Update\n호스트에 ARP Cache 정보 업데이트\n\n- Switch 정보 Update\n스위치에 공격자 MAC, Port 맵핑 정보 등록\n\n- ARP Reply\nCache 정보 지속적 정보 전송\n\n[공격 탐지]\n\n- 피해 시스템\nARP Table조회 - IP, MAC 확보 / Ping, nmap\nMAC중복 확인 - MAC 확인 / arp -a 명령\n악성코드 검사 - 패킷분석 / tcpdump, wireshark\n비정상 ARP패킷 - Reply패킷수/tcpdump arp\nARP Table 감시 - 캐시 상태 변경 시점/XArp 오픈소스\n\n- 공격 시스템\n실행 프로그램 확인 - 패킷 캡처 프로그램 유무\nARP패킷 모니터링 - 동일 패킷 한쌍 단위 존재 여부\nNW 어탭터(NIC) -  무차별 모드 / ipconfig, dmesg"],
-    ["1", "C", "ARP_Poisoning",                         "", "자신의 MAC(Media Access Control) 주소, ARP Spoofing"],
+    ["1", "C", "ARP_Poisoning",                         "", "자신의 MAC 주소, ARP Spoofing"],
     ["1", "B", "ARP_Redirect",                          "", "Address Resolution Protocol\nMAC(Media Access Control) 주소 중복\nARP Spoofing"],
     ["1", "B", "TCP_SYN_Flooding",                      "", "3 Way Handshake, Half Open, Backlog 큐, syncookie"],
-    ["1", "C", "DoS",                                   "", ""],
-    ["1", "B", "DDos",                                  "", "Distributed Denial of Service Attack\nTCP/UDP Flooding, 3-Way Hand Shake, DRDoS, TCP Traffic Flooding, HTTP Header/Option Spoofing Flooding, HashDos"],
+    ["1", "C", "DoS",                                   "", "[공격 유형]\n\n- 시스템 과부하 공격\n프로세스, 네트워크 고갈 공격\n디스크 채우기 공격\n\n- 네트워크 서비스 방해 공격\nTCP SYN Flooding - 3-Way Handshake 악용\nUDP Flooding - Trinoo 도구 / 마스터, 데몬 이용 공격\nSmurfing Dos - IP, ICMP 이용 / echo 메세지 대량 트래픽\nLand 공격 - 가짜 NW 패킷 전송 (송수신 동일) / LAN Denial"],
+    ["1", "B", "DDos",                                  "", "Distributed Denial of Service Attack\nTCP/UDP Flooding, 3-Way Hand Shake, DRDoS, TCP Traffic Flooding, HTTP Header/Option Spoofing Flooding, HashDos\n\n[공격 유형]\n\n- PPS 증가\nTCP 프로토콜 기반\nSYN Flooding, TCP Connection Flooding\n64byte 이하 크기 수십-수백만 PPS 발생\nNW 장비, 보안장비, 서버 등 부하\nIP Spoofing - 변조, 실제 IP\n\n- 웹서비스 지연\nHTTP 프로토콜 기반\nHTTP Flooding\n동일 URL 접속 시도\n공격 대상 웹서버\nIP Spoofing - 실제 IP\n\n- 대용량 트래픽 전송\nUDP, ICMP 프로토콜 기반\nUDP Flooding, ICMP Flooding\n1000-1500 byte 패킷으로 수십 Gbyte 트래픽 발생\n회선 대역폭 고갈, 동일 NW 사용 모든 시스템 영향\nIP Spoofing - 변조, 실제 IP"],
     ["1", "C", "DRDoS",                                 "", ""],
-    ["1", "C", "TCP_Traffic_Flooding",                  "", "DRDoS"],
-    ["1", "C", "HTTP_Header_Option_Spoofing_Flooding",  "", "DRDoS"],
+    ["1", "C", "TCP_Traffic_Flooding",                  "", ""],
+    ["1", "C", "HTTP_Header_Option_Spoofing_Flooding",  "", "\n\n[공격 유형]\n\n- Slow HTTP POST DoS\nHTTP POST 지시자 이용 대량 데이터 1byte씩 전송\nPOST 데이터 모두 미수신 판단 연결 장시간 유지\n\n- Slow HTTP Header DoS (Sloworis)\nHTTP 헤더 먼저 수신, 이후 수신 데이터 종류 판단\n헤더 비정상 조작, 웹서버 헤더 구분 불가\n헤더 정보 미수신 판단 연결 장시간 유지\n정상 메세지 종료 CRLF CRLF / 비정상 - CRLF\n\n- Slow HTTP READ DoS\nHTTP 데이터 송신\nTCP 원도우 크기, 데이터 처리율 감소\n정상 상태 회복 까지 대기 상태"],
     ["1", "C", "HASHDoS",                               "", ""],
-    ["1", "B", "APT",                                   "침탐수제\n관사제수 다은연 은권 유중", "침투, 검색/탐색, 수집, 유출/제어"],
+    ["1", "B", "APT",                                   "침탐수제\n관사제수 다은연 은권 유중", "[공격 시나리오]\n침탐수제 관사제수 다은연 은권 유중\n\n- 침투\n탈취 인증정보, SQL 인젝션, 악성코드 사용\n관찰 / 사회공학 / 제로데이 취약점 / 수동 공격\n\n- 탐색\n내부 시스템 정보 수집, 기밀데이터 검색\n다중벡터 / 은밀한 활동 / 연구, 분석\n\n- 수집\n데이터 수집, 시스템 운영 방해\n은닉 / 권한 상승\n\n- 제어\n기밀 유출, 장비 파괴, 제어권한 장악\n유출 / 중단\n\n[공격 방식]\n스피어 피싱 / PLC / Exploit / 내부자 위협 /\nAPT 라이프 사이클 / 사회 공학 기법\n\n[대응 방법]\n보안 관리, 운영 - 보안 정책 관리 조직, 체계 정비\n보안교육 강화 - 참여 유도, 임직원 대상\n엔드포인트 보안 - 인터넷, 이메일, 메신저, P2P 제한\n접근권한 관리 - 접근권한 세분화, 관리자 최소화\nDLP 운영 - 중요정보 암호화, 유출 방지\n계층형 방어 - CPNT Layered 방어 / 단계, 용도별\n\n[CPNT Layered 방어]\n계층형 방어를 CPNT 측면에서 구현\nContents / Platform / Network / Terminal\n시스템 레벨 보안 - OS, 개별 시스템 기본 보안 설정\nNW 레벨 보안 - 접근 제어 / 방화벽 , ISP 보안 수단 활용\n애플리케이션 레벨 보안 - 사용자 접근 방식 제어"],
     ["1", "B", "Drive_by_Download",                     "", "DBD\n워터링홀, 스피어피싱, Web Exploit Kit"],
     ["1", "B", "Exploit",                               "", "버그, 취약점, 제로데이공격, 스펨메일, 시그니처, Exploit Kit(매타잇스플로잇), Anti Exploit"],
     ["1", "C", "Anti_Exploit",                          "", ""],
@@ -1143,6 +1143,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.20.1140", ""]
+    ["1", "A", "Version",                               "2025.12.20.1520", ""]
 ]
 }
