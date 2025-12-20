@@ -656,7 +656,7 @@
     ["1", "B", "Watering_Hole_Attack",                  "", "기출.컴시응.116.1교시\n표적 공격, 정보수집, 공격 시스템 구축, 지역 내부 침해, 제로데이 공격, 안티 익스플로잇(Exploit)"],
     ["1", "B", "Slowloris",                             "", "Slow HTTP Header Dos\n비정상 HTTP Header"],
     ["1", "B", "Covert_Channel",                        "", "은닉채널\nDNS Covert Channel\n존재 은닉, DNS\n컴, 119, 2교시"],
-    ["1", "B", "DNS_Covert_Channel",                    "", ""],
+    ["1", "B", "DNS_Covert_Channel",                    "", "[방법 기법]\n\n- Traffic Analysis\nIP당 과다 DNS 트래픽 확인\nDomain당 과다 DNS 트래픽 확인\nDomain당 Host 과다 할당 확인\nDNS 지리적 위치 확인 (비즈니스 무관 지역)\nDomain 이력 점검 - DNS A 레코드 추가 이력\nNXDomain 응답량 점검 - 미존재 도메인 응답\n트래픽 가시화 - 모니터링\nOrphan DNS Request - 상호 미응답 DNS요청\nCovert Channel 탐지 도구 활용\n\n- Payload Analysis\nPayload 사이즈 분석 - 공격데이터로 변화 유무\nHost 변동율 분석 - 평소 요청 여부, Host Name Entropy\n통계적 분석 - DNS Name 특정 문자 분석\nRecord 사용 빈도 - 사용 빈도 낮은 레코드 타입 사용 여부\nPolicy Violation - 금지 정책 요청 여부 / 질의 점검\n특정 시그니처 - 특정 DNS 터널링 시그니처 확인\n\n[DNS 터널링 탐지 도구]\nSIEM - 규칙 구성 / 특정 소스 DNS 트래픽 트리거\nDNSTrap - 인공 신경망 사용 DNS 터널링 탐지 도구\nPaloalto/FireEye - 차세대 방화벽 DNS 터널링 감지 활성화"],
     ["1", "B", "Credential_Stuffing",                   "", "131.정보관리.1"],
     ["1", "B", "Stuxnet",                               "", "110.관리.1\nSCADA, 운영체제감염(Windows), Step7 SW감염, PLC감염, 제로데이어택, 망분리, 폐쇄망 운영 대규모 산업시설"],
     ["1", "B", "Qshing",                                "", "QRCode 이용\n107.정보관리.1"],
@@ -1143,6 +1143,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.20.1600", ""]
+    ["1", "A", "Version",                               "2025.12.20.1700", ""]
 ]
 }
