@@ -663,7 +663,7 @@
     ["1", "B", "Credential_Stuffing",                   "", "131.정보관리.1"],
     ["1", "B", "Stuxnet",                               "", "110.관리.1\nSCADA, 운영체제감염(Windows), Step7 SW감염, PLC감염, 제로데이어택, 망분리, 폐쇄망 운영 대규모 산업시설"],
     ["1", "B", "Qshing",                                "", "QRCode 이용\n107.정보관리.1"],
-    ["1", "B", "Fileless_Malware",                      "스링파메다위\n리메스W", "파일리스 악성코드"],
+    ["1", "B", "Fileless_Malware",                      "리메스W\n스링파메다위", "파일리스 악성코드\n\n[공격기법 - 리메스W]\nReflective DLL Injection\nMemory Exploit\nScript-Based Techique\nWMI Persistence\n\n[절차 - 스링파메다위]\n1단계 - 스팸 메시지 수신\n2단계 - 사용자 링크 클릭\n3단계 - 보안 취약점 파일 로딩\n4단계 - 파워셀 도구 오픈 / 메모리에서 작동\n5단계 - C&C서버에서 스크립트 다운, 실행\n6단계 - 데이터 위치 검색, 전송"],
     ["1", "B", "InfoStealer",                           "", "129정보관리 기출\nChromium, SQLite DB, AES Key\nGecko, logins.json, NSS Library nss3.dll, PK11SDR_Decrypt"],
     ["1", "B", "Static_Analysis",                       "소코리\n코풀고 스쿠프", "[주요기법 - 소코리]\n소스 코드 검증\n코드 리뷰\n리버스 엔지니어링 (역공학‐정적분석, 3R)\n\n[관련도구 - 코풀고 스크푸]\nCodeSonar / PolySpace / Coverity\nSparrow / Klockwork / PurifyPlus"],
     ["1", "B", "Dynamic_Analysis",                      "디스모리\n버메와앱", "컴시응.113.3\n\n[주요기법 - 디스모리]\n디버그\n스트레스 테스트\n모의해킹\n리버스 엔지니어링\n\n[모의해킹 도구 - 버메와앱]\n Burp Suite / Metasploit / Wireshark / AppScan"],
@@ -1144,6 +1144,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.23.0500", ""]
+    ["1", "A", "Version",                               "2025.12.23.0510", ""]
 ]
 }
