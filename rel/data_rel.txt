@@ -707,7 +707,7 @@
     ["1", "B", "DLP",                                   "", "Data Lose Protection\n데이터 분류 및 흐름 감시, 데이터센터, 네트워크, 엔드포인트"],
     ["1", "B", "SOAR",                                  "소시티\n연가\n자플스\n사리", "Security Orchestration, Automation and Response"],
     ["1", "B", "DNSSEC",                                "", "DNS 캐시 포이즈닝 공격 대응을 위해 공개키 암호화 방식 전자 서명"],
-    ["1", "B", "EDR",                                   "예방탐대 / PPDR\n이오데프 시복스 오픈아이오씨", "EndPoint Detection Response\n종단에서 일어나는 침해행위, 이상탐지 등에 대한 검출\n\n[주요기능 - 예방탐대 / PPDR]\n예방기술 (Predict) - 기본보안태세 / 위협예측 / 위험평가\n방어기술 (Prevent) - 시스템 강화/ 시스템 격리 / 공격방지\n탐지기술 (Detection) - 사고탐지 / 사건포함 / 위험확인 /  우선순위 지정\n대응기술 (Response) - 보안 위협 억제 및 대응 / 자동화 침해사고 대응\n\n[성공적 적용 위한 참조 요소 - 이오데프 시복스 오픈아이오씨] - 3단락\nIODEF - 사건정보 교환용XML포맷\nCybOX - 상태속성 / 이벤트 스키마\nOpen IOC - XML 기반 위협 정보 표현 프레임워크"],
+    ["1", "B", "EDR",                                   "예방탐대 / PPDR\n이오데프 시복스 오픈아이오씨", "EndPoint Detection Response\n종단에서 일어나는 침해행위, 이상탐지 등에 대한 검출\n\n[주요기능 - 예방탐대 / PPDR]\n예방 (Predict) - 기본보안태세 / 위협예측 / 위험평가\n방어 (Prevent) - 시스템 강화/ 시스템 격리 / 공격방지\n탐지 (Detection) - 사고탐지/위험확인/우선순위지정\n대응 (Response) - 보안위협 억제,대응/자동화 침해 대응\n\n[성공적 적용 위한 참조 요소] - 3단락용\n이오데프 시복스 오픈아이오씨\n\nIODEF - 사건정보 교환용XML포맷\nCybOX - 상태속성 / 이벤트 스키마\nOpen IOC - XML 기반 위협 정보 표현 프레임워크"],
     ["1", "B", "Cyber_Resilience",                      "", "사이버 복원력 / 경영 전략적 가치로 부상"],
     ["1", "B", "CARTA",                                 "", "CARTA 접근법\n2018년 가트너 10대 기술"],
     ["1", "B", "SASE",                                  "", "Secure Access Service Edge"],
