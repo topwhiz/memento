@@ -692,7 +692,7 @@
     ["1", "B", "AAA",                                   "요전통설", "SE > 접근제어(AC)\nAuthentication / Authorization / Accounting\n\n[동작과정 - 요전통설]\n접근요청 - NAS 통해 NW Access 요청\n인증전달 - 인증 정보 전달\n접속통지 - 서버는 수신데이터 처리\n연결설정 - NAS 연결 / Accounting 메세지\n\n[주요기술]\n인증 - PKI / CHAP\n관리 - 로그감시 / 접근제어 / SSL\n암호화 통신 - IPSec / TLS\n\n[프로토콜]\nRADIUS / DIAMETER / TACAS+ / Kerberos"],
     ["1", "B", "DIAMETER",                              "", "RFC 3588\nHSS 연동\n(Home Subscriber Server)\n양방향, TCP/SCTP\nPayLoad 전체 암호화, DIAMETER BROKER\n응용 계층(메시지 생성/전송, 응용서비스 제공)\n전송 계층(신뢰성 있는 메시지 전송)"],
     ["1", "B", "MAC",                                   "", "강제적 접근제어 / Mandatory Access Control\n주로 군사용 / Bell-LaPadula 모델 / 기밀성 중심\n\n[유형]\n\n- MLP - Multi Level Policy\n자동화된 강제 규칙 / 미국 방식 보안지표\nBLP(Bell-LaPadula) 모델 기반\nTop Secret / Confidential / Restricted / Unclassified\n\n- CBP - Component Based Policy\n타켓 집합별 카테고리 설정 접근 제어\n\n[동작 규칙]\nWrite Up - 쓰기 상향 / No Write Down\nRead Down - 읽기 하향 / No Read Up"],
-    ["1", "B", "DAC",                                   "", "신원, 사용자 기반 / Discretionary Access Control"],
+    ["1", "B", "DAC",                                   "AC 신혼사", "신원, 사용자 기반 / Discretionary Access Control\n\n[구현 방식 - AC]\n\n- ACL (Access Control List)\n접근 제어 목록 / 가장 널리 사용\n열 중심 표현 / Access Matrix\n객체, 접근 주체, 수행 작업 목록 기반\n객체 - 파일 / 디렉터리\n접근 주체 - 사용자, 그룹\n수행 작업 - 읽기 / 쓰기 / 실행\n\n- CL (Capability List)\n주체(사용자) 중심 접근 권한 관리 / ACL 반대 개념\n행 중심 표현 / 주체, 접근유형 / 객체 적을때 적합\n주체별 접근 가능 객체, 권한 목록(능력) 소유\n\n[정책 - 신혼사]\n\n- 신원 기반 접근통제 (Identity-Based DAC)\n사용자 고유 신원(ID) 기반 접근 권한 부여\nIBP, GBP로 분류\nIBP (Individual Based Policy) - 개별 기반 정책\nGBP (Group Based Policy) - 그룹 기반 정책\n\n- 사용자 기반 (User-Based DAC)\n특정 사용자 계정, 역할 기반 권한 부여 방식\n\n- 혼합 기반 (Hybrid DAC)\nACL + CL DAC / IBP + GBP\n다양한 접근 통제 정책, 메커니즘 복합 사용\n넓게는 DAC, MAC, RBAC 모델 함께 적용\n\n[기타]\n\n- 소유자 기반 통제 (Owner-based Control)\n소유자가 해당 객체에 대한 모든 권한 소유\n소유자 판단 접근 권한 부여, 변경\n\n- Permission Bits / 파일 모드\n유닉스, 리눅스 시스템 방식 / chmod 755 filename\n객체, 접근자 기반 권한 부여\n객체 - 파일 / 디렉터리\n접근자 - Owner / Group / Others, Everyone\n기반 권한 - Read / Write / Execute"],
     ["1", "B", "RBAC",                                  "", "역할기반 접근제어\nRole Based Access Control"],
     ["1", "B", "ABAC",                                  "", "135회 관리 2교시\nAttribute-Based Access Control"],
     ["1", "B", "Access_Control_Policy",                 "정메모\n최직알", "접근제어/통제(Access Control) 정책\nMAC, DAC, RBAC"],
@@ -1144,6 +1144,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.24.0100", ""]
+    ["1", "A", "Version",                               "2025.12.24.1200", ""]
 ]
 }
