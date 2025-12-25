@@ -611,7 +611,7 @@
     ["1", "B", "Hash_Function",                         "압효단충", ""],
     ["1", "B", "Hash_Salt_Key_Stretching",              "", ""],
     ["1", "B", "MDC_MAC",                               "", ""],
-    ["1", "A", "ECC",                                   "", "Elliptic Curve Cryptosystem"],
+    ["1", "A", "ECC",                                   "", "Elliptic Curve Cryptosystem\n\ny^2 = x^3 + ax + b /  비밀키 k / 공개키 Q=k*P\n\n[핵심 연산 개념]\n\n- 점 덧셈\nR = P + Q\n타원곡선 위 두점 P, Q 연결 직선이 타원 곡선과 만나는 점 -R\n-R을 x축 대칭 이동 시킨 점이 P, Q 덧셈 결과인 R\n\n- 점 곱셈 (스칼라 곱)\nQ = kP = P + P + ... + P (k번)\n반복적인 동일 점 덧셈 연산\n공개키 생성 과정에 이용\n이산 로그 문제(ECDLP) - 점 P, 공개키 Q로 개인키 k 유추 불가"],
     ["1", "A", "ElGamal",                               "", "디피헬만 암호화 근간으로 유한체(finite field)에서 이산대수 문제에 바탕을 둔 암호 알고리즘\n암호화와 전자서명을 위해 개발\n개념도는 블록 암호화(Fesitel) 방식으로 작성"],
     ["1", "B", "PKI",                                   "기무부인접키\n인디등사", ""],
     ["1", "B", "Digital_Signature",                     "", ""],
@@ -621,6 +621,7 @@
     ["1", "B", "Block_Cipher",                          "이씨피씨오씨", "ECB - Electronic Code Book\nCBC - Cipher Block Chaining\nPCBC - Propagating CBC\nCFB - Cipher Feedback\nOFB - Output Feedback\nCTR - Counter\n\n[운영 모드 유형]\n\n- ECB -  Electronic CodeBook Mode\n고유 평문 블록 동일 암호문 블록 매핑\n구현 간단 / 병렬 처리 / 속도 빠름\n통계적 분석 / 패턴 노출 / 의미론적 보안 미제공\n\n- CBC - Cipher Block Chaining Mode\n평문 블록 암호화 전 이전 암호문 블록과 XOR\nECB 패턴 노출 해결 / 의미론적 보안 제공\n병령 처리 불가 (복호화는 가능) / 오류 전파\n\n- PCBC - Propagating CBC Mode\n이전 평문 블록, 이전 암호문 블록 모두 이용\n오류, 변경 사항 암호문, 평문 모두 영향\n패턴 노출 해결 / 기밀성 제공 / 오류전파 영향큼\n현대 암호학에서 거의 미사용\n\n- CFB - Cipher FeedBack Mode\n이전 암호문 블록 일부 블록 암호 입력 키스트림\n평문과 XOR 연산 암호문 생성\n비트 단위 암호화 가능\n병렬 처리 불가 / 오류 전파\n\n- OFB - Output FeedBack Mode\n블록 암호 출력이 다음 입력으로 피드백\n독립적으로 키스트림 생성\n키스트림 재사용시 취약성 증가\n오류 전파 미발생\n\n- CTR - Counter Mode\n고유 카운터값 암호화하여 키스트림 생성\n카운터 암호화 비트열, 평문 블록 XOR\nXOR 처리 복잡도 증가 / 패딩 불필요\n암복호화 병렬 처리 가능 / 빠름\nIV, 카운터 재사용 금지\n블록 마지막 일부 암복호화 가능\n\n[AEAD - 기본 모드에서 발전]\n\n- AEAD 개념\nAuthenticated Encryption with Associated Data\n무결성, 인증 제공 모드\n유형 - GCM , CCM\n\n- GCM - Galois Counter Mode\nCTR 기반 / 암호화 속도 빠름\nGHASH 해시 함수 기반 인증\nTLS 1.3 보안 프로토콜 활용\n\n- CCM - Counter with CBC-MAC\nCTR + CBC-MAC 결합\n기밀성, 인증 제공"],
     ["1", "B", "Block_Cipher_Operation_Mode",           "이씨피씨오씨", "블록 암호화 운영모드\nECB - Electronic Code Book\nCBC - Cipher Block Chaining\nPCBC - Propagating CBC\nCFB - Cipher Feedback\nOFB - Output Feedback\nCTR - Counter\n\n[운영 모드 유형]\n\n- ECB -  Electronic CodeBook Mode\n고유 평문 블록 동일 암호문 블록 매핑\n구현 간단 / 병렬 처리 / 속도 빠름\n통계적 분석 / 패턴 노출 / 의미론적 보안 미제공\n\n- CBC - Cipher Block Chaining Mode\n평문 블록 암호화 전 이전 암호문 블록과 XOR\nECB 패턴 노출 해결 / 의미론적 보안 제공\n병령 처리 불가 (복호화는 가능) / 오류 전파\n\n- PCBC - Propagating CBC Mode\n이전 평문 블록, 이전 암호문 블록 모두 이용\n오류, 변경 사항 암호문, 평문 모두 영향\n패턴 노출 해결 / 기밀성 제공 / 오류전파 영향큼\n현대 암호학에서 거의 미사용\n\n- CFB - Cipher FeedBack Mode\n이전 암호문 블록 일부 블록 암호 입력 키스트림\n평문과 XOR 연산 암호문 생성\n비트 단위 암호화 가능\n병렬 처리 불가 / 오류 전파\n\n- OFB - Output FeedBack Mode\n블록 암호 출력이 다음 입력으로 피드백\n독립적으로 키스트림 생성\n키스트림 재사용시 취약성 증가\n오류 전파 미발생\n\n- CTR - Counter Mode\n고유 카운터값 암호화하여 키스트림 생성\n카운터 암호화 비트열, 평문 블록 XOR\nXOR 처리 복잡도 증가 / 패딩 불필요\n암복호화 병렬 처리 가능 / 빠름\nIV, 카운터 재사용 금지\n블록 마지막 일부 암복호화 가능\n\n[AEAD - 기본 모드에서 발전]\n\n- AEAD 개념\nAuthenticated Encryption with Associated Data\n무결성, 인증 제공 모드\n유형 - GCM , CCM\n\n- GCM - Galois Counter Mode\nCTR 기반 / 암호화 속도 빠름\nGHASH 해시 함수 기반 인증\nTLS 1.3 보안 프로토콜 활용\n\n- CCM - Counter with CBC-MAC\nCTR + CBC-MAC 결합\n기밀성, 인증 제공"],
     ["1", "B", "Diffie_Hellman_Key_Exchange",           "", "SE > 암호화 > Diffie-Hellman Key Exchange\n소수, 원시근(Primitive Root), 공개키, 비밀키\n중간자 공격(MITM) 취약"],
+    ["1", "A", "Adaptive_Key_Derivation_Function",      "", "적응형 키 유도 함수 / Adaptive KDF"],
     ["1", "B", "SEED",                                  "", "국내암호기술\n128비트 대칭키 블록 암호\nFeistel"],
     ["1", "B", "AES",                                   "", "XOR, S-Box, P-Box, SPN\nAdvanced Encryption Standard"],
     ["1", "B", "Quantum_Compute",                       "중얽순비우결", "[양자 특징 - 중얽순비우결]\n중첩\n얽힘\n순간이동\n비복제성\n우월성\n결맞음 / 결잃음"],
@@ -724,7 +725,7 @@
     ["1", "B", "IPSec_1",                               "EA\n터전", "Internet Protocol Security\nIPv6(의무적), IPv4(선택적)\nSPD(보안연계DB), SAD(보안정책DB)\nAH(인증 프로토콜) : RFC 2406\nESP(암호화 프로토콜) : RFC 2402\nPSec정책(SPD,SAD)\nkey관리(IKE)\n프로토콜(AH, ESP)\n\n[헤더 유형 - EA]\n\n- AH (Authentication Header)\n메세지 인증 / 무결성, 송신자 인증\n데이터 암호화 미포함\n\n- ESP (Encapsulating Security Payload)\nAH (인증) + 기밀성 (암호화)\n\n[동작모드 - 터전]\n\n- 전송모드 (Transport Mode)\nHost to Host 통신\nPayload만 보호 / 트래픽 경로 노출 위험\n\n- 터널 모드 (Tunnel Mode)\nGW to GW / GW to Host 통신 사용\nIP 패킷 전체 캡슐화 / 트래픽 경로 노출 방지"],
     ["1", "B", "Logical_Network_Separation",            "", "논리적 망분리\n113.관리.4"],
     ["1", "B", "Device_DNA",                            "", ""],
-    ["1", "B", "Zero_Knowledge_Proof",                  "", "영지식 증명\n알리바바 동굴 문제(20번 반복시 100만분의 1이하, 2^20 = 1,048,576)\n증명자(Prover), 검증자(Verifier), 완전성(Completeness), 건전성(Soundness), 영지식성(Zero-Knowledgness)"],
+    ["1", "B", "Zero_Knowledge_Proof",                  "컴사제\n검증", "영지식 증명 / 대화형 방식 / 알리바바 동굴 문제\n20번 반복시 100만분의 1이하, 2^20 = 1,048,576\n\n[성질 - 컴사제]\n완전성 / Completeness - 참 납득 가능\n건전성 / Soundness - 거짓 납득 불가\n영지식성 / Zero-Knowledgness - 참, 거짓 외 정보 습득 불가\n\n[구성요소 - 검증]\n검증자(Verifier) - 증명자와 정보 교류 참여자\n증명자(Prover) - 참 증명하려는 참여자\n\n[발전 - zk-SNARK]\n영지식 간결한 비대화형 지식 주장\nZero-Knowledge Succinct Non-interactive Arguments of Knowledge\n비상호성 - 비대화형 / 온라인 여부 무관 / 증명,검증함수\n간결성 - 작고 간결"],
     ["1", "B", "Content_Security",                      "", ""],
     ["1", "B", "DRM",                                   "", "CP, CD, CC, CH (컨텐츠 제공자/분배자/소비자 클리어링하우스)"],
     ["1", "B", "Finger_Printing",                       "유비보견\n공익비추\n평민음제모", ""],
@@ -780,7 +781,10 @@
     ["1", "B", "klt_privacy_protection_model",          "익다근\n동배분", "KLT 프라이버시 보호 모델 / 개인정보 비식별 조치\n\n[유형 - 익다근 동배분]\n\n- K-익명성 (K-anonymity)\n민감 정보 동질성 공격 취약\nHomogeneity Attack\n\n- L-다양성 (L-diversity)\n배경 지식 공격 취약\nBackground Knowledge Attack\n\n- T-근접성 (T-closeness)\n분포 기반 공격 취약\nSkewness Attack / Similarity Attack"],
     ["1", "A", "National_Network_Security_Framework",   "", "N^2SF / 국가 망 보안 체계"],
     ["1", "A", "National_Network_Security_Framework_1", "", "N^2SF / 국가 망 보안 체계"],
-    ["1", "A", "Spatial_Information_Safety_Zone",       "", "공간정보 안심구역\n\n[개념]\n일반인들이 공개제한 공간정보를 활용할 수 있도록 보안시설을 갖춘 데이터 개방 전용 구역\n소규모 기업, 학생, 연구자 별도의 보안장비 설치 어려운 경우 공개제한 공간정보 활용 위한 지원\n23년 첫 설치, 운영\n\n[조직]\n실무, 연구 - 공간정보 안심공간\n교육, 이론 - 공간정보 특성화고 3개교\n운영 기관 - 한국국토정보공사, 한국공간정보산업협회\n\n[용어]\n\n- 공개제한 공간정보\n고해상, 고정밀, 3차원 좌표가 포함된 공간정보\n정부, 지방자치단체 등에서 구축, 관리\n보안상 일반에 미제공되던 데이터 (22년 규제 완화)\nAI, 디지털 트윈 등 기술개발 위해 민간 업계 수요 증가\n보안 시설 갖춘 공간에서 제공, 활용 필요"]
+    ["1", "A", "Spatial_Information_Safety_Zone",       "", "공간정보 안심구역\n\n[개념]\n일반인들이 공개제한 공간정보를 활용할 수 있도록 보안시설을 갖춘 데이터 개방 전용 구역\n소규모 기업, 학생, 연구자 별도의 보안장비 설치 어려운 경우 공개제한 공간정보 활용 위한 지원\n23년 첫 설치, 운영\n\n[조직]\n실무, 연구 - 공간정보 안심공간\n교육, 이론 - 공간정보 특성화고 3개교\n운영 기관 - 한국국토정보공사, 한국공간정보산업협회\n\n[용어]\n\n- 공개제한 공간정보\n고해상, 고정밀, 3차원 좌표가 포함된 공간정보\n정부, 지방자치단체 등에서 구축, 관리\n보안상 일반에 미제공되던 데이터 (22년 규제 완화)\nAI, 디지털 트윈 등 기술개발 위해 민간 업계 수요 증가\n보안 시설 갖춘 공간에서 제공, 활용 필요"],
+    ["1", "B", "Personal_Information_Innovation_Zone",  "개인정보 이노베이션 존 / 개인정보 안심공간 확장 개념"],
+    ["1", "B", "Data_Safety_Zone",                      "", "데이터 안심공간 / 136회 데이터, 개인정보 안심구역 비교\n133회 데이터 안심구역 / 135회 개인정보 안심구역"],
+    ["1", "B", "WAAP",                                  "", "Web Application and API Protection\nWAF + RASP + 보안 (API/Data/Cloud)\nDDos / Bot / 마이크로서비스"]
 ],
 "DataBase": [
     ["1", "B", "Transaction",                           "활 부완 철실\n갱현모연회\nACID\n스트로리", "상태전이\n\n[생태전이도 - 활 부완 철실]\n\n- 시작\n활동 (Active) - 초기 상태 / 실행 상태\n\n- 성공\n부분적 완료 (Partial Commit) - 최종명령 실행후 상태\n완료 (Commit) - 성공적 완료 후 상태\n\n- 종료\n실패 (Fail) - 정상 실행 불가 상태\n철회 (Abort) - Tx 시작 전 환원\n\n[직렬성 결여(동시성 제어) 문제점 - 갱현모연회]\n갱신손실 (Lost Update) - 덮어쓰기로 인한 손실\n현황오류 (Dirty Read) - 중간 수행결과 참조 오류\n모순성 (Inconsistency) - 동시 접근 후 데이터 상이\n연쇄복귀 (Cascading Rollback) - 다른Tx도 복구\n회복불능\n\n[Tx 특징 - ACID]\nAtomicity (원자성) - All or Nothing\nConsistency (일관성) - 모순없는 상태\nIsolation (고립성) - Locking\nDurability (영속성) - Storeing\n\n[Tx 위한 DB 구성요소 및 기법 - 스트로리]\nScheduler - 병행제어 / Locking / Timestamp\nTransaction Manager - Commit / Rollback\nLog Manager - 백업 / 복제\nRecovery Manager - 즉시갱신 / 지연갱신"],
@@ -1146,6 +1150,6 @@
     ["1", "C", "Edge_AI",                               "", ""]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.25.0930", ""]
+    ["1", "A", "Version",                               "2025.12.25.2110", ""]
 ]
 }
