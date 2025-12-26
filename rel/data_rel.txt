@@ -715,7 +715,7 @@
     ["1", "B", "CASB",                                  "기능 - 접데로이 위암 D\n유형,종류 - APPA/아파", "Cloud Access Security Broker"],
     ["1", "B", "Zero_Trust_Secure_Model",               "", "제로 트러스트 보안모델\n122 컴시응 1"],
     ["1", "B", "Zero_Trust_Guideline2",                 "", ""],
-    ["1", "B", "SRM",                                   "", "책임공유모델"],
+    ["1", "B", "SRM",                                   "", "책임공유모델 / Shared Responsibility Model"],
     ["1", "B", "RASP",                                  "", "Runtime Application Self-Protection\n런타임 애플리케이션 자가 보호\n앱 실행 중 위협 감지 차단 기술"],
     ["1", "B", "MLS",                                   "기밀(Classified·C)\n민감(Sensitive·S)\n공개(Open·O) 등급", "다층보안체계\nMulti Level Security"],
     ["1", "B", "Mobile_Biometrics",                     "", "모바일 바이오인식\n104.관리.4"],
