@@ -712,7 +712,7 @@
     ["1", "B", "Cyber_Resilience",                      "", "사이버 복원력 / 경영 전략적 가치로 부상"],
     ["1", "B", "CARTA",                                 "", "CARTA 접근법\n2018년 가트너 10대 기술"],
     ["1", "B", "SASE",                                  "", "Secure Access Service Edge"],
-    ["1", "B", "CASB",                                  "접데로이 위암 D 클보\nAPPA", "Cloud Access Security Broker\n\n[기능 - 접데로이 위암 D 클보]\n접근제어 / 데이터 손실방지 / 로깅, 감사 / 이상탐지\n위험평가 / 암호화 / DRM / 클라우드 서비스 검색 / 보안 로그인\n\n- 카테고리 분류 (개인적 분류)\n사용자 - 접근제어 / 보안 로그인 / 클라우드 서비스 검색\n관리 - 위험평가 / 이상탐지 / 로깅, 감사\n데이터 - 데이터 손실방지(DLP) / 암호화 / DRM\n\n[유형 - APPA]\n\n- SW형\n에이전트형 CASB - 사용자 단말 설치  / OS별 별도 개발\nAPI형 CASB - 클라우드 내부 / 개발복잡성\n\n- HW형\n프라이빗 CASB - 이용자 조직내 / 아웃바운드 트래픽 체크 위치\n퍼블릭 CASB - 클라우드 플랫폼 내부 설치 / 과부하 문제"],
+    ["1", "B", "CASB",                                  "접데로이 위암 D 클보\nAPPA", "Cloud Access Security Broker\n\n[기능 - 접데로이 위암 D 클보]\n접근제어 / 데이터 손실방지 / 로깅, 감사 / 이상탐지\n위험평가 / 암호화 / DRM\n클라우드 서비스 검색 / 보안 로그인\n\n- 카테고리 분류 (개인적 분류)\n사용자 - 접근제어/보안 로그인/클라우드 서비스 검색\n관리 - 위험평가 / 이상탐지 / 로깅, 감사\n데이터 - 데이터 손실방지(DLP) / 암호화 / DRM\n\n[유형 - APPA]\n\n- SW형\n에이전트형 CASB - 사용자 단말 설치/OS별 별도 개발\nAPI형 CASB - 클라우드 내부 / 개발복잡성\n\n- HW형\n프라이빗 CASB - 이용조직내/아웃바운드 트래픽 체크\n퍼블릭 CASB - 클라우드 플랫폼 내부설치/과부하 문제"],
     ["1", "B", "Zero_Trust_Secure_Model",               "", "제로 트러스트 보안모델\n122 컴시응 1"],
     ["1", "B", "Zero_Trust_Guideline2",                 "", ""],
     ["1", "B", "SRM",                                   "", "책임공유모델 / Shared Responsibility Model"],
