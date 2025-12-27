@@ -1153,6 +1153,6 @@
     ["1", "C", "STRIDE",                                "", "[구성요소]\nSpoofing\nTampering\nRepudiation\nInformation Disclosure\nDenial of Service"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.27.0100", ""]
+    ["1", "A", "Version",                               "2025.12.27.1540", ""]
 ]
 }
