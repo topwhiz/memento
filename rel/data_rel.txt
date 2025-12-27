@@ -709,7 +709,7 @@
     ["1", "B", "SOAR",                                  "소시티\n연가\n자플스\n사리", "Security Orchestration, Automation and Response"],
     ["1", "B", "DNSSEC",                                "", "DNS 캐시 포이즈닝 공격 대응을 위해 공개키 암호화 방식 전자 서명"],
     ["1", "B", "EDR",                                   "예방탐대 / PPDR\n이오데프 시복스 오픈아이오씨", "EndPoint Detection Response\n종단에서 일어나는 침해행위, 이상탐지 등에 대한 검출\n\n[주요기능 - 예방탐대 / PPDR]\n예방 (Predict) - 기본보안태세 / 위협예측 / 위험평가\n방어 (Prevent) - 시스템 강화/ 시스템 격리 / 공격방지\n탐지 (Detection) - 사고탐지/위험확인/우선순위지정\n대응 (Response) - 보안 위협 억제/자동화 침해 대응\n\n[성공적 적용 위한 참조 요소] - 3단락용\n이오데프 시복스 오픈아이오씨\n\nIODEF - 사건정보 교환용XML포맷\nCybOX - 상태속성 / 이벤트 스키마\nOpen IOC - XML 기반 위협 정보 표현 프레임워크"],
-    ["1", "B", "Cyber_Resilience",                      "애매옵아\n가사요시아정", "사이버 복원력 / 경영 전략적 가치로 부상\n\n[CRL - Cyber Resiliency Level]\n\n- 성숙도 단계 - 애매옵아\nCRL 1 - Ad-hoc / 임시적인, 특별한 목적의\nCRL 2 - Managed / 관리되는\nCRL 3 - Optimized / 최적화된\nCRL 4 - Adaptive / 적응적인\n\n- 성숙도 분야 - 가사요시아정\n가시성(Visibility) - 데이터 감지, 수집, 융합\n사이버 위생(Hygiene) - 사이버 통제 효과 평가, 유지\n요구사항(Requirement) - 중요성, 리스크, 운영 환경\n시험/평가(Test/Evaluation) - 임무목표통제 효과측정\n아키텍처(Architecture) - 사이버 공격 대비 기능 유지\n정보 공유 - 사이버 위협 정보 공유, 완화, 방어\n\n[고려사항]\n\n- 참조 프레임워크 모델\n선형,사이클링  모델 - 식별/보호/탐지/대응/복구 선형적 나열\n성숙도 모델 - CMMI기반/최상위 목표설정,하위 세부과업\n\n- 조직 임무, 구성\nCMMI/CERT-RMM - 사이버복원력 관리/성숙도 측정\nCISA CRR - 인터뷰기반 평가 프레임워크 / 10개 분야\n\n- 성숙도 수준\n성숙도 분야 - 완화, 복원, 적응 능력 구분\n성숙도 수준 - CMMI 기반"],
+    ["1", "B", "Cyber_Resilience",                      "애매옵아\n가사요시아정", "사이버 복원력 / 경영 전략적 가치로 부상\n\n[CRL - Cyber Resiliency Level]\n\n- 성숙도 단계 - 애매옵아\nCRL 1 - Ad-hoc / 임시적인, 특별한 목적의\nCRL 2 - Managed / 관리되는\nCRL 3 - Optimized / 최적화된\nCRL 4 - Adaptive / 적응적인\n\n- 성숙도 분야 - 가사요시아정\n가시성(Visibility) - 데이터 감지, 수집, 융합\n사이버 위생(Hygiene) - 사이버 통제 효과 평가, 유지\n요구사항(Requirement) - 중요성, 리스크, 운영 환경\n시험/평가 - 임무목표통제 효과측정\n아키텍처(Architecture) - 사이버 공격 대비 기능 유지\n정보 공유 - 사이버 위협 정보 공유, 완화, 방어\n\n[고려사항]\n\n- 참조 프레임워크 모델\n선형,사이클링 - 식별/보호/탐지/대응/복구 선형 나열\n성숙도 - CMMI기반/최상위 목표설정,하위 세부과업\n\n- 조직 임무, 구성\nCMMI/CERT-RMM - 사이버복원력 관리/성숙도 측정\nCISA CRR - 인터뷰기반 평가 프레임워크 / 10개 분야\n\n- 성숙도 수준\n성숙도 분야 - 완화, 복원, 적응 능력 구분\n성숙도 수준 - CMMI 기반"],
     ["1", "B", "CARTA",                                 "", "CARTA 접근법\n2018년 가트너 10대 기술"],
     ["1", "B", "SASE",                                  "", "Secure Access Service Edge"],
     ["1", "B", "CASB",                                  "접데로이 위암 D 클보\nAPPA", "Cloud Access Security Broker\n\n[기능 - 접데로이 위암 D 클보]\n접근제어 / 데이터 손실방지 / 로깅, 감사 / 이상탐지\n위험평가 / 암호화 / DRM\n클라우드 서비스 검색 / 보안 로그인\n\n- 카테고리 분류 (개인적 분류)\n사용자 - 접근제어/보안 로그인/클라우드 서비스 검색\n관리 - 위험평가 / 이상탐지 / 로깅, 감사\n데이터 - 데이터 손실방지(DLP) / 암호화 / DRM\n\n[유형 - APPA]\n\n- SW형\n에이전트형 CASB - 사용자 단말 설치/OS별 별도 개발\nAPI형 CASB - 클라우드 내부 / 개발복잡성\n\n- HW형\n프라이빗 CASB - 이용조직내/아웃바운드 트래픽 체크\n퍼블릭 CASB - 클라우드 플랫폼 내부설치/과부하 문제"],
@@ -1153,6 +1153,6 @@
     ["1", "C", "STRIDE",                                "", "[구성요소]\nSpoofing\nTampering\nRepudiation\nInformation Disclosure\nDenial of Service"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2025.12.27.1550", ""]
+    ["1", "A", "Version",                               "2025.12.27.1620", ""]
 ]
 }
