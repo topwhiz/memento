@@ -948,7 +948,7 @@
     ["1", "A", "Quick_Sort",                            "피레라로하\n분피재", "[구성요소 - 피레라로하]\nPivot - 중심점\nLeft - 정렬할 요소들의 가장 왼쪽 지점\nRight - 정렬할 요소들의 가장 오른쪽 지점\nLow - 피봇을 제외한 가장 왼쪽에 위치한 지점\nHigh - 피봇을 제외한 가장 오른쪽에 위치한 지점\n\n[절차 - 분피재]\n분리 기준 원소 선택\nPivot 기준 분할\n부분에서 퀵 정렬 재수행"],
     ["1", "A", "Graph_Traversal",                       "", "그래프 순회"],
     ["1", "A", "DAG",                                   "", "방향성 비순환 그래프 / Directed Acyclic Graph\n위상 정렬 / Topological Sort (Ordering)"],
-    ["1", "A", "Topological_Sort",                      "", "위상 정렬 / Topological Sort (Ordering)\n방향성 비순환 그래프 / Directed Acyclic Graph"],
+    ["1", "A", "Topological_Sort",                      "정간차비\n너깊", "위상 정렬 / Topological Sort (Ordering)\n방향성 비순환 그래프 / Directed Acyclic Graph\n\n[구성요소 - 정간차비]\n정점 - Vertex / 작업, 항목\n간선 - Edge / 정점 선후 관계 / 방향성, 의존성\n차수 - Degree / 진입 차수-선행작업수 / 진출 차수\n비순환 유향 그래프 - DAG\n\n[유형 (규현방법) - 너깊]\nBFS - 너비우선 탐색 / Kahn's / 큐 이용\nDFS - 깊이우선 탐색 / 재귀호출 / 모든 정점 방문"],
     ["1", "A", "MST",                                   "PK\n고프저크", "[유형 - PK]\n\n- Prime\n루트 노드 기준 하나 트리 확장\n복잡도 - O (n^2) / 정점 n 개\n\n- Kruskal\n간선 비용 정렬, 최소 비용 간선 순차적 추가\n복잡도 (최선) - O (m log m) / 이음선 m 개\n복잡도 (최악) - O (n^2 log n) / 정점 n 개\n\n- 공통 - 고프저크\n이음선 m, 정점 n 부등식 = n-1 <= m <= n(n-1)/2\n고밀도 그래프(m이 상한 근접) - 프림 > 크루스칼\n저밀도 그래프(m이 하한 근접) - 프림 < 크루스칼"],
     ["1", "B", "Prims_Algorithm",                       "", ""],
     ["1", "B", "Kruskals_Algorithm",                    "", ""],
@@ -1214,6 +1214,6 @@
     ["1", "C", "From_Scratch",                          "", "[개념]\n아무런 사전 준비나 기존의 것을 사용하지 않고 맨 처음부터, 기초부터 새롭게 시작하거나 만드는 것\n아무 것도 없는 상태에서 데이터부터 모델 개발, 배포까지 전 과정을 자체적으로 수행\n\n[특징]\n완전 초기 상태 시작 - 미참고, 미재사용\n독립성, 독창성 - 자체 개발, 구축\n맞춤성, 제어권 - 맞춤 제작, 완전한 제어권 소유\n시간, 노력 소요"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2026.01.08.0100", ""]
+    ["1", "A", "Version",                               "2026.01.08.0140", ""]
 ]
 }
