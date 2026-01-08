@@ -826,7 +826,7 @@
     ["1", "B", "Database_Recovery_Technique",           "", "데이터베이스 회복기법"],
     ["1", "B", "Log_Based_Recovery",                    "지즉", "로그기반 회복 기법 / 104.컴시응.4\n\n지연-Redo\n즉시-Redo, Undo"],
     ["1", "B", "Checkpoint_Recovery",                   "체리언", "105.관리.1"],
-    ["1", "B", "Shadow_Paging_Recovery",                "", "- 그림자페이지테이블을 유지\n- 에러 발생 시, 그림자페이지테이블로 현재 테이블 대체\n- 갱신:저장/생성/기록/반영\n- 회복:제거/갱신/복구"],
+    ["1", "B", "Shadow_Paging_Recovery",                "", "- 그림자페이지테이블을 유지\n- 에러 발생시 그림자 페이지 테이블로 대체\n- 갱신:저장/생성/기록/반영\n- 회복:제거/갱신/복구"],
     ["1", "B", "ARIES",                                 "", "Algorithms for Recovery and Isolation Exploiting Semantics\n로그 기반 데이터 회복 기법\n회복 3단계(분석, REDO, UNDO)\n필요정보(로그, 트랜잭션 테이블, 오손 페이지 테이블)"],
     ["1", "B", "Data_Integrity_Locking",                "", ""],
     ["1", "B", "Data_Integrity_2PL_2PLP",               "관잠\n확수", "2단계 로킹 기법 / Strict 2PL / Rigorous 2PL\n동시성 제어(Concurrency Control) 프로토콜\n일관성, 격리성(Isolation), 직렬성(Serializability)\n주로 단일 DBS / Deadlock 발생 가능\n\n[구성요소 - 관잠]\n- 잠금 관리자 (Lock Manager)\n트랜잭션 잠금 요청 관리\n잠금 충돌 시 대기열 관리\n\n- 잠금 (Lock)\n공유 잠금 (S-Lock) - 다수 Tx 동시 Read 허용\n배타 잠금 (X-Lock) - 하나 Tx 접근, 수정 허용\n\n[단계 - 확수]\n확장 단계 - 잠금 획득 / 해제 불가\n수축 단계 - 잠금 해제 / 획득 불가"],
