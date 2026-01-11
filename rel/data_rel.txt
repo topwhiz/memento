@@ -890,11 +890,11 @@
     ["1", "C", "Computer_Architecture",                 "", ""],
     ["1", "A", "Instruction_Cycle",                     "", ""],
     ["1", "C", "CPU",                                   "", "Control Processing Unit"],
-    ["1", "C", "Processor_Architecture",                "", "프로세서 아키텍처 / CPU 유형\n명령어 구성에 따른 분류 / CISC, RISC, EISC"],
-    ["1", "C", "CISC",                                  "", ""],
-    ["1", "C", "RISC",                                  "", ""],
-    ["1", "C", "RISC_V",                                "", "137.컴시응.1.13"],
-    ["1", "C", "EISC",                                  "", ""],
+    ["1", "C", "Processor_Architecture",                "", "프로세서 아키텍처 / CPU 유형\n명령어 구성에 따른 분류\n\n[유형]\n\n- CISC\nComplex Instruction Set Computer\n\n- RISC\nReduced Instruction Set Computer\n\n- EISC\nExtensible Instruction Set Computer"],
+    ["1", "C", "CISC",                                  "", "Complex Instruction Set Computer"],
+    ["1", "C", "RISC",                                  "", "Reduced Instruction Set Computer"],
+    ["1", "C", "RISC_V",                                "", "Reduced Instruction Set Computer V (Five)\n137.컴시응.1.13"],
+    ["1", "C", "EISC",                                  "", "Extensible Instruction Set Computer"],
     ["1", "C", "CPU_Control_Unit",                      "해주기버서순\n마C하R", "[제어 유닛 구성요소 - 해주기버서순]\n명령어 해독기 - 연산코드 해독 / 시작 주소 결정\n제어 주소 레지스터 (CAR) - 다음 실행 명령 주소 저장\n제어 기억 장치 - 마이크로 프로그램 저장\n제어 버퍼 레지스터 - 마이크로 명령어 일시 저장\n서브루틴 레지스터 - 현재 CAR 내용 일시 저장\n순서 제어 모듈 - 실행 순서 결정 회로 집합\n\n[구현 방식 - 마C하R]\n\n- Micro-Programmed Control\nCISC 구조 / PLD 방식\n제어 신호 조합 사전 구성 / PROM 저장\nSW 제어 신호 / 상대적 지속\n펌웨어 구조 / 기능 개선 용이\n저가 / 오류 발생률 낮음\n\n- Hardwired Control\nRISC 구조\n조합 회로 이용 HW 구성\nHW 회로 제어 신호 생성 / 고속처리\nHW 고정 회선 / 변경 어려움\n고가 / 오류 발생률 높음"],
     ["1", "C", "Addressing_Mode",                       "직간레간 즉묵변 베상인", "주소 지정 방식 / Address Mode\n\n[종류 - 직간레간 즉묵변 베상인]\n직접 - Operand 필드가 유효 주소\n간접 - 데이터 유효 주소 저장\n레지스터 - 내부 레지스터 저장\n레지스터 간접 - 데이터 유효 주소 저장\n변위 - 직접 주소 지정 / 레지스터 간접 주소 지정\n즉치 - 명령어에 데이터 포함 / 신속 / 길이제한\n묵시적 - 데이터 위치 묵시적 지정\n베이스 레지스터 - 유효주소=베이스레지스터+변위\n상태 - PC + 명령어 주소필드 + 인덱스 레지스터\n인덱스 - 명령어 주소필드 + 인덱스 레시스터\n\n[자료 접근 속도]\n즉치 > 레지스터 > 직접 > 레지스터 간접 > 간접"],
     ["1", "C", "PLD",                                   "", "Programmable Logic Device\n프로그래머블 논리 소자 / 105.컴시응.1.7"],
@@ -1242,6 +1242,6 @@
     ["1", "C", "From_Scratch",                          "", "[개념]\n아무런 사전 준비나 기존의 것을 사용하지 않고 맨 처음부터, 기초부터 새롭게 시작하거나 만드는 것\n아무 것도 없는 상태에서 데이터부터 모델 개발, 배포까지 전 과정을 자체적으로 수행\n\n[특징]\n완전 초기 상태 시작 - 미참고, 미재사용\n독립성, 독창성 - 자체 개발, 구축\n맞춤성, 제어권 - 맞춤 제작, 완전한 제어권 소유\n시간, 노력 소요"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2026.01.11.2250", ""]
+    ["1", "A", "Version",                               "2026.01.11.2300", ""]
 ]
 }
