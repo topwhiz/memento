@@ -83,7 +83,7 @@
     ["1", "B", "Bullwhip_Effect_CPFR_SCM2",             "가수과일\n허피익\n탄고그", "[원인 - 가수과일]\n가격변동 / 수요예측 / 과잉주문 / 일괄주문\n\n[최소화 방안]\n\nSCM2.0 - 탄고그\n탄력적 SCM\n고객지향 SCM\n그린 SCM\n\nCPFR - 허피익(구축유형)\n거래파트너 Hub형\nP2P형\n거래 Exchange형"],
     ["1", "B", "CPFR",                                  "효신공연협", "[구성요소 - 효신공연협]\n\n- 효율적 소비자 대응 (ECR)\nEfficient Consumer Response\n\n- 신속대응 (QR)\nQuick Response\n\n- 공급자 주도형 재고 관리 (VMI)\nVendor Managed Inventory\n\n- 연속 보충 프로그램 (CRP)\nContinuous Replenishment Program\n\n- 협업기능"],
     ["1", "B", "SafetyStock_OptimalStock",              "이적\n주안정전위", "[유형 - 이적 주안정전위]\n\n- 이론재고\n\n- 적정재고 - 주안정전위\n주기 / 안정 / 정책 / 전략 / 위험"],
-    ["1", "B", "MES",                                   "", "생산관리시스템\nManufacturing Execution System"],
+    ["1", "B", "MES",                                   "E 자투생검포제 DSP", "생산관리시스템\nManufacturing Execution System\n\n[구성요소 - E 자투생검포제 DSP]\n\n- ERP\n생산 요청 / 실적 보고\n\n- 생산 공정 - 자투생검포제\n자재 창고 / 자재 투입\n생산 / 검수 / 포장\n제품 창고\n\n- 컨트롤 / 모니터링 / 설비 / 운전 상태\nDCS - Distributed Control System\nSCADA - Supervisory Control And Data Acquisition\nPLC - Programmable Logic Controller"],
     ["1", "B", "PDCA",                                  "계실모유\n파설정 실수테 분비평 구개", "[절차 - 계실모유]\n계획 / 실행 / 모니터링,점검 / 유지보수,조치\n\nP(파설정) - 현황,자원 파악 / 목표설정 / 접근방식 정의\nD(실수테) - 계획실행 / 데이터 수집 / 테스트\nC(분비평) - 결과분석 / 목표비교 / 접근방식 평가\nA(구개) - 변경사항 구현 / 지속 개선\n\n[SMART]\nSpecific, Measurable, Achievable, Relevant, Time-bound\n\n[DMAIC]\nDefine, Measure, Analyze, Improve, Control"],
     ["1", "B", "MTTF_MTBF_MTTR",                        "", ""],
     ["1", "B", "SVS_SVC",                               "지거서실지\n계약설획인개", "[SVS - 지거서실지]\n지도원칙\n거버넌스\n서비스 가치사슬(SVC)\n실행\n지속적 개선\n\n[SVC - 계약설획인개]\n계획\n약속된 참여\n설계/이행\n획득/빌드\n인도/지원\n개선"],
@@ -1242,6 +1242,6 @@
     ["1", "C", "From_Scratch",                          "", "[개념]\n아무런 사전 준비나 기존의 것을 사용하지 않고 맨 처음부터, 기초부터 새롭게 시작하거나 만드는 것\n아무 것도 없는 상태에서 데이터부터 모델 개발, 배포까지 전 과정을 자체적으로 수행\n\n[특징]\n완전 초기 상태 시작 - 미참고, 미재사용\n독립성, 독창성 - 자체 개발, 구축\n맞춤성, 제어권 - 맞춤 제작, 완전한 제어권 소유\n시간, 노력 소요"]
 ],
 "Meta_Info": [
-    ["1", "A", "Version",                               "2026.01.15.0500", ""]
+    ["1", "A", "Version",                               "2026.01.15.0510", ""]
 ]
 }
