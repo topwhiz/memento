@@ -186,7 +186,7 @@
     ["1", "B", "Stakeholder_Management",                "", ""],
     ["1", "B", "Stakeholder_Identification",            "궁지위의잠임요", "이해관계자 관리 / 현저성 모델(Salience Model)\n\n[이해관계자 속성]\n권력(Power) - 프로젝트 결과 영향력\n합법성(Legitimacy) - 프로젝트 긍정적 영향력\n긴급성(Urgency) - 신속 대응 필요성\n\n[이해관계자 범주 - 궁지위의잠임요이]\n7. 궁극적/결정적 (Definitive)\n4. 지배적 (Dominant)\n5. 위험한 (Dangerous)\n6. 의존적 (Dependent)\n1. 잠자는 (Dormant)\n2. 임의적 (Discretionary)\n3. 요구적 (Demanding)\n8. 이해관계자 아님 (Non-stakeholder)"],
     ["1", "B", "Stakeholder_Identification_Type",       "궁지위의잠임요", "이해관계자 관리 / 현저성 모델(Salience Model)\n\n[이해관계자 속성]\n권력(Power) - 프로젝트 결과 영향력\n합법성(Legitimacy) - 프로젝트 긍정적 영향력\n긴급성(Urgency) - 신속 대응 필요성\n\n[이해관계자 범주 - 궁지위의잠임요이]\n7. 궁극적/결정적 (Definitive)\n4. 지배적 (Dominant)\n5. 위험한 (Dangerous)\n6. 의존적 (Dependent)\n1. 잠자는 (Dormant)\n2. 임의적 (Discretionary)\n3. 요구적 (Demanding)\n8. 이해관계자 아님 (Non-stakeholder)"],
-    ["1", "B", "Mendelow_Model",                        "", ""],
+    ["1", "B", "Mendelow_Model",                        "", "멘델로우의 파워-관심도 매트릭스\nMendelow’s Power-Interest Matrix"],
     ["1", "B", "Configuration_Management",              "기항물정\n식통감기\n기분설시제운", "CCB, CAB, CMDB\nSVN/Git\n무결성, 추적성 확보, SW품질\nSCM(SW Configuration Mng)"],
     ["1", "B", "Configuration_Management_Baseline",     "", "SDLC별 형상관리 항목 기준"],
     ["1", "B", "CCB",                                   "", "- CCB (Change Control Board, 변경통제위원회)\n소프트웨어 개발, 시스템 구축시의 변경관리\n프로젝트 관리(PM), PMBOK\n\n- CAB (Change Advisory Board)\n서비스 중인 시스템/인프라에 대한 변경관리\nIT 서비스 관리(ITSM), ITIL"],
@@ -1267,6 +1267,6 @@
     ["1", "D", "From_Scratch",                          "", "[개념]\n아무런 사전 준비나 기존의 것을 사용하지 않고 맨 처음부터, 기초부터 새롭게 시작하거나 만드는 것\n아무 것도 없는 상태에서 데이터부터 모델 개발, 배포까지 전 과정을 자체적으로 수행\n\n[특징]\n완전 초기 상태 시작 - 미참고, 미재사용\n독립성, 독창성 - 자체 개발, 구축\n맞춤성, 제어권 - 맞춤 제작, 완전한 제어권 소유\n시간, 노력 소요"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.01.22.0040", ""]
+    ["1", "D", "Version",                               "2026.01.22.0710", ""]
 ]
 }
