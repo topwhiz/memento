@@ -1226,7 +1226,8 @@
     ["1", "B", "ARX",                                   "", "[개념]\n블록 암호 구성 시 사용되는 기본 사칙/논리 연산\n\n[구성요소]\nAddition (덧셈)\nRotation (회전)\neXclusive-or (배타적 논리합, XOR)\n\n[특징]\n단순성/효율성 - 구현 용이 / IoT환경 / SPN구조 대체\nS-Box 대체 - S-Box(대체 상자) 미사용 / LEA\nGFN 방식\n\n[S-Box]\n비선형성\nHW 구현시 자원 소모\nSW 구현시 테이블 참조로 속도 저하\n\n[GFN 방식 (Generalized Feistel Network)]\n블록 암호 설계에 사용되는 구조 중 하나\nLEA는 GFN 방식 적용하여 ARX 연산 수행\nS-Box 미사용 - 경량 암호 알고리즘 상당수 GFN 사용\nARX 연산 결합\n비밀키/라운드 함수 - 비밀키로부터 복수의 라운드 키 생성"],
     ["1", "B", "AI_Trustworthiness_Certification",      "", "Trustworthiness > Reliability/Resposability\n\n[국내 AI 신뢰성 인증제도]\n공공부문 - AI 신뢰성 인증(CAT) / TTA\n민간 영역 - AI-마스터 / AIIA(한국인공지능산업협회)"],
     ["1", "C", "OMA",                                   "", "Object Management Architecture\n\n[구성요소]\nCOBRA - 이종 분산환경에서 통신 담당\nCOSS - 객체 조작 시 필요한 기본 기능\n기능 서비스 - 추가 제공 기능\n응용 객체 - 개발자 작성"],
-    ["1", "C", "CORBA",                                 "", "Common Object Request Broker Architecture\n\n[구성요소]\nORB - Object Request Broker\nStub - 클라이언트 스텁\nDynamic Invocation - 동적 호출\nObject Adaptor - 객체 어댑터\nIDL Compiler - Interface Definition Language"],
+    ["1", "C", "CORBA",                                 "", "Common Object Request Broker Architecture\n\n[정의]\n분산 컴퓨팅 환경 이기종 SW 컴포넌트 상호 작용 지원 분산 객체 기술\nOMG(Object Management Group) 정의 산업 표준\n\n[구성요소]\nORB - Object Request Broker\nStub - 클라이언트 스텁\nDynamic Invocation - 동적 호출\nObject Adaptor - 객체 어댑터\nIDL Compiler - Interface Definition Language\n\n[특징]\n언어 독립성 - 다종 언어 지원 / C++, Java, Python\n플랫폼 독립성 - 다종 환경 지원 / Windows, Unix, Linux\n통신 투명성 - 분산 환경 객체 간 위치, 통신 투명성\n사용처 - 레거시 통합 / 대용량 Client-서버 / 고성능 분산 환경"],
+    ["1", "C", "CCM",                                   "", "CORBA Component Model\n\n[개념]\n기존 CORBA 분산 객체 모델 확장\n서버 측 컴포넌트 기반 SW 개발 위해 정의된 표준\nCORBA 어플리케이션 개발, 배치, 관리 위한\n구조화 프레임워크 제공\n\n[특징]\n컨테이너 기반 - 보안, 트랜잭션, 생명주기 관리 제공\nEJB 호환성 - EJB 모델 기반 / 다중 인터페이스 제공\n사용처 - 엔터프라이즈 분산 애플리케이션 / 서버 솔루션"],
     ["1", "C", "COM",                                   "", "Componenet Object Model"],
     ["", "C", "STAMP",                                  "", "System Theoretic Accident Model and Process\n시스템 이론에 기반한 대표적인 사고 모델"],
     ["1", "B", "ICBMA",                                 "", "스마트시티 키워드\n\nIoT\nCloud\nBig Data\nMobile\nAI"],
@@ -1269,6 +1270,6 @@
     ["1", "C", "k8s",                                   "", "Kubernetes(쿠버네티스) 줄임말\nK 와 s 사이에 8개의 글자가 있다는 의미"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.01.25.1050", ""]
+    ["1", "D", "Version",                               "2026.01.25.1120", ""]
 ]
 }
