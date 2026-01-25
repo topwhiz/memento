@@ -228,7 +228,7 @@
     ["1", "B", "Iteration_Model",                       "", ""],
     ["1", "B", "Incremental_Model",                     "", ""],
     ["1", "B", "Evolutional_Model",                     "화나", ""],
-    ["1", "B", "RAD",                                   "지라씨(JRAC)", "Agile\nJRP(Joint Requirement Planning) : 공동 요구사항 정의\nJAD(Joint Application Design) : 참여 공동 설계"],
+    ["1", "B", "RAD",                                   "JRAPD CC", "Agile\n\n[구성요소]\n\n- JRP - Joint Requirement Planning\n분석 단계 1~2주 / 공동 요구사항 정의\n비즈니스 모델링 / 데이터 모델링 / 프로세스 모델링\n\n- JAD - Joint Application Design\n참여 공동 설계 / 설계/개발 단계 3-5주\n프로토타입 개발 / 프로토타입 수정 보완 - 반복\n\n- Construction Phase\n구축 / 테스트\n상세 설계 완료 후 SW 구축\n\n- Cutover\n배포 / 운영\n운영 필요 지침 작성 후 현업 부서 이전"],
     ["1", "B", "OOP",                                   "클객메인\n캡추다정상\nSOLID", "디자인패턴 / 132회 컴시응 3교시\n\n[구성요소 - 클객메인]\n클래스(Class) - 고객 타입 정의 템플릿\n객체(Object) - 클래스 인스턴스 (실제 메모리 할당)\n메소드(Method) - 객체 사용 방법 / 객체 명령 메세지\n인스턴스(Instance) - 실제 실행 객체\n\n[기법 - 캡추다정상]\n\n- 캡슐화 (Encapsulation)\nAttribute(Data) / Method / Msg / Behavior\n\n- 추상화 (Abstraction)\n기능 / 데이터 / 제어\n\n- 다형성 (Polymorphism)\n오버라이딩(overriding) / 오버로딩(overloading)\n\n- 정보은닉 (Information Hiding)\nPrivate / Default / Protected / Public\n\n- 상속성 (Inheritance)\n일반화 / 특수화\n\n[설계원리 - SOLID]\n\n- 단일 책임 - SRP\nSingle Responsibility Principle\n\n- 개방 폐쇄 - OCP\nOpen Closed Principle\n\n- 리스코프 치환 - LSP\nLiscov Substitution Principle\n\n- 인터페이스 분리 - ISP\nInterface Segregation Principle/Fasade Pattern\n\n- 의존 관계 역전 - DIP\nDependency Inversion Principle"],
     ["1", "B", "OOP_Design_Principle",                  "SOLID", "[설계원리 - SOLID]\n\n- 단일 책임 - SRP\nSingle Responsibility Principle\n\n- 개방 폐쇄 - OCP\nOpen Closed Principle\n\n- 리스코프 치환 - LSP\nLiscov Substitution Principle\n\n- 인터페이스 분리 - ISP\nInterface Segregation Principle/Fasade Pattern\n\n- 의존 관계 역전 - DIP\nDependency Inversion Principle"],
     ["1", "B", "Encapsulation",                         "퍼텍디프 동클 동패 자클 다패", "131회 관리 1교시"],
@@ -1269,6 +1269,6 @@
     ["1", "C", "k8s",                                   "", "Kubernetes(쿠버네티스) 줄임말\nK 와 s 사이에 8개의 글자가 있다는 의미"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.01.25.0910", ""]
+    ["1", "D", "Version",                               "2026.01.25.0950", ""]
 ]
 }
