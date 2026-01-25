@@ -219,7 +219,7 @@
 "Software_Engineering": [
     ["1", "A", "SW_Engineering_Roadmap",                "", ""],
     ["1", "B", "Software_Engineering",                  "방패도프\n복비순무변제\n재정신강성사유\n디객확 요협케\n추정단모분", "[소프트웨어 공학 주제/목표 - 방패도프]\n방법 - Method\n패러다임 - Paradigm\n도구 - Tool\n프로세스 - Process\n\n[소프트웨어 주요 특성 - 복비순무변제]\n복잡성 - Complexity\n비가시성 - Invisibility\n순응성 - Comformity\n무형성 - Intangible\n변경성 - Changeability\n복제가능 - Duplicability\n\n[좋은 소프트웨어 조건 - 재정신강성사유]\n재사용성 - Reusability\n정확성 - Corrrectness\n신뢰성 - Reliability\n강인성 - Robustness\n성능 - Performance\n사용 용이성 - Usability\n유지보수성 - Maintainability\n\n[좋은 소프트웨어 기술/관리 방안 - 디객확 요협케]\n기술적 - 디자인 패턴 / 객체 지향 / 확장성\n관리적 - 요구사항 관리 / 협업 관리 / CASE 활용\n\n[소프트웨어 설계 원리 - 추정단모분]\n일반화 - 추상화 / 정보은닉\n구체화 - 단계적 분해 / 모듈화 / 분할, 정복"],
-    ["1", "B", "Technical_Debt",                        "요기비전\n코아테문\n부우템기리", "[원인 - 요기비전]\n잦은 요구 변경 - 복잡성 상승 / 낮은 테스트 커버리지\n낮은 기술 성숙도 - 잘못된 아키텍처 / 개발 경험 부족\n비즈니스 압력 - Time-To-Market / 적은 예산\n전문가 부족 - 테스팅, 문서화 부족 / 코드 품질 저하\n\n[유형 - 코아테문]\n코드 부채\n아키텍처 부채\n테스트 부채\n문서화 부채\n\n[관리 방법 - 부우템기리]\n\n- 부채 추정\n부채 식별 / 부채 유형 검토 / 정적 분석 수행\nCoverity / SonarQube / CheckStyle\n\n- 우선 순위화\n이슈, 리스크 측정 / 우선순위 높은 Task 기반\n정략적, 정성적 평가\n\n- 템플릿 통합\n템플릿 툴 적용 / 전문 도구 통한 템플릿 통합\nPrettier / Lint\n\n- 기술 업데이트\n오래된 기술 / 업데이트 / 오픈소스\n컨테이너 / 도커 / k8s (Kubernetes)\n\n- 리팩토링/테스팅\n모듈성 결여 코드 / Walk Through / Peer Review / Inspection\n응집도 향상 / 테스트 방법론 도입"],
+    ["1", "B", "Technical_Debt",                        "요기비전\n코아테문\n부우템기리", "[원인 - 요기비전]\n잦은 요구 변경 - 복잡성 상승 / 낮은 테스트 커버리지\n낮은 기술 성숙도 - 잘못된 아키텍처 / 개발 경험 부족\n비즈니스 압력 - Time-To-Market / 적은 예산\n전문가 부족 - 테스팅, 문서화 부족 / 코드 품질 저하\n\n[유형 - 코아테문]\n코드 부채\n아키텍처 부채\n테스트 부채\n문서화 부채\n\n[관리 방법 - 부우템기리]\n\n- 부채 추정\n부채 식별 / 부채 유형 검토 / 정적 분석 수행\nCoverity / SonarQube / CheckStyle\n\n- 우선 순위화\n이슈, 리스크 측정 / 우선순위 높은 Task 기반\n정략적, 정성적 평가\n\n- 템플릿 통합\n템플릿 툴 적용 / 전문 도구 통한 템플릿 통합\nPrettier / Lint\n\n- 기술 업데이트\n오래된 기술 / 업데이트 / 오픈소스\n컨테이너 / 도커 / k8s (Kubernetes)\n\n- 리팩토링/테스팅\n모듈성 결여 코드 / 응집도 향상 / 테스트 방법론 도입\nPeer Review - 워크스루 / 인스펙션 / 코드리뷰\n\n[용어]\n\n- Peer Review 유형\nWalkthrough - 비공식적 / 작성자 주도 / 빠른 피드백\nInspection - 공식적 / 전문가 검토 / 체크리스트 활용\nCode Review - 체계적, 기술적 분석 / 페어 프로그래밍"],
     ["1", "C", "SW_Development_Methodology",            "절방산관기도", "[구성요소 - 절방산관기도]\n절차 - 단계별 활동, 순서 / Phase-Activity-Task\n방법 - Task 수행 방법\n산출물 - 목록, 양식\n관리 - 계획, 일정, 품질 관리 / 계획서, 기준 문서\n기법 - 이용 가능 기술, 기법 / ERD, DFD\n도구 - 활용 가능 도구 / CASE, UML"],
     ["1", "B", "SDLC",                                  "고단순탑V후정\n방규개시\n폭프나라반(증진)", "ISO_12207\n고전적 / 단계적 / 순차적 / Top-Down / V모델\n후반부 문제 가능성 / 정식변경절차(Frozen Delivery)\n\n[모델 선정기준 - 방규개시]\n방법 / 도구\n규모 / 성격\n개발통제 / 산출물\n시간 / 비용\n\n[모델 유형 - 폭프나라반(증진)]\n폭포수 모델\n프로토타이핑 모델\n나선형 모델\nRAD 모델\n반복형 모델 - 증분형 / 진화형"],
     ["1", "B", "Waterfall_Model",                       "계요설개단통시인설\n고단순탑V후", "개발방법론 / Secure SDLC / 131회 관리 1교시\n고전적 / 단계적 / 순차적 / Top-Down / V모델\n후반부 문제 가능성"],
@@ -1269,6 +1269,6 @@
     ["1", "C", "k8s",                                   "", "Kubernetes(쿠버네티스) 줄임말\nK 와 s 사이에 8개의 글자가 있다는 의미"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.01.25.0900", ""]
+    ["1", "D", "Version",                               "2026.01.25.0910", ""]
 ]
 }
