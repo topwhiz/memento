@@ -658,9 +658,9 @@
     ["1", "B", "RansomWeb",                             "", ""],
     ["1", "B", "RaaS",                                  "", "Ransomeware as a Service"],
     ["1", "B", "Malware_Detection",                     "시행휴 명스C바 통행무F 악유동네정제", "[악성코드 탐지 기법]\n시행휴 명스C바 통행무F 악유동네정제]\n\n- 시그니처 탐지 기법 - 명스C바\n명령어 빈도수\n스트링 시그니처\nCFG 시그니처 (Control Flow Graph)\n바이트 시퀀스\n\n- 행위 기반 탐지 기법 - 통행무F\n통계 기반\n행위 차단 방법\n무결성 검사\nFDS\n\n- 휴리스틱 탐지 기법 - 악유동네정제\n악성코드 프로파일\n유전 알고리즘\n동적 휴리스틱\n네거티브 휴리스틱\n정적 휴리스틱\n제너릭 탐지 휴리스틱"],
-    ["1", "B", "Signature_Detection",                   "", "111.관리.3교시\n스트링 시그니처, 명령어 빈도수, CFG 시그니처, 바이트 시퀀스"],
-    ["1", "B", "Behavior_Based_Detection",              "", "무결성 검사, 행위 차단 방법"],
-    ["1", "B", "Heuristic_Detection",                   "", "악성코드 프로파일, 네거티브 휴리스틱, 유전 알고리즘"],
+    ["1", "B", "Signature_Detection",                   "시행휴 명스C바 통행무F 악유동네정제", "111.관리.3교시\n명령어 빈도수 / 스트링 시그니처 /\nCFG 시그니처 / 바이트 시퀀스\n\n[악성코드 탐지 기법]\n시행휴 명스C바 통행무F 악유동네정제]\n\n- 시그니처 탐지 기법 - 명스C바\n명령어 빈도수\n스트링 시그니처\nCFG 시그니처 (Control Flow Graph)\n바이트 시퀀스\n\n- 행위 기반 탐지 기법 - 통행무F\n통계 기반\n행위 차단 방법\n무결성 검사\nFDS\n\n- 휴리스틱 탐지 기법 - 악유동네정제\n악성코드 프로파일\n유전 알고리즘\n동적 휴리스틱\n네거티브 휴리스틱\n정적 휴리스틱\n제너릭 탐지 휴리스틱"],
+    ["1", "B", "Behavior_Based_Detection",              "시행휴 명스C바 통행무F 악유동네정제", "통계 기반 / 행위 차단 방법 / 무결성 검사 / FDS\n\n[악성코드 탐지 기법]\n시행휴 명스C바 통행무F 악유동네정제]\n\n- 시그니처 탐지 기법 - 명스C바\n명령어 빈도수\n스트링 시그니처\nCFG 시그니처 (Control Flow Graph)\n바이트 시퀀스\n\n- 행위 기반 탐지 기법 - 통행무F\n통계 기반\n행위 차단 방법\n무결성 검사\nFDS\n\n- 휴리스틱 탐지 기법 - 악유동네정제\n악성코드 프로파일\n유전 알고리즘\n동적 휴리스틱\n네거티브 휴리스틱\n정적 휴리스틱\n제너릭 탐지 휴리스틱"],
+    ["1", "B", "Heuristic_Detection",                   "시행휴 명스C바 통행무F 악유동네정제", "악성코드 프로파일 / 유전 알고리즘 /\n동적 휴리스틱 / 네거티브 휴리스틱 /\n정적 휴리스틱 / 제너릭 탐지 휴리스틱\n\n[악성코드 탐지 기법]\n시행휴 명스C바 통행무F 악유동네정제]\n\n- 시그니처 탐지 기법 - 명스C바\n명령어 빈도수\n스트링 시그니처\nCFG 시그니처 (Control Flow Graph)\n바이트 시퀀스\n\n- 행위 기반 탐지 기법 - 통행무F\n통계 기반\n행위 차단 방법\n무결성 검사\nFDS\n\n- 휴리스틱 탐지 기법 - 악유동네정제\n악성코드 프로파일\n유전 알고리즘\n동적 휴리스틱\n네거티브 휴리스틱\n정적 휴리스틱\n제너릭 탐지 휴리스틱"],
     ["1", "B", "SandBox",                               "동코앤가", "[구성요소 - 동코앤가]\n\n- 동적 분석\n모니터링 분석\nNW 행위 / 파일 위변조 탐지\n\n- 코드 분석\n비정상 실행 분석\nAPT 탐지 / 메모리 보호 탐지\n\n- 앤드포인트 보안\n악성코드 활동 분석\nBackDoor 탐지\n\n- 가상화 환경\n클라우드 활용 / 동일 테스트 환경 제공\n취약점 사전 탐지"],
     ["1", "B", "Cryptojacking",                         "", ""],
     ["1", "B", "Spear_Phishing",                        "", "특정대상, 타겟, 이메일, DVD, 온라인 개인정보 노출 최소화, 최신 보안패치"],
@@ -675,7 +675,7 @@
     ["1", "B", "InfoStealer",                           "", "129정보관리 기출\nChromium, SQLite DB, AES Key\nGecko, logins.json, NSS Library nss3.dll, PK11SDR_Decrypt"],
     ["1", "B", "Static_Analysis",                       "소코리\n코풀고 스쿠프", "[주요기법 - 소코리]\n소스 코드 검증\n코드 리뷰\n리버스 엔지니어링 (역공학‐정적분석, 3R)\n\n[관련도구 - 코풀고 스크푸]\nCodeSonar / PolySpace / Coverity\nSparrow / Klockwork / PurifyPlus"],
     ["1", "B", "Dynamic_Analysis",                      "디스모리\n버메와앱", "컴시응.113.3\n\n[주요기법 - 디스모리]\n디버그\n스트레스 테스트\n모의해킹\n리버스 엔지니어링(역공학-동적분석)\n\n[모의해킹 도구 - 버메와앱]\n Burp Suite / Metasploit / Wireshark / AppScan"],
-    ["1", "B", "SQL_Injection",                         "인권시데", "파라메터 변조, SQL Query 조작/변경\n\n[공격 기법 - 인권시데]\n인증우회 - 인증모듈 입력값 유효성 미체크 이용\n권한상승 - DB권한 / SQL 확장프로시저 악용\n시스템 에러 이용 - 에러메세지 분석 정보 획득\nDB 열람/조작 - Error-Based 인젝션 / Blind SQL 인잭션"],
+    ["1", "B", "SQL_Injection",                         "인권시데", "파라메터 변조, SQL Query 조작/변경\n\n[공격 기법 - 인권시데]\n인증우회 - 인증모듈 입력값 유효성 미체크 이용\n권한상승 - DB권한 / SQL 확장프로시저 악용\n시스템 에러 이용 - 에러메세지 분석 정보 획득\nDB 열람/조작 - Error-Based 인젝션 / Blind SQL 인젝션"],
     ["1", "C", "Mass_SQL_Injection",                    "", ""],
     ["1", "B", "XSS",                                   "리스돔", "Cross Site Script / 스크립트 변조 / Session hijack\n\n[유형 - 리스돔]\nReflected XSS\nStored XSS\nDOM based XSS"],
     ["1", "A", "SIM_Swapping",                          "", ""],
@@ -1268,6 +1268,6 @@
     ["1", "C", "k8s",                                   "", "Kubernetes(쿠버네티스) 줄임말\nK 와 s 사이에 8개의 글자가 있다는 의미"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.01.31.1650", ""]
+    ["1", "D", "Version",                               "2026.01.31.1710", ""]
 ]
 }
