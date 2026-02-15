@@ -32,10 +32,10 @@
     ["1", "C", "COBIT2019",                             "서거설이\n거구컴거 전목리 사 이위준 역소구기", "[목적]\n신속 업데이트 / 의사결정 지원 확대\n\n[구성요소 - 서거설이]\n서론, 방법론\n거버넌스, 관리목적\n설계 지침\n이행 지침\n\n[설계 요소 - 거구컴거 전목리 사 이위준 역소구기]\n\n- 기업 거버넌스 - 전목리\n기업 전략 / 기업 목표 / 리스크 프로파일\n\n- 기업 구조 - 사\n기업 사이즈 / EA\n\n- IT 컴플라이언스 - 이위준\nIT 이슈 / 위협 Landscape / 준수 요건\n\n- IT 거버넌스 - 역소구기\nIT 역할 / IT 소싱 모델 / IT 구현 방법 / 기술 도입 전략"],
     ["1", "C", "IT_Productivity_Paradox",               "관효측\n거시프", "IT 생산성 패러독스\n\n[개념]\nIT투자 증가해도 생산성 미반영, 감소 현상\n\n[원인 - 관효측]\nMismanagement - 관리 미흡 / 잘못된 관리\nTime lag - 투자 효과 지연 발현 / Learning Curve\nMismeasurement - 성과 측정 오류 / 측정 방법, 지표 난해\n\n[해결방안 - 거시프]\nIT거버넌스\n시뮬레이션 모델링\n프로토타이핑"],
     ["1", "B", "Economic_Evaluation_Model",             "CBA 회비내순투\nROV 이블몬\nMCA 재기비리", "경제성평가기법\n\n[기법 종류]\n\n- CBA - 회비내순투\nCost Benefit Analysis\nPP - 투자 회수 기간 / BEP 3~4년\nBCR - 비용 편익비 = Benefit/Cost\nIRR - 내부수익률 / NPV=0 인 r 값\nNPV - 순현재가치 = Σ (Ct/(1+r)^t - C0)\nROI - 투자수익률 = 순이익/총투자비용 * 100%\n\n- ROV - 이블몬\nReal Option Valuation\n이항 모형 - 이항옵션모형 기반\n블랙숄츠 모형 - 수학적 모델\n몬테카를로스 평가 모델 - 확률 분포\n\n- MCA - 재기비리\nMulti Criteria Analysis/Assessment\n재무 / 기술 / 비즈니스 / 리스크"],
-    ["1", "B", "IT_ROI",                                "평시측분\n전중후\n준수종\nB\nNRP", "투자성과평가모델\n\n[구성요소 - 평시측분]\n평가 - 사전 / 중간 / 사후\n시행추진 - 사업 준비 / 수행 / 종료\n성과측정 - BSC\n분석 - NPV / ROI / PP"],
+    ["1", "B", "IT_ROI",                                "평시측분\n전중후\n준수종\nB\nNRPI", "투자성과평가모델\n\n[구성요소 - 평시측분]\n평가 단계 - 사전 평가 / 중간 평가 / 사후 평가\n시행 추진 - 사업 준비 / 사업 수행 / 사업 종료\n성과 측정 - BSC\n경제성 분석 - CBA-회비내순투 / ROV-이블몬 / MCA-재기비리"],
     ["1", "B", "BSC",                                   "재고내학\nCSF\nKPI", ""],
     ["1", "B", "IT_BSC",                                "기사운미", "정보기술균형성과표\n\n[구성요소 - 기사운미]\n\n- 기업 공헌도 - 재무 관점\nIT비용관리 / 매출기여도 / 신규사업 가치 / 마진율\n\n- 사용자 관점 - 고객 관점\n사용자 파트너쉽 / 사용자 만족도 / 고객 가입률\n\n- 운영 프로세스 - 내부 프로세스\n서비스 가동률 / 장애 조치율\n\n- 미래 지향 - 학습/성장\nIT인력 전문 자격증 / 신기술 연구 / 학습률"],
-    ["1", "B", "OKR",                                   "집도추정 컴스원\n목성 보달 상연", "상향 정성/정량 수평 목표 평가연동금지 분기"],
+    ["1", "B", "OKR",                                   "집도추정 컴스원\n목성 보달 상연", "상향 정성/정량 수평 목표 평가연동금지 분기\n\n[용어]\n\n- CFR\nConversation / Feedback / Recognition"],
     ["1", "B", "BPR",                                   "프기인", "Zero-Based Thinking\n단기혁신, BA, SME(Subject Matter Expert)"],
     ["1", "B", "PI",                                    "정목분재검\n완전최성기", "[5 DPA - Design Parameter Analysis]\n5가지 설계 변수 분석\n완결성 (Completeness)\n전략연계성 (Strategic Alignment)\n최적성 (Optimality)\n성숙도 (Maturity)\n기능성 (Functionality)"],
     ["1", "B", "Open_Innovation",                       "외인공벤\n개기분프\nNIH NIT NSH", "외부자원(외->내)\n인소싱 / 공동 연구 / 벤처투자, 캐피탈\n\n개방(내->외)\n기술 자산 판매 / 분사화 / 내부 프로젝트 공개\n\n[저해 요인]\nNIH - Not Invented Here\nNIT - Not Invented There\nNSH - Not Sold Here"],
@@ -1277,6 +1277,6 @@
     ["1", "D", "Logical_Reasoning",                     "", "논리적 추론 방법\n\n- 귀납법 - Induction\n구체적 사례 종합 -> 일반 원리 도출\n지식 확장형 추론 / Bottom-up\n전제 참이어도 결론 거짓 가능성 존재 (개연성)\n관찰 -> 패턴 -> 가설 ->  이론\n\n- 연역법 - Deduction\n일반적 원리 -> 구체적 사실 증명\n확실성 기반 추론 / Top-down\n전제 참이면 결론은 반드시 참 (필연성)\n이론 -> 가설 -> 관찰 -> 검증"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.02.15.0920", ""]
+    ["1", "D", "Version",                               "2026.02.15.1200", ""]
 ]
 }
