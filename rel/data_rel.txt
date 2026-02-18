@@ -59,9 +59,9 @@
     ["1", "B", "Value_Driver_Tree",                     "작가도전\nMC\n수분도확전", "VDT"],
     ["1", "B", "STP",                                   "경고회 세타 포 제가판유\nR STP MM I C\n사개구경 차비집 상속경사", "[절차 - R-STP-MM-I-C]\nRearch-STP-마케팅Mix-Implement-Control\n시장 분석 (경고회) - 3C\n컨셉 개발 (세타) - Segment / Tageting\n컨셉 확정 (포) - Positioning\n전략 세분화 (제가판유) - Marketing Mix 4P\n\n[시장분석 - 3C - 경고회]\nCompetition / Customer / Company\n\n[컨셉 개발/확정 - 세타/포]\n\n- Segmentation - 사개구경\n사용,구매 주체/개개인 집합/구매행동/경쟁적 좌표\n\n- Targeting - 차비집\n차별성 / 비차별성 / 집중화\n\n- Positioning - 상속경사\n사용 상황 / 속성 / 경쟁 제품 / 사용자\n\n[전략 세분화 - 4P - 제가판유]\nProduct - 제품\nPrice - 가격\nPromotion - 판매촉진\nPlace - 유통채널"],
     ["1", "C", "MECE_LISS",                             "초핵해", "MECE\nMutually Exclusive Collectively Exhaustive\nMutually - 상호간에\nExclusive - 독점적, 배타적\nCollectively - 집단적으로, 공동으로\nExhaustive - 철저한, 완전한\n\nLISS\nLinearly Independent Spanning Set\nLinearly - 연속적으로\nIndependent - 독립된\nSpanning - 기간, 시간, 범위, 다양성\nSet"],
-    ["1", "B", "CPND",                                  "원경기다", "Contents - Resource / 원천 / 디지털 컨텐츠\n\nPlatform - Market / 경쟁 / 오픈마켓(유통시장)\n\nNetwork - Infra / 기반 / 네트워크 진화\n\nDevice - N Screen / 다양화 / 디바이스 다양화"],
+    ["1", "C", "CPND",                                  "원경기다", "Contents - Resource / 원천 / 디지털 컨텐츠\n\nPlatform - Market / 경쟁 / 오픈마켓(유통시장)\n\nNetwork - Infra / 기반 / 네트워크 진화\n\nDevice - N Screen / 다양화 / 디바이스 다양화"],
     ["1", "B", "TAM_SAM_SOM",                           "전관수탐삼솜", "[프레임워크 절차 - 전관수탐삼솜]\n시장/잠재고객 식별 - 지리, 통계\n관심시장 잠재고객 추정 - 인사이트, 업계보고서\n고객 평균수익 추정 - 동종업계, 과거정보\nTAM 계산 - 잠재고객, 평균수익\nSAM 계산 - 중요요소, 필터링\nSOM 계산 - 시장환경, 마케팅요소\n\n[구성요소 - 탐삼솜]\nTAM - 총 잠재 고객수 * ARPU / 제약 미고려\nSAM  - 접근 가능 시장 필터링 / 제약 고려\nSOM - 초기목표 고객수 * 예상 판매 가격\n\nARPU (Average Revenue Per User)\n고객당 평균 수익\n특정 기간 전체 수익 / 전체 활성 사용자 수"],
-    ["1", "C", "FastFallower_FirstMover_ParallelMover", "", "FRAND\nFair, Reasonable and Non-Discriminatory\n표준 특허를 보유한 기업은 특허 사용을 원하는 모든 사람에게 공정하고 합리적이며 차별없이 허락"],
+    ["1", "C", "FastFallower_FirstMover_ParallelMover", "고기수리비", "선도자 전략 / 추격자 전략 / 병행자 전략\n\n[비교 항목 - 고기수리비]\n고객 / 기술 / 수익 / 리스크 / 비용\n\n[용어]\n\n- TOM\nTop of Mind / 각인 효과\n\n- FRAND\nFair, Reasonable and Non-Discriminatory\n표준 특허를 보유한 기업은 특허 사용을 원하는 모든 사람에게 공정하고 합리적이며 차별없이 허락"],
     ["1", "C", "Inside_Out_Outside_In",                 "아라아스아오공\n인라인지조인\n인프투", "[Inside-Out - 아라아스아오공]\nLicensing-Out\nSpin-Out\nSpin-Off\n프로젝트공개\n\n[Outside-In - 인라인지조인]\nLicensing-In\n지적재산권 공유\nJoint Venture Intent\nM&A\n\n[개방형 혁신 모델 - 인프투]\nIntegrated Platform Model - 플랫폼 소유자 판매\nProduct Platform Model - 외부 개발자 / 직접 판매\nTwo-Sided Platform Model - 계약 플랫폼 환경 조건"],
     ["1", "B", "ERP",                                   "빅기사", "XRP\nOLAP"],
     ["1", "B", "Composable_ERP",                        "유컴통오이데보마\nMSA, SOA", ""],
@@ -1278,6 +1278,6 @@
     ["1", "D", "Logical_Reasoning",                     "", "논리적 추론 방법\n\n- 귀납법 - Induction\n구체적 사례 종합 -> 일반 원리 도출\n지식 확장형 추론 / Bottom-up\n전제 참이어도 결론 거짓 가능성 존재 (개연성)\n관찰 -> 패턴 -> 가설 ->  이론\n\n- 연역법 - Deduction\n일반적 원리 -> 구체적 사실 증명\n확실성 기반 추론 / Top-down\n전제 참이면 결론은 반드시 참 (필연성)\n이론 -> 가설 -> 관찰 -> 검증"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.02.17.0825", ""]
+    ["1", "D", "Version",                               "2026.02.18.1050", ""]
 ]
 }
