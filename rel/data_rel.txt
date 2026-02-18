@@ -9,7 +9,6 @@
     ["1", "A", "ISMP",                                  "착수요정이", "EA > ISP > ISMP\n\n[수행절차 - 착수요정이]\n\n- 프로젝트 착수 / 참여자 결정\n지원 조직 / 수행 조직 / 계획수립\n\n- 방향성 수립\n전략 검토 / 벤치마킹 / 범위,방향 정의,검토\n\n- 요건 분석\n현황분석 / 요건분석 / 검토\n\n- 시스템 구조 요건 정의\n아키텍처 정의 / 연관성 분석 / 요건 기술서 작성, 검토\n\n- 이행방안 수립\n구축 사업계획 수립 / 분리발주 가능성 검토\n예산수립 / RFP 작성 / 업체 선정, 평가"],
     ["1", "A", "ISP_ISMP_Final_Output_Review",          "시물시디기운민소\n범가난컨직계\n사투인제(기)직계", "ISP, ISMP 최종 산물출 검토\n\n[수립제외 유형 - 시물시디기운민소]\n단순 시스템 도입\n단순 물품 구매\n시설 구축\nDB 구축\n단순 기능 개발\n운영/유지\n민간 투자형 SW 사업(시행령33조)\n소규모 정보시스템 사업(20억 미만)\n\n[ISP 수립비 산정 - 범가난컨직계]\n업무 범위\n업무 가중치\n업무 난이도\n컨설팅 업무량\n직접 경비\nISP/BPR 수립비 산정\n\n[ISMP 수립비 산정 - 사투인제(기)직계]\n사전준비 - 컨설팅 대상 업무 범위 / 요구사항 결정\n투입공수 산정\n직접인건비 계산\n제경비/기술료 계산\n직접 경비\nISMP 컨설팅 대가 산정\n\n[계산식]\n컨설팅 업무량 = 업무별 가중치 × 업무별 난이도\nISP/BPR수립비=컨설팅업무량×BPR단가+직접경비\n제경비 = 직접인건비 × 144~154%\n기술료 = (직접인건비 + 제경비) × 20~40%\nISMP컨설팅비=직접인건비+제경비+기술료+직접경비"],
     ["1", "A", "ITSM",                                  "능품수베(인프조기)\n관문절관B", "[구성 - 능품수베(인프조기)]\n\n- 아웃소싱 업체 능력 평가 - 인력\neSCM / ISO 20000\n\n- 프로젝트 관리, SW 품질 인증 - 프로세스\nCMMI / SPICE / PMO\n\n- IT 아웃소싱 서비스 수준 평가 - 조직\nSLM / SLA / SOW\n\n- IT Best Practice - 기술\nITIL\n\n[전략방법 - 관물절관B]\n관리관점 / 문제해결 / 절차 / 관리도구 / Billing"],
-    ["1", "C", "BCG_Matrix",                            "별개소물 성점", ""],
     ["1", "B", "SoW_SLA_SLM",                           "책업서\n기소카메오메보평 가발 장기 가장\n카스오플리엔 계계운평", ""],
     ["1", "B", "SLM",                                   "카스오플리엔\n계계운평", ""],
     ["1", "B", "SLA",                                   "기소카메오메보평\n가발 장기 가장", ""],
@@ -40,6 +39,7 @@
     ["1", "B", "PI",                                    "정목분재검\n완전최성기", "[5 DPA - Design Parameter Analysis]\n5가지 설계 변수 분석\n완결성 (Completeness)\n전략연계성 (Strategic Alignment)\n최적성 (Optimality)\n성숙도 (Maturity)\n기능성 (Functionality)"],
     ["1", "C", "Open_Innovation",                       "외인공벤\n개기분프\nNIH NIT NSH", "외부자원(외->내)\n인소싱 / 공동 연구 / 벤처투자, 캐피탈\n\n개방(내->외)\n기술 자산 판매 / 분사화 / 내부 프로젝트 공개\n\n[저해 요인]\nNIH - Not Invented Here\nNIT - Not Invented There\nNSH - Not Sold Here"],
     ["1", "C", "Inside_Out_Outside_In",                 "아라아스아오공\n인라인지조인\n인프투", "[Inside-Out - 아라아스아오공]\nLicensing-Out\nSpin-Out\nSpin-Off\n프로젝트공개\n\n[Outside-In - 인라인지조인]\nLicensing-In\n지적재산권 공유\nJoint Venture Intent\nM&A\n\n[개방형 혁신 모델 - 인프투]\nIntegrated Platform Model - 플랫폼 소유자 판매\nProduct Platform Model - 외부 개발자 / 직접 판매\nTwo-Sided Platform Model - 계약 플랫폼 환경 조건"],
+    ["1", "C", "BCG_Matrix",                            "별개소물 성점", ""],
     ["1", "B", "Management_Strategy_Building_Tool",     "외내전\nPSS 5\nFVV7\n4S", "경영전략수립 도구\n\n[외부환경 분석 - PSS 5]\n거시환경분석 - PEST / STEEP / Scenario 기법\n산업환경분석 - 5 Force 분석\n\n[내부역량 분석 - FVV7]\n재무 제표 분석 (Financial Statement Analysis)\nValue Chain - 프서마 내생외마서 기인기조\nVRIO Framework - 가희모조\n7S Model - 제조전 공구역스\n\n[경쟁전략 수립]\n4C - 경고회환\nSWOT 분석 - 강약기위\n\n[전략 설명]\n\n- 5 Force 분석 - 잠대기공구\n잠재적 진입\n대체품(재)\n기존 기업간 경쟁\n공급자\n구매자\n\n- 7S Model - 제조전 공구역스\n제도/시스템 (System)\n조직 (Structure)\n전략 (Strategy)\n공유가치 (Shared Value)\n구성원/직원 (Staff)\n역량/기술 (Skill)\n스타일/조직문화 (Style)\n\n- VRIO Framwork - 가희모조\n가치 (Value) - 매출\n희소성 (Rarity) - 차별성\n모방 (Imitability) - 모방 난이도\n조직 (Organization) - 자원활용능력\n\n- 4C - 경고회환\n경쟁사 - Competition\n고객 - Customer\n회사/자사 - Company\n환경 - Circumstance\n\n- SWOT 분석 - 강약기위\nStrength / Weakness / Opportunity / Threat"],
     ["1", "B", "PEST",                                  "경정사기", ""],
     ["1", "B", "PESTEL",                                "경정사기 환법", ""],
@@ -1278,6 +1278,6 @@
     ["1", "D", "Logical_Reasoning",                     "", "논리적 추론 방법\n\n- 귀납법 - Induction\n구체적 사례 종합 -> 일반 원리 도출\n지식 확장형 추론 / Bottom-up\n전제 참이어도 결론 거짓 가능성 존재 (개연성)\n관찰 -> 패턴 -> 가설 ->  이론\n\n- 연역법 - Deduction\n일반적 원리 -> 구체적 사실 증명\n확실성 기반 추론 / Top-down\n전제 참이면 결론은 반드시 참 (필연성)\n이론 -> 가설 -> 관찰 -> 검증"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                               "2026.02.18.2105", ""]
+    ["1", "D", "Version",                               "2026.02.18.2110", ""]
 ]
 }
