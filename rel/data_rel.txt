@@ -1202,7 +1202,7 @@
     ["1", "A", "ISO_31000",                             "", "비즈니스 위험관리 / GRC (Governance, Risk, Compliance)"],
     ["", "A", "ISO_33063",                              "", ""],
     ["1", "B", "ISO_38500",                             "EDM", "IT Governance"],
-    ["1", "A", "ISO_42001",                             "범참용조리계지운성개", "ISO 42001:2023 / 138회 출제\nAI Management System / AI 경영시스템 표준\n\n[개념]\n조직에서 인공지능 관리(경영)시스템(AIMS)을\n수립, 구축, 실행, 유지, 지속 개선 위한 국제 표준 \n\n[구성요소 - 범참용조리계지운성개]\nPlan - 범위 / 참조 / 용어 정의 / 조직 / 리더십 / 기획\nDo - 지원,운용 / AI 위험평가 / AI 시스템 영향 평가\nCheck - 성과평가\nAct - 개선\n\n[요구사항]\n목적, 범위 설정 /\n리스크 관리 / 윤리 준수 /\n투명성 / 책임성\n\n[용어]\n\n- AIMS\nArtificial Intelligence Management System"],
+    ["1", "A", "ISO_42001",                             "범참용조리계지운성개", "ISO 42001:2023 / 138회 출제\nAI Management System / AI 경영시스템 표준\n\n[개념]\n조직에서 인공지능 관리(경영)시스템(AIMS)을\n수립, 구축, 실행, 유지, 지속 개선 위한 국제 표준 \n\n[구성요소 - 범참용조리계지운성개]\nPlan - 범위 / 참조 / 용어,정의 / 조직 / 리더십 / 기획\nDo - 지원,운용 / AI 위험평가 / AI 시스템 영향 평가\nCheck - 성과평가\nAct - 개선\n\n[요구사항]\n목적, 범위 설정 /\n리스크 관리 / 윤리 준수 /\n투명성 / 책임성\n\n[용어]\n\n- AIMS\nArtificial Intelligence Management System"],
     ["1", "B", "ISO_42010",                             "식표AD 대이관 모아기 관뷰모근규대", "[구성요소 - 식표AD 대이관 모아기 관뷰모근규대]\n\n식별 - 대이관\n대상 시스템 - System of Interest\n이해관계자 - Stakeholder\n관심사 - Concern\n\n표현 - 모아기\n모델형 - Model Kind\n아키텍처 - Architecture\n아키텍처 기술 - Architecture Description\n\nAD - 관뷰모근규대\n관점 (Where-view) - Architecture Viewpoint\n뷰 (What) - Architecture View\n모델 - Architecture Model\n결정근거 - Architecture Rationale\n대응 규칙 - Correspondence Role\n대응 관계 - Correspondence"],
     ["1", "A", "ISO_42119",                             "", "AI 테스팅 국제 표준\n\n42119-7 - 레드팀 테스팅 표준\n42119-10 - 온톨로지 표준\n42119-11 - AI 벤치마크"]
 ],
