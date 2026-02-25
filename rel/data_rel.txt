@@ -1207,7 +1207,7 @@
     ["1", "B", "ISO_42010",                                 "", "식표AD 대이관 모아기 관뷰모근규대", "[구성요소 - 식표AD 대이관 모아기 관뷰모근규대]\n\n식별 - 대이관\n대상 시스템 - System of Interest\n이해관계자 - Stakeholder\n관심사 - Concern\n\n표현 - 모아기\n모델형 - Model Kind\n아키텍처 - Architecture\n아키텍처 기술 - Architecture Description\n\nAD - 관뷰모근규대\n관점 (Where-view) - Architecture Viewpoint\n뷰 (What) - Architecture View\n모델 - Architecture Model\n결정근거 - Architecture Rationale\n대응 규칙 - Correspondence Role\n대응 관계 - Correspondence"],
     ["1", "A", "ISO_42119",                                 "", "", "AI 테스팅 국제 표준\n\n42119-7 - 레드팀 테스팅 표준\n42119-10 - 온톨로지 표준\n42119-11 - AI 벤치마크"]
 ],
-"Knowhow": ["",
+"Knowhow": [
     ["1", "B", "Write_Answer",                              "", "", "답안 작성 방법\n\n[1교시형]\n서론 본론 결론\n3단락 (활용, 대응방안 등)은 최대한 작성\n방어형은 무리해서 3단락 작성 금지\n기본 개념 위주로 1페이지 채우게끔 작성\n\n[2교시형]\n기승전결\n\n[참고]\n다른 사람 셀테 채점 해보기"],
     ["1", "B", "Diff_Item",                                 "", "개목특기장단사", "개념\n목적\n특징\n기술\n장점\n단점\n사례"],
     ["1", "B", "Security_Item",                             "", "관물기", ""],
@@ -1280,6 +1280,6 @@
     ["1", "D", "Logical_Reasoning",                         "", "", "논리적 추론 방법\n\n- 귀납법 - Induction\n구체적 사례 종합 -> 일반 원리 도출\n지식 확장형 추론 / Bottom-up\n전제 참이어도 결론 거짓 가능성 존재 (개연성)\n관찰 -> 패턴 -> 가설 ->  이론\n\n- 연역법 - Deduction\n일반적 원리 -> 구체적 사실 증명\n확실성 기반 추론 / Top-down\n전제 참이면 결론은 반드시 참 (필연성)\n이론 -> 가설 -> 관찰 -> 검증"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.02.26.0344", ""]
+    ["1", "D", "Version",                                   "", "2026.02.26.0504", ""]
 ]
 }
