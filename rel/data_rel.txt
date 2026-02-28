@@ -294,7 +294,7 @@
     ["1", "B", "MVI_Pattern",                               "", "", ""],
     ["1", "B", "Circuit_Breaker_Pattern",                   "", "Open / Closed / Half Open", "SV > MSA\n연쇄적인 장애(Cascading Failture) 방지"],
     ["1", "B", "Modularity",                                "", "우논시절통순기\n내공외제스자", "비용, 노력 / 모듈의 수 / 최소비용영역\n인터페이스 노력 / 프로그램 비용 노력\nModularization(모듈화) / Modularity(모듈성)\n\n[응집도(Cohesion) - 우논시절통순기] 높을수록 좋음\n우연적 - 관계성 없는 모듈\n논리적 - 유사한 성격 모듈\n시간적 - 같은 시간대 처리\n절차적 - 순서대로 처리\n통신적 - 동일 I/O, 다른 기능\n순차적 - 이전 결과, 다음 입력\n기능적 - 하나의 기능만 수행\n\n[결합도(Coupling) - 내공외제스자] 낮을수록 좋음\n내용 - 다른 모듈 내용 사용\n공통 - 다중모듈 공통 변수\n외부 - 외부환경 연관\n제어 - 흐름제어\n스템프 - 자료구조 교환\n자료 - 파라미터 교환"],
-    ["S", "B", "SBOM",                                      "", "", "Software Bill of Materials\n\n[구성요소]\n기본 - 작성자명 / 타임스탬프\n컴포넌트 - 컴포넌트 / 버전\n설정- UID / Relationship\n\n[포멧 표준]\nSPDX\nCycloneDX\nSWID Tags"],
+    ["1", "B", "SBOM",                                      "", "", "Software Bill of Materials\n\n[구성요소]\n기본 - 작성자명 / 타임스탬프\n컴포넌트 - 컴포넌트 / 버전\n설정- UID / Relationship\n\n[포멧 표준]\nSPDX\nCycloneDX\nSWID Tags"],
     ["1", "B", "TDD",                                       "", "테코리체\n요테구리\n빨테초디X", "TEST Driven Development\n\n[절차 - 테코리체]\n테스트케이스 작성 / 코드 작성 / 리펙토링 / 체크인\n\n[구성요소 - 요테구리]\n요구사항 / 테스트케이스 / 구현 / 리펙토링\n\n[사용 패턴 - 빨테초디X]\n빨강막대 패턴\n테스트 패턴\n초록막대 패턴\n디자인 패턴\nxUnit 패턴"],
     ["1", "B", "DevOps",                                    "", "소협통\n정역지사자\n플코빌테 릴디오모", "[정의 - 소협통]\n소통 / 협업 / 통합\n\n[특징 - 정역지사자]\n정기 릴리즈 / 역할 / 공동지표 / 사후검증 / 테스트자동화\n\n[개념 - 플코빌테 릴디오모]\n개발 - plan / code(develop) / build / test\n운영(integration) - release / deploy / operate / monitor"],
     ["1", "B", "DevSecOps",                                 "", "스분치모위", "[구성요소 - ]\nScan\nAnalyze\nRemediate\nMonitor\nThreat Mng\n\n[절차]\n\n- Plan\nThreat Modeling\nChange Impact Analysis\n\n- Deploy\nAccess, Configuration Management\nChaos Engineering\nPen Testing\n\n- Operate\nLog Collection\nRASP (Runtime application self-protection)\nPatching\nWAF (Web Application Firewell)\n\n- Monitor\nSIEM (Security Information and Event Mng)\nVulnerability Monitoring\nAccess Control\n\n- Test\nDAST (Dynamic Application Security Testing)\n\n- Build\nPre-commit hooks\nSW Composition Analysis\nSAST (Static Application Security Testing) \nCode Review\nContainer Security\nVulnerability Scanning\nDAST (Dynamic Application Security Testing)"],
@@ -1281,6 +1281,6 @@
     ["1", "D", "Logical_Reasoning",                         "", "", "논리적 추론 방법\n\n- 귀납법 - Induction\n구체적 사례 종합 -> 일반 원리 도출\n지식 확장형 추론 / Bottom-up\n전제 참이어도 결론 거짓 가능성 존재 (개연성)\n관찰 -> 패턴 -> 가설 ->  이론\n\n- 연역법 - Deduction\n일반적 원리 -> 구체적 사실 증명\n확실성 기반 추론 / Top-down\n전제 참이면 결론은 반드시 참 (필연성)\n이론 -> 가설 -> 관찰 -> 검증"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.02.28.1435", ""]
+    ["1", "D", "Version",                                   "", "2026.02.28.1703", ""]
 ]
 }
