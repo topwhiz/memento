@@ -526,7 +526,7 @@
     ["1", "C", "FTP_FTPS_SFTP",                             "", "", "FTP - Active / Passive\nFTPS - SSL / TLS\nSFTP - Secure Shell / TCP 보안 터널링"],
     ["1", "A", "Multicast",                                 "", "", "IPv4 - Unicast / Multicast / Broadcast\nIPv6 - Unicast / Multicast / Anycast"],
     ["1", "A", "DNS",                                       "", "", "Domain Name System"],
-    ["1", "A", "Ad_hoc_Network",                            "", "", ""],
+    ["1", "A", "Ad_hoc_Network",                            "", "", "[주요 기능]\n\n- 지능형 라우팅, 네트워크 구성 (Core Network)\n​이동 애드혹 네트워크 (MANET) - 자율적 네트워크 구성 기본 체계\n​애드혹 주문형 거리 벡터 (AODV) - 필요시 경로 생성 / 라우팅 알고리즘\n​라우팅 기술 - 데이터 전송 최적화 / 경로 설정 기술\n​동적 토폴로지 제어 - NW 연결 상태 실시간 관리\n\n​- 고성능 통신, 매체 제어 그룹 (Connectivity)\n​멀티링크 - 여러 연결 동시 활용 / 대역폭 확장 / 안정성 확보\n​MAC 프로토콜 - 무선 자원 할당 관리 / 충돌 제거\n​협력 통신 - 주변 노드 중계기 역할 / 전송 거리 확장 / 음영 지역 해소 / 객체 교환(OBEX)\n\n​- 자원 최적화, 하드웨어 구현 (Optimization & HW)\n​저전력 - 에너지 효율 / 네트워크 수명 연장\n​기기 소형화 - 센서, 웨어러블 장치 / 실환경 배치 HW 기술\n​자율 보안 - 노드 간 상호 인증 / 침입 탐지"],
     ["1", "B", "V2V",                                       "", "", ""],
     ["1", "B", "OpenFlow",                                  "", "", "2008년 스탠포드 마티 케이맨 교수\n2011년 주요 IT기업 ONF설립, 표준화, 상용화"],
     ["1", "B", "OpenFlow_1",                                "", "", "2008년 스탠포드 마티 케이맨 교수\n2011년 주요 IT기업 ONF설립, 표준화, 상용화"],
