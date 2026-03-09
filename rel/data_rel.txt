@@ -618,7 +618,7 @@
     ["1", "B", "Intelligent_Home",                          "지능형 홈", "", "[지능형홈 단계]\n\n1단계\n국제표준 매터\nAI활용 지능형 홈 서비스 개발, 실증\n\n2단계\n국제 표준 매터\n생성형 AI\n온디바이스 AI\n\n3단계\n지속 가능 서비스\n모델 발굴, 개방성 확보\nICT선도기술 기반, 신규 과제"],
     ["1", "A", "IoT_Protocol",                              "아이 오 티 프로토콜", "", "XMPP, CoAP, MQTT"],
     ["1", "A", "Matter",                                    "", "", "스마트홈\n131회 컴시응 4교시\n멀티 어드민, 로컬 제어, 엔드포인트, 클러스터, 어트리뷰트, 쓰레드"],
-    ["1", "A", "CoAP",                                      "씨 오 에이 피", "", "NW > IoT(프로토콜), 111.관리.2.6\nConstrained Application Protocol\nIETF(표준화단체)\nSensor, Client, Server, Proxy, DTLS]nIEEE 802.15.4, 6LoWPAN WG, IETF Std, CoRE WG\nUDP, CoAP Transactions, CoAP REST, Application"],
+    ["1", "A", "CoAP",                                      "씨 오 에이 피", "", "Constrained Application Protocol\nNW > IoT(프로토콜) / 111.관리.2.6\n\n[계층 구조]\n\n- 응용 계층\nCoAP - 제한된 환경 이용 / 가벼운 웹 프로토콜\nHTTP 유사 역할 수행 (GET, POST, PUT, DELETE)\n\n- 전송 계층\nDTLS - 통신 보안 / 응용, 전송 사이 동작 보안 계층\nUDP - 빠른 데이터 전송\n\n- 네트워크 계층\n6LoWPAN - IPv6 패킷 압축 / 저전력 무선 통신 지원\n\n[용어]\n\n- DTLS\nDatagram Transport Layer Security"],
     ["1", "B", "MOM",                                       "엠 오 엠", "MQ\nPub/Sub", "비동기통신/신뢰성/확장성/EDA\nJMS/Active MQ/Rabbit MQ/IBM MQ\nMQTT/Kafka\nOASIS(표준화단체)"],
     ["1", "A", "MQTT",                                      "", "발구토브\nISO 20922\n최저 사이즈 2Bytes\nPublish/Subscribe\nTLS, MQTT over TCP", "Message Queue Telemetry Transport\nIoT/M2M/저대역폭/일대다\nTCP/IP(연결지향)-연결/끊기/발행\nPublisher/Subscriber/Broker/Topic"],
     ["1", "A", "XMPP",                                      "", "", "IoT(프로토콜)\n110.정보관리.1\neXtensible Messaging and Presence Protocol\nIETF(표준화단체)\nTCP, Publish/Subscribe, Client/Server, TLS+SASL"],
@@ -1300,6 +1300,6 @@
     ["1", "D", "STEAM",                                     "", "", "[구성요소]\n\n- S - Science / 과학\n자연계 법칙 탐구물리, 화학, 생물, 지구과학\n\n- T - Technology / 기술\n과학적 지식 실제 문제 해결 적용\n소프트웨어, 데이터 분석, 인공지능\n\n- E - Engineering / 공학\n구조물, 기계, 시스템 설계, 구축\n전기, 전자, 기계, 화학공학\n\n- A - Arts / 예술, 인문학\n창의적, 인간 중심적 사고 결합\nUX, 디자인, 윤리적 판단\n\n- M - Mathematics / 수학\n숫자, 구조, 공간, 변화 연구 기초 학문\n모든 STEM의 언어"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.03.10.0106", ""]
+    ["1", "D", "Version",                                   "", "2026.03.10.0123", ""]
 ]
 }
