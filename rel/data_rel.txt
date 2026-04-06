@@ -1127,7 +1127,7 @@
     ["1", "B", "AI_Learning_Rate",                          "인공지능 학습률", "", ""],
     ["1", "A", "Multi_Modal",                               "멀티모달", "입인퓨크\n얼레조", "[구성요소 - 입인퓨크]\nInput - 이종 데이터 융합\nEncoding - CNN / NLP / STT\nFusion - Early / Late / Joint\n크로스 모달 학습 알고리즘 - NLP / STT / 회귀, 군집\n\n[데이터 처리 유형 - 얼레조]\nEarly - 이종 데이터 변환, 융합 후 모델 학습\nLate - 학습 결과 융합 / 앙상블 유사\nJoint - 결과(Loss)를 인풋 반영"],
     ["1", "A", "MultiModal_LLM",                            "", "", "135.관리.1 / 134.컴시응.4, 135.컴시응.1\n\n[멀티모달 데이터 품질 특성, 지침]\n\n- rep-sem - 표현 의미론\nRepresentation Semantics\n이종 모달리티를 AI 이해 가능 고차원 벡터 변환시\n표현 체계 내포 의미 / 데이터 내부 표현 방식 집중\n고양이 이미지 -> 숫자벡터 변환 -> 의미적 특징 보존\n\n- tra-sem - 전이, 변환 의미론\nTransfer/Transformative Semantics\n모달리티 의미 전달, 변환 과정\n의미 유지 -> 이미지 생성 -> 의미 보존, 변화\n\n- ali-sem - 정렬 의미론\nAlignment Semantics\n이종 모달리티 사이 의미적 일치성\n멀티모달 AI 가장 핵심 개념\n강아지 달리기 사진 = 강아지 달린다 텍스트 매칭단계\nCLIP 모델 - 이미지, 텍스트를 공통 공간 배치, 연결"],
-    ["1", "B", "Gradient_Descent",                          "경사하강법", "확배미\n오로기\n오 모네\n로 SMNARA\n기 학엘디 활레리", "MLP, 최적해 찾기\nGlobal Maximum / Local Maximum\nGlobal Cost Minimum\n\n[유형 - 확배미]\n\n- 확률적 경사하강법\n하나 학습 데이터마다 즉시 오차 계산\n순차 수행 / 병렬 컴퓨팅 효과 불가\n\n- 배치 경사하강법\n모든 데이터 학습 후 가중치 한번에 갱신\n가중치 계산 성능 이슈 / 확률적 보다 성능 하락\n\n- 미니배치 경사하강법\n샘플링 선택 학습 후 갱신 처리\nGPU 기반 효율적 병렬 컴퓨팅 가능\n\n[문제점 / 해결방안]\n오로기 / 오 모네 로 SMNARA 기 학엘디 활레리\n\n- Overshutting - 오 모네\nMomemtum / Nesterov Momemtum\n\n- Local Minimum - 로 SMNARA\nSGD / Momemtum / NAG /\nAdaGrad / RMSProp / Adam\n\n- 기울기 소실 - 기 학엘디 활레리\n학습 효율성 향상 - LSTM / DBN\n활성함수 개선 - ReLU / Leaky ReLU"],
+    ["1", "B", "Gradient_Descent",                          "경사하강법", "확배미\n오기로 모네 학엘디 활레리 SMNARA", "MLP, 최적해 찾기\nGlobal Maximum / Local Maximum\nGlobal Cost Minimum\n\n[유형 - 확배미]\n\n- 확률적 경사하강법\n하나 학습 데이터마다 즉시 오차 계산\n순차 수행 / 병렬 컴퓨팅 효과 불가\n\n- 배치 경사하강법\n모든 데이터 학습 후 가중치 한번에 갱신\n가중치 계산 성능 이슈 / 확률적 보다 성능 하락\n\n- 미니배치 경사하강법\n샘플링 선택 학습 후 갱신 처리\nGPU 기반 효율적 병렬 컴퓨팅 가능\n\n[문제점 / 해결방안]\n오기로 모네 학엘디 활레리 SMNARA\n\n- Overshutting - 모네\nMomemtum / Nesterov Momemtum\n\n- 기울기 소실 - 학엘디 활레리\n학습 효율성 향상 - LSTM / DBN\n활성함수 개선 - ReLU / Leaky ReLU\n\n- Local Minimum - SMNARA\nSGD / Momemtum / NAG /\nAdaGrad / RMSProp / Adam"],
     ["1", "B", "Gradient_Vanishing",                        "", "학엘디 활레리", "컴시응122.1\n\n[해결방안 - 학엘디 활레리]\n\n- 학습 효율성 향상 측면\nLSTM 활용 - 메모리 기억 / Forget Gate 활용\nDBN 활용 - Pre-Training 수행 / RBM, 오토인코더\n\n- 활성함수 개선 측면\nReLU 함수 활용 - 미분값 보존\nLeaky ReLU 활용 - 음의 값 활용 / Dying ReLU 개선"],
     ["1", "B", "Gradient_Exploding",                        "", "", "기울기 폭주\n기울기 소실 : 기울기 비정상 수렴, ReLU, Leaky ReLU\n기울기 폭주 : 기울기 비정상 발산, Gradient Clipping"],
     ["1", "B", "Data_Labeling",                             "", "", "지도학습 – Clustering > 데이터 레이블링"],
@@ -1363,6 +1363,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.05.2107", ""]
+    ["1", "D", "Version",                                   "", "2026.04.07.0145", ""]
 ]
 }
