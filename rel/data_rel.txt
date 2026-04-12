@@ -1065,11 +1065,19 @@
     ["1", "B", "Scheduler",                                 "", "", ""],
     ["1", "B", "Critical_Section",                          "", "", ""],
     ["1", "B", "Mutual_Exclusion",                          "상호배제", "", "램포트, 피터슨, 데커알고리즘, 세마포어, swap, test and set, 인터럽트 금지"],
-    ["1", "B", "Semaphore",                             "", "", ""],
+    ["1", "B", "Semaphore",                                 "", "", "122회.정보.1교시"],
+    ["1", "B", "Monitor",                                   "", "", "122회.정보.1교시 / 119회.응용.1교시"],
+    ["1", "B", "Priority_Inversion",                        "", "", ""],
+    ["1", "B", "Deadlock",                                  "", "", ""],
+    ["1", "B", "Interrupt",                                 "", "", ""],
+    ["1", "B", "Interrupt_Cycle",                           "", "", ""],
+    ["1", "B", "Interrupt_Priority_System",                 "", "", ""],
+    ["1", "B", "Locality",                                  "지역성", "", "시간지역성 - Temporal Locality\n공간지역성 - Spatial Locality"],
+    ["1", "B", "Thrashing",                                 "", "", ""],
+    ["1", "B", "Disk_Scheduling",                           "디스크 스케줄링", "", "[유형]\n\n- 탐색시간 최적화\nFCFS / SSTF / SCAN / C-SCAN / LOOK / C-LOOK\n\n- 회전시간 최적화\nSLTF / SPTF / SATF"],
     ["1", "S", "CXL",                                       "", "icm\nic icm im", "Compute Express Link / 136회 1.8번\n차세대 데이터센터 핵심 기술\n\n[개념]\nCPU와 주변장치(가속기, 메모리, 스토리지) 연결\n고속, 저지연 인터커넥트(Interconnect) 기술\n캐시 일관성(Cache Coherency) / 메모리 확장, 풀링\n\n[CXL 서브 프로토콜 (작동 원리) - icm]\n\n- CXL.io\n장치 발견, 구성, 제어\n장치 탐색, DMA 등 PCIe 유사 기능 제공\nPCIe 대비 낮은 접근 지연 시간 보장\n모든 CXL 장치 유형 공통 사용\n\n- CXL.cache\n장치(가속기)가 CPU 메모리에 접근하여 캐시\n호스트 캐시, 주변 캐시 메모리 일관성 유지\n비대칭형 프로토콜\n일관성 훼손시 snoop 트랜잭션 통해 일관성 유지\n일관성 유지 프로토콜 - MESI 사용\nModified / Eclusive / Shared / Invalid\n\n- CXL.mem\nCPU가 장치(메모리) 메모리에 직접 접근\n호스트 프로세서 캐시 라인 단위 메모리 접근\n주변장치 메모리를 로컬 메모리 처럼 사용 가능\n\n[CXL 장치 유형 - ic icm im]\n\n- CXL Type 1 Device - Caching Device\nCXL.io, CXL.cache 사용\nNIC, 호스트 미관리 메모리 가진 장치\nSmart NIC처럼 로컬 메모리 없이 CPU 메모리를 사용\n호스트 CPU 캐시 메모리와 coheren한 캐시\n호스트 관리 메모리 미소유\nH2D snoop 트랜잭션\n\n- CXL Type 2 Device - Accelerator with Memory\nCXL.io, CXL.cache, CXL.mem 사용\nHBM 내장 GPU 카드, 메모리 내장 FPGA 보드\nGPU처럼 자체 메모리를 가지며 CPU와 연동\n호스트와 fully coherent 한 캐시 소유\n호스트 관리 장치 메모리 소유\n\n- CXL Type 3 Device - Memory Buffer\nCXL.io, CXL.mem 사용\nDRAM, 비휘발성(Flash) 메모리 구성된 확장 장치\nCXL DRAM과 같이 메모리 용량 확장 용도\n호스트 관리 메모리로 구성된 장치"],
     ["1", "A", "Segmentation_Fault",                        "", "", "136회 1.7번"],
     ["1", "A", "Interleaving",                              "메모리 인터리빙", "", "[유형]\n상위 인터리빙 - High-Order Interleaving\n하위 인터리빙 - Low-Order Interleaving"],
-    ["1", "B", "Disk_Scheduling",                           "디스크 스케줄링", "", ""],
     ["1", "A", "Watchdog_Timer",                            "", "", ""]
 ],
  "Data_Structure": [
@@ -1081,6 +1089,8 @@
     ["1", "A", "B_Plus_Tree",                               "", "", ""],
     ["1", "A", "B_Asterisk_Tree",                           "", "", ""],
     ["1", "B", "Red_Black_Tree",                            "", "", ""],
+    ["1", "A", "AVL_Tree",                                  "", "", ""],
+    ["1", "A", "AVL_Tree_1",                                "", "", ""],
     ["1", "A", "Heap",                                      "", "", ""],
     ["1", "A", "Stack",                                     "", "", ""],
     ["1", "A", "Queue",                                     "", "", ""]
@@ -1117,9 +1127,6 @@
     ["1", "A", "Extendible_Hashing",                        "확장성 해시", "", ""],
     ["1", "A", "Huffman_Coding",                            "허프만 코딩", "", ""],
     ["1", "A", "Run_Length_Coding",                         "", "", ""],
-    ["1", "A", "Tree",                                      "", "경길집깊개차\n이포완균(높완)", "[구성요소 - 경길집깊개차]\nPath - 노드 탐색 경로\nDepth - Root 노드에서 경로 길이\nLevel - 동일 깊이 노드 집합 / Root 레벨 1\nHeight - 가장 깊은 잎 노드까지 깊이\nDegree - 자식 노드 개수\nDegree of Tree - 자식 노드 가장 많은 노드 차수\n\n[유형 - 이포완균(높완)]\n이진트리 - 모든 노드 최대 2개 자식 가능\n포화 이진트리 - 모든 노드 자식 2개\n완전 이진트리 - 잎 노드 왼쪽 부터 채움\n높이 균형트리 - 좌우 하위트리 높이 차이 1이하 이진트리\n완전 높이 균형트리 - 좌우 하위트리 높이 동일 이진트리"],
-    ["1", "A", "AVL_Tree",                                  "", "", ""],
-    ["1", "A", "AVL_Tree_1",                                "", "", ""],
     ["1", "B", "Bankers_Algorithm",                         "은행가 알고리즘", "", "138회 출제"]
 ],
 "AI": [
@@ -1402,6 +1409,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.12.1151", ""]
+    ["1", "D", "Version",                                   "", "2026.04.13.0221", ""]
 ]
 }
