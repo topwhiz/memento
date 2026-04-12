@@ -993,22 +993,25 @@
     ["1", "B", "TPU",                                       "", "", ""],
     ["1", "C", "CUDA",                                      "", "", "Compute Unified Device Architectur"],
     ["1", "C", "CPU_Control_Unit",                          "CPU 제어 유닛", "해주기버서순\n마C하R", "[제어 유닛 구성요소 - 해주기버서순]\n명령어 해독기 - 연산코드 해독 / 시작 주소 결정\n제어 주소 레지스터 (CAR) - 다음 실행 명령 주소 저장\n제어 기억 장치 - 마이크로 프로그램 저장\n제어 버퍼 레지스터 - 마이크로 명령어 일시 저장\n서브루틴 레지스터 - 현재 CAR 내용 일시 저장\n순서 제어 모듈 - 실행 순서 결정 회로 집합\n\n[구현 방식 - 마C하R]\n\n- Micro-Programmed Control\nCISC 구조 / PLD 방식\n제어 신호 조합 사전 구성 / PROM 저장\nSW 제어 신호 / 상대적 지속\n펌웨어 구조 / 기능 개선 용이\n저가 / 오류 발생률 낮음\n\n- Hardwired Control\nRISC 구조\n조합 회로 이용 HW 구성\nHW 회로 제어 신호 생성 / 고속처리\nHW 고정 회선 / 변경 어려움\n고가 / 오류 발생률 높음"],
-    ["1", "C", "PLD",                                       "", "", "Programmable Logic Device\n프로그래머블 논리 소자 / 105.컴시응.1.7"],
-    ["1", "C", "CPLD",                                      "", "", "Complex Programmable Logic Device\n프로그래머블 논리 소자 / 2011.05.관리.1교시"],
-    ["1", "C", "FPGA",                                      "", "", "Field Programmable Gate Array / 111.컴시응.1"],
+    ["1", "C", "PLD",                                       "Programmable Logic Device\n프로그래머블 논리 소자", "", "Programmable Logic Device\n프로그래머블 논리 소자 / 105.컴시응.1.7"],
+    ["1", "C", "CPLD",                                      "CPLD\nComplex Programmable Logic Device", "", "Complex Programmable Logic Device\n프로그래머블 논리 소자 / 2011.05.관리.1교시"],
+    ["1", "C", "FPGA",                                      "FPGA\nField Programmable Gate Array", "", "Field Programmable Gate Array / 111.컴시응.1"],
     ["1", "C", "Addressing_Mode",                           "주소 지정 방식", "직간레간 즉묵변 베상인", "[종류 - 직간레간 즉묵변 베상인]\n직접 - Operand 필드가 유효 주소\n간접 - 데이터 유효 주소 저장\n레지스터 - 내부 레지스터 저장\n레지스터 간접 - 데이터 유효 주소 저장\n변위 - 직접 주소 지정 / 레지스터 간접 주소 지정\n즉치 - 명령어에 데이터 포함 / 신속 / 길이제한\n묵시적 - 데이터 위치 묵시적 지정\n베이스 레지스터 - 유효주소=베이스레지스터+변위\n상태 - PC + 명령어 주소필드 + 인덱스 레지스터\n인덱스 - 명령어 주소필드 + 인덱스 레지스터\n\n[자료 접근 속도]\n즉치 > 레지스터 > 직접 > 레지스터 간접 > 간접"],
     ["1", "B", "IO_Device_Control_Method",                  "입출력 장치 제어 방식", "", ""],
     ["1", "B", "DMA",                                       "", "", "137.컴시응.2.6 / 123.컴시응.4교시"],
     ["1", "C", "SG_DMA",                                    "", "", "Scatter-Gather DMA"],
     ["1", "C", "Remote_DMA",                                "", "", ""],
-    ["1", "A", "System_Bus",                                "시스템 버스", "", "137 컴시응 출제"],
-    ["1", "A", "Bus_Arbitration",                           "버스 중재", "", ""],
+    ["1", "A", "System_Bus",                                "시스템 버스", "", "137.컴시응.3.6"],
+    ["1", "A", "Bus_Arbitration",                           "버스 중재", "", "137.컴시응.3.6"],
     ["1", "B", "Memory_Management",                         "메모리 관리", "", ""],
-    ["1", "B", "SSD",                                       "", "", "Solid State Drive / 9기 다시 포함"],
     ["1", "A", "MMU",                                       "", "", "Memory Management Unit / 137.컴시응.3.2"],
     ["1", "A", "TLB",                                       "", "", "Translation Lookaside Buffer / 137.컴시응.3.2"],
     ["1", "A", "IOMMU",                                     "", "", "I/O Memory Management Unit / 137.컴시응.3.2"],
     ["1", "A", "Memory_Fragmentation",                      "메모리 단편화", "", ""],
+    ["1", "B", "SSD",                                       "", "", "Solid State Drive / 9기 다시 포함"],
+    ["1", "B", "Write_Cliff",                               "웨가오", "", ""],
+    ["1", "B", "Flash_Memory",                              "스배로 어가\n섹터 블록 합\n레칼프", "", ""],
+    ["1", "B", "FTL",                                       "", "", "Flash Translation Layer"],
     ["1", "B", "Cache_Memory",                              "캐시 메모리", "", ""],
     ["1", "B", "Cache_Coherence",                           "캐시 일관성 유지 방법", "", ""],
     ["1", "A", "Cache_Clean_Cache_Flush",                   "", "", "D-bit, V-bit 표기 필수"],
@@ -1378,6 +1381,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.12.0950", ""]
+    ["1", "D", "Version",                                   "", "2026.04.12.1025", ""]
 ]
 }
