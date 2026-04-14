@@ -980,13 +980,13 @@
 ],
 "CA": [
     ["1", "C", "Computer_Architecture",                     "", "", ""],
-    ["1", "B", "Instruction_Cycle",                         "명령 사이클", "", "[CPU 구성요소]\n\n- PC\nProgram Counter / 프로그램 카운터\n다음 실행 명령어 메모리 주소\n\n- MAR\nMemory Address Register / 메모리 주소 레지스터\nCPU가 데이터 읽기, 쓰기 할 메모리 주소 임시 보관\n\n- MBR (=MDR)Memory Buffer Register / 메모리 버퍼 레지스터\n메모리에서 읽어온 데이터, 명령어 임시 저장\n\n- IR\nInstruction Register / 명령어 레지스터\n메모리에서 가져온 명령어 실행 위해 보관\n\n- AC\nAccumulator / 누산기\n연산 결과, 중간값 일시 저장 레지스터\n\n- ALU\nArithmetic Logic Unit / 산술논리연산장치\n산술 연산 (덧셈, 뺄셈), 논리 연산 (AND, OR) 수행\n\n[CPU 내부 동작]\n주소 흐름 - PC -> MAR -> (주소 버스) -> 메모리\n데이터/명령어 흐름 - 메모리->(데이터 버스)->MBR\n명령어 경우 - MBR -> IR -> 제어장치\n데이터 경우 - MBR -> AC / ALU\n연산 흐름 - ALU 계산 결과 다시 AC 저장\n\n[명령어 기본 개념]\n\n# 구조\n\n- Opcode\nOperation Code / 연산 코드\nADD / STORE / LOAD\n\n- Operand\n피연산자\n연산 대상 데이터 / 메모리 주소 / 레지스터 번호\n\n# Operand 주소 지정 방식\n\n- 즉시 주소 지정 - Immediate\n실제 데이터 값 자체\n메모리 접근 불필요 / 가장 빠름 / 크기 제한\n\n- 직접 주소 지정 - Direct\n데이터 있는 메모리 주소\n\n- 간접 주소 지정 - Indirect\n주소 담고 있는 주소\n메모리 이중 접근, 속도 느림 / 넓은 범위 주소 참\n\n- 레지스터 주소 지정 - Register\n데이터가 CPU 내부 레지스터에 존재시\n해당 레지스터 번호 지정\n\n# 주소 개수 따른 분류\n명령어 하나당 Operand 개수\n\n- 0-주소 명령어\nStack 구조\nOperand 불필요 / Opcode 단독 동작\nPUSH / POP\n\n- 1-주소 명령어\n누산기(Accumulator) 사용\n단일 Operand 만 명시합니다.\n\n- 2-주소 명령어\n가장 일반적 형태\nMOV A, B -> B의 값을 A로 이동\n\n- 3-주소 명령어\n소스 데이터 2개, 결과 저장 주소 1개\nADD A, B, C -> B와 C를 더해 A에 저장"],
+    ["1", "B", "Instruction_Cycle",                         "명령 사이클", "", ""],
     ["1", "C", "Processor_Architecture",                    "프로세서 아키텍처 ", "", "CPU 유형\n명령어 구성에 따른 분류\n\n[유형]\n\n- CISC\nComplex Instruction Set Computer\n\n- RISC\nReduced Instruction Set Computer\n\n- EISC\nExtensible Instruction Set Computer"],
     ["1", "C", "CISC",                                      "", "", "Complex Instruction Set Computer"],
     ["1", "C", "RISC",                                      "", "", "Reduced Instruction Set Computer"],
     ["1", "C", "RISC_V",                                    "", "", "Reduced Instruction Set Computer V (Five)\n137.컴시응.1.13"],
     ["1", "C", "EISC",                                      "", "", "Extensible Instruction Set Computer"],
-    ["1", "C", "CPU",                                       "", "", "Control Processing Unit"],
+    ["1", "C", "CPU",                                       "", "", "Control Processing Unit\n\n[CPU 구성요소]\n\n- PC\nProgram Counter / 프로그램 카운터\n다음 실행 명령어 메모리 주소\n\n- MAR\nMemory Address Register / 메모리 주소 레지스터\nCPU가 데이터 읽기, 쓰기 할 메모리 주소 임시 보관\n\n- MBR (=MDR)Memory Buffer Register / 메모리 버퍼 레지스터\n메모리에서 읽어온 데이터, 명령어 임시 저장\n\n- IR\nInstruction Register / 명령어 레지스터\n메모리에서 가져온 명령어 실행 위해 보관\n\n- AC\nAccumulator / 누산기\n연산 결과, 중간값 일시 저장 레지스터\n\n- ALU\nArithmetic Logic Unit / 산술논리연산장치\n산술 연산 (덧셈, 뺄셈), 논리 연산 (AND, OR) 수행\n\n[CPU 내부 동작]\n주소 흐름 - PC -> MAR -> (주소 버스) -> 메모리\n데이터/명령어 흐름 - 메모리->(데이터 버스)->MBR\n명령어 경우 - MBR -> IR -> 제어장치\n데이터 경우 - MBR -> AC / ALU\n연산 흐름 - ALU 계산 결과 다시 AC 저장\n\n[명령어 기본 개념]\n\n# 구조\n\n- Opcode\nOperation Code / 연산 코드\nADD / STORE / LOAD\n\n- Operand\n피연산자\n연산 대상 데이터 / 메모리 주소 / 레지스터 번호\n\n# Operand 주소 지정 방식\n\n- 즉시 주소 지정 - Immediate\n실제 데이터 값 자체\n메모리 접근 불필요 / 가장 빠름 / 크기 제한\n\n- 직접 주소 지정 - Direct\n데이터 있는 메모리 주소\n\n- 간접 주소 지정 - Indirect\n주소 담고 있는 주소\n메모리 이중 접근, 속도 느림 / 넓은 범위 주소 참\n\n- 레지스터 주소 지정 - Register\n데이터가 CPU 내부 레지스터에 존재시\n해당 레지스터 번호 지정\n\n# 주소 개수 따른 분류\n명령어 하나당 Operand 개수\n\n- 0-주소 명령어\nStack 구조\nOperand 불필요 / Opcode 단독 동작\nPUSH / POP\n\n- 1-주소 명령어\n누산기(Accumulator) 사용\n단일 Operand 만 명시합니다.\n\n- 2-주소 명령어\n가장 일반적 형태\nMOV A, B -> B의 값을 A로 이동\n\n- 3-주소 명령어\n소스 데이터 2개, 결과 저장 주소 1개\nADD A, B, C -> B와 C를 더해 A에 저장"],
     ["1", "C", "ALU",                                       "", "", "Arithmetic Logic Unit / 정보관리는 개념정도만"],
     ["1", "B", "GPU",                                       "", "", "Graphics Processing Unit / TPC, SM, SP"],
     ["1", "C", "GPGPU",                                     "", "", "General Purpose Graphics Processing Units"],
@@ -1003,18 +1003,18 @@
     ["1", "C", "Remote_DMA",                                "", "", ""],
     ["1", "A", "System_Bus",                                "시스템 버스", "", "137.컴시응.3.6"],
     ["1", "A", "Bus_Arbitration",                           "버스 중재", "", "137.컴시응.3.6"],
-    ["1", "B", "Memory_Management",                         "메모리 관리", "", ""],
+    ["1", "B", "Memory_Management",                         "메모리 관리", "", "[메모리 관리 기법 유형 - 할배교인]\n\n# 인출 기법 - Fetch\n호출 시점 / When\n\n요구 반입 기법 - 참조 발생시 / Page Fault 오버헤드\n예상 반입 기법 - 참조 지역성 / 예측 실패 오버헤드\n\n# 배치 기법 - Placement\n\n위치 선정 / Where / 주로 가변 분할 할당 방식 사용\n\n최초 적합 - 순차 탐색 / 첫 빈 공간 배치 / 속도, 보존\n최적 적합 - 프로세스 크기 기준 최적 / 공간 효율성\n최악 적합 - 최대 공간 배치 / 여유 공간 재사용\n\n# 교체 기법 - Replacement\n대상 선정 / Who\n\nFIFO - 구현 단순 / 성능 이슈 / Belady's Anomaly\nOptimal (최적 페이지 대체) - 참조 기록 /최저 부재율\nLRU - 최장 미사용 페이지 교체 / 스택 관리 오버헤드\n시계 알고리즘 - LRU 근사화/참조비트/원형규(Clock)\nLFU - 최저 참조 페이지 교체 / 참조 카운트, 빈도\nMFU - 최대 참조 페이지 교체 / 실무 미사용/성능미흡\n\n# 할당 - Allocation\n공간 할당 - How\n\n- 연속 메모리 할당\n단일 사용자 연속 메모리 할당\n고정 분할 다중 프로그래밍 (MFT)\n가변 분할 다중 프로그래밍\n\n- 분산 메모리 할당\n페이징 - 고정 / 내부 단편화 / 페이지 맵테이블\n세그먼트 - 가변 / 외부 단편화 / 세그먼트 맵테이블\n\n[용어]\n\n- Page - 프로그램 분할 논리적 고정 크기 단위\n- Frame - 주기억장치 분할 물리적 고정 크기 단위\n- Segment - 논리적 의미 가변 크기 단위"],
     ["1", "A", "MMU",                                       "", "", "Memory Management Unit / 137.컴시응.3.2"],
     ["1", "A", "TLB",                                       "", "", "Translation Lookaside Buffer / 137.컴시응.3.2"],
     ["1", "A", "IOMMU",                                     "", "", "I/O Memory Management Unit / 137.컴시응.3.2"],
     ["1", "A", "Memory_Fragmentation",                      "메모리 단편화", "", ""],
     ["1", "B", "SSD",                                       "", "", "Solid State Drive / 9기 다시 포함"],
-    ["1", "B", "Write_Cliff",                               "웨가오", "", ""],
-    ["1", "B", "Flash_Memory",                              "스배로 어가\n섹터 블록 합\n레칼프", "", ""],
-    ["1", "B", "FTL",                                       "", "", "Flash Translation Layer"],
+    ["1", "B", "Write_Cliff",                               "", "웨가오", ""],
+    ["1", "B", "Flash_Memory",                              "", "스배로 어가\n섹블합\n웨가오", ""],
+    ["1", "B", "FTL",                                       "", "스베로 어가", "Flash Translation Layer"],
     ["1", "B", "Cache_Memory",                              "캐시 메모리", "", ""],
     ["1", "B", "Cache_Coherence",                           "캐시 일관성 유지 방법", "", ""],
-    ["1", "A", "Cache_Clean_Cache_Flush",                   "", "", "D-bit, V-bit 표기 필수"],
+    ["1", "A", "Cache_Clean_Cache_Flush",                   "", "", "D-bit, V-bit 표기 필수\n\n[캐시 일관성 정책 기반 수행 동작]\nMESI, 스누핑 - 규칙 기반 상태 변경 전략\nClean, Flush - 전략 실현위한 실행 명령\n\n- Cache Clean (= Write-back)\n캐시 Modified 상태 데이터를 메인 메모리 기록\n캐시 데이터 유지 / 메모리 업데이트\n\n- Cache Invalidate (무효화)\n캐시 라인의 상태 Invalid(무효) 표시\n추후 데이터 읽기 -> 캐시 미스 -> 메모리 읽기\n\n- Cache Flush (= Purge)\nClean + Invalidate 동시 수행\n수정 데이터를 메모리에 쓰고 (Clean)\n캐시 라인을 사용 불가능 처리 (Invalidate)\n\n[상태 비트 - State Bits]\n\n# 개념\nMESI, 쓰기 정책 HW적 구현위한 필수 장치\n\n# 구성요소\n\n- V-bit\nValid Bit / 유효 비트\n해당 캐시 라인내 데이터 유효성\nV = 1 - 유효 데이터 존재 (Cache Hit 가능)\nV = 0 - 빈공간 or 무효 (항상 Cache Miss)\nCache Invalidate 동작 수행시 V-bit 0 변경\n\n- D-bit\nDirty Bit / 수정 비트\n캐시 데이터, 메인 메모리 일치 여부\n주로 나중 쓰기(Write-back) 정책에서 사용\nCPU가 캐시 데이터 수정 / 메모리 미반영\nD = 0 (Clean) - 캐시, 메모리 동일\nD = 1 (Dirty) - 캐시 수정, 메모리 미수정\nCache Clean / 메모리 기록시 D-bit 0 변경\n\n# 주요 동작 시나리오\n초기 상태 - 모든 라인 V=0 / D=0\n데이터 로드 (Read) - V=1 / D=0\n데이터 수정 (Write) - V=1 유지 / D=1\n캐시교체- D=1 라인 선택시 기록(Write-back)후 교체\n\n[용어]\n\n- 캐시 라인 (Cache Line)\n캐시 메모리의 데이터 관리 위한 최소 전송 단위\n참조 지역성 / 시간 지역성 / 공간 지역성\nTag - 메모리 주소 식별 정보\nStatus Bits - V-bit(유효성) / D-bit(수정 여부)\n데이터 블록 - x86 프로세서 기준 64바이트"],
     ["1", "A", "Cache_Replacement_Algorithm",               "캐시 메모리 교체 알고리즘", "", "114회.컴시응.4교시"],
     ["1", "A", "Beladys_Anomaly",                           "", "", "FIFO Anomaly / 98 관리 1_4"],
     ["1", "B", "Demand_Paging",                             "요구 페이징", "", "80.컴시응.2.4"],
@@ -1409,6 +1409,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.13.0221", ""]
+    ["1", "D", "Version",                                   "", "2026.04.14.2305", ""]
 ]
 }
