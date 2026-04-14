@@ -1009,9 +1009,9 @@
     ["1", "A", "IOMMU",                                     "", "", "I/O Memory Management Unit / 137.컴시응.3.2"],
     ["1", "A", "Memory_Fragmentation",                      "메모리 단편화", "", ""],
     ["1", "B", "SSD",                                       "", "", "Solid State Drive / 9기 다시 포함"],
-    ["1", "B", "Write_Cliff",                               "", "웨가오", ""],
-    ["1", "B", "Flash_Memory",                              "", "스배로 어가\n섹블합\n웨가오", ""],
-    ["1", "B", "FTL",                                       "", "스베로 어가", "Flash Translation Layer"],
+    ["1", "B", "Write_Cliff",                               "", "웨가오", "[성능 향상 기법 - 웨가오]\nWear Leveling - 전체 균등 기록 / 수명 연장\nGarbage Collection - Invalid Page/CopyBack Page\nOver Provisioning - 여유 공간 마련"],
+    ["1", "B", "Flash_Memory",                              "", "스배로 어가\n섹블합\n웨가오", "[구성요소 - 스배로 어가]\n\n- STL - Sector Translation Layer\nAddress Mapping - 논리(FS), 물리(NAND) 주소맵핑\nGarbage Collection - 무효화 페이지 정리, 재사용\n\n- BML - Bad-block Mng Layer\nNAND Flash 불량 관리, Error 처리\n\n- LLD - Low Level Driver\nFlash Interface 제공\n\n[맵핑 방식 - 섹블하]\n\n- Sector Mapping\nSector - read, write 단위\nupdate 연산시 빈 물리주소 write / erase 최소화\n\n- Block Mapping\nBlock - erase 단위\n논리적 offset, 물리적 offset 일치\n\n- Hybrid Mapping\nSector Mapping + Block Mapping\nMapping Table 복잡\n\n[성능 향상 기법 - 웨가오]\nWear Leveling - 전체 균등 기록 / 수명 연장\nGarbage Collection - Invalid Page/CopyBack Page\nOver Provisioning - 여유 공간 마련"],
+    ["1", "B", "FTL",                                       "", "스배로 어가", "Flash Translation Layer"],
     ["1", "B", "Cache_Memory",                              "캐시 메모리", "", ""],
     ["1", "B", "Cache_Coherence",                           "캐시 일관성 유지 방법", "", ""],
     ["1", "A", "Cache_Clean_Cache_Flush",                   "", "", "D-bit, V-bit 표기 필수\n\n[캐시 일관성 정책 기반 수행 동작]\nMESI, 스누핑 - 규칙 기반 상태 변경 전략\nClean, Flush - 전략 실현위한 실행 명령\n\n- Cache Clean (= Write-back)\n캐시 Modified 상태 데이터를 메인 메모리 기록\n캐시 데이터 유지 / 메모리 업데이트\n\n- Cache Invalidate (무효화)\n캐시 라인의 상태 Invalid(무효) 표시\n추후 데이터 읽기 -> 캐시 미스 -> 메모리 읽기\n\n- Cache Flush (= Purge)\nClean + Invalidate 동시 수행\n수정 데이터를 메모리에 쓰고 (Clean)\n캐시 라인을 사용 불가능 처리 (Invalidate)\n\n[상태 비트 - State Bits]\n\n# 개념\nMESI, 쓰기 정책 HW적 구현위한 필수 장치\n\n# 구성요소\n\n- V-bit\nValid Bit / 유효 비트\n해당 캐시 라인내 데이터 유효성\nV = 1 - 유효 데이터 존재 (Cache Hit 가능)\nV = 0 - 빈공간 or 무효 (항상 Cache Miss)\nCache Invalidate 동작 수행시 V-bit 0 변경\n\n- D-bit\nDirty Bit / 수정 비트\n캐시 데이터, 메인 메모리 일치 여부\n주로 나중 쓰기(Write-back) 정책에서 사용\nCPU가 캐시 데이터 수정 / 메모리 미반영\nD = 0 (Clean) - 캐시, 메모리 동일\nD = 1 (Dirty) - 캐시 수정, 메모리 미수정\nCache Clean / 메모리 기록시 D-bit 0 변경\n\n# 주요 동작 시나리오\n초기 상태 - 모든 라인 V=0 / D=0\n데이터 로드 (Read) - V=1 / D=0\n데이터 수정 (Write) - V=1 유지 / D=1\n캐시교체- D=1 라인 선택시 기록(Write-back)후 교체\n\n[용어]\n\n- 캐시 라인 (Cache Line)\n캐시 메모리의 데이터 관리 위한 최소 전송 단위\n참조 지역성 / 시간 지역성 / 공간 지역성\nTag - 메모리 주소 식별 정보\nStatus Bits - V-bit(유효성) / D-bit(수정 여부)\n데이터 블록 - x86 프로세서 기준 64바이트"],
@@ -1035,7 +1035,7 @@
     ["1", "A", "FTS",                                       "", "", "결함허용 컴퓨터 (FTS)"],
     ["1", "A", "FTS_HA",                                    "", "", ""],
     ["1", "C", "TMR",                                       "", "", "Triple Modular Redundancy"],
-    ["1", "A", "RAID",                                      "0스 1미 2이 3패 4블 5분 6더", "", "Redundant Array of Independent Disks\nR - 0, 1, 5, 6\nR - 0+1, 1+0(빈출), 5+0, 6+0\n\n[유형]\n\nRAID 0 - Striping\nRAID 1 - Mirroring\nRAID 2 - 비트수준분산 + 해밍코드\nRAID 5 - 블록분산 + 패리티분산\nRAID 0+1 - Striping 후 Mirror\nRAID 1+0 - Mirror 후 Striping\n\n0 스트라이핑\n1 미러링\n2 ECC\n3 패리티\n4 블록\n5 분산\n6 더블"],
+    ["1", "A", "RAID",                                      "", "0스 1미 2이 3패 4블 5분 6더", "Redundant Array of Independent Disks\nR - 0, 1, 5, 6\nR - 0+1, 1+0(빈출), 5+0, 6+0\n\n[유형]\n\nRAID 0 - Striping\nRAID 1 - Mirroring\nRAID 2 - 비트수준분산 + 해밍코드\nRAID 5 - 블록분산 + 패리티분산\nRAID 0+1 - Striping 후 Mirror\nRAID 1+0 - Mirror 후 Striping\n\n0 스트라이핑\n1 미러링\n2 ECC\n3 패리티\n4 블록\n5 분산\n6 더블"],
     ["1", "S", "HBM",                                       "", "패인로프메", "High Bandwidth Memory / 137회 컴시응.1.7\nCXL / PCIe / PCI EXPRESS 간헐적 출제\n\n[구성요소- 패인로프메]\nPackage Substrate - 기판\nInterposer\nLogic Die\nProcessor - CPU, GPU, SoC Die\nMemory Die - HBM DRAM Die / TSV /Microbump"],
     ["1", "A", "HPC",                                       "", "", ""],
     ["1", "B", "Storage_Construction",                      "스토리지 구축", "", ""],
@@ -1409,6 +1409,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.14.2305", ""]
+    ["1", "D", "Version",                                   "", "2026.04.14.2327", ""]
 ]
 }
