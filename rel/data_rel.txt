@@ -1030,7 +1030,7 @@
     ["1", "B", "Flynn_Classification",                      "플린의 분류", "", ""],
     ["", "B", "Memory_Sharing_Classification",              "메모리 공유 분류", "", ""],
     ["1", "A", "Pipeline",                                  "파이프라인", "", "113.관리.4교시 / 출제 가능성\n\n[명령어 사이클]\n\n인출 - FI / Fetch Instruction\n해석 - DI / Decode Instruction\n실행 - EI / Excute Instruction\n쓰기 - WB / Write Back\n\n[유형]\n\n- Pipeline\n명령어 처리 단계 분할 / 단계별 동시 다른 명령 점유\n전체 명령어 처리량(Throughput) 증가\n단계 세분화 시 오버헤드\n분기 예측 실패 시 파이프라인 초기화 - 성능저화\n\n- Super Pipeline\n기존 파이프라인 단계 더 세분화, 클럭 속도 향상\n단계 세분화, 처리 단순화 / 더 높은 주파수 동작\n매우 높은 클럭 속도 구현\nDeep Pipeline - 데이터 의존성, 분기 오류복구 비용\n\n- Super Scalar\nCPU 내 실행 유닛(ALU) 다수, 클럭당 다수 명령 처리\n동적 스케줄링 - HW가 런타임 명령어 의존성 분석\n명령어 수준 병렬성(ILP) 향상\n의존성 체크 하드웨어 로직 복잡, 전력 소모\n\n- Super Pipelined Super Scalar\n슈퍼 Pipeline (깊은 단계) + 슈퍼 Scalar (여러 유닛)\n다수 파이프라인 + 파이프라인 단계 세분화\n현대 고성능 CPU 방식 - Intel Core, AMD Ryzen\n설계 고난이도 / 발열 제어 난해\n\n- VLIW\nVery Long Instruction Word\n컴파일러가 동시 실행 가능 명령어 사전 분석\n하나의 아주 긴 명령어 (Bundle)로 묶어 전달\n정적 스케줄링 - 주체 변화 / HW -> SW (컴파일러)\nCPU 구조 단순 / 전력 효율\n컴파일러 성능 의존 / CPU HW 변경시 재컴파일\n\n[발전 역사]\n기초기 - Pipeline / 단일 CPU 단일 작업\n가속기 - Super Pipeline / CPU 클럭 경쟁\n병렬기 - Super Scalar / 클럭 속도 향상 한계\n효율기 - VLIW / SW로 해결 시도 / 임베디드 시장\n현대 - Super Pipelined Super Scalar / 통합 모델"],
-    ["1", "A", "Pipeline_Hazard",                           "파이프라인 위험", "", "111회 컴시응 출제 / 출제 가능성"],
+    ["1", "A", "Pipeline_Hazard",                           "파이프라인 위험", "", "111회 컴시응 출제 / 출제 가능성\n\n[개념]\n원인 (Hazard) - 명령어 간 충돌 / 의존성 발생\n대응 (Stall) - HW 판단 / 실행 일시 멈춤\n현상 (Bubble) - 멈춘 단계 후 빈공간 / 흘러감\n결과 (Performance Loss) - 작업 미완료/성능 하락\n\n[유형]\n\n- 구조적 해저드\n자원 충돌 / 단일 메모리, 단일 버스 환경\nInstruction Fetch, Data Memory Access 동시발생\n\n- 데이터 해저드\nRAW - Read After Write\nWAR - Write After Read\nWAW - Write After Write\n\n- 제어 해저드\n분기문에 의한 파이프라인 스테이지 붕괴\n\n[해결 방안]\n\n- 구조적 해저드\nPipeline HW Resource - 하버드 아키텍처 사용\nReplicate Resource - ALU, Memory, Unit 추가\n\n- 데이터 해저드\nForwarding - 결과값 준비시 스테이지 직접연결\nReordering - Reservation Table / 메모리베리어\nRestrict SW - nop명령어 삽입 / 명령어 순서변경\n\n- 제어 해저드\nDelayed Branch -  컴파일러 코드 순서 변경\nPredict Branch - 로컬, 글로벌, Gshare, Hybrid"],
     ["1", "A", "HA",                                        "", "", "High Availability / 138회 관리3.4 / FTS 비교"],
     ["1", "A", "FTS",                                       "", "", "결함허용 컴퓨터 (FTS)"],
     ["1", "A", "FTS_HA",                                    "", "", ""],
@@ -1409,6 +1409,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.16.2203", ""]
+    ["1", "D", "Version",                                   "", "2026.04.16.2224", ""]
 ]
 }
