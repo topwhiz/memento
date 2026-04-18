@@ -1051,9 +1051,10 @@
     ["1", "C", "Kernel",                                    "", "", ""],
     ["1", "C", "Monolithic_Kernel_Micro_Kernel",            "", "", ""],
     ["1", "C", "System_Call",                               "", "", ""],
-    ["1", "B", "CPU_Scheduling",                            "", "", ""],
-    ["1", "B", "CPU_Scheduling_1",                          "", "", ""],
-    ["1", "B", "Preemption_Method",                         "선점 방식 스케줄링", "RS멀레", ""],
+    ["1", "B", "CPU_Scheduling",                            "", "", "[유형]\n\n- 장기 스케줄러\nJob Scheduler\n준비 큐 보낼 프러세스 결정\n다중 프로그래밍 정도 제어\n\n- 중기 스케줄러\nSwapper\n메모리 Swap-out / 메모리 공간 확보\n시스템 성능 저하 시 메모리 부하 조절\n\n- 단기 스케줄러\nCPU Scheduler\nCPU 할당할 준비 큐 내의 프로세스 결정"],
+    ["1", "B", "CPU_Scheduling_1",                          "", "", "[유형]\n\n- 장기 스케줄러\nJob Scheduler\n준비 큐 보낼 프러세스 결정\n다중 프로그래밍 정도 제어\n\n- 중기 스케줄러\nSwapper\n메모리 Swap-out / 메모리 공간 확보\n시스템 성능 저하 시 메모리 부하 조절\n\n- 단기 스케줄러\nCPU Scheduler\nCPU 할당할 준비 큐 내의 프로세스 결정"],
+    ["1", "B", "Scheduler",                                 "", "", "[유형]\n\n- 장기 스케줄러\nJob Scheduler\n준비 큐 보낼 프러세스 결정\n다중 프로그래밍 정도 제어\n\n- 중기 스케줄러\nSwapper\n메모리 Swap-out / 메모리 공간 확보\n시스템 성능 저하 시 메모리 부하 조절\n\n- 단기 스케줄러\nCPU Scheduler\nCPU 할당할 준비 큐 내의 프로세스 결정"],
+    ["1", "B", "Preemption_Method",                         "선점 방식 스케줄링", "RS멀레RE", "[선점형 스케줄링 - Preemptive]\n빠른 응답 필요 시스템  / 문맥 교환 오버헤드\n\n# 범용/대화형 시스템용\n\n- RR\nRound Robin\n시분할 시스템 기초\n\n- SRT\nShortest Remaining Time\n최단 시간 우선\n\n- MLQ\nMulti-Level Queue\n큐 분할 고정 관리\n\n- MLFQ\nMulti-Level Feedback Queue\n현대 OS 방식\n\n# 실시간 시스템용 - RTOS/임베디드\n\n- RM\nRate Monotonic\n주기적 작업 고정 우선순위\n\n- EDF\nEarliest Deadline First\n마감 시간 임박 우선\n\n[비선점형 스케줄링 - Non-preemptive]\n응답 시간 예측 용이 / 문맥 교환 오버헤드 적음\n\n- FCFS\nFirst-Come, First-Served\n준비 큐 도착 순서 CPU 할당\nConvoy Effect - 호위 효과\n\n- SJF\nShortest Job First\n버스트 타임(실행 시간) 최단 프로세스 CPU 할당\nStarvation / 실행 시간 예측 어려움\n\n- HRN\nHighest Response-ratio Next\n대기, 실행 시간 고려 / Aging 기법 일종\n우선순위= (대기시간 + 실행시간) / 실행시간"],
     ["1", "B", "Round_Robin",                               "", "", ""],
     ["1", "B", "SRT",                                       "", "", "Shortest Remaining Time"],
     ["1", "B", "MLQ_MLFQ",                                  "", "RS다큐피큐리", "Multi-level Feedback Queue\n119.관리.3"],
@@ -1062,7 +1063,6 @@
     ["1", "B", "Non_Preemptive_Method",                     "비선점 방식 스케줄링", "", ""],
     ["1", "B", "SJF",                                       "", "", "최단 작업 우선 / Shortest Job First\n119.관리.3"],
     ["1", "B", "HRN",                                       "", "", "Highest response ratio next\n119.관리.3"],
-    ["1", "B", "Scheduler",                                 "", "", ""],
     ["1", "B", "Critical_Section",                          "", "", ""],
     ["1", "B", "Mutual_Exclusion",                          "상호배제", "", "램포트, 피터슨, 데커알고리즘, 세마포어, swap, test and set, 인터럽트 금지"],
     ["1", "B", "Semaphore",                                 "", "", "122회.정보.1교시"],
@@ -1409,6 +1409,6 @@
     ["1", "C", "",                                          "", "", "Stuffing - 무작위 대입, 주입\nSniffing - 훔쳐보기, 엿듣기\nSnooping - 염탐 / Sniffing 보다 포괄적"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.17.0240", ""]
+    ["1", "D", "Version",                                   "", "2026.04.18.0916", ""]
 ]
 }
