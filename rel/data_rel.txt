@@ -228,7 +228,7 @@
     ["1", "B", "SDLC",                                      "", "방규개시\n폭프나라반(증진)", "ISO_12207\n고전적 / 단계적 / 순차적 / Top-Down / V모델\n후반부 문제 가능성 / 정식변경절차(Frozen Delivery)\n\n[모델 선정기준 - 방규개시]\n방법 / 도구\n규모 / 성격\n개발통제 / 산출물\n시간 / 비용\n\n[모델 유형 - 폭프나라반(증진)]\n폭포수 모델\n프로토타이핑 모델\n나선형 모델\nRAD 모델\n반복형 모델 - 증분형 / 진화형"],
     ["1", "B", "V_Model",                                   "", "", "SW > Test > V-Model\n단위, 통합, 시험, 인수, Validation, Verification, Water Fall Model 테스트"],
     ["1", "B", "Waterfall_Model",                           "워터폴 모델", "계요설개단통시인설\n고단순탑V후정", "개발방법론 / Secure SDLC / 131회 관리 1교시\n고전적 / 단계적 / 순차적 / Top-Down / V모델\n후반부 문제 가능성 / 정식변경절차(Frozen Delivery)"],
-    ["1", "B", "Prototyping_Model",                         "프로토타이핑 모델", "계요프검상취운\n로하 호버시 익에 PD", "시제품 의사소통 / 요구사항 수집기법 / 사용자 참여\n\n[절차 - 계요프검상취운]\n계획 수립 - MVP 기준 설정 / 사용자 참여\n요구분석 - 핵심 시나리오 / 기능 흐름 도출\n프로토타입 개발/개선 - Low-Fidelity / 반복 개선\n검토/평가 - 행동 기반 관찰 / 의사판단 / 피드백\n상세개발 - 아키텍처 안정성 / 기능별 세부 구현\n프로젝트 취소 - 실효성 미비\n설치/운영 - 인수인계 / 사후 피드백 체계\n\n[종류 - 로하 호버시 익에 PD]\n\n- 최종 결과물 유사성\nLow-fideity(충실도) Prototyping\nHigh-fideity Progotyping\n\n- 기능 범위, 정도\nHorizontal Prototyping\nVertical Prototyping\nScenario Prototyping\n\n- 재사용\nExperimental\nEvolutionary\n\n- 매체\nPaper\nDigital"],
+    ["1", "B", "Prototyping_Model",                         "프로토타이핑 모델", "계요프검상취운\n로하 호버시 익에 PD", "시제품 의사소통 / 요구사항 수집기법 / 사용자 참여\n\n[절차 - 계요프검상취운]\n계획 수립 - MVP 기준 설정 / 사용자 참여\n요구분석 - 핵심 시나리오 / 기능 흐름 도출\n프로토타입 개발/개선 - Low-Fidelity / 반복 개선\n검토/평가 - 행동 기반 관찰 / 의사판단 / 피드백\n상세개발 - 아키텍처 안정성 / 기능별 세부 구현\n프로젝트 취소 - 실효성 미비\n설치/운영 - 인수인계 / 사후 피드백 체계\n\n[종류 - 로하 호버시 익에 PD]\n\n- 최종 결과물 유사성\nLow-fidelity(충실도) Prototyping\nHigh-fidelity Progotyping\n\n- 기능 범위, 정도\nHorizontal Prototyping\nVertical Prototyping\nScenario Prototyping\n\n- 재사용\nExperimental\nEvolutionary\n\n- 매체\nPaper\nDigital"],
     ["1", "B", "Spiral_Model",                              "나선형 모델", "계위개고", "외부 나선 주기 위험 < 내부 나선 주기 위험\n\n[절차 - 계위개고]\n계획 및 정의\n위험분석\n개발\n고객의 평가, 위험 최소화"],
     ["1", "B", "Iteration_Model",                           "반복형 모델", "", ""],
     ["1", "B", "Incremental_Model",                         "증분형 모델", "", ""],
@@ -1411,6 +1411,6 @@
     ["1", "C", "Governance",                                "", "", "[개념]\n협력적 의사결정 체계\n수평적 네트워크화 관계 / 다양 구성원 참여\n참여성 / 투명성 / 책무성 / 효율성 / 효과성\n\n[유형]\n공공 거버넌스 - 국가,시민사회 공공문제 해결 체계\n기업 거버넌스 - 투명 경영/주주 가치 제고/지배구조\nIT 거버넌스 - IT 기술 / 데이터 관리 원칙 / 프로세스"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.04.28.0240", ""]
+    ["1", "D", "Version",                                   "", "2026.04.28.0301", ""]
 ]
 }
