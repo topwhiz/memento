@@ -660,7 +660,7 @@
     ["1", "B", "WLan_Finger_Printing",                      "무선랜 실내 측위기술", "유반최견투복\n액타 패알소 차미모", "무선랜 실내 측위기술 / 삼각측량기법\n\n[요구성질 - 유반최견투복]\n\n유일성 - NIC 구별 가능\n반복성- 동일 디바이스 동일 결과\n최소성 - 최소 차원 특징 집합\n견고성 - 위조, 우회 방지\n투명성 - HW, SW 수정 불필요\n복원성 - 노이즈, 다중경로효과, MIMO에 견고\n\n[기술 종류 - 액타 패알소 차미모]\n\nActive Fingerprinting - AP/DNS 통신 지연 시간\nTiming based scheme - RTT 기준값 초과여부\n\nPassive Fingerprinting - RF주파수 특성 비교\n패시브 RF  - Wave Form/ Modulation/ RSS Domain\n패시브 SW - Arrival Time / Frame Seq / Anomaly\n차세대 RF - MIMO 워터마킹"],
     ["1", "B", "WPA3",                                      "", "", ""],
     ["1", "B", "WiFi_Sensing",                              "", "", "IEEE 802.11bf\n\n[SENS (Wi-Fi Sensing기술)]\n채널 상태 정보 (CSI) 활용하여 송수신기기 사이의 물체를 인식하는 센싱기술\nCSI - Channel State Information"],
-    ["1", "A", "IPv6",                                      "", "기확데 버터플파네호", "Dual Stack / Tunneling / 주소변화\n\n[구성요소 - 기확데 버터플파네호]\n기본 헤더 (40) / 확장 헤더 (2^16) / 데이터\n\n(기본헤더)\nVersion - 4\nTraffic Class - 4\nFlow Label - 20\nPacket Length - 16\nNext Header - 8\nHop Limit - 8\nSource Address (32)\nDestination Address (32)"],
+    ["1", "A", "IPv6",                                      "", "기확데 버터플파네호", "Dual Stack / Tunneling / 주소변화\n\n[구성요소 - 기확데 버터플파네호]\n기본 헤더 (40) / 확장 헤더 (2^16) / 데이터\n\n# 기본헤더\nVersion - 4\nTraffic Class - 4\nFlow Label - 20\nPacket Length - 16\nNext Header - 8\nHop Limit - 8\nSource Address - 32\nDestination Address - 32"],
     ["1", "B", "IPv6_in_IPv4_Tunneling",                    "", "", "117.컴시응.3 / 116.컴시응.4"],
     ["1", "B", "WPAN",                                      "", "근거리, 개인영역, Ad-hoc, 저전력, 저비용, 블루투스(Bluetooth), UWB, Zigbee, IEEE802.15", "SV > 지능형 로봇\nWireless Personal Area Network"],
     ["1", "B", "Bluetooth6",                                "", "", "IEEE 802.15.1"],
@@ -672,7 +672,7 @@
     ["1", "A", "Matter",                                    "", "", "스마트홈\n131회 컴시응 4교시\n멀티 어드민, 로컬 제어, 엔드포인트, 클러스터, 어트리뷰트, 쓰레드"],
     ["1", "A", "CoAP",                                      "씨 오 에이 피", "", "Constrained Application Protocol\nNW > IoT(프로토콜) / 111.관리.2.6\n\n[계층 구조]\n\n- 응용 계층\nCoAP - 제한된 환경 이용 / 가벼운 웹 프로토콜\nHTTP 유사 역할 수행 (GET, POST, PUT, DELETE)\n\n- 전송 계층\nDTLS - 통신 보안 / 응용, 전송 사이 동작 보안 계층\nUDP - 빠른 데이터 전송\n\n- 네트워크 계층\n6LoWPAN - IPv6 패킷 압축 / 저전력 무선 통신 지원\n\n[용어]\n\n- DTLS\nDatagram Transport Layer Security"],
     ["1", "B", "MOM",                                       "엠 오 엠", "MQ\nPub/Sub", "비동기통신/신뢰성/확장성/EDA\nJMS/Active MQ/Rabbit MQ/IBM MQ\nMQTT/Kafka\nOASIS(표준화단체)"],
-    ["1", "A", "MQTT",                                      "", "발구토브\nISO 20922\n최저 사이즈 2Bytes\nPublish/Subscribe\nTLS, MQTT over TCP", "Message Queue Telemetry Transport\nIoT/M2M/저대역폭/일대다\nTCP/IP(연결지향)-연결/끊기/발행\nPublisher/Subscriber/Broker/Topic"],
+    ["1", "A", "MQTT",                                      "", "발구토브", "[개념]\nMessage Queue Telemetry Transport\nISO 20922\n\n[특징]\nIoT / M2M / 저대역폭 / 일대다\nTCP/IP - 연결 / 끊기 / 발행 / MQTT over TCP\n최저 사이즈 2Bytes\n\n[구성요소 - 발구토브]\nPublisher\nSubscriber\nBroker\nTopic"],
     ["1", "A", "XMPP",                                      "", "", "IoT(프로토콜)\n110.정보관리.1\neXtensible Messaging and Presence Protocol\nIETF(표준화단체)\nTCP, Publish/Subscribe, Client/Server, TLS+SASL"],
     ["1", "B", "LwM2M",                                     "", "", "Lightweight Machine to Machine / 111.정보관리.2"],
     ["1", "A", "V2X",                                       "", "", "Vehicle-to-Everything"],
@@ -1415,6 +1415,6 @@
     ["1", "C", "Copyright_Copyleft",                        "", "", "[Copyright - 저작권]\n창작자가 자신의 저작물에 대해 가지는 독점적 권리\nAll Rights Reserved / 모든 권리 보유\n허가 없이 복제, 배포, 수정 법적 금지\n상업적 이익 보호 / 창작자 동기 부여\n상용 소프트웨어 (Windows, MS Office), 영화, 도서\n\n[Copyleft - 카피레프트]\n저작권 기반 / 권리 활용 / 지식 공유 자유 보장\nAll Rights Reversed / 모든 권리 회수, 전환\n누구나 자유롭게 사용, 수정, 배포 권리 부여\n전염성 - 2차 저작물(수정본)도 동일 조건 강제성\n지식의 공공재적 성격 강조\nGNU GPL (Linux 커널 등), AGPL"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.05.14.0206", ""]
+    ["1", "D", "Version",                                   "", "2026.05.14.0246", ""]
 ]
 }
