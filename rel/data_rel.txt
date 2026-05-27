@@ -123,7 +123,7 @@
     ["1", "C", "Subscription_Economy",                      "구독 경제", "", ""],
     ["1", "C", "BackCasting",                               "", "연전(제)외현시실영", "[방법론 - 연전(제)외현시실영]\n연구목적 설정\n전략목표/제약사항 설정\n외부변수 설정\n현황기술\n시나리오 분석\n실행항목 결정\n영향력 분석"],
     ["1", "B", "Digital_Cartel",                            "", "모자병신\n메허프오 명묵의자", "Leniency (자진신고 감형제) / RegTech\n\n[메커니즘 - 모자병신]\n모니터링 알고리즘 - 실시간 정보 모니터링\n자가학습 알고리즘 - A학습결과 기반 담합\n병행 알고리즘 - 병행 조정\n신호 알로리즘 - 실사간 교환\n\n[유형 - 메허프오 명묵의자]\nMessenger - 명시적 합의 / 알고리즘 실시간 수집\nHub & Spoke - 묵시적 합의 / 정보교환, 가격담합\nPredictable Agent - 의식적 병행 행위 / 예측 담합\nAutomous Machine - 자율적 병행 행위 / AI 담합"],
-    ["1", "C", "Servitization",                             "", "통제서", "[구성요소 - 통제서]\nProduct Servitization - 제조업 관점\nService Productization - 서비스의 상품화\nPSS (Product Service System) - 제품, 서비스 통합"],
+    ["1", "C", "Servitization",                             "", "통제서", "[구성요소 - 통제서]\nPSS (Product Service System) - 제품, 서비스 통합\nProduct Servitization - 제조업 관점\nService Productization - 서비스의 상품화"],
     ["1", "C", "Big_Blur",                                  "빅 블러", "", "프레너미(Frenemy)"],
     ["1", "B", "Digital_Divide",                            "디지털 격차", "접이활\n접역활정", "[정보격차 - 접이활]\n접근 격차 (Access Divide) - 초기 / 도입기\n이용 격차 (Usage Divide) - 1차 / 도약기\n활용 수준 격차 (Quality of Use) - 2차 / 포화기\n\n[디지털 정보화 수준 - 접역활정]\n디지털 접근 수준\n디지털 역량 수준\n디지털 활용 수준\n디지털 정보화 수준"],
     ["1", "B", "Digital_Inclusion",                         "디지털 포용", "", ""],
@@ -1414,6 +1414,6 @@
     ["1", "C", "Copyright_Copyleft",                        "", "", "[Copyright - 저작권]\n창작자가 자신의 저작물에 대해 가지는 독점적 권리\nAll Rights Reserved / 모든 권리 보유\n허가 없이 복제, 배포, 수정 법적 금지\n상업적 이익 보호 / 창작자 동기 부여\n상용 소프트웨어 (Windows, MS Office), 영화, 도서\n\n[Copyleft - 카피레프트]\n저작권 기반 / 권리 활용 / 지식 공유 자유 보장\nAll Rights Reversed / 모든 권리 회수, 전환\n누구나 자유롭게 사용, 수정, 배포 권리 부여\n전염성 - 2차 저작물(수정본)도 동일 조건 강제성\n지식의 공공재적 성격 강조\nGNU GPL (Linux 커널 등), AGPL"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.05.28.0415", ""]
+    ["1", "D", "Version",                                   "", "2026.05.28.0440", ""]
 ]
 }
