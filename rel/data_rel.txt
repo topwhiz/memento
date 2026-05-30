@@ -35,7 +35,7 @@
     ["1", "A", "Economic_Evaluation_Model",                 "경제성 평가 기법", "CBA 회비내순투\nROV 이블몬\nMCA 재기비리", "[기법 종류]\n\n- CBA - 회비내순투\nCost Benefit Analysis\nPP - 투자 회수 기간 / BEP 3~4년\nBCR - 비용 편익비 = Benefit/Cost\nIRR - 내부수익률 / NPV=0 인 r 값\nNPV - 순현재가치 = Σ (Ct/(1+r)^t - C0)\nROI - 투자수익률 = 순이익/총투자비용 * 100%\n\n- ROV - 이블몬\nReal Option Valuation\n이항 -이항옵션/이산시간/수치역산/구조직관/NPV극복\n블랙숄츠-수학 모델/연산 빠름/복잡 구조 불가/애자일X\n몬테카를로스 - 시나리오 기반 / 통계,확률 / 오차 존재\n\n- MCA - 재기비리\nMulti Criteria Analysis/Assessment\n재무 / 기술 / 비즈니스 / 리스크"],
     ["1", "B", "IT_ROI",                                    "+투자성과 평가 모델", "평시측분\n전중후\n준수종\nB\nNRPI", "[구성요소 - 평시측분]\n평가 단계 - 사전 평가 / 중간 평가 / 사후 평가\n시행 추진 - 사업 준비 / 사업 수행 / 사업 종료\n성과 측정 - BSC\n경제성 분석 - CBA / ROV / MCA"],
     ["1", "C", "BSC",                                       "+균형성과표", "재고내학\nCSF\nKPI", ""],
-    ["1", "B", "IT_BSC",                                    "+정보기술 균형성과표", "기사운미", "\n\n[구성요소 - 기사운미]\n\n- 기업 공헌도 - 재무 관점\nIT비용관리 / 매출기여도 / 신규사업 가치 / 마진율\n\n- 사용자 관점 - 고객 관점\n사용자 파트너쉽 / 사용자 만족도 / 고객 가입률\n\n- 운영 프로세스 - 내부 프로세스\n서비스 가동률 / 장애 조치율\n\n- 미래 지향 - 학습/성장\nIT인력 전문 자격증 / 신기술 연구 / 학습률"],
+    ["1", "B", "IT_BSC",                                    "+정보기술 균형성과표", "기사운미", "[구성요소 - 기사운미]\n\n- 기업 공헌도 - 재무 관점\nIT비용관리 / 매출기여도 / 신규사업 가치 / 마진율\n\n- 사용자 관점 - 고객 관점\n사용자 파트너쉽 / 사용자 만족도 / 고객 가입률\n\n- 운영 프로세스 - 내부 프로세스\n서비스 가동률 / 장애 조치율\n\n- 미래 지향 - 학습/성장\nIT인력 전문 자격증 / 신기술 연구 / 학습률"],
     ["1", "A", "OKR",                                       "", "집도추정 컴스원\n목성 보달 상연", "상향 정성/정량 수평 목표 평가연동금지 분기\n\n[용어]\n\n- CFR\nConversation / Feedback / Recognition"],
     ["1", "A", "BPR",                                       "", "프기인", "Zero-Based Thinking\n단기혁신, BA, SME(Subject Matter Expert)"],
     ["1", "A", "PI",                                        "", "정목분재검\n완전최성기", "[5 DPA - Design Parameter Analysis]\n5가지 설계 변수 분석\n완결성 (Completeness)\n전략연계성 (Strategic Alignment)\n최적성 (Optimality)\n성숙도 (Maturity)\n기능성 (Functionality)"],
@@ -1415,6 +1415,6 @@
     ["1", "C", "Copyright_Copyleft",                        "", "", "[Copyright - 저작권]\n창작자가 자신의 저작물에 대해 가지는 독점적 권리\nAll Rights Reserved / 모든 권리 보유\n허가 없이 복제, 배포, 수정 법적 금지\n상업적 이익 보호 / 창작자 동기 부여\n상용 소프트웨어 (Windows, MS Office), 영화, 도서\n\n[Copyleft - 카피레프트]\n저작권 기반 / 권리 활용 / 지식 공유 자유 보장\nAll Rights Reversed / 모든 권리 회수, 전환\n누구나 자유롭게 사용, 수정, 배포 권리 부여\n전염성 - 2차 저작물(수정본)도 동일 조건 강제성\n지식의 공공재적 성격 강조\nGNU GPL (Linux 커널 등), AGPL"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.05.30.1220", ""]
+    ["1", "D", "Version",                                   "", "2026.05.30.1227", ""]
 ]
 }
