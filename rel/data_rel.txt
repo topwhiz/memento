@@ -1430,6 +1430,6 @@
     ["1", "C", "Copyright_Copyleft",                        "", "", "[Copyright - 저작권]\n창작자가 자신의 저작물에 대해 가지는 독점적 권리\nAll Rights Reserved / 모든 권리 보유\n허가 없이 복제, 배포, 수정 법적 금지\n상업적 이익 보호 / 창작자 동기 부여\n상용 소프트웨어 (Windows, MS Office), 영화, 도서\n\n[Copyleft - 카피레프트]\n저작권 기반 / 권리 활용 / 지식 공유 자유 보장\nAll Rights Reversed / 모든 권리 회수, 전환\n누구나 자유롭게 사용, 수정, 배포 권리 부여\n전염성 - 2차 저작물(수정본)도 동일 조건 강제성\n지식의 공공재적 성격 강조\nGNU GPL (Linux 커널 등), AGPL"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.06.06.1822", ""]
+    ["1", "D", "Version",                                   "", "2026.06.07.1044", ""]
 ]
 }
