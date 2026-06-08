@@ -625,7 +625,7 @@
     ["1", "A", "NW_5G_NTN",                                 "5G NTN", "", ""],
     ["1", "B", "NW_5G_Advanced",                            "5G Advanced", "", "133회대비.FR.4일차.2교시\n\n[용어]\n\n- eMBB (고성능 5G)\n수 Gbps 속도, 고비용, 고전력 소모\n스마트폰, 자율주행\n\n- RedCap (중간 단계)\n수백 Mbps 속도, 중간 비용, 저전력 소모 \n웨어러블, 산업용 센서\n\n- LPWA (NB-IoT/LTE-M)\n수 kbps~Mbps 속도, 초저비용, 초저전력\n미터기, 위치 추적"],
     ["1", "A", "NW_6G",                                     "", "정지현대성공", ""],
-    ["1", "B", "Beamforming",                               "+빔포밍", "", "[개념]\n공간 필터링 - 지향성 / 특정 방향 방사, 수신\n공간 다중화 - 공간적 멀티플렉싱 / 공간 분할 다중화\n어레이 안테나 - 다수 안테나 전파빔 생성 기술\n빔포밍 이득 - 어레이 이득 / 간섭 제거 이동\n\n[유형]\n\n# 고정/동적 기반\n고정형 빔 포밍 - 섹터 안테나\n적응형 빔 포밍 - 스마트 안테나 / MIMO / 협력형 진화\n\n# 구현 방식 기반\n단일 안테나 - 반사기, 개구 면적, Baffle\n배열 안테나 - 2개 이상 안테나 소자 동시 사용\n\n[발전 역사]\n\n# 1세대 - 고정형 빔포밍 (Switched)\n\n# 2세대 - 적응형 빔포밍 (Adaptive)\n단말기 실시간 추적 기술 적용\n현재 5G 기본 베이스\n\n# 3세대 - 협력형 빔포밍 (Cooperative)\n여러 기지국 연동/협력 기술 결합\n협력형은 적응형의 발전 형태"],
+    ["1", "B", "Beamforming",                               "+빔포밍", "", "[개념]\n공간 필터링 - 지향성 / 특정 방향 방사, 수신\n공간 다중화 - 공간적 멀티플렉싱 / 공간 분할 다중화\n어레이 안테나 - 다수 안테나 전파빔 생성 기술\n빔포밍 이득 - 어레이 이득 / 간섭 제거 이동\n\n[유형]\n\n# 고정/동적 기반\n고정형 빔 포밍 - 섹터 안테나\n적응형 빔 포밍 - 스마트 안테나 / MIMO / 협력형 진화\n\n# 구현 방식 기반\n단일 안테나 - 반사기, 개구 면적, Baffle\n배열 안테나 - 2개 이상 안테나 소자 동시 사용\n\n[발전 역사]\n\n# 1세대\n고정형 빔포밍 (Switched)\n\n# 2세대\n적응형 빔포밍 (Adaptive)\n단말기 실시간 추적 기술 적용\n현재 5G 기본 베이스\n\n# 3세대\n협력형 빔포밍 (Cooperative)\n여러 기지국 연동/협력 기술 결합\n협력형은 적응형의 발전 형태"],
     ["1", "A", "Ultra_Ethenet",                             "", "패오네보 리울 패전초대로 최무암", "[주요 특징 - 패오네보 리울 대로 패전초 최무암]\n\n- 하이브리드 패브릭 - 리울\nEthernet + RDMA + UET\nRDMA - Zero Copy Networking\nUET - Semantic / PDS / TSS\n\n- HW Offload 최적화 - 대로\n대규모 GPU Pod 최적화 - AI Pod\nLossless Ethernet - PFC 흐름제어 / ECN 혼잡 방지\n\n- 네트워크 성능 향상 - 패전초\n패킷 처리, 큐 관리, 스케줄링 / NIC, 가속기\n전송 경로 지능화 - 동적 최적 경로 탐색\n초저지연 큐잉 스케줄링\n\n- 보안 기능 강화 - 최무암\n최적화 패킷 인증\n전송 무결성\n암호화 옵션"],
     ["1", "B", "MIMO",                                      "", "", "Multiple-Input Multiple-Output"],
     ["1", "B", "NFV",                                       "", "NVME\n하오하머", "방화벽 / 로드밸런서\nDPI(Deep Packet Inspection)\nEPC(Evolved Packet Core)\n\n[구성 - NVME]\n\nNFVI\nNetwork Functions Virtualization Infrastructure\n\nVNFs\nVirtualized Network Functions\n\nMANO\nManagement and Orchestration\n\nE2E Networking\n\n[VNF 구성 - 하오하머]\nVM - VNF / Guest OS\nVirtualization Layer(Hypervisor)\nHost OS\n하드웨어 - Commodity HW"],
@@ -1445,6 +1445,6 @@
     ["1", "C", "Copyright_Copyleft",                        "", "", "[Copyright - 저작권]\n창작자가 자신의 저작물에 대해 가지는 독점적 권리\nAll Rights Reserved / 모든 권리 보유\n허가 없이 복제, 배포, 수정 법적 금지\n상업적 이익 보호 / 창작자 동기 부여\n상용 소프트웨어 (Windows, MS Office), 영화, 도서\n\n[Copyleft - 카피레프트]\n저작권 기반 / 권리 활용 / 지식 공유 자유 보장\nAll Rights Reversed / 모든 권리 회수, 전환\n누구나 자유롭게 사용, 수정, 배포 권리 부여\n전염성 - 2차 저작물(수정본)도 동일 조건 강제성\n지식의 공공재적 성격 강조\nGNU GPL (Linux 커널 등), AGPL"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.06.08.2330", ""]
+    ["1", "D", "Version",                                   "", "2026.06.08.2333", ""]
 ]
 }
