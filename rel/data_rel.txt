@@ -552,10 +552,10 @@
     ["1", "B", "Ambient_Agent",                             "", "", ""],
     ["", "A", "Intelligent_Agent",                          "지능형 에이전트", "", ""],
     ["1", "B", "Neural_Receiver",                           "", "트리채 인변자 뉴디 채", "[개념]\n기존 수신기 단계별 신호 처리 -> DNN 통합 처리\n기존 - 채널 추정, 등화기, 디맵핑 등 단계별 처리\n대체 - 하나의 DNN 통합 처리\n비선형적 왜곡, 잡음, 다중 경로 페이딩 등 사전 학습\n실시간 수신 신호에서 원본 데이터 복원\n6G 고속, 저지연, 초연결 환경 기존 기술 한계 극복\n\n[특징]\n\n- End-to-End 학습\n수신기 전체를 블랙박스 모델 간주\n데이터 기반 최적화\n\n- 상황 적응성\n다양한 채널 조건, 이동 환경 스스로 적응\n고품질 통신 제공\n\n- 복잡한 채널 대응\n비선형, 비정상적 간섭 환경 강건(Robust)\n\n- 컴퓨팅 고성능화\nGPU, AI 가속기(NPU) 사용\n실시간 추론 수행\n\n[구성요소 - 트리채 인변자 뉴디 채]\n\n- UE1 / Transmitter (TX) 영역\n채널 인코더 - FEC 추가 전송 / LDPC, Polar 코드\nQAM 변조기-인코딩 비트를 QAM신호집합 심볼매핑\nOFDM자원매퍼-심볼을 OFDM 시간,주파수 RB 배치\n\n- Receiver (RX) 영역\nNeural 리시버 - AI기반 수신기/DNN 복원/NN 통합\n디코더 - 검출비트 LDPC, Polar 디코딩/LLR 복호화\n\n- Channel - 무선 채널\nChannel - 경로손실, 다중경로, 페이딩, 잡음, 간섭\n\n[동작 방식]\n\n- 심층 신경망(DNN) 구조 기반의 설계\n5G NR, 6G 프레임워크와 결합\n\n- 입력 데이터 (Input)\n수신된 물리 계층 신호(IQ 샘플)\n채널 추정치 프리앰블 윈도우\n\n- 딥러닝 네트워크 구조\nFCNN - 심층 뉴런 연결 통해 특징 추출\nCNN - 2차원 SCF 특징 데이터 처리\nRNN - 시간적 특징이 중요한 신호 학습\nTransformer - V2X 등 고속 이동 환경\n\n- 핵심 기능 블록 (대체 기능)\n채널 추정 (Channel Estimation) - 채널 특성 AI 예측\n등화기 (Equalization) - 신호 왜곡 보정\n디맵핑 (Demapping) - 디지털 신호로 복조\n출력 (Output) - 복원된 데이터(비트스트림)\n\n[용어]\n\n- LDPC 코드\nLow-Density Parity-Check\n저밀도 패리티 검사\n패리티 검사 행렬이 0을 많이 포함하는(Low-Density)\n행렬을 사용하여 데이터를 부호화, 복호화하는 방식\n차세대 통신에서 에러 수정 고효율 채널 코딩 기술\n병렬 처리 / 대용량 데이터 전송(Data channel) 적합\n\n- Polar 코드\n채널 편파 현상 이용해 데이터 안정적 전송 기술\n가상 채널을 신뢰도가 높은 채널, 낮은 채널 나눈 후\n신뢰도 높은 채널에만 데이터를 할당하는 방식\n제어 신호(Control channel) 적합\n\n- LLR\nLog-Likelihood Ratio\n수신 신호가 0인지 1인지를 확률적으로 판단하는 값\n오류 정정 부호(LDPC)의 복호화 과정 핵심 역할\nMIMO 에서 채널 상태 획득, 성능 개선"],
-    ["", "B", "Digital_Service_3D_Printing",                "3D 프린팅", "", ""],
-    ["", "B", "JSON",                                       "", "", "Javascript Object Notation"],
-    ["", "B", "QR_Code",                                    "", "", ""],
-    ["", "A", "Intelligent_Video_Analysis_Technology",      "지능형 영상분석 기술", "", ""],
+    ["", "C", "Digital_Service_3D_Printing",                "3D 프린팅", "", ""],
+    ["", "C", "JSON",                                       "", "", "Javascript Object Notation"],
+    ["", "C", "QR_Code",                                    "", "", ""],
+    ["", "B", "Intelligent_Video_Analysis_Technology",      "지능형 영상분석 기술", "", ""],
     ["", "B", "CCTV",                                       "", "", ""],
     ["", "B", "OCR",                                        "", "", ""],
     ["", "B", "AICC",                                       "", "", "[개념]\nAI Contact Center\n기존 콜센터에 AI 적용, 고객 응대 업무\n자동화, 효율화 차세대 고객 서비스\nCRM, 레거시 DB 연동\n\n[주요 기술]\nSTT (Speech-to-Text) - 음성 실시간 텍스트 변환\nTTS (Text-to-Speech) - AI 답변 음성 출력\nNLP/NLU (자연어 처리/이해) - 질문 의도, 맥락 파악\nTA (Text Analytics) - 인사이트 추출, 감정 분석\nAI 챗봇/콜봇 - 24시간 실시간 채팅, 음성 상담\n\n[주요 기능]\n보이스봇/콜봇 - AI 기반 본인 인증, 단순 예약, FAQ\n상담원 어시스턴트 - 답변 스크립트,지식 베이스 추천\n자동 요약, 분류 - 카테고리화 / 사후 관리 시간 단축\n감정 분석 - 목소리 분석 / 불만 여부 판단"],
@@ -1448,6 +1448,6 @@
     ["1", "D", "Electromagnetic_Wave",                      "전자기파", "감엑자가적마라", "EM Wave\n\n[종류 - 감엑자가적마라]\n\n(파장 단/에너지 강)\n감마선\nX선\n자외선\n가시광선\n적외선\n마이크로파\n라디오파\n(파장 장/에너지 약) "]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.06.13.1139", ""]
+    ["1", "D", "Version",                                   "", "2026.06.13.1144", ""]
 ]
 }
