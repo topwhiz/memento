@@ -301,9 +301,9 @@
     ["1", "B", "Communication_Diagram",                     "", "활 링메번 프라화", "객체간의 관계 강조 / 자유로운 배열\n\n[구성요소 - 활 링메번 프라화]\n객체 - 활성객체\n관계 - 링크 / 메세지 / 메세지 번호\n구조 - Frame / Lifeline /\n          화살표 (동기 / 비동기 / 생성 / 응답)"],
     ["1", "B", "Interaction_Overview_Diagram",              "", "생표현\n다액시", "UML 2.0 / Sequence와 Activity 결합\n\n[절차 - 생표현]\n생성 - Interaction 발생 / Activity 생성\n표현 - Interaction 요소 /\n          Activity 객체내 Sequence Diagram 표현\n연결 - Sequence Diagram을 Activity로 연결\n\n[구성 - 다액시]\n공통 - 다이어그램\nActivity 구성요소\nSequence 구성요소"],
     ["1", "B", "Timing_Diagram",                            "", "오이체스타", "시간제약 / 시간에 따른 신호 표현\n\n[구성 - 오이체스타]\nObject\nEvent\nState Change\nState\nTiming Constraint"],
-    ["1", "B", "Design_Pattern",                            "디자인 패턴", "이문해결\n생구행", "확장성 / 재사용성 / 유지보수성\n화이트, 블랙박스 / 위임(Delegation)\n\nGof(Gang of Four)\n3가지 분류 (생성/구조/행위) 및 3개의 패턴\n\n[형식 - 이문해결]\nPattern Name - 패턴 이름 / 분류 / 별칭\nProblem - 문제 / 의도, 목적, 적용대상\nSolution - 해법/구조,구성요소,역할,관계,구현,샘플\nConsequence - 결과/효과,주의점,활용,연관패턴\n\n[유형 - 생구행]\n\n- 생성 패턴 (Creational)\n아비프로시바 (ABProSiFa)\nAbstract Factory\nBuilder\nPrototype\nSingleton\nFactory (Method)\n\n- 구조 패턴 (Structual)\nABCD파플로 (ABCDFaFlro)\nAdaptor (Object)\nBridge\nComposite\nDecorator\nFacade\nFlyweight\nProxy\n\n- 행위 패턴 (Behavioral)\nCMI 쏘티브 (CCMMII SSOTV)\nChain of Responsibility / Command\nMediator / Memento\nInterpreter / Iterator\nState / Strategy\nObserver\nTemplate Method\nVisitor"],
+    ["1", "B", "Design_Pattern",                            "디자인 패턴", "이문해결\n생구행", "확장성 / 재사용성 / 유지보수성\n화이트, 블랙박스 / 위임(Delegation)\n\nGof(Gang of Four)\n3가지 분류 (생성/구조/행위) 및 3개의 패턴\n\n[형식 - 이문해결]\nPattern Name - 패턴 이름 / 분류 / 별칭\nProblem - 문제 / 의도, 목적, 적용대상\nSolution - 해법/구조,구성요소,역할,관계,구현,샘플\nConsequence - 결과/효과,주의점,활용,연관패턴\n\n[유형 - 생구행]\n\n- 생성 패턴 (Creational)\n애비프로시파 (ABProSiFa)\nAbstract Factory\nBuilder\nPrototype\nSingleton\nFactory (Method)\n\n- 구조 패턴 (Structual)\nABCD파플로 (ABCDFaFlro)\nAdaptor (Object)\nBridge\nComposite\nDecorator\nFacade\nFlyweight\nProxy\n\n- 행위 패턴 (Behavioral)\nCMI 쏘티브 (CCMMII SSOTV)\nChain of Responsibility / Command\nMediator / Memento\nInterpreter / Iterator\nState / Strategy\nObserver\nTemplate Method\nVisitor"],
     ["1", "B", "Design_Pattern_Troubleshooting",            "디자인 패턴 문제 해결", "화블위 아데 프컴 아상전템", "[유형 - 화블위 아데 프컴 아상전템]\n\n- 화이트박스 재사용\nAdaptor / Decorator\n\n- 블랙박스 재사용\nProxy / Composite\n\n- 위임\nAdaptor / State / Strategy / Template Method"],
-    ["1", "B", "Design_Pattern_Creational",                 "생성 패턴", "아비프로시파\nABProSiFa", "[유형 - 아비프로시바 (ABProSiFa)]\nAbstract Factory\nBuilder\nPrototype\nSingleton\nFactory (Method)"],
+    ["1", "B", "Design_Pattern_Creational",                 "생성 패턴", "아비프로시파\nABProSiFa", "[유형 - 애비프로시파 (ABProSiFa)]\nAbstract Factory\nBuilder\nPrototype\nSingleton\nFactory (Method)"],
     ["1", "B", "Design_Pattern_Structual",                  "구조 패턴", "ABCD파플로\nABCDFaFlro", "[유형 - ABCD파플로 (ABCDFaFlro)]\nAdaptor (Object)\nBridge\nComposite\nDecorator\nFacade\nFlyweight\nProxy"],
     ["1", "B", "Design_Pattern_Behavioral",                 "행위 패턴", "CMI쏘티브\nCCMMII SSOTV", "[유형 - CMI 쏘티브 (CCMMII SSOTV)]\nChain of Responsibility / Command\nMediator / Memento\nInterpreter / Iterator\nState / Strategy\nObserver\nTemplate Method\nVisitor"],
     ["1", "B", "MVC_Pattern",                               "", "", ""],
@@ -883,8 +883,6 @@
     ["1", "B", "Cyber_Kill_Chain",                          "", "", "111회.정보관리.1교시\n7단계 항목 및 공격방법 + 대응방안"],
     ["1", "B", "Threat_Hunting",                            "위협 헌팅", "", ""],
     ["1", "B", "Cyber_Warfare",                             "사이버전", "", "관리.111.2.3"],
-    ["1", "B", "Cyber_Security_Organization",               "", "", "보안 컴플라이언스, CISO, 전담 조직\n컴시응.120.4"],
-    ["1", "B", "CBPR",                                      "", "", "Cross Border Privacy Rules\n132.정보관리.3\nAPEC(Asia-Pacific Economic Cooperation)\nAPEC, 전자상거래 활성화, 개인정보 상호이전, APEC 프라이버시 9원칙"],
     ["1", "B", "TPM",                                       "", "", "Trusted Platform Module"],
     ["", "B", "Smart_Farm",                                 "스마트팜", "", ""],
     ["1", "B", "Smart_Factory",                             "스마트팩토리", "", ""],
@@ -928,7 +926,11 @@
     ["1", "B", "Personal_Information_Innovation_Zone",      "", "", "개인정보 이노베이션 존 / 개인정보 안심공간 확장 개념"],
     ["1", "B", "Data_Safety_Zone",                          "", "", "데이터 안심공간\n136회 데이터, 개인정보 안심구역 비교\n135회 개인정보 안심구역 / 133회 데이터 안심구역"],
     ["1", "B", "WAAP",                                      "", "", "Web Application and API Protection\nWAF + RASP + 보안 (API/Data/Cloud)\nDDos / Bot / 마이크로서비스"],
-    ["1", "A", "TARA",                                      "", "자식분영공결대", "[구성요소 - 자식분영공결대]\n자산 식별 - 보호 대상 정의 / 시스템구성 요소, 데이터\n위협 식별 - 위협 벡터 식별 / 잠재적 공격 시나리오\n위협 분석 - STRIDE 위협 모델링 기반 분석\n영향 평가 - 심각성 평가\n공격실현 가능성 평가 - 난이도 분석 / 실제 발생 가능성\n위험 결정 - 전반적 위험 수준 결정 / 영향, 실현 가능서\n대응책 구현 - 보안 대책 선택, 구현 / 조치, 장치, 절차"]
+    ["1", "A", "TARA",                                      "", "자식분영공결대", "[구성요소 - 자식분영공결대]\n자산 식별 - 보호 대상 정의 / 시스템구성 요소, 데이터\n위협 식별 - 위협 벡터 식별 / 잠재적 공격 시나리오\n위협 분석 - STRIDE 위협 모델링 기반 분석\n영향 평가 - 심각성 평가\n공격실현 가능성 평가 - 난이도 분석 / 실제 발생 가능성\n위험 결정 - 전반적 위험 수준 결정 / 영향, 실현 가능서\n대응책 구현 - 보안 대책 선택, 구현 / 조치, 장치, 절차"],
+    ["1", "B", "Cyber_Security_Organization",               "", "", "보안 컴플라이언스, CISO, 전담 조직\n컴시응.120.4"],
+    ["1", "B", "CPO_CISO"                                   "+개인정보 보호책임자\n정보보호 최고책임자", "계조불내교파방파\n계감위교공업", "[CPO - 개인정보 보호책임자]\n\n# 법령\n개인정보보호법 제31조\n개인정보보보법 시행령 제32조\n\n# 보호 대상\n살아있는 개인 식별 정보\n\n# 소관 부처\n개인정보보호위원회\n\n# 역할 - 계조불내교파방파\n개인정보 보호 계획 수립, 시행\n개인정보 정기적 조사, 개선 - 처리 실태, 관행\n개인정보 처리 불만 대응 / 피해 구제\n개인정보 내부통제시스템 구축 - 유출,오용,남용 장비\n개인정보 보호 교육 - 계획, 수립, 시행\n개인정보 파일 - 보호, 관리, 감독\n개인정보 처리방침 - 수립, 변경, 시행 / 법 제30조\n개인정보 파기 - 처리 목적 달성 / 보유기간 만료\n\n[CISO - 정보보호 최고책임자]\n\n# 법령\n정보통신망법 제45조의 3\n전자금융거래법 제21조의 2\n정보통신망법 시행령 제36조의 7\n\n# 보호 대상\nIT 시스템, 네트워크 / 기업 정보 자산\n\n# 소관 부처\n과학기술정보통신부 / 금융위원회\n\n# 역할 - 계감위교공업\n정보보호 계획 수립, 시행\n정보보호 정기적 감사, 개선 - 실태, 관행\n정보보호 위험 식별 평가 / 정보보호 대책 마련\n정보보호 교육 / 모의훈련 계획 수립, 시행\n정보보호 공시 업무 - 정보보호산업 진행 법률 제13조\n정보보호 책임자 업무 - 정보통신 기반 보호법 제5조 4항\n정보보호 최고책임자 업무 - 전자금융거래법 제21조 4항\n개인정보 보호책임자 업무 - 제31조 2항"],
+    ["1", "B", "Mandatory_Designation_Reporting_CISO"       "CISO 지정신고 의무화", "", ""],
+    ["1", "B", "CBPR",                                      "", "", "Cross Border Privacy Rules\n132.정보관리.3\nAPEC(Asia-Pacific Economic Cooperation)\nAPEC, 전자상거래 활성화, 개인정보 상호이전, APEC 프라이버시 9원칙"]
 ],
 "DataBase": [
     ["1", "B", "Data_Independence",                         "", "외개내", "[독립성 단계(스키마) - 외개내]\n\n- 외부 스키마\n서브스키마\n\n- 개념 스키마\n하나 스키마만 존재\n\n- 내부 스키마\n저장장치 입장 / 인덱스 유무 / 관리정보\n개체관계/객체정보/물리적 순서"],
