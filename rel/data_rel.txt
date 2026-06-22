@@ -871,7 +871,7 @@
     ["1", "B", "Finger_Printing",                           "", "유비보견\n공익비추\n평민음제모", ""],
     ["1", "B", "Digital_Fingerprint",                       "전자 지문", "", "위변조, 해시 함수"],
     ["1", "B", "CDR",                                       "", "", "Content Disarm & Reconstruction\n콘텐츠 무해화 기술"],
-    ["1", "B", "Obfuscation",                               "난독화", "구데집제예", "[개념]\nSW 역공학 / 코드 가독성 낮춤 / 역공학 대비 방법\n\n[유형 - 구제집제예]\n\n# 구획 난독화\n프로그램 미영향 / 세부 요소 변화, 제거 / 훼손 복원\n형식변화 / 주석제거 / 식별자 손상\n\n# 데이터 난독화\n데이터 변수 분할, 통합, 읽기 처리 방해\nStorage / Aggregation / Ordering / Encoding\n\n# 집합 난독화\n자료 순서 변환 / 클래스 분할\n\n# 제어 난독화\n문장 묶는 단위 조절\nAggregation / Ordering / Computation\n\n# 예방 난독화\n알려진 난독화 방법 봉쇄\nTargeted / Inherent"],
+    ["1", "B", "Obfuscation",                               "난독화", "구데집제예", "[개념]\nSW 역공학 / 코드 가독성 낮춤 / 역공학 대비 방법\n\n[유형 - 구데집제예]\n\n# 구획 난독화\n프로그램 미영향 / 세부 요소 변화, 제거 / 훼손 복원\n형식변화 / 주석제거 / 식별자 손상\n\n# 데이터 난독화\n데이터 변수 분할, 통합, 읽기 처리 방해\nStorage / Aggregation / Ordering / Encoding\n\n# 집합 난독화\n자료 순서 변환 / 클래스 분할\n\n# 제어 난독화\n문장 묶는 단위 조절\nAggregation / Ordering / Computation\n\n# 예방 난독화\n알려진 난독화 방법 봉쇄\nTargeted / Inherent"],
     ["1", "B", "Categorization",                            "범주화", "수속구 범라세 상부 정", "107회.관리.4.2\n\n[개념]\n범주 값 변환 / 홍길동 35세 -> 30~40세\n\n[유형 분류 - 수속구 범라세 상부 정]\n\n# 수치 데이터 범주화 기법 - 범라세\n\n- 범위 방법\n수치 데이터 -> 임의 수 기준 범위 설정\n\n- 라운딩\n랜덤 라운딩 - 랜덤 라운딩 - 임의수 기준 올림, 절사\n제어 라운딩 - 랜덤 라운딩 행, 열 불일치 제어, 일치\n\n- 세분정도 제한\n민감 항목 / 상하한 코딩,구간 재코딩\n\n# 속성 데이터 범주화 기법 - 상부\n\n- 상위 코드 변환 (일반화)\n- 부분 삭제\n\n# 구조적 데이터 범주화 (그래프/네트워크) - 정\n\n- 정점/간선 클러스터링\n소셜 네트워크 데이터 / 그래프 익명화 / 간선 불변"],
     ["1", "A", "TEE",                                       "", "공권애메\n일보 모커유 애 매", "신뢰 실행 환경 / Trusted Execution Environment\n\n[구성요소 - 공권애메 일보 모커유 애 매]\n\n- World / 공간 - 일보\n일반 모드 (Normal World) - Rich OS\n보안 모드 (Secure World) - TEE OS\n\n- Mode / 권한 - 모커유\nMonitor Mode - Normal, Secure 간 모드 변경\nKernel Mode - 모든 메모리, CPU 명령 접근 허가\nUser Mode - HW 직접 접근 불가 / 앱 실행\n\n- 애플리케이션 - 애\nTrusted Application - 보안 영역 내 실행\n\n- 매커니즘 - 매\nHW 보안 매커니즘 - 정보 교환 통제, 메모리 접근"],
     ["1", "B", "PbD",                                       "", "사초설균생가프", "Privacy by Design\n\n"],
@@ -1476,6 +1476,6 @@
     ["1", "D", "Electromagnetic_Wave",                      "전자기파", "감엑자가적마라", "EM Wave\n\n[종류 - 감엑자가적마라]\n\n(파장 단/에너지 강)\n감마선\nX선\n자외선\n가시광선\n적외선\n마이크로파\n라디오파\n(파장 장/에너지 약) "]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.06.23.2153", ""]
+    ["1", "D", "Version",                                   "", "2026.06.23.2155", ""]
 ]
 }
