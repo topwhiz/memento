@@ -108,7 +108,7 @@
         "question" : [
             [
                 "1. AI 기반의 업무 프로세스 재설계(BPR,Business Process Reengineering)도입효과",
-                "2. 다크 팩토리(Dark Factory),"
+                "2. 다크 팩토리(Dark Factory)",
                 "3. ATAM(Architecture Trade-off Analysis Method)",
                 "4. PMC(Project Management Consultancy)와 PMO(Project Management Office)비교",
                 "5. ISO/IEC 25010의 주특성 및 부특성",
