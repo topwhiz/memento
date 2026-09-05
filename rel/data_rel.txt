@@ -9,6 +9,7 @@
     ["1", "B", "Value_Chain",                               "", "프서마\n내생외마서\n기인기조", "Primary Activity\n\nSupportive Activity\nFirm Infra/HR Mng/Tech Dev/Procurement\n\nMargin\nValue Chain Model"],
     ["1", "B", "Mng_Strategy_7S",                           "7S", "제조전 공구역스", ""],
     ["1", "B", "Mng_Strategy_4C_3C",                        "4C 3C", "경고회환", "Competition - 경쟁사\nCustomer - 고객\nCompany - 회사, 자사\nCircumstance - 환경\n"],
+    ["1", "B", "SWOT",                                      "SWOT 분석", "공다전방", "[SWOT 분석 대응 전략 - 공다전방]\nSO - 공격적 전략 / 강점 활용 / 기회 극대화\nST - 다양화 전략 / 강점 활용 / 위협 회피, 최소화\nWO - 방향전환 전략 / 약점 보완 / 기회 포착\nWT - 방어적 전략 / 약점 최소화 / 위협 회피"],
     ["1", "B", "Customer_Journey_Map",                      "고객 여정 지도", "인분도출\n사도분 페감 단접 문기", "시각화 / 타임라인 / Touch Point / Pain Point"],
     ["1", "C", "Business_Model_Canvas",                     "", "전생\n고가채관수\n활자파비", ""],
     ["1", "B", "Value_Driver_Tree",                         "", "작가도전\nMC\n수분도확전", "VDT"],
@@ -1525,6 +1526,6 @@
     ["1", "C", "HVAC",                                      "", "", "[구성요소]\n\n# Heating - 난방\n열원 통해 실내 온도 상승, 유지\n\n# Ventilation - 환기\n실내 공기 질(IAQ) 관리 / 오염 공기 배출, 외기 유입\n\n# Air Conditioning - 공조\n냉방, 열기, 습기 제거 / 쾌적 환경 조성 / 냉매, 압축기 활용\n\n[발전]\n에너지 소비 최적화 - IoT 센서, BMS 연동 / 실시간 제어"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.09.06.0315", ""]
+    ["1", "D", "Version",                                   "", "2026.09.06.0349", ""]
 ]
 }
