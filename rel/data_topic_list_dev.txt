@@ -25,7 +25,7 @@
         ["1", "A", "Topic19", "", "Keyword19", "Extra19"],
         ["1", "A", "Topic20", "", "Keyword20", "Extra20"],
         ["1", "A", "Topic21", "", "Keyword21", "Extra21"],
-        ["1", "A", "Test_URL", "", "Test_URL", "Test_URL"],
-        ["", "A", "Test_URL_1", "", "Test_URL_1", "Test_URL_1"]
+        ["1", "A", "Test_Asset", "", "Test_Asset", "Test_Asset"],
+        ["", "A", "Test_Asset_1", "", "Test_Asset_1", "Test_Asset_1"]
     ]
 }
