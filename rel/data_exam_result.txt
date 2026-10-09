@@ -112,7 +112,7 @@
                 "3. ATAM(Architecture Trade-off Analysis Method)",
                 "4. PMC(Project Management Consultancy)와 PMO(Project Management Office)비교",
                 "5. ISO/IEC 25010의 주특성 및 부특성",
-                "6. 어휘검색(LexicalSearch)과의미검색(VectorSearch)을결합한하이브리드검색(HybridSearch)",
+                "6. 어휘 검색(Lexical Search)과 의미 검색(Vector Search)을 결합한 하이브리드 검색(Hybrid Search)",
                 "7. 편향(Bias) 감소와 분산(Variance) 추정을 위한 잭나이프(Jackknife) 기법",
                 "8. 좀비 프로세스(Zombie Process)",
                 "9. Physical AI와 생성형 AI 비교",
