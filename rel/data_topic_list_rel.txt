@@ -1058,7 +1058,7 @@
     ["1", "B", "DataOps",                                   "", "기파프", "131.컴시응.3\n\n[구성요소 - 기파프]\n\n# Data 기술\nCDC / 데이터 가상화 / CQRS\n\n# Data 파이프라인\nRaw Data / 데이터 엔지니어링 / 데이터 활용\n\n# Process\n지속적 테스트 / Orchestration / 데이터 분석"],
     ["1", "B", "Data_Orchestration",                        "데이터 오케스트레이션", "", ""],
     ["1", "B", "Opensource_DBMS",                           "오픈소스 DBMS", "", ""],
-    ["1", "B", "Delta_Lake",                                "델타 레이크", "", "[개념]\n클라우드 스토리지, 데이터 처리 엔진 사이 / Tx 레이어 추가\n안전하게 읽기,쓰기 지원 Tx, 스토리지 관리 프레임워크\n오픈소스 스토리지 포맷\n\n[구성요소 - 멀티홉 아키텍처 - 금은동]\n\n# Bronze Layer\n원시 데이터를 스트리밍, 배치 워크플로우 기반 DK 적재\n개방형 트랜잭션 Delta Lake 형식 변환후 적재\n\n# Silver Layer\nBronze Layer 원시 데이터를 ETL, 스트리밍 처리\nSilver 큐레이팅 데이터 세트로 필터링,정리,변환,조인,집계\n\n# Gold Layer\nSilver Layer 데이터 기반 - 분석 / 보고\n비즈니스 레벨 데이터 적재 - BI / AI / 마케팅 / 영업분석\n\n[주요 기술]\n\n# 데이터 신뢰성 보장\nACID 트랜잭션 - 논리적 단위 연산 / 원자,일관,독립,영속\n메타데이터 처리 - Spark 활용 메타데이터 처리 확장\nTime Travel - 감사, 장애 복구 / 스냅샷, 롤백\n레이크하우스 아키텍처 - DK (비용/확장성) + DW(Tx/성능)\n\n# Use Case 지원\nCDC - 트랜잭션 발생시 변경 로그 추출, 대상 DB 반영\nSCD - Slowly Changing Dimension / 시간경과 따른 관리\n스트리밍 UPSERT - 스트링밍 쿼리 Insert/Update자동선택\n통합 배치/스트리밍 - 동일 데이터 테이블 동시 수행 가능"],
+    ["1", "B", "Delta_Lake",                                "델타 레이크", "금은동", "[개념]\n클라우드 스토리지, 데이터 처리 엔진 사이 / Tx 레이어 추가\n안전하게 읽기,쓰기 지원 Tx, 스토리지 관리 프레임워크\n오픈소스 스토리지 포맷\n\n[구성요소 - 멀티홉 아키텍처 - 금은동]\n\n# Bronze Layer\n원시 데이터를 스트리밍, 배치 워크플로우 기반 DK 적재\n개방형 트랜잭션 Delta Lake 형식 변환후 적재\n\n# Silver Layer\nBronze Layer 원시 데이터를 ETL, 스트리밍 처리\nSilver 큐레이팅 데이터 세트로 필터링,정리,변환,조인,집계\n\n# Gold Layer\nSilver Layer 데이터 기반 - 분석 / 보고\n비즈니스 레벨 데이터 적재 - BI / AI / 마케팅 / 영업분석\n\n[주요 기술]\n\n# 데이터 신뢰성 보장\nACID 트랜잭션 - 논리적 단위 연산 / 원자,일관,독립,영속\n메타데이터 처리 - Spark 활용 메타데이터 처리 확장\nTime Travel - 감사, 장애 복구 / 스냅샷, 롤백\n레이크하우스 아키텍처 - DK (비용/확장성) + DW(Tx/성능)\n\n# Use Case 지원\nCDC - 트랜잭션 발생시 변경 로그 추출, 대상 DB 반영\nSCD - Slowly Changing Dimension / 시간경과 따른 관리\n스트리밍 UPSERT - 스트링밍 쿼리 Insert/Update자동선택\n통합 배치/스트리밍 - 동일 데이터 테이블 동시 수행 가능"],
     ["1", "B", "Data_Observability",                        "데이터 관측가능성", "", "138.관리.1"]
 ],
 "CA": [
@@ -1532,6 +1532,6 @@
     ["1", "C", "HVAC",                                      "", "", "[구성요소]\n\n# Heating - 난방\n열원 통해 실내 온도 상승, 유지\n\n# Ventilation - 환기\n실내 공기 질(IAQ) 관리 / 오염 공기 배출, 외기 유입\n\n# Air Conditioning - 공조\n냉방, 열기, 습기 제거 / 쾌적 환경 조성 / 냉매, 압축기 활용\n\n[발전]\n에너지 소비 최적화 - IoT 센서, BMS 연동 / 실시간 제어"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.10.24.1655", ""]
+    ["1", "D", "Version",                                   "", "2026.10.24.1657", ""]
 ]
 }
