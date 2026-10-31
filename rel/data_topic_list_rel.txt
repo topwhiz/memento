@@ -1123,6 +1123,8 @@
     ["1", "C", "TMR",                                       "", "", "Triple Modular Redundancy"],
     ["1", "A", "RAID",                                      "", "0스 1미 2이 3패 4블 5분 6더", "Redundant Array of Independent Disks\nR - 0, 1, 5, 6\nR - 0+1, 1+0(빈출), 5+0, 6+0\n\n[유형]\n\nRAID 0 - Striping\nRAID 1 - Mirroring\nRAID 2 - 비트수준분산 + 해밍코드\nRAID 5 - 블록분산 + 패리티분산\nRAID 0+1 - Striping 후 Mirror\nRAID 1+0 - Mirror 후 Striping\n\n0 스트라이핑\n1 미러링\n2 ECC\n3 패리티\n4 블록\n5 분산\n6 더블"],
     ["1", "S", "HBM",                                       "", "패인로프메", "High Bandwidth Memory / 137회 컴시응.1.7\nCXL / PCIe / PCI EXPRESS 간헐적 출제\n\n[구성요소- 패인로프메]\nPackage Substrate - 기판\nInterposer\nLogic Die\nProcessor - CPU, GPU, SoC Die\nMemory Die - HBM DRAM Die / TSV /Microbump"],
+    ["1", "S", "CXL",                                       "", "icm\nic icm im", "Compute Express Link / 136회 1.8번\n차세대 데이터센터 핵심 기술\n\n[개념]\nCPU와 주변장치(가속기, 메모리, 스토리지) 연결\n고속, 저지연 인터커넥트(Interconnect) 기술\n캐시 일관성(Cache Coherency) / 메모리 확장, 풀링\n\n[CXL 서브 프로토콜 (작동 원리) - icm]\n\n- CXL.io\n장치 발견, 구성, 제어\n장치 탐색, DMA 등 PCIe 유사 기능 제공\nPCIe 대비 낮은 접근 지연 시간 보장\n모든 CXL 장치 유형 공통 사용\n\n- CXL.cache\n장치(가속기)가 CPU 메모리에 접근하여 캐시\n호스트 캐시, 주변 캐시 메모리 일관성 유지\n비대칭형 프로토콜\n일관성 훼손시 snoop 트랜잭션 통해 일관성 유지\n일관성 유지 프로토콜 - MESI 사용\nModified / Eclusive / Shared / Invalid\n\n- CXL.mem\nCPU가 장치(메모리) 메모리에 직접 접근\n호스트 프로세서 캐시 라인 단위 메모리 접근\n주변장치 메모리를 로컬 메모리 처럼 사용 가능\n\n[CXL 장치 유형 - ic icm im]\n\n- CXL Type 1 Device - Caching Device\nCXL.io, CXL.cache 사용\nNIC, 호스트 미관리 메모리 가진 장치\nSmart NIC처럼 로컬 메모리 없이 CPU 메모리를 사용\n호스트 CPU 캐시 메모리와 coheren한 캐시\n호스트 관리 메모리 미소유\nH2D snoop 트랜잭션\n\n- CXL Type 2 Device - Accelerator with Memory\nCXL.io, CXL.cache, CXL.mem 사용\nHBM 내장 GPU 카드, 메모리 내장 FPGA 보드\nGPU처럼 자체 메모리를 가지며 CPU와 연동\n호스트와 fully coherent 한 캐시 소유\n호스트 관리 장치 메모리 소유\n\n- CXL Type 3 Device - Memory Buffer\nCXL.io, CXL.mem 사용\nDRAM, 비휘발성(Flash) 메모리 구성된 확장 장치\nCXL DRAM과 같이 메모리 용량 확장 용도\n호스트 관리 메모리로 구성된 장치"],
+    ["", "A", "PIM",                                       "", "", ""],
     ["1", "A", "HPC",                                       "", "", ""],
     ["1", "B", "Storage_Construction",                      "스토리지 구축", "", ""],
     ["1", "B", "Storage_Tiering",                           "스토리지 티어링", "", "110.컴시응.1"],
@@ -1131,14 +1133,15 @@
     ["1", "B", "Finite_Automata",                           "유한 오토마타", "", "상태기 / 110.정보관리.1.4"],
     ["1", "B", "Memory_Leak",                               "메모리 누수", "", "136. 관리 3.6"]
 ],
- "OS": [
+"OS": [
     ["1", "C", "OS_Roadmap",                                "", "", ""],
     ["1", "C", "Kernel",                                    "", "", ""],
     ["1", "C", "Monolithic_Kernel_Micro_Kernel",            "", "", ""],
-    ["1", "C", "System_Call",                               "", "", ""],
+    ["1", "C", "System_Call",                               "시스템콜", "", ""],
     ["1", "B", "CPU_Scheduling",                            "", "", "[유형]\n\n- 장기 스케줄러\nJob Scheduler\n준비 큐 보낼 프러세스 결정\n다중 프로그래밍 정도 제어\n\n- 중기 스케줄러\nSwapper\n메모리 Swap-out / 메모리 공간 확보\n시스템 성능 저하 시 메모리 부하 조절\n\n- 단기 스케줄러\nCPU Scheduler\nCPU 할당할 준비 큐 내의 프로세스 결정"],
     ["1", "B", "CPU_Scheduling_1",                          "", "", "[유형]\n\n- 장기 스케줄러\nJob Scheduler\n준비 큐 보낼 프러세스 결정\n다중 프로그래밍 정도 제어\n\n- 중기 스케줄러\nSwapper\n메모리 Swap-out / 메모리 공간 확보\n시스템 성능 저하 시 메모리 부하 조절\n\n- 단기 스케줄러\nCPU Scheduler\nCPU 할당할 준비 큐 내의 프로세스 결정"],
     ["1", "B", "Scheduler",                                 "", "", "[유형]\n\n- 장기 스케줄러\nJob Scheduler\n준비 큐 보낼 프러세스 결정\n다중 프로그래밍 정도 제어\n\n- 중기 스케줄러\nSwapper\n메모리 Swap-out / 메모리 공간 확보\n시스템 성능 저하 시 메모리 부하 조절\n\n- 단기 스케줄러\nCPU Scheduler\nCPU 할당할 준비 큐 내의 프로세스 결정"],
+    ["1", "C", "Context_Switching",                         "문맥 교환", "", ""],
     ["1", "B", "Preemption_Method",                         "선점 방식 스케줄링", "RS멀레피 RE", "[선점형 스케줄링 - Preemptive]\n빠른 응답 필요 시스템  / 문맥 교환 오버헤드\n\n# 범용/대화형 시스템용\n\n- RR\nRound Robin\n시분할 시스템 기초\n\n- SRT\nShortest Remaining Time\n최단 시간 우선\n\n- MLQ\nMulti-Level Queue\n큐 분할 고정 관리\n\n- MLFQ\nMulti-Level Feedback Queue\n현대 OS 방식\n\n# 실시간 시스템용 - RTOS/임베디드\n\n- RM\nRate Monotonic\n주기적 작업 고정 우선순위\n정적 우선순위 스케줄링\n실행빈도(Rate) 높은수록 (= 주기 짧을수록)\n높은 우선 순위 부여\n설계 시점 우선 순위 결정 / 구현 간단 / 오버헤드 적음\n\n- EDF\nEarliest Deadline First\n마감 시간 임박 우선\n동적 우선순위 스케줄링\n신규작업 발생시 현시점 최단 마감시간 높은 우선순위\n최적 알고리즘 / 구현 복잡 / 오버헤드\n\n[비선점형 스케줄링 - Non-preemptive]\n응답 시간 예측 용이 / 문맥 교환 오버헤드 적음\n\n- FCFS\nFirst-Come, First-Served\n준비 큐 도착 순서 CPU 할당\nConvoy Effect - 호위 효과\n\n- SJF\nShortest Job First\n버스트 타임(실행 시간) 최단 프로세스 CPU 할당\nStarvation / 실행 시간 예측 어려움\n\n- HRN\nHighest Response-ratio Next\n대기, 실행 시간 고려 / Aging 기법 일종\n우선순위= (대기시간 + 실행시간) / 실행시간"],
     ["1", "B", "Round_Robin",                               "", "", ""],
     ["1", "B", "SRT",                                       "", "", "Shortest Remaining Time"],
@@ -1148,24 +1151,25 @@
     ["1", "B", "Non_Preemptive_Method",                     "비선점 방식 스케줄링", "", ""],
     ["1", "B", "SJF",                                       "", "", "최단 작업 우선 / Shortest Job First\n119.관리.3"],
     ["1", "B", "HRN",                                       "", "", "Highest response ratio next\n119.관리.3"],
-    ["1", "B", "Critical_Section",                          "", "", ""],
+    ["1", "B", "Convoy_Effect_Aging",                       "호위 효과 / 노후화", "", ""],
+    ["1", "B", "Critical_Section",                          "임계영역", "", ""],
     ["1", "B", "Mutual_Exclusion",                          "상호배제", "", "램포트, 피터슨, 데커알고리즘, 세마포어, swap, test and set, 인터럽트 금지"],
-    ["1", "B", "Semaphore",                                 "", "", "122회.정보.1교시"],
+    ["1", "B", "Semaphore",                                 "세마포어", "", "122회.정보.1교시"],
     ["1", "B", "Monitor",                                   "", "", "122회.정보.1교시 / 119회.응용.1교시"],
     ["1", "B", "Priority_Inversion",                        "", "", ""],
-    ["1", "B", "Deadlock",                                  "", "", ""],
+    ["1", "B", "Deadlock",                                  "교착상태", "", ""],
     ["1", "B", "Interrupt",                                 "", "", ""],
     ["1", "B", "Interrupt_Cycle",                           "", "", ""],
     ["1", "B", "Interrupt_Priority_System",                 "", "", ""],
     ["1", "B", "Locality",                                  "지역성", "", "시간지역성 - Temporal Locality\n공간지역성 - Spatial Locality"],
     ["1", "B", "Thrashing",                                 "", "", ""],
     ["1", "B", "Disk_Scheduling",                           "디스크 스케줄링", "", "[유형]\n\n- 탐색시간 최적화\nFCFS / SSTF / SCAN / C-SCAN / LOOK / C-LOOK\n\n- 회전시간 최적화\nSLTF / SPTF / SATF"],
-    ["1", "S", "CXL",                                       "", "icm\nic icm im", "Compute Express Link / 136회 1.8번\n차세대 데이터센터 핵심 기술\n\n[개념]\nCPU와 주변장치(가속기, 메모리, 스토리지) 연결\n고속, 저지연 인터커넥트(Interconnect) 기술\n캐시 일관성(Cache Coherency) / 메모리 확장, 풀링\n\n[CXL 서브 프로토콜 (작동 원리) - icm]\n\n- CXL.io\n장치 발견, 구성, 제어\n장치 탐색, DMA 등 PCIe 유사 기능 제공\nPCIe 대비 낮은 접근 지연 시간 보장\n모든 CXL 장치 유형 공통 사용\n\n- CXL.cache\n장치(가속기)가 CPU 메모리에 접근하여 캐시\n호스트 캐시, 주변 캐시 메모리 일관성 유지\n비대칭형 프로토콜\n일관성 훼손시 snoop 트랜잭션 통해 일관성 유지\n일관성 유지 프로토콜 - MESI 사용\nModified / Eclusive / Shared / Invalid\n\n- CXL.mem\nCPU가 장치(메모리) 메모리에 직접 접근\n호스트 프로세서 캐시 라인 단위 메모리 접근\n주변장치 메모리를 로컬 메모리 처럼 사용 가능\n\n[CXL 장치 유형 - ic icm im]\n\n- CXL Type 1 Device - Caching Device\nCXL.io, CXL.cache 사용\nNIC, 호스트 미관리 메모리 가진 장치\nSmart NIC처럼 로컬 메모리 없이 CPU 메모리를 사용\n호스트 CPU 캐시 메모리와 coheren한 캐시\n호스트 관리 메모리 미소유\nH2D snoop 트랜잭션\n\n- CXL Type 2 Device - Accelerator with Memory\nCXL.io, CXL.cache, CXL.mem 사용\nHBM 내장 GPU 카드, 메모리 내장 FPGA 보드\nGPU처럼 자체 메모리를 가지며 CPU와 연동\n호스트와 fully coherent 한 캐시 소유\n호스트 관리 장치 메모리 소유\n\n- CXL Type 3 Device - Memory Buffer\nCXL.io, CXL.mem 사용\nDRAM, 비휘발성(Flash) 메모리 구성된 확장 장치\nCXL DRAM과 같이 메모리 용량 확장 용도\n호스트 관리 메모리로 구성된 장치"],
     ["1", "A", "Segmentation_Fault",                        "", "", "136회 1.7번"],
     ["1", "A", "Interleaving",                              "메모리 인터리빙", "", "[유형]\n상위 인터리빙 - High-Order Interleaving\n하위 인터리빙 - Low-Order Interleaving"],
-    ["1", "A", "Watchdog_Timer",                            "", "", ""]
+    ["1", "A", "Watchdog_Timer",                            "", "", ""],
+    ["1", "A", "Memory_Centric_Computing",                  "메모리 센트릭 컴퓨팅", "", ""]
 ],
- "Data_Structure": [
+"Data_Structure": [
     ["1", "A", "Data_Structure_Roadmap",                    "", "단선비파\n단 - 정실문열\n선 - 순연(단이원)스큐데\n비 - 트(일진)그(방무)\n파 - 순색직", "[자료구조 유형 - 단선비파]\n\n- 단순 구조 - 정실문열\n정수 / 실수 / 문자 / 문자열\n\n- 선형 구조 - 순연(단이원)스큐데\n순차 리스트 - 랜덤접근/논리,물리 순서동일/고정크기\n연결 리스트 - 단순, 이중, 원형 / 노드=데이터+포인터\n스택 - LIFO / 삽입-Push / 삭제-Pop / 접근-Top\n큐 - FIFO / 삽입-endqueue / 삭제-dequeue\n데크 - 스택+큐/양방향 연산/Double Ended Queue\n\n- 비선형 구조 - 트(일진)그(방무)\n트리 - 일반, 이진 / 계층 / 비순환 / No 가중치, 속성\n그래프 - 방향, 무방향 / Node(Vertex)+Edge(Link) / 가중치, 속성\n\n- 파일 구조 - 순색직\n순차 파일 - 물리, 논리 순서 동일 / Batch 업무 적합\n색인 파일 - 인덱스 테이블 관리 / 순차, 직접 모두 가능\n직접 파일 - 해싱함수 이용 레코드키 파일주소 변환"],
     ["1", "A", "Data_Structure_Type",                       "자료구조 유형", "", ""],
     ["1", "A", "Tree",                                      "", "경길집깊개차\n이포완균(높완)", "[구성요소 - 경길집깊개차]\nPath - 노드 탐색 경로\nDepth - Root 노드에서 경로 길이\nLevel - 동일 깊이 노드 집합 / Root 레벨 1\nHeight - 가장 깊은 잎 노드까지 깊이\nDegree - 자식 노드 개수\nDegree of Tree - 자식 노드 가장 많은 노드 차수\n\n[유형 - 이포완균(높완)]\n이진트리 - 모든 노드 최대 2개 자식 가능\n포화 이진트리 - 모든 노드 자식 2개\n완전 이진트리 - 잎 노드 왼쪽 부터 채움\n높이 균형트리 - 좌우 하위트리 높이 차이 1이하 이진트리\n완전 높이 균형트리 - 좌우 하위트리 높이 동일 이진트리"],
@@ -1428,8 +1432,8 @@
     ["", "B", "ISO_14001",                                  "", "", "[개념]\n환경경영시스템(EMS) - 요구사항, 사용 지침\nEMS 구축, 운영에 대한 구체적 요구 사항"],
     ["1", "B", "ISO_14143",                                 "", "개적검참기방\nICNM", "[개념]\nSW 공학 - 기능 규모 측정 / Function Point / FUR 원칙\nSW 기능 크기 객관적 수치 측정 방법론 기준 정의\n측정 방법의 구비 필요 이론적 프레임워크, 요건\n국제 표준(헌법) - ISO 14143\n방법론(민법/상법) - IFPUG\n현장 상황 적용 - 정통법, 간이법\n\n[주요 구성 요소 - Part 1 ~ 6 - 개적검참기방]\n\n- ISO/IEC 14143-1\n개념 정의 (Concepts)\n기능 규모 측정 기본 개념 정의 / 준수 필수 요건 설명\n\n- ISO/IEC 14143-2\n적합성 평가 (Conformity Evaluation)\n특정 기능 규모 측정 방법론 평가 절차\n\n- ISO/IEC 14143-3\n검증 (Verification)\n측정 방법 신뢰성, 정확성 검증 가이드라인 제공\n\n- ISO/IEC 14143-4\n참조 모델 (Reference Model)\n다양한 방법론 비교 위한 기준 데이터 제공\n\n- ISO/IEC 14143-5\n기능 영역 결정 (Functional Domains)\n소프트웨어 특성 기반 측정 방법 선정 지원\n\n- ISO/IEC 14143-6\n기능 규모 측정 방법론 / 관련 지침 사용 가이드\n\n[기능 규모 측정 방법론 - ICNM]\n\nIFPUG (CPM) - 전통적 Function Point 방식\nCOSMIC - 실시간 제어 시스템, 임베디드 SW 측정\nNESMA - IFPUG 유사 / 초기 단계 간편 측정 지원\nMark II - 논리적 트랜잭션 복잡성 중심\n\n[용어]\n\n- FUR\nFunctional User Requirements\n기술적 구현 방법(어떻게) 보다\n비즈니스적 요구 기능 집중 (무엇을) 규모 측정 원칙\n\n- IFPUG\nInternational Function Point Users Group\n기능 점수(FP) 산정 방식 관리, 보급 비영리 단체"],
     ["1", "C", "ISO_14764",                                 "", "수완예적", "[개념]\nSW, 시스템 공학 - SW 유지보수\nSW 인도 후 유지보수 업무 독립적,체계적 수행 상세 표준\n인수 후 수정, 환경 적응, 기능 향상, 폐기까지 공정,절차 정의\nISO/IEC 12207 (SDLC) / 기존 IEEE 1219 기반\nSDLC 중 유지보수 단계 초점 맞춘 국제 표준\nSW 생명 연장 / 변경 비용 최소화 / 유지보수 품질, 신뢰성\nISO 14764 - SDLC 에서 유지보수 조직적 관리 위한 표준\n3R - 기존 소스,시스템 분석,개선 위한 기술적, 전략적 접근\n거시적 관점 - 3R / 역공학, 재공학, 재사용\n미시적 관점 - 재공학 내부 프로세스/역공학,재구조화,순공학\n\n[유지보수 유형 - 수완예적]\n\n수정적 - Corrective / 운영 중 발견된 결함, 오류 수정\n완전적 - Perfective / 성능 향상, 기능 추가, 요구사항 반영\n예방적 - Preventive / 잠재적 결함 사전 식별, 수정\n적응적 - Adaptive / 변경 운영 환경(OS,HW)적용 위한 개선\n\n[구성요소 - 유지보수 6대 프로세스 활동]\n유지보수 과정 수행할 핵심 활동을 단계별 프로세스로 구성\n\n# 유지보수 프로세스 구현\n수립 - 유지보수 정책, 계획, 절차 수립\n체계 - 문제 보고(PR), 변경 요청(MR) 처리 체계 구축\n통제 - 형상 관리 프로세스 적용, 변경 이력 통제\n\n# 문제/변경 분석\n검증 - 사용자 접수 문제, 변경 요청 타당성 검증, 초기 분석\n분석 - 변경 영향도 / 비용, 일정 / 위험 요소 평가\n승인 - 변경 구현 대안 도출, 승인 획득\n\n# 변경 구현\n설계 - 승인 변경 사항 상세 설계\n구현 - 코딩 표준 준수 확인\n테스트 - 단위 테스트 / 통합 테스트\n문서화 - 설계서, 매뉴얼 현행화\n\n# 유지보수 검토 / 인수\n요구사항 만족 검토\n기능적, 물리적 형상 감사 수행\n운영자, 사용자 설치, 교육 지원\n\n# 마이그레이션\n신규 운영 환경(HW, SW 플랫폼) 이전 작업 관리\n\n# 폐기\n시스템 안전 해체\n데이터 무결성 유지\n사용자 전환 지원"],
-    ["1", "B", "ISO_15408",                                 "ISO/IEC 15408", "", "[개념]\n정보기술 보안 기술 - 정보보안 평가 기준\n\nCC - Common Criteria / 공통 평가 기준\nIT 제품(SW, HW 등) 보안 기능 객관적 평가 규격"],
-    ["1", "C", "ISO_15504",                                 "ISO/IEC 15504", "불수관확예최", "[개념]\n[개념]\n정보기술 - 프로세스 평가 / SPICE\nSW Process Improvement and\nCapability Determination\nSW 개발 프로세스 성숙도,역량평가,개선 프레임워크\n2차원 평가 모델 - 프로세스, 능력 동시 평가\n6단계 성숙도 - 0~5 단계\n\n[수행 능력 6단계 (Capability Levels)]\n레벨 0 - 불완전 - 프로세스 미수행, 목적 미달성\n레벨 1 - 수행 - 프로세스 수행,달성 / 미계획,미관리\n레벨 2 - 관리 - 계획, 모니터링, 관리 / 산출물 품질\n레벨 3 - 확립 - 조직 차원 프로세스 확립\n레벨 4 - 예측 - 통계적, 정량적 기법 기반 관리\n레벨 5 - 최적 - 프로세스 개선 지속 / 최적화\n\n[용어]\n\n- ASPICE\nAutomotive SPICE\n자동차 산업 특화 / ECU SW 개발 역량 평가 표준"],
+    ["1", "B", "ISO_15408",                                 "ISO/IEC 15408", "", "[개념]\n정보기술 보안 기술 - 정보보안 평가 기준\nIT 제품(SW, HW 등) 보안 기능 객관적 평가 규격\nCC - Common Criteria / 공통 평가 기준"],
+    ["1", "C", "ISO_15504",                                 "ISO/IEC 15504", "불수관확예최", "[개념]\n정보기술 - 프로세스 평가 / SPICE\nSW Process Improvement and Capability Determination\nSW 개발 프로세스 성숙도,역량평가,개선 프레임워크\n2차원 평가 모델 - 프로세스, 능력 동시 평가\n6단계 성숙도 - 0~5 단계\n\n[수행 능력 6단계 - Capability Levels]\n레벨 0 - 불완전 - 프로세스 미수행, 목적 미달성\n레벨 1 - 수행 - 프로세스 수행,달성 / 미계획,미관리\n레벨 2 - 관리 - 계획, 모니터링, 관리 / 산출물 품질\n레벨 3 - 확립 - 조직 차원 프로세스 확립\n레벨 4 - 예측 - 통계적, 정량적 기법 기반 관리\n레벨 5 - 최적 - 프로세스 개선 지속 / 최적화\n\n[용어]\n\n- ASPICE\nAutomotive SPICE\n자동차 산업 특화 / ECU SW 개발 역량 평가 표준"],
     ["", "C", "ISO_15836",                                  "", "", "[개념]\n정보,문서화 더블린코어(Dublin Core) 메타데이터 요소세트"],
     ["1", "C", "ISO_17424",                                 "ISO/TR 17424:2015", "", "[개념]\n지능형 교통 시스템 - C-ITS 로컬 동적 맵, 통신\n개념 - LDM 개념, 기술 현황, 국제표준 기술보고서\n범위 - LDM 아키텍처 / 구현 방식 / 표준화 동향 조사,분석\n목적 - C-ITS 내에서 데이터 무결성, 상호 운용성 향상\n\n[용어]\nLDM - 동적 공간 데이터 저장소 / C-ITS 핵심 요소\nITS - 지능형 교통 시스템\nC-ITS - 협력형 ITS"],
     ["", "C", "ISO_20246",                                  "", "", "[개념]\nSW, 시스템 공학 - 작업 산출물 검토"],
@@ -1450,7 +1454,7 @@
     ["", "B", "ISO_29148",                                  "ISO 29148:2018", "", "[개념]\nSW 공학 - 생명주기 프로세스 - 요구공학, SRS 작성 원칙\n요구사항 공학 생명 주기에 대한 지침 제공\n요구사항 수집, 분석, 문서화, 검증 전체 과정 관리\n기존 여러 요구사항 관련 표준 통합 확장 2011년 제정\nIEEE 830 + IEEE 1233 + IEEE 1362\n\n- 특징\n포괄적인 범위 / 생명 주기 지향\n이해관계자 협업 강조 / 품질 확보\n\n[IEEE 830]\n\n- 개념\nSRS 권고 Practice 표준\nSRS 작성 가이드라인 제공\nSRS 위한 효과적인 체크리스트 제공\n\n- 권고사항\n정확성 - 실제 필요성 반영\n명백함 - 명확, 간결, 이행 가능\n완전성 - 기능, 성능, 제약 조건 미누락\n일관성 - 요구사항, 용어 일관\n중요도/안정성 - 우선순위 결정 참고\n검증 가능성 - 테스트 충족 여부 / 추상 표현 지양\n수정 가능성 - 영향 최소화 / 수정 용이\n추적 가능성 - 출처, 파생 관계 파악"],
     ["1", "A", "ISO_31000",                                 "", "통체맞종동유인지", "[개념]\n위험 관리 - 지침\nBiz 활동에서 발생 가능 / 모든 종류 리스크 관리\n가이드라인 제공 / 국제 표준\n비즈니스 위험관리 / GRC (Governance, Risk, Compliance)\n132회 관리 기출\n\n[기본 8원칙 - 통체맞종동유인지]\n통합 - 조직 거버넌스 / 관리 / 문화\n체계적/포괄적 - 체계적, 포괄적 접근 방식 채택\n맞춤형 - 조직 특정 상황, 요구사항 맞춰 프로세스 조정\n종합적 - 모든 이해관계자 참여 / 포괄적, 투명성 필요\n동적 - 조직 내외부 상황 변화 적응 / 반복적,역동적 프로세스\n유용성 - 정보에 입각한 의사 결정 지원\n인간, 문화적 요소 - 인적, 문화적 요인 고려\n지속 개선 - 위험 관리 프레임워크, 프로세스 지속 발전 필요"],
     ["", "C", "ISO_33020",                                  "", "", "[개념]\n프로세스 심사 수행 능력 측정 프레임워크 / ISO 15504 대체\nISO/IEC 330xx 제품군 핵심 규격 중 하나\nISO 15504 (SPICE) 발전"],
-    ["", "A", "ISO_33063",                                  "", "[", "개념]\nSW 테스트 프로세스 능력 평가 모델"],
+    ["", "A", "ISO_33063",                                  "", "", "[개념]\nSW 테스트 프로세스 능력 평가 모델"],
     ["1", "B", "ISO_38500",                                 "", "EDM\n책전획성준행", "[개념]\n조직의 정보기술 거버넌스\nIT 거버넌스 체계 구축 위한 표준 지침 제공\nIT Governance\n\n[모델 구조 - EDM]\nEvaluate - 평가 / 내외부 입력 / PEST\nDirect - 지휘 / 계획, 정책 수립 / 운영, 투자 방향\nMonitor = 모니터 / 정책 준수, 성과 모니터링\n\n[원칙 - 책전획성준행]\n책임 - IT 활용, 제공, 책임, 권한 이해, 수용\n전략 - IT역량 고려 경영전략 / 조직 니즈 충족 IT계획\n획득 - IT구매 / 의사결정 투명성 / 목적 타당성\n성과 - 서비스 공급 수준 / 품질 유지 / 조직 지원\n준수 - 강제적 법, 규제 사항 이해, 준수\n행동 - 인간, 시스템 간 상호작용 / 복지, 성능 보장"]
 ],
 "Knowhow": [
@@ -1533,6 +1537,6 @@
     ["1", "C", "HVAC",                                      "", "", "[구성요소]\n\n# Heating - 난방\n열원 통해 실내 온도 상승, 유지\n\n# Ventilation - 환기\n실내 공기 질(IAQ) 관리 / 오염 공기 배출, 외기 유입\n\n# Air Conditioning - 공조\n냉방, 열기, 습기 제거 / 쾌적 환경 조성 / 냉매, 압축기 활용\n\n[발전]\n에너지 소비 최적화 - IoT 센서, BMS 연동 / 실시간 제어"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.10.31.1215", ""]
+    ["1", "D", "Version",                                   "", "2026.10.31.1221", ""]
 ]
 }
