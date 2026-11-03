@@ -8,7 +8,7 @@
     ["1", "B", "Mng_Strategy_5Force",                       "5 Force", "잠대기공구", "[구성요소 - 잠대기공구]\n잠재적 진입 - 신규 참여자 위협 / 규모 경재 / 정책,규제\n대체품(재) - 대체재, 서비스 위협\n기존 경쟁사 - 고정, 교체, 설비 비용 / 성장률\n공급자 - 공급자 교섭력/원재료 차별화/공급 물량 비중\n구매자 - 구매자 교섭력 / 구매비중 / 가격 민감도"],
     ["1", "B", "Value_Chain",                               "", "프서마\n내생외마서\n기인기조", "Primary Activity\n\nSupportive Activity\nFirm Infra/HR Mng/Tech Dev/Procurement\n\nMargin\nValue Chain Model"],
     ["1", "B", "Mng_Strategy_7S",                           "7S", "제조전 공구역스", ""],
-    ["1", "B", "Mng_Strategy_4C_3C",                        "4C 3C", "경고회환", "Competition - 경쟁사\nCustomer - 고객\nCompany - 회사, 자사\nCircumstance - 환경\n"],
+    ["1", "B", "Mng_Strategy_4C_3C",                        "4C 3C", "경고회환", "Competition - 경쟁사\nCustomer - 고객\nCompany - 회사, 자사\nCircumstance - 환경"],
     ["1", "B", "SWOT",                                      "SWOT 분석", "강약기위\n공다전방", "[SWOT 분석 대응 전략 - 공다전방]\nSO - 공격적 전략 / 강점 활용 / 기회 극대화\nST - 다양화 전략 / 강점 활용 / 위협 회피, 최소화\nWO - 방향전환 전략 / 약점 보완 / 기회 포착\nWT - 방어적 전략 / 약점 최소화 / 위협 회피"],
     ["1", "B", "Customer_Journey_Map",                      "고객 여정 지도", "인분도출\n사도분 페감 단접 문기", "시각화 / 타임라인 / Touch Point / Pain Point"],
     ["1", "C", "Business_Model_Canvas",                     "", "전생\n고가채관수\n활자파비", ""],
@@ -451,9 +451,9 @@
     ["1", "B", "Intermittent_Computing",                    "", "하저비 프 컨체", "인터미턴트 컴퓨팅\n\n[구성요소 - 하저비 프 컨체]\n\n- Hardware - 하저비\n에너지 하베스팅 - Energy Harvester\n에너지 저장장치 - Energy Buffer\n비휘발성 메모리 - NVRAM, Non-Volatile RAM\n\n- Application - 프\n실행 모델 / 프로그램\n\n- ICEr - 컨체\nController - Backup, Restore, Sleep, Wakeup\nEnergy Checker\n\n[ICEr]\nIntermittent Computing Environment Based on a Runtime Module\n에너지 하베스팅 IoT기기에서 애플리케이션 동적으로 관리/제어하는 런타임 모듈 기반 환경"],
     ["1", "B", "XaaS",                                      "", "", "122회 기출 / Everything"],
     ["1", "B", "SaaS",                                      "", "서데구포\n테애플시빌커", "- Service Management - 서데구포\nHelp Desk - 헬프 데스크\nSubscription - 구독\nManagement Portal - 관리 포탈\n\n- Multi Tenancy Support - 테애플시빌커\nApplication Management\nPlatform API\nSecurity Management\nBilling / Metering\nCommon Utility"],
-    ["1", "B", "DaaS",                                      "", "표자", "Desktop as a Service"],
+    ["1", "B", "DaaS",                                      "", "표연생자", "Desktop as a Service"],
     ["1", "B", "FaaS",                                      "", "", "Function as a Service"],
-    ["1", "B", "PaaS",                                      "", "컴스콘 컨시시\n", "SV > Cloud 컴퓨팅 > XaaS(Everything)\nPlatform as a Service\n클라우드/과금/개발플랫폼/개발관점\nK-PaaS"],
+    ["1", "B", "PaaS",                                      "", "컴스콘 컨시시", "SV > Cloud 컴퓨팅 > XaaS(Everything)\nPlatform as a Service\n클라우드/과금/개발플랫폼/개발관점\nK-PaaS"],
     ["1", "B", "BaaS",                                      "", "", "Backend as a Service / Blockchain as a Service\nSV > Cloud Computing\n모바일앱, 위치기반 서비스, Push"],
     ["1", "B", "BaaS_1",                                    "", "", "Blockchain as a Service\nSV > Cloud Computing\nOn-demand, PoW/PoS, smart contract, 상대확인/상호신뢰, 자기강제적 언어, 분산합의, 장부 동기화, 탈중계성"],
     ["1", "B", "SECaaS",                                    "", "식데침암네업\n취웹이보지보", "# CSP SECaaS - 식데침암네업\n\n- 개념\nCloud Service Provider SECaaS\nCSP 자체 보안 서비스\nIaaS, PaaS 통합 / 클라우드 자원 보호 최적화\n\n- 기능\n식별, 접근 관리 - IAM\n데이터 손실 방지 - DLP\n침입 관리 - IM\n암호화\n네트워크 보안\n업무연속성/재난복구 - BCDR\n\n- 사례\nAWS WAF - 웹 방화벽(WAF)\nAzure Sentinel - SIEM\nGoogle Cloud Armor - 웹 방화벽(WAF), DDoS 방어\n\n# SSP SECaaS - 취웹이보지보\n\n- 개념\nSecurity Service Provider SECaaS\n보안 전문 기업(SSP) 제공 클라우드 구독형 보안 서비스\n순수 SECaaS, 서드파티 보안 서비스\n특정 CSP 비종속 / 범용적 보안 / 특정 보안 분야 특화\n온프레미스(사내 서버), 멀티 클라우드 환경 통합 지원\n\n- 기능\n취약성 탐지\n웹 보안\n이메일 보안\n보안/정보 이벤트 관리 - SIEM\n지속적 감시\n보안 접근\n\n- 사례\nCloudflare - WAF / DDoS 방어\nCrowdStrike - 엔드포인트 보안\nZscaler - 네트워크 보안"],
@@ -1544,6 +1544,6 @@
     ["1", "C", "HVAC",                                      "", "", "[구성요소]\n\n# Heating - 난방\n열원 통해 실내 온도 상승, 유지\n\n# Ventilation - 환기\n실내 공기 질(IAQ) 관리 / 오염 공기 배출, 외기 유입\n\n# Air Conditioning - 공조\n냉방, 열기, 습기 제거 / 쾌적 환경 조성 / 냉매, 압축기 활용\n\n[발전]\n에너지 소비 최적화 - IoT 센서, BMS 연동 / 실시간 제어"]
 ],
 "Meta_Info": [
-    ["1", "D", "Version",                                   "", "2026.11.03.0457", ""]
+    ["1", "D", "Version",                                   "", "2026.11.03.1315", ""]
 ]
 }
